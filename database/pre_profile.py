@@ -371,30 +371,30 @@ button_frame.pack(side=tk.RIGHT)
 
 # Create buttons using the defined style
 import_btn = tk.Button(button_frame, text="Import from authors", 
-                      command=import_authors, bg="#4CAF50", fg="white", **button_style)
+                      command=import_authors)
 import_btn.pack(side=tk.LEFT, padx=5)
 
 run_delete_button = tk.Button(button_frame, text="Auto Check", 
-                              command=run_autocheck_script, bg="#02287D", fg="white", **button_style)
+                              command=run_autocheck_script)
 run_delete_button.pack(side=tk.LEFT, padx=5)
 
 
 refresh_btn = tk.Button(button_frame, text="Refresh Data",
-                       command=display_data, bg="#2196F3", fg="white", **button_style)
+                       command=display_data)
 refresh_btn.pack(side=tk.LEFT, padx=5)
 
 edit_btn = tk.Button(button_frame, text="Edit", 
-                    command=edit_selected, bg="#FF9800", fg="white", **button_style)
+                    command=edit_selected)
 edit_btn.pack(side=tk.LEFT, padx=5)
 
 
 run_delete_button = tk.Button(button_frame, text="Add CSV", 
-                              command=run_addcsv_script, bg="#A9A9A9", fg="black", **button_style)
+                              command=run_addcsv_script)
 run_delete_button.pack(side=tk.LEFT, padx=5)
 
 
 run_delete_button = tk.Button(button_frame, text="Delete", 
-                              command=run_delete_script, bg="#f44336", fg="black", **button_style)
+                              command=run_delete_script)
 run_delete_button.pack(side=tk.LEFT, padx=5)
 
 
