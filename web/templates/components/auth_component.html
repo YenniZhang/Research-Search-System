@@ -1,0 +1,752 @@
+<div id="auth-component" class="auth-component">
+</div>
+
+<div id="login-modal" class="modal">
+<div class="modal-content">
+    <button class="modal-close" id="login-close">&times;</button>
+    <h2 class="modal-title">Login</h2>
+    <div id="login-error" class="form-error"></div>
+    <form id="login-form">
+        <div class="form-group">
+            <label for="login-email">Email</label>
+            <input type="email" id="login-email" required>
+        </div>
+        <div class="form-group">
+            <label for="login-password">Password</label>
+            <input type="password" id="login-password" required>
+        </div>
+        <button type="submit" class="form-submit">Login</button>
+    </form>
+    <div class="form-switch">
+        No account? <a id="switch-to-signup">Sign up</a>
+    </div>
+</div>
+</div>
+
+<div id="signup-modal" class="modal">
+<div class="modal-content">
+    <button class="modal-close" id="signup-close">&times;</button>
+    <h2 class="modal-title">Sign Up</h2>
+    <div id="signup-error" class="form-error"></div>
+    <form id="signup-form">
+        <div class="form-group">
+            <label for="signup-email">Email</label>
+            <input type="email" id="signup-email" required>
+        </div>
+        <div class="form-group">
+            <label for="signup-password">Password</label>
+            <input type="password" id="signup-password" required>
+        </div>
+        <div class="form-group">
+            <label for="signup-confirm">Confirm Password</label>
+            <input type="password" id="signup-confirm" required>
+        </div>
+        <button type="submit" class="form-submit">Sign Up</button>
+    </form>
+    <div class="form-switch">
+        Already have an account? <a id="switch-to-login">Login</a>
+    </div>
+</div>
+</div>
+
+<div id="login-success" class="notification">Login successful!</div>
+
+<style>
+/* Authentication component styles */
+.auth-component {
+    position: fixed;
+    top: 20px;
+    right: 100px;
+    display: flex;
+    gap: 10px;
+    z-index: 1000;
+}
+
+/* Login button styles */
+.login-btn {
+    background: none;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+}
+
+.login-btn:hover {
+    text-decoration: underline;
+}
+
+/* Signup button styles */
+.signup-btn {
+    background-color: #000;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.signup-btn:hover {
+    background-color: #333;
+}
+
+/* User avatar styles */
+.user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    position: relative;
+}
+
+.user-dropdown {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    margin-top: 10px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    min-width: 180px;
+    z-index: 1001;
+}
+
+.user-dropdown.show {
+    display: block;
+}
+
+.user-email {
+    padding: 10px 15px;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+    color: #666;
+    word-break: break-all;
+}
+
+.dropdown-item {
+    padding: 10px 15px;
+    cursor: pointer;
+    color: #333;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa;
+}
+
+.dropdown-item.logout {
+    color: #dc3545;
+}
+
+/* Modal styles */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2000;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal.show {
+    display: flex;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 600px;
+    position: relative;
+}
+
+.modal-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #aaa;
+    background: none;
+    border: none;
+}
+
+.modal-close:hover {
+    color: #333;
+}
+
+.modal-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-submit {
+    width: 60%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.form-submit:hover {
+    background-color: #0056b3;
+}
+
+.form-error {
+    color: #dc3545;
+    font-size: 14px;
+    margin-top: 5px;
+    display: none;
+}
+
+.form-switch {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.form-switch a {
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* Notification styles */
+.notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 15px 20px;
+    background-color: #28a745;
+    color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    display: none;
+    z-index: 1000;
+    animation: fadeIn 0.3s, fadeOut 0.3s 2.7s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; transform: translateY(0); }
+    to { opacity: 0; transform: translateY(-20px); }
+}
+
+/* Favorite star styles */
+.favorite-star {
+    cursor: pointer;
+    color: #ccc;
+    font-size: 20px;
+    transition: color 0.3s;
+    margin-left: 10px;
+}
+
+.favorite-star.active {
+    color: #ffc107;
+}
+</style>
+
+<script>
+// Initialize the authentication component after the DOM is loaded
+document.addEventListener('DOMContentLoaded', function() {
+    initAuthComponent();
+});
+
+// Initialize the authentication component
+function initAuthComponent() {
+    // Check login status
+    checkUserLogin();
+
+    // Check for login success parameter and display notification
+    checkLoginSuccess();
+
+    // Initialize modal event listeners
+    initModalListeners();
+}
+
+// Check user login status and update the UI
+function checkUserLogin() {
+    fetch('/api/user')
+        .then(response => response.text().then(text => {
+            try {
+                const data = JSON.parse(text);
+                if (!response.ok) throw new Error(data.message || 'Not logged in');
+                return data;
+            } catch (e) {
+                throw new Error('Invalid server response');
+            }
+        }))
+        .then(function(userData) {
+            if (userData && userData.email) {
+                // User is logged in, display avatar
+                const authComponent = document.getElementById('auth-component');
+
+                // Create user avatar and dropdown menu
+                authComponent.innerHTML = `
+                    <div class="user-avatar" id="user-avatar">
+                        ${userData.email.charAt(0).toUpperCase()}
+                    </div>
+                    <div class="user-dropdown" id="user-dropdown">
+                        <div class="user-email">${userData.email}</div>
+                        <a href="/library" class="dropdown-item">Library</a>
+                        <a href="/management" class="dropdown-item">Management</a>
+                        <a href="#" class="dropdown-item logout" id="logout-btn">Logout</a>
+                    </div>
+                `;
+
+                // Set avatar color
+                const userAvatar = document.getElementById('user-avatar');
+                userAvatar.style.backgroundColor = getColorFromEmail(userData.email);
+
+                // Add dropdown menu event listener
+                userAvatar.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    document.getElementById('user-dropdown').classList.toggle('show');
+                });
+
+                // Add logout functionality
+                document.getElementById('logout-btn').addEventListener('click', function(e) {
+                    e.preventDefault();
+
+                    fetch('/logout', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        }
+                    })
+                    .then(function(response) {
+                        if (response.ok) {
+                            window.location.reload();
+                        }
+                    })
+                    .catch(function(error) {
+                        console.error('Error logging out:', error);
+                    });
+                });
+
+                // Trigger a custom event to notify the page that the user is logged in
+                document.dispatchEvent(new CustomEvent('userLoggedIn', {
+                    detail: userData
+                }));
+
+                // Initialize the favorite feature
+                initFavoriteFeature();
+            } else {
+                // User is not logged in, display login/signup buttons
+                const authComponent = document.getElementById('auth-component');
+                authComponent.innerHTML = `
+                    <a href="#" class="login-btn" id="login-btn">Login</a>
+                    <a href="#" class="signup-btn" id="signup-btn">Sign Up</a>
+                `;
+
+                // Add login/signup button event listeners
+                document.getElementById('login-btn').addEventListener('click', function(e) {
+                    e.preventDefault();
+                    showLoginModal();
+                });
+
+                document.getElementById('signup-btn').addEventListener('click', function(e) {
+                    e.preventDefault();
+                    showSignupModal();
+                });
+
+                // Trigger a custom event to notify the page that the user is logged out
+                document.dispatchEvent(new CustomEvent('userLoggedOut'));
+            }
+        })
+        .catch(function(error) {
+            console.error('Error checking login status:', error);
+            // Display login/signup buttons as a fallback
+            const authComponent = document.getElementById('auth-component');
+            authComponent.innerHTML = `
+                <a href="#" class="login-btn" id="login-btn">Login</a>
+                <a href="#" class="signup-btn" id="signup-btn">Sign Up</a>
+            `;
+
+            // Add login/signup button event listeners
+            document.getElementById('login-btn').addEventListener('click', function(e) {
+                e.preventDefault();
+                showLoginModal();
+            });
+
+            document.getElementById('signup-btn').addEventListener('click', function(e) {
+                e.preventDefault();
+                showSignupModal();
+            });
+
+            // Trigger a custom event to notify the page that the user is logged out
+            document.dispatchEvent(new CustomEvent('userLoggedOut'));
+        });
+}
+
+// Check for login success parameter and display notification
+function checkLoginSuccess() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const loginSuccess = urlParams.get('login_success');
+
+    if (loginSuccess === 'true') {
+        const notification = document.getElementById('login-success');
+        notification.style.display = 'block';
+
+        // Hide the notification after 3 seconds
+        setTimeout(function() {
+            notification.style.display = 'none';
+
+            // Clean up the URL
+            const url = new URL(window.location);
+            url.searchParams.delete('login_success');
+            window.history.replaceState({}, document.title, url);
+        }, 3000);
+    }
+}
+
+// Initialize modal event listeners
+function initModalListeners() {
+    // Switch between login and signup modals
+    document.getElementById('switch-to-signup').addEventListener('click', function() {
+        hideLoginModal();
+        showSignupModal();
+    });
+
+    document.getElementById('switch-to-login').addEventListener('click', function() {
+        hideSignupModal();
+        showLoginModal();
+    });
+
+    // Close modals using the close button
+    document.getElementById('login-close').addEventListener('click', hideLoginModal);
+    document.getElementById('signup-close').addEventListener('click', hideSignupModal);
+
+    // Close modals by clicking outside the modal
+    window.addEventListener('click', function(event) {
+        if (event.target === document.getElementById('login-modal')) {
+            hideLoginModal();
+        }
+        if (event.target === document.getElementById('signup-modal')) {
+            hideSignupModal();
+        }
+    });
+
+    // Close user dropdown menu when clicking elsewhere in the document
+    document.addEventListener('click', function(e) {
+        const userAvatar = document.getElementById('user-avatar');
+        const userDropdown = document.getElementById('user-dropdown');
+        if (userAvatar && userDropdown && !userAvatar.contains(e.target) && !userDropdown.contains(e.target)) {
+            userDropdown.classList.remove('show');
+        }
+    });
+
+    //Handle login form submission
+    document.getElementById('login-form').addEventListener('submit', function(e) {
+        e.preventDefault();
+    
+        const submitButton = this.querySelector('.form-submit');
+        const originalText = submitButton.textContent;
+        submitButton.textContent = 'Logging in...';
+        submitButton.disabled = true;
+    
+        const email = document.getElementById('login-email').value;
+        const password = document.getElementById('login-password').value;
+    
+        fetch('/login', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email, password })
+        })
+        .then(response => response.json().catch(() => ({}))) // 处理非JSON响应
+        .then(data => {
+            if (data.message === 'Login successful') {
+                window.location.href = data.redirect || '/library'; // 强制跳转
+            } else {
+                throw new Error(data.message || 'Login failed');
+            }
+        })
+        .catch(error => {
+            const errorElement = document.getElementById('login-error');
+            errorElement.textContent = error.message;
+            errorElement.style.display = 'block';
+        })
+        .finally(() => {
+            submitButton.textContent = originalText;
+            submitButton.disabled = false;
+        });
+    });
+
+    // Handle signup form submission
+    // 注册表单提交处理（增强版）
+    document.getElementById('signup-form').addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const form = e.target;
+        const submitBtn = form.querySelector('.form-submit');
+        const errorEl = document.getElementById('signup-error');
+        
+        // 保存原始按钮状态
+        const originalText = submitBtn.textContent;
+        const originalHtml = submitBtn.innerHTML;
+        
+        // 初始化状态
+        errorEl.style.display = 'none';
+        submitBtn.disabled = true;
+        submitBtn.innerHTML = `
+            <span class="spinner-border spinner-border-sm" role="status"></span>
+            Signing up...
+        `;
+
+        try {
+            // 获取表单数据
+            const email = document.getElementById('signup-email').value.trim();
+            const password = document.getElementById('signup-password').value;
+            const confirm = document.getElementById('signup-confirm').value;
+
+            // 客户端验证
+            const validationError = validateSignupForm(email, password, confirm);
+            if (validationError) {
+                throw new Error(validationError);
+            }
+
+            // 发送请求
+            const response = await fetch('/signup', {
+                method: 'POST',
+                headers: { 
+                    'Content-Type': 'application/json',
+                    'X-Requested-With': 'XMLHttpRequest' // 标识 AJAX 请求
+                },
+                body: JSON.stringify({ email, password })
+            });
+
+            // 处理 HTTP 状态码
+            if (!response.ok) {
+                const errorData = await response.json().catch(() => ({
+                    message: `HTTP Error: ${response.status}`
+                }));
+                throw new Error(errorData.message || 'Registration failed');
+            }
+
+            // 处理成功响应
+            const data = await response.json();
+            
+            // 延迟跳转以显示成功状态
+            setTimeout(() => {
+                window.location.href = data.redirect || '/login';
+            }, 1500);
+
+            // 显示临时成功状态
+            submitBtn.innerHTML = `
+                <span class="checkmark">✓</span>
+                Success!
+            `;
+
+        } catch (error) {
+            // 错误处理
+            errorEl.textContent = error.message;
+            errorEl.style.display = 'block';
+            
+            // 抖动动画提示
+            form.classList.add('shake');
+            setTimeout(() => form.classList.remove('shake'), 500);
+            
+        } finally {
+            // 状态恢复
+            setTimeout(() => {
+                submitBtn.disabled = false;
+                submitBtn.textContent = originalText;
+                submitBtn.innerHTML = originalHtml;
+            }, 2000);
+        }
+    });
+
+    // 表单验证函数
+    function validateSignupForm(email, password, confirm) {
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        
+        if (!email || !password || !confirm) {
+            return 'All fields are required';
+        }
+        if (!emailRegex.test(email)) {
+            return 'Invalid email format';
+        }
+        if (password.length < 8) {
+            return 'Password must be at least 8 characters';
+        }
+        if (password !== confirm) {
+            return 'Passwords do not match';
+        }
+        return null;
+    }
+
+    // 添加 CSS 动画
+    const style = document.createElement('style');
+    style.textContent = `
+        .shake {
+            animation: shake 0.5s;
+        }
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            25% { transform: translateX(-8px); }
+            50% { transform: translateX(8px); }
+            75% { transform: translateX(-4px); }
+        }
+        .spinner-border {
+            vertical-align: -0.125em;
+        }
+        .checkmark {
+            display: inline-block;
+            transform: rotate(45deg);
+            height: 18px;
+            width: 9px;
+            border-bottom: 2px solid #fff;
+            border-right: 2px solid #fff;
+        }
+    `;
+    document.head.appendChild(style);
+    }
+
+// Show the login modal
+function showLoginModal() {
+    document.getElementById('login-modal').classList.add('show');
+    document.getElementById('login-email').focus();
+}
+
+// Hide the login modal
+function hideLoginModal() {
+    document.getElementById('login-modal').classList.remove('show');
+    document.getElementById('login-form').reset();
+    document.getElementById('login-error').style.display = 'none';
+}
+
+// Show the signup modal
+function showSignupModal() {
+    document.getElementById('signup-modal').classList.add('show');
+    document.getElementById('signup-email').focus();
+}
+
+// Hide the signup modal
+function hideSignupModal() {
+    document.getElementById('signup-modal').classList.remove('show');
+    document.getElementById('signup-form').reset();
+    document.getElementById('signup-error').style.display = 'none';
+}
+
+// Generate a color from an email address
+function getColorFromEmail(email) {
+    let hash = 0;
+    for (let i = 0; i < email.length; i++) {
+        hash = email.charCodeAt(i) + ((hash << 5) - hash);
+    }
+    const hue = hash % 360;
+    return "hsl(" + hue + ", 65%, 50%)";
+}
+
+// Initialize the favorite feature
+function initFavoriteFeature() {
+    // Get the user's favorite list
+    fetch('/api/favorites')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Failed to fetch favorites');
+            }
+            return response.json();
+        })
+        .then(favorites => {
+            // Add favorite stars to all paper cards
+            const paperCards = document.querySelectorAll('.paper-card');
+            if (paperCards.length > 0) {
+                paperCards.forEach(card => {
+                    const articleId = card.dataset.articleId;
+                    if (articleId) {
+                        const titleElement = card.querySelector('h2');
+                        const starElement = document.createElement('span');
+                        starElement.className = 'favorite-star';
+                        starElement.innerHTML = '★';
+                        starElement.dataset.articleId = articleId;
+
+                        // Mark the article as favorited if it's in the favorites list
+                        if (favorites.includes(articleId)) {
+                            starElement.classList.add('active');
+                        }
+
+                        // Add click event to handle favoriting/unfavoriting
+                        starElement.addEventListener('click', function(e) {
+                            e.preventDefault();
+                            e.stopPropagation();
+
+                            const isActive = this.classList.contains('active');
+                            const action = isActive ? 'unfavorite' : 'favorite';
+
+                            fetch(`/api/${action}/${articleId}`, {
+                                method: 'POST',
+                                headers: {
+                                    'Content-Type': 'application/json'
+                                }
+                            })
+                            .then(response => {
+                                if (response.ok) {
+                                    // Toggle the favorite status
+                                    this.classList.toggle('active');
+                                }
+                            })
+                            .catch(error => {
+                                console.error('Error updating favorite:', error);
+                            });
+                        });
+
+                        // Add the star next to the title
+                        if (titleElement) {
+                            titleElement.appendChild(starElement);
+                        }
+                    }
+                });
+            }
+        })
+        .catch(error => {
+            console.error('Error initializing favorites:', error);
+        });
+}
+</script>
+
+
