@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Research Search - Home</title>
+<link rel="stylesheet" href="/static/css/detail.css">
+
+{% extends "layout.html" %}
+{% block title %}Research Search - Home{% endblock %}
+
+{% block head %}
+
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+    
+    body {
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 50vh;
+        text-align: center;
+        position: relative;
+    }
+    
+    .logo {
+        font-size: 48px;
+        font-weight: bold;
+        color: #007bff;
+        margin-bottom: 20px;
+    }
+    
+    .search-box-container {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        background: white;
+        padding: 10px;
+        border-radius: 25px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        width: 80%;
+        max-width: 1000px;
+        position: relative; /* Add relative positioning */
+    }
+    
+    .search-box {
+        flex: 2;
+        border: none;
+        padding: 10px;
+        font-size: 16px;
+        outline: none;
+    }
+    
+    .search-button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    
+    .search-button:hover {
+        background-color: #0056b3;
+    }
+
+    .more-container {
+        position: absolute;
+        left: 20px;
+        top: 20px;
+        margin-top: 0;
+        z-index: 1000;
+    }
+
+    .more-btn {
+        background: none;
+        border: 1px solid #ddd;
+        padding: 8px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        transition: all 0.3s;
+    }
+
+    .more-btn:hover {
+        background-color: #f8f9fa;
+    }
+
+    .arrow {
+        transition: transform 0.3s;
+    }
+
+    .dropdown-menu {
+        left: 0 !important;
+        top: 100% !important;
+        margin-top: 5px;
+        background: white;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        display: none;
+        min-width: 150px;
+        z-index: 1001;
+    }
+
+    .dropdown-menu.show {
+        display: block;
+    }
+
+    .dropdown-item {
+        padding: 10px 15px;
+        cursor: pointer;
+        color: #333;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown-item:hover {
+        background-color: #f8f9fa;
+    }
+    
+    /* Autocomplete dropdown menu styles */
+    .suggestions-container {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 100%;
+        background: white;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        max-height: 300px;
+        overflow-y: auto;
+        z-index: 1000;
+        margin-top: 5px;
+        text-align: left;
+    }
+
+    .suggestion-item {
+        padding: 10px 15px;
+        cursor: pointer;
+        border-bottom: 1px solid #f0f0f0;
+    }
+
+    .suggestion-item:hover, .suggestion-item.active {
+        background-color: #f0f7ff;
+    }
+    
+    .suggestion-loading {
+        padding: 10px 15px;
+        text-align: center;
+        color: #666;
+    }
+    
+    /* Help icon styles */
+    .help-container {
+        position: absolute;
+        right: 100px; /* Adjusted position to account for auth component */
+        bottom: -350px;
+        z-index: 1000;
+    }
+
+    .help-icon {
+        background: #007bff;
+        border: none;
+        font-size: 18px;
+        font-weight: bold;
+        color: white;
+        cursor: pointer;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        transition: background-color 0.3s;
+    }
+
+    .help-icon:hover {
+        background-color: #0056b3;
+    }
+    
+    /* Return button styles */
+    .return-container {
+        position: absolute;
+        left: 20px;
+        top: 60px; /* Positioned below the more button */
+        margin-top: 10px;
+        z-index: 1000;
+    }
+    
+    .return-btn {
+        background: none;
+        border: 1px solid #ddd;
+        padding: 8px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        transition: all 0.3s;
+        text-decoration: none;
+        color: #333;
+    }
+    
+    .return-btn:hover {
+        background-color: #f8f9fa;
+    }
+</style>
+{% endblock %}
+
+</head>
+<body>
+{% block content %}
+<div class="logo">Research Search</div>
+
+<div class="search-box-container">
+    <input type="search" id="search-input" class="search-box" placeholder="🔍 Search for research papers...">
+    <button id="search-btn" class="search-button">Search</button>
+    <div id="suggestions-container" class="suggestions-container" style="display: none;"></div>
+</div>
+
+<div class="more-container">
+    <button class="more-btn">
+        More
+        <span class="arrow">▼</span>
+    </button>
+    <div class="dropdown-menu">
+        <a href="/authors" class="dropdown-item">Authors</a>
+        <a href="/a" class="dropdown-item">A</a>
+        <a href="/b" class="dropdown-item">B</a>
+        <a href="/c" class="dropdown-item">C</a>
+        <a href="/settings" class="dropdown-item">Settings</a>
+    </div>
+</div>
+
+<!-- Return button below the more button -->
+<div class="return-container" id="return-container" style="display: none;">
+    <a href="/" class="return-btn">
+        ← Return to homepage
+    </a>
+</div>
+
+<!-- Help icon in the top-right corner -->
+<div class="help-container">
+    <button class="help-icon" id="help-btn" title="Help">?</button>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    // Original functionality
+    document.getElementById('search-btn').addEventListener('click', function() {
+        const query = document.getElementById('search-input').value.trim();
+        if (query) {
+            window.location.href = "/web?query=" + encodeURIComponent(query);
+        }
+    });
+    
+    // More button functionality
+    const moreBtn = document.querySelector('.more-btn');
+    const dropdownMenu = document.querySelector('.dropdown-menu');
+    const arrow = document.querySelector('.arrow');
+
+    moreBtn.addEventListener('click', function(e) {
+        e.stopPropagation();
+        dropdownMenu.classList.toggle('show');
+        const buttonRect = moreBtn.getBoundingClientRect();
+        arrow.style.transform = dropdownMenu.classList.contains('show') ? 'rotate(180deg)' : 'rotate(0deg)';
+    });
+
+    document.querySelectorAll('.dropdown-item').forEach(function(item) {
+        item.addEventListener('click', function() {
+            dropdownMenu.classList.remove('show');
+            arrow.style.transform = 'rotate(0deg)';
+        });
+    });
+
+    document.addEventListener('click', function(e) {
+        if (!moreBtn.contains(e.target)) {
+            dropdownMenu.classList.remove('show');
+            arrow.style.transform = 'rotate(0deg)';
+        }
+    });
+    
+    // Help button functionality - open help.html in a new window
+    document.getElementById('help-btn').addEventListener('click', function() {
+        window.open('/static/css/help.html', '_blank');
+    });
+    
+    // Search input functionality with keyboard navigation
+    const searchInput = document.getElementById('search-input');
+    const suggestionsContainer = document.getElementById('suggestions-container');
+    let debounceTimer;
+    let currentFocus = -1;
+    
+    // Function to execute search
+    function executeSearch() {
+        const query = searchInput.value.trim();
+        if (query) {
+            window.location.href = "/web?query=" + encodeURIComponent(query);
+        }
+    }
+    
+    // Listen for input events to show autocomplete suggestions
+    searchInput.addEventListener('input', function() {
+        const query = this.value.trim();
+        
+        // Reset current focus when input changes
+        currentFocus = -1;
+        
+        // Clear previous timer
+        clearTimeout(debounceTimer);
+        
+        // If query is empty, hide suggestions
+        if (query.length < 2) {
+            suggestionsContainer.style.display = 'none';
+            return;
+        }
+        
+        // Show loading indicator
+        suggestionsContainer.innerHTML = '<div class="suggestion-loading">Loading...</div>';
+        suggestionsContainer.style.display = 'block';
+        
+        // Set 300ms debounce timer
+        debounceTimer = setTimeout(function() {
+            try {
+                // Send request to backend for suggestions
+                fetch("/suggestions?query=" + encodeURIComponent(query))
+                    .then(function(response) {
+                        if (!response.ok) {
+                            throw new Error("HTTP error! Status: " + response.status);
+                        }
+                        return response.json();
+                    })
+                    .then(function(suggestions) {
+                        // Display suggestions
+                        if (suggestions && suggestions.length > 0) {
+                            suggestionsContainer.innerHTML = '';
+                            suggestions.forEach(function(suggestion, index) {
+                                const item = document.createElement('div');
+                                item.className = 'suggestion-item';
+                                item.textContent = suggestion;
+                                item.setAttribute('data-index', index);
+                                
+                                // Add click event to select suggestion
+                                item.addEventListener('click', function() {
+                                    searchInput.value = suggestion;
+                                    suggestionsContainer.style.display = 'none';
+                                    executeSearch();
+                                });
+                                
+                                suggestionsContainer.appendChild(item);
+                            });
+                            suggestionsContainer.style.display = 'block';
+                        } else {
+                            suggestionsContainer.innerHTML = '<div class="suggestion-loading">No suggestions found</div>';
+                        }
+                    })
+                    .catch(function(error) {
+                        console.error('Error fetching suggestions:', error);
+                        suggestionsContainer.innerHTML = '<div class="suggestion-loading">Failed to get suggestions</div>';
+                    });
+            } catch (error) {
+                console.error('Error fetching suggestions:', error);
+                suggestionsContainer.innerHTML = '<div class="suggestion-loading">Failed to get suggestions</div>';
+            }
+        }, 300);
+    });
+    
+    // Add keyboard navigation for suggestions
+    searchInput.addEventListener('keydown', function(e) {
+        const items = suggestionsContainer.getElementsByClassName('suggestion-item');
+        
+        // If suggestions are not displayed, don't handle navigation keys
+        if (suggestionsContainer.style.display === 'none' || items.length === 0) {
+            if (e.key === 'Enter') {
+                executeSearch();
+            }
+            return;
+        }
+        
+        // Handle arrow down
+        if (e.key === 'ArrowDown') {
+            e.preventDefault(); // Prevent cursor from moving
+            currentFocus++;
+            
+            // Loop back to start if at end
+            if (currentFocus >= items.length) currentFocus = 0;
+            
+            // Add active class to current item and remove from others
+            Array.from(items).forEach(function(item, index) {
+                if (index === currentFocus) {
+                    item.classList.add('active');
+                    searchInput.value = item.textContent;
+                } else {
+                    item.classList.remove('active');
+                }
+            });
+        }
+        
+        // Handle arrow up
+        else if (e.key === 'ArrowUp') {
+            e.preventDefault(); // Prevent cursor from moving
+            currentFocus--;
+            
+            // Loop to end if at start
+            if (currentFocus < 0) currentFocus = items.length - 1;
+            
+            // Add active class to current item and remove from others
+            Array.from(items).forEach(function(item, index) {
+                if (index === currentFocus) {
+                    item.classList.add('active');
+                    searchInput.value = item.textContent;
+                } else {
+                    item.classList.remove('active');
+                }
+            });
+        }
+        
+        // Handle enter key
+        else if (e.key === 'Enter') {
+            e.preventDefault();
+            
+            if (currentFocus > -1) {
+                // Simulate click on the active item
+                items[currentFocus].click();
+            } else {
+                // Execute search with current input value
+                executeSearch();
+            }
+        }
+        
+        // Handle escape key
+        else if (e.key === 'Escape') {
+            suggestionsContainer.style.display = 'none';
+            currentFocus = -1;
+        }
+    });
+
+    // Hide suggestions when clicking outside
+    document.addEventListener('click', function(event) {
+        if (!searchInput.contains(event.target) && !suggestionsContainer.contains(event.target)) {
+            suggestionsContainer.style.display = 'none';
+            currentFocus = -1;
+        }
+    });
+    
+    // Show return button if not on homepage
+    document.addEventListener('DOMContentLoaded', function() {
+        if (window.location.pathname !== '/') {
+            document.getElementById('return-container').style.display = 'block';
+        }
+    });
+</script>
+{% endblock %}
+</body>
+</html>

@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authors List</title>
+    <style>
+        :root {
+            --primary-color: #4361ee;
+            --secondary-color: #3f37c9;
+            --text-color: #333333;
+            --light-gray: #f8f9fa;
+            --border-color: #e9ecef;
+            --hover-color: #4895ef;
+            
+            /* Colors for duplicate names */
+            --color-1: #e63946;
+            --color-2: #2a9d8f;
+            --color-3: #e76f51;
+            --color-4: #8338ec;
+            --color-5: #fb8500;
+            --color-6: #06d6a0;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: #ffffff;
+            padding: 0 1rem;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1.5rem 4rem 1.5rem;
+        }
+        
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+        
+        .header-title {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--primary-color);
+        }
+        
+        .back-links {
+            display: flex;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .back-button,
+        .history-back-button {
+            color: var(--text-color);
+            text-decoration: none;
+            font-size: 0.95rem;
+            transition: color 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .back-button:hover,
+        .history-back-button:hover {
+            color: var(--hover-color);
+        }
+        
+        .author-section {
+            margin-bottom: 2.5rem;
+            padding-top: 1rem;
+        }
+        
+        .author-section h2 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--primary-color);
+            color: var(--primary-color);
+            width: fit-content;
+        }
+        
+        .author-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 0.75rem 2rem;
+        }
+        
+        .author-item {
+            padding: 0.5rem 0;
+        }
+        
+        .author-link {
+            color: var(--text-color);
+            text-decoration: none;
+            transition: color 0.2s;
+            display: inline-block;
+            position: relative;
+        }
+        
+        .author-link:hover {
+            color: var(--primary-color);
+        }
+        
+        .author-link:after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 1px;
+            bottom: -2px;
+            left: 0;
+            background-color: var(--primary-color);
+            transition: width 0.3s;
+        }
+        
+        .author-link:hover:after {
+            width: 100%;
+        }
+        
+        /* Duplicate name colors */
+        .duplicate-1 {
+            color: var(--color-1);
+        }
+        
+        .duplicate-2 {
+            color: var(--color-2);
+        }
+        
+        .duplicate-3 {
+            color: var(--color-3);
+        }
+        
+        .duplicate-4 {
+            color: var(--color-4);
+        }
+        
+        .duplicate-5 {
+            color: var(--color-5);
+        }
+        
+        .duplicate-6 {
+            color: var(--color-6);
+        }
+        
+        .alpha-nav {
+            position: fixed;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 0.25rem;
+            background: white;
+            padding: 0.75rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            z-index: 100;
+            max-width: 120px;
+        }
+        
+        .alpha-nav a {
+            color: var(--text-color);
+            text-decoration: none;
+            font-size: 0.85rem;
+            font-weight: 500;
+            padding: 0.25rem;
+            border-radius: 4px;
+            transition: all 0.2s;
+            text-align: center;
+        }
+        
+        .alpha-nav a:hover:not(.disabled) {
+            background-color: var(--light-gray);
+            color: var(--primary-color);
+        }
+        
+        .alpha-nav a.disabled {
+            color: #cccccc;
+            pointer-events: none;
+        }
+        
+        .alpha-nav a.active {
+            background-color: var(--primary-color);
+            color: white !important;
+            font-weight: 600;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 2rem;
+        }
+        
+        @media (max-width: 768px) {
+            .author-list {
+                grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            }
+            
+            .alpha-nav {
+                right: 10px;
+                padding: 0.5rem;
+                max-width: 100px;
+            }
+            
+            .alpha-nav a {
+                font-size: 0.75rem;
+                padding: 0.2rem;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .author-list {
+                grid-template-columns: 1fr 1fr;
+            }
+            
+            .header-title {
+                font-size: 1.5rem;
+            }
+            
+            .back-links {
+                flex-direction: column;
+                gap: 0.75rem;
+            }
+            
+            .alpha-nav {
+                grid-template-columns: repeat(2, 1fr);
+                max-width: 70px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="header-title">Authors Directory</h1>
+        </div>
+        
+        <div class="back-links">
+            <a href="/" class="back-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M19 12H5M12 19l-7-7 7-7"/>
+                </svg>
+                Back to Homepage
+            </a>
+            <a href="javascript:history.back()" class="history-back-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M11 17l-5-5 5-5M18 17l-5-5 5-5"/>
+                </svg>
+                Go Back
+            </a>
+        </div>
+
+        {% for initial, authors in authors_dict.items()|sort %}
+        <div class="author-section" id="{{ initial }}">
+            <h2>{{ initial }}</h2>
+            <div class="author-list">
+                {% for author in authors %}
+                    <div class="author-item">
+                        <a href="/author/{{ author.id }}" class="author-link {{ author.duplicate_class }}">{{ author.full_name }}</a>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endfor %}
+        
+        {% if other_authors %}
+        <div class="author-section" id="other">
+            <h2>#</h2>
+            <div class="author-list">
+                {% for author in other_authors %} 
+                    <div class="author-item">
+                        <a href="/author/{{ author.id }}" class="author-link {{ author.duplicate_class }}">{{ author.full_name }}</a>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+    </div>
+
+    <div class="alpha-nav" id="alphaNav">
+        {% set all_initials = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'] %}
+        {% for char in all_initials %}
+            <a href="#" data-target="{{ char }}" class="{{ 'disabled' if char not in authors_dict else '' }}">{{ char }}</a>
+        {% endfor %}
+        {% if other_authors %}
+            <a href="#" data-target="other">#</a>
+        {% endif %}
+    </div>
+
+    <script>
+        // Function to find duplicate authors and assign color classes
+        function processDuplicateAuthors() {
+            const authorLinks = document.querySelectorAll('.author-link');
+            const authorNames = {};
+            const authorElements = {};
+            
+            // First pass: collect all author names
+            authorLinks.forEach(link => {
+                const name = link.textContent.trim();
+                if (!authorNames[name]) {
+                    authorNames[name] = 1;
+                    authorElements[name] = [link];
+                } else {
+                    authorNames[name]++;
+                    authorElements[name].push(link);
+                }
+            });
+            
+            // Second pass: assign color classes to duplicates
+            let colorIndex = 1;
+            for (const name in authorNames) {
+                if (authorNames[name] > 1) {
+                    authorElements[name].forEach(element => {
+                        element.classList.add(`duplicate-${colorIndex}`);
+                    });
+                    colorIndex = (colorIndex % 6) + 1; // Cycle through 6 colors
+                }
+            }
+        }
+        
+        function updateAlphaNav() {
+            const sections = Array.from(document.querySelectorAll('.author-section'));
+            const links = document.querySelectorAll('.alpha-nav a');
+            const offset = 100;
+            
+            let currentSection = sections.reduce((closest, section) => {
+                const sectionTop = section.getBoundingClientRect().top;
+                return sectionTop < offset && sectionTop > (closest?.getBoundingClientRect().top || -Infinity) ? section : closest;
+            }, null);
+            
+            links.forEach(link => {
+                const isActive = link.dataset.target === currentSection?.id;
+                link.classList.toggle('active', isActive);
+            });
+        }
+
+        let isScrolling;
+        window.addEventListener('scroll', () => {
+            window.clearTimeout(isScrolling);
+            isScrolling = setTimeout(() => {
+                updateAlphaNav();
+            }, 50);
+        });
+
+        document.querySelectorAll('.alpha-nav a').forEach(link => {
+            if (link.classList.contains('disabled')) {
+                link.style.opacity = 0.5;
+                return;
+            }
+            
+            link.addEventListener('click', (event) => {
+                event.preventDefault();
+                const targetId = event.target.dataset.target;
+                const targetElement = document.getElementById(targetId);
+                if (targetElement) {
+                    targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+
+        window.addEventListener('load', () => {
+            processDuplicateAuthors();
+            updateAlphaNav();
+        });
+    </script>
+</body>
+</html>

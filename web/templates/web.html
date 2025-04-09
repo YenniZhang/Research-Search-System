@@ -1,0 +1,1179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+{% extends "layout.html" %}
+{% block title %}Research Search - Home{% endblock %}
+
+{% block head %}
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    body {
+        background-color: #f4f4f4;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        display: block;
+        align-items: flex-start;
+    }
+
+    .container, #papers-container {
+        max-width: 1500px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 200px;
+    }
+
+    .sticky-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: white;
+        padding: 10px 20px;
+        z-index: 100;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .container {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 28px;
+    }
+
+    .search-box-container {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 20px;
+        position: relative; /* Add relative positioning */
+    }
+
+    .search-box {
+        flex: 1;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+
+    .search-button {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .search-button:hover {
+        background-color: #0056b3;
+    }
+
+    .more-container {
+        margin-top: 10px;
+        position: relative;
+    }
+
+    .more-btn {
+        background: none;
+        border: 1px solid #fdfcfc;
+        padding: 8px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        transition: all 0.3s;
+    }
+
+    .more-btn:hover {
+        background-color: #f8f9fa;
+    }
+
+    .arrow {
+        transition: transform 0.3s;
+    }
+
+    .dropdown-menu {
+        position: absolute;
+        left: 0;
+        top: 100%;
+        background: white;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        display: none;
+        min-width: 150px;
+        z-index: 100;
+    }
+
+    .dropdown-menu.show {
+        display: block;
+    }
+
+    .dropdown-item {
+        padding: 10px 15px;
+        cursor: pointer;
+        color: #333;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown-item:hover {
+        background-color: #f8f9fa;
+    }
+
+    .article-link {
+        color: #007bff;
+        text-decoration: none;
+    }
+
+    .article-link:hover {
+        text-decoration: underline;
+    }
+
+    .author-search {
+        cursor: pointer;
+        margin-left: 5px;
+        color: #007bff;
+        font-size: 0.8em;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .error {
+        color: #dc3545;
+        padding: 10px;
+        background: #ffe6e6;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+
+    #papers-container {
+        margin-top: 20px;
+    }
+
+    .paper-card {
+        background: white;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 15px;
+        margin-bottom: 15px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    }
+
+    .paper-card h2 {
+        font-size: 18px;
+        margin-bottom: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .paper-card p {
+        margin: 5px 0;
+        color: #555;
+    }
+
+    .backcontainer {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 5%;
+        right: 5%;
+        transform: translateY(-50%);
+        z-index: 9999
+    }
+
+    .back-button{
+        color: #666;
+        text-decoration: none;
+        font-size: 0.9em;
+        transition: color 0.3s;
+    }
+
+    .back-button:hover {
+        color: #007bff;
+    }
+
+    .filter-section {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .filter-section label {
+        display: inline-flex;
+        align-items: center;
+        padding: 8px 15px;
+        border-radius: 20px;
+        border: 1px solid #ddd;
+        cursor: pointer;
+        transition: all 0.2s;
+        background: white;
+        user-select: none;
+    }
+
+    .filter-section label:hover {
+        background-color: #f8f9fa;
+    }
+
+    .filter-section input[type="radio"] {
+        position: relative;
+        appearance: none;
+        width: 16px;
+        height: 16px;
+        border: 2px solid #ddd;
+        border-radius: 50%;
+        margin-right: 8px;
+        cursor: pointer;
+    }
+
+    .filter-section input[type="radio"]:checked {
+        border-color: #007bff;
+    }
+
+    .filter-section input[type="radio"]:checked::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 8px;
+        height: 8px;
+        background-color: #007bff;
+        border-radius: 50%;
+    }
+
+    .filter-section input:checked ~ span {
+        color: #007bff;
+        font-weight: 500;
+    }
+
+    .sort-button {
+        padding: 8px 15px;
+        border-radius: 20px;
+        border: 1px solid #ddd;
+        background: white;
+        cursor: pointer;
+        transition: all 0.2s;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .sort-button:hover {
+        background-color: #f8f9fa;
+    }
+
+    .sort-button.active {
+        background-color: #e6f7ff;
+        border-color: #007bff;
+        color: #007bff;
+    }
+
+    .sort-button.newest::after {
+        content: "↓";
+    }
+
+    .sort-button.oldest::after {
+        content: "↑";
+    }
+
+    /* Pagination styles */
+    .pagination {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .pagination button {
+        padding: 8px 15px;
+        margin: 0 5px;
+        border: 1px solid #ddd;
+        background-color: white;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: all 0.2s;
+    }
+
+    .pagination button:hover {
+        background-color: #f8f9fa;
+    }
+
+    .pagination button.active {
+        background-color: #007bff;
+        color: white;
+        border-color: #007bff;
+    }
+
+    .pagination button:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+    
+    /* Autocomplete dropdown menu styles */
+    .suggestions-container {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 100%;
+        background: white;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        max-height: 300px;
+        overflow-y: auto;
+        z-index: 1000;
+        margin-top: 5px;
+    }
+
+    .suggestion-item {
+        padding: 10px 15px;
+        cursor: pointer;
+        border-bottom: 1px solid #f0f0f0;
+    }
+
+    .suggestion-item:hover, .suggestion-item.active {
+        background-color: #f0f7ff;
+    }
+    
+    .suggestion-loading {
+        padding: 10px 15px;
+        text-align: center;
+        color: #666;
+    }
+    
+    /* Return button styles */
+    .return-container {
+        position: absolute;
+        left: 100px;
+        top: 10px; /* Positioned below the more button */
+        margin-top: 10px;
+        z-index: 1000;
+    }
+    
+    .return-btn {
+        background: none;
+        border: 1px solid #ddd;
+        padding: 8px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        transition: all 0.3s;
+        text-decoration: none;
+        color: #333;
+    }
+    
+    .return-btn:hover {
+        background-color: #f8f9fa;
+    }
+    
+    /* Favorite star styles */
+    .favorite-star {
+        cursor: pointer;
+        color: #ccc;
+        font-size: 20px;
+        transition: color 0.3s;
+        margin-left: 10px;
+    }
+    
+    .favorite-star.active {
+        color: #ffc107;
+    }
+</style>
+{% endblock %}
+
+</head>
+<body> 
+{% block content %}
+<div class="sticky-container">
+    <div class="more-container">
+        <button class="more-btn">
+            More
+            <span class="arrow">▼</span>
+        </button>
+        <div class="dropdown-menu">
+            <a href="/authors" class="dropdown-item">Authors</a>
+            <a href="/a" class="dropdown-item">A</a>
+            <a href="/b" class="dropdown-item">B</a>
+            <a href="/c" class="dropdown-item">C</a>
+            <a href="/settings" class="dropdown-item">Settings</a>
+        </div>
+    </div>
+    
+    <!-- Return button below the more button -->
+    <div class="return-container">
+        <a href="/" class="return-btn">
+            ← Return to homepage
+        </a>
+    </div>
+
+    <h1>Research Search</h1>
+    
+    <div class="search-box-container">
+        <input type="search" class="search-box" placeholder="Search by title, content, or author...">
+        <button class="search-button">Search</button>
+        <div id="suggestions-container" class="suggestions-container" style="display: none;"></div>
+    </div>
+
+    <div class="sidebar">
+        <div class="filter-section">
+            <label><input type="radio" name="time-filter" class="time-filter" value="3"> <span>Last 3 years</span></label>
+            <label><input type="radio" name="time-filter" class="time-filter" value="10"> <span>3-10 years ago</span></label>
+            <label><input type="radio" name="time-filter" class="time-filter" value="older"> <span>More than 10 years ago</span></label>
+            <button id="sort-button" class="sort-button">Sort by Time</button>
+        </div>
+    </div>
+
+</div>
+
+<div class="container">
+    <div id="papers-container"></div>
+    <div class="loading">This is the end for the current search...</div>
+    <div class="pagination" id="pagination-container" style="display: none;"></div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    let searchQuery = '';
+    let page = 1;
+    let isLoading = false;
+    const container = document.getElementById('papers-container');
+    const loadingElement = document.querySelector('.loading');
+    const paginationContainer = document.getElementById('pagination-container');
+    let selectedTimeFilters = [];
+    let sortMode = 'relevance';
+    let allPapers = []; // Store all papers for pagination
+    let settings = {
+        displayMode: 'infinite',
+        articlesPerPage: 10
+    };
+    let isLoggedIn = false; // Track login state
+
+    // Load settings from localStorage
+    function loadSettings() {
+        const savedSettings = localStorage.getItem('researchSearchSettings');
+        if (savedSettings) {
+            settings = JSON.parse(savedSettings);
+        }
+    }
+    
+    // Function to search for author
+    function searchAuthor(authorName) {
+        document.querySelector('.search-box').value = authorName;
+        document.querySelector('.search-button').click();
+    }
+
+    // Function to update sort button UI
+    function updateSortButtonUI() {
+        const sortButton = document.getElementById('sort-button');
+        sortButton.classList.remove('active', 'newest', 'oldest');
+        
+        if (sortMode === 'newest') {
+            sortButton.classList.add('active', 'newest');
+        } else if (sortMode === 'oldest') {
+            sortButton.classList.add('active', 'oldest');
+        }
+    }
+    
+    // Function to handle time filter selection
+    function handleTimeFilterSelection() {
+        const timeFilters = document.querySelectorAll('.time-filter');
+        
+        selectedTimeFilters = [];
+        
+        timeFilters.forEach(filter => {
+            filter.removeAttribute('name');
+            filter.type = 'checkbox';
+            
+            filter.addEventListener('click', () => {
+                if (selectedTimeFilters.includes(filter.value)) {
+                    selectedTimeFilters = selectedTimeFilters.filter(val => val !== filter.value);
+                } else {
+                    selectedTimeFilters.push(filter.value);
+                }
+                
+                if (searchQuery) {
+                    page = 1;
+                    container.innerHTML = '';
+                    loadPapers(true);
+                }
+            });
+        });
+    }
+
+    // Function to sort papers by time
+    function sortPapersByTime(papers, mode) {
+        if (mode === 'relevance') {
+            return papers;
+        }
+        
+        return [...papers].sort((a, b) => {
+            const dateA = new Date(a.published_date || '1900-01-01').getTime();
+            const dateB = new Date(b.published_date || '1900-01-01').getTime();
+            
+            return mode === 'newest' ? dateB - dateA : dateA - dateB;
+        });
+    }
+    
+    // Function to filter papers by time
+    function filterPapersByTime(papers) {
+        if (selectedTimeFilters.length === 0) {
+            return papers;
+        }
+        
+        const currentYear = new Date().getFullYear();
+        
+        return papers.filter(paper => {
+            if (!paper.published_date) return false;
+            
+            const publishedYear = new Date(paper.published_date).getFullYear();
+            const yearDiff = currentYear - publishedYear;
+            
+            return selectedTimeFilters.some(filter => {
+                if (filter === '3') {
+                    return yearDiff <= 3;
+                } else if (filter === '10') {
+                    return yearDiff > 3 && yearDiff <= 10;
+                } else if (filter === 'older') {
+                    return yearDiff > 10;
+                }
+                return false;
+            });
+        });
+    }
+    
+    // Function to render papers for pagination
+    function renderPaginatedPapers(papers, currentPage) {
+        container.innerHTML = '';
+        
+        const startIndex = (currentPage - 1) * settings.articlesPerPage;
+        const endIndex = startIndex + settings.articlesPerPage;
+        const paginatedPapers = papers.slice(startIndex, endIndex);
+        
+        if (paginatedPapers.length === 0) {
+            container.innerHTML = '<p>No articles found for this page.</p>';
+            return;
+        }
+        
+        paginatedPapers.forEach(article => {
+            renderArticle(article);
+        });
+    }
+    
+    // Function to render a single article
+    function renderArticle(article) {
+        const formattedDate = new Date(article.published_date).toLocaleDateString('en-GB');
+        const articleLink = `/article/${article.article_id}`;
+        const authorsHTML = article.authors.length > 0 
+            ? article.authors.map(author => {
+                const safeName = author.full_name.replace(/'/g, "\\'"); 
+                return ` 
+                    <span class="author-item">
+                        ${author.full_name}
+                        ${author.workplace ? `<span class="author-details">(${author.workplace})</span>` : ''}
+                        <span class="author-search" onclick="searchAuthor('${safeName}')">🔍</span>
+                    </span>
+                `;
+            }).join(', ') 
+            : 'Unknown';
+
+        const paperCard = document.createElement('div');
+        paperCard.className = 'paper-card';
+        paperCard.dataset.articleId = article.article_id;
+        
+        const titleContainer = document.createElement('h2');
+        
+        const titleLink = document.createElement('a');
+        titleLink.href = articleLink;
+        titleLink.className = 'article-link';
+        titleLink.textContent = article.title;
+        
+        titleContainer.appendChild(titleLink);
+        
+        // Add favorite star if user is logged in
+        if (isLoggedIn) {
+            const starElement = document.createElement('span');
+            starElement.className = 'favorite-star';
+            starElement.innerHTML = '★';
+            starElement.dataset.articleId = article.article_id;
+            titleContainer.appendChild(starElement);
+        }
+        
+        paperCard.appendChild(titleContainer);
+        
+        paperCard.innerHTML += `
+            <p><strong>Authors:</strong> ${authorsHTML}</p>
+            <p><strong>Abstract:</strong> ${article.abstract || 'No abstract available'}</p>
+            <p><strong>Published Date:</strong> ${formattedDate || 'Unknown'}</p>
+        `;
+        
+        container.appendChild(paperCard);
+    }
+    
+    // Function to create pagination controls
+    function createPagination(totalPapers) {
+        paginationContainer.innerHTML = '';
+        
+        const totalPages = Math.ceil(totalPapers.length / settings.articlesPerPage);
+        if (totalPages <= 1) {
+            paginationContainer.style.display = 'none';
+            return;
+        }
+        
+        paginationContainer.style.display = 'flex';
+        
+        // Previous button
+        const prevButton = document.createElement('button');
+        prevButton.textContent = '← Previous';
+        prevButton.disabled = page === 1;
+        prevButton.addEventListener('click', () => {
+            if (page > 1) {
+                page--;
+                renderPaginatedPapers(allPapers, page);
+                createPagination(allPapers);
+                window.scrollTo(0, 0);
+            }
+        });
+        paginationContainer.appendChild(prevButton);
+        
+        // Page number buttons
+        const maxVisiblePages = 5;
+        let startPage = Math.max(1, page - Math.floor(maxVisiblePages / 2));
+        let endPage = Math.min(totalPages, startPage + maxVisiblePages - 1);
+        
+        // Adjust start page if we're near the end
+        if (endPage - startPage + 1 < maxVisiblePages) {
+            startPage = Math.max(1, endPage - maxVisiblePages + 1);
+        }
+        
+        // First page button if not visible
+        if (startPage > 1) {
+            const firstPageButton = document.createElement('button');
+            firstPageButton.textContent = '1';
+            firstPageButton.addEventListener('click', () => {
+                page = 1;
+                renderPaginatedPapers(allPapers, page);
+                createPagination(allPapers);
+                window.scrollTo(0, 0);
+            });
+            paginationContainer.appendChild(firstPageButton);
+            
+            // Ellipsis if needed
+            if (startPage > 2) {
+                const ellipsis = document.createElement('span');
+                ellipsis.textContent = '...';
+                ellipsis.style.margin = '0 5px';
+                paginationContainer.appendChild(ellipsis);
+            }
+        }
+        
+        // Page buttons
+        for (let i = startPage; i <= endPage; i++) {
+            const pageButton = document.createElement('button');
+            pageButton.textContent = i;
+            pageButton.classList.toggle('active', i === page);
+            pageButton.addEventListener('click', () => {
+                page = i;
+                renderPaginatedPapers(allPapers, page);
+                createPagination(allPapers);
+                window.scrollTo(0, 0);
+            });
+            paginationContainer.appendChild(pageButton);
+        }
+        
+        // Ellipsis and last page if needed
+        if (endPage < totalPages) {
+            if (endPage < totalPages - 1) {
+                const ellipsis = document.createElement('span');
+                ellipsis.textContent = '...';
+                ellipsis.style.margin = '0 5px';
+                paginationContainer.appendChild(ellipsis);
+            }
+            
+            const lastPageButton = document.createElement('button');
+            lastPageButton.textContent = totalPages;
+            lastPageButton.addEventListener('click', () => {
+                page = totalPages;
+                renderPaginatedPapers(allPapers, page);
+                createPagination(allPapers);
+                window.scrollTo(0, 0);
+            });
+            paginationContainer.appendChild(lastPageButton);
+        }
+        
+        // Next button
+        const nextButton = document.createElement('button');
+        nextButton.textContent = 'Next →';
+        nextButton.disabled = page === totalPages;
+        nextButton.addEventListener('click', () => {
+            if (page < totalPages) {
+                page++;
+                renderPaginatedPapers(allPapers, page);
+                createPagination(allPapers);
+                window.scrollTo(0, 0);
+            }
+        });
+        paginationContainer.appendChild(nextButton);
+    }
+
+    // Modified load papers function
+    async function loadPapers(isNewSearch) {
+        isLoading = true;
+        loadingElement.style.display = 'block';
+
+        try {
+            const response = await fetch(`/search?query=${encodeURIComponent(searchQuery)}&page=${page}`);
+            const data = await response.json();
+
+            if (response.ok) {
+                if (data.length > 0) {
+                    // Apply time filters to the data
+                    const filteredData = filterPapersByTime(data);
+
+                    // Apply sorting to the filtered data
+                    const sortedData = sortPapersByTime(filteredData, sortMode);
+                    
+                    if (sortedData.length > 0) {
+                        // Store all papers for pagination
+                        if (isNewSearch) {
+                            allPapers = sortedData;
+                        } else {
+                            // For infinite scroll, append new papers
+                            allPapers = [...allPapers, ...sortedData];
+                        }
+                        
+                        // Handle different display modes
+                        if (settings.displayMode === 'pagination') {
+                            // Show pagination controls
+                            paginationContainer.style.display = 'flex';
+                            loadingElement.style.display = 'none';
+                            
+                            // Render paginated papers
+                            renderPaginatedPapers(allPapers, page);
+                            createPagination(allPapers);
+                        } else {
+                            // Infinite scroll mode
+                            paginationContainer.style.display = 'none';
+                            
+                            // Append papers to container
+                            sortedData.forEach(article => {
+                                renderArticle(article);
+                            });
+                        }
+                        
+                        // Initialize favorite stars if user is logged in
+                        if (isLoggedIn) {
+                            initializeFavoriteStars();
+                        }
+                    } else if (isNewSearch) {
+                        container.innerHTML = `<p>No articles found matching the selected time filters.</p>`;
+                    }
+                } else if (isNewSearch) {
+                    container.innerHTML = `<p>No articles found.</p>`;
+                }
+            }
+        } catch (error) {
+            console.error('Error fetching data:', error);
+            container.innerHTML += `<p class="error">Error loading articles</p>`;
+        }
+
+        loadingElement.style.display = settings.displayMode === 'pagination' ? 'none' : 'block';
+        isLoading = false;
+    }
+    
+    // Initialize favorite stars
+    function initializeFavoriteStars() {
+        // Get all favorite stars
+        const stars = document.querySelectorAll('.favorite-star');
+        if (stars.length === 0) return;
+        
+        // Fetch user's favorites
+        fetch('/api/favorites')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Failed to fetch favorites');
+                }
+                return response.json();
+            })
+            .then(favorites => {
+                // Mark active stars
+                stars.forEach(star => {
+                    const articleId = star.dataset.articleId;
+                    if (favorites.includes(articleId)) {
+                        star.classList.add('active');
+                    }
+                    
+                    // Add click event
+                    star.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        
+                        const isActive = this.classList.contains('active');
+                        const action = isActive ? 'unfavorite' : 'favorite';
+                        
+                        fetch(`/api/${action}/${articleId}`, {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json'
+                            }
+                        })
+                        .then(response => {
+                            if (response.ok) {
+                                // Toggle active class
+                                this.classList.toggle('active');
+                            }
+                        })
+                        .catch(error => {
+                            console.error('Error updating favorite:', error);
+                        });
+                    });
+                });
+            })
+            .catch(error => {
+                console.error('Error fetching favorites:', error);
+            });
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        // Load user settings
+        loadSettings();
+        
+        // Initialize time filter selection
+        handleTimeFilterSelection();
+
+        // Initialize sort button functionality
+        const sortButton = document.getElementById('sort-button');
+        sortButton.addEventListener('click', () => {
+            // Toggle between sort modes
+            if (sortMode === 'relevance') {
+                sortMode = 'newest';
+                sortButton.textContent = 'Sort by Time';
+                sortButton.classList.add('active', 'newest');
+                sortButton.classList.remove('oldest');
+            } else if (sortMode === 'newest') {
+                sortMode = 'oldest';
+                sortButton.textContent = 'Sort by Time';
+                sortButton.classList.add('active', 'oldest');
+                sortButton.classList.remove('newest');
+            } else {
+                sortMode = 'relevance';
+                sortButton.textContent = 'Sort by Time';
+                sortButton.classList.remove('active', 'newest', 'oldest');
+            }
+            
+            // If search query exists, perform search with new sorting
+            if (searchQuery) {
+                page = 1;
+                container.innerHTML = '';
+                loadPapers(true);
+            }
+        });
+        
+        // Enhanced autocomplete functionality with keyboard navigation
+        const searchInput = document.querySelector('.search-box');
+        const suggestionsContainer = document.getElementById('suggestions-container');
+        let debounceTimer;
+        let currentFocus = -1;
+        
+        // Function to execute search
+        function executeSearch() {
+            searchQuery = searchInput.value.trim();
+            if (searchQuery) {
+                page = 1;
+                container.innerHTML = '';
+                loadPapers(true);
+                
+                // Update the browser history
+                const newUrl = `?query=${encodeURIComponent(searchQuery)}&page=1&timeFilters=${encodeURIComponent(selectedTimeFilters.join(','))}&sortMode=${sortMode}`;
+                history.pushState({ searchQuery, page: 1, timeFilters: selectedTimeFilters, sortMode }, '', newUrl);
+            } else {
+                alert('Please enter a search term');
+            }
+        }
+        
+        // Listen for input events to show autocomplete suggestions
+        searchInput.addEventListener('input', function() {
+            const query = this.value.trim();
+            
+            // Reset current focus when input changes
+            currentFocus = -1;
+            
+            // Clear previous timer
+            clearTimeout(debounceTimer);
+            
+            // If query is empty, hide suggestions
+            if (query.length < 2) {
+                suggestionsContainer.style.display = 'none';
+                return;
+            }
+            
+            // Show loading indicator
+            suggestionsContainer.innerHTML = '<div class="suggestion-loading">Loading...</div>';
+            suggestionsContainer.style.display = 'block';
+            
+            // Set 300ms debounce timer
+            debounceTimer = setTimeout(async function() {
+                try {
+                    // Send request to backend for suggestions
+                    const response = await fetch(`/suggestions?query=${encodeURIComponent(query)}`);
+                    
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! Status: ${response.status}`);
+                    }
+                    
+                    const suggestions = await response.json();
+                    
+                    // Display suggestions
+                    if (suggestions && suggestions.length > 0) {
+                        suggestionsContainer.innerHTML = '';
+                        suggestions.forEach((suggestion, index) => {
+                            const item = document.createElement('div');
+                            item.className = 'suggestion-item';
+                            item.textContent = suggestion;
+                            item.setAttribute('data-index', index);
+                            
+                            // Add click event to select suggestion
+                            item.addEventListener('click', function() {
+                                searchInput.value = suggestion;
+                                suggestionsContainer.style.display = 'none';
+                                executeSearch();
+                            });
+                            
+                            suggestionsContainer.appendChild(item);
+                        });
+                        suggestionsContainer.style.display = 'block';
+                    } else {
+                        suggestionsContainer.innerHTML = '<div class="suggestion-loading">No suggestions found</div>';
+                    }
+                } catch (error) {
+                    console.error('Error fetching suggestions:', error);
+                    suggestionsContainer.innerHTML = '<div class="suggestion-loading">Failed to get suggestions</div>';
+                }
+            }, 300);
+        });
+        
+        // Add keyboard navigation for suggestions
+        searchInput.addEventListener('keydown', function(e) {
+            const items = suggestionsContainer.getElementsByClassName('suggestion-item');
+            
+            // If suggestions are not displayed, don't handle navigation keys
+            if (suggestionsContainer.style.display === 'none' || items.length === 0) {
+                if (e.key === 'Enter') {
+                    executeSearch();
+                }
+                return;
+            }
+            
+            // Handle arrow down
+            if (e.key === 'ArrowDown') {
+                e.preventDefault(); // Prevent cursor from moving
+                currentFocus++;
+                
+                // Loop back to start if at end
+                if (currentFocus >= items.length) currentFocus = 0;
+                
+                // Add active class to current item and remove from others
+                Array.from(items).forEach((item, index) => {
+                    if (index === currentFocus) {
+                        item.classList.add('active');
+                        searchInput.value = item.textContent;
+                    } else {
+                        item.classList.remove('active');
+                    }
+                });
+            }
+            
+            // Handle arrow up
+            else if (e.key === 'ArrowUp') {
+                e.preventDefault(); // Prevent cursor from moving
+                currentFocus--;
+                
+                // Loop to end if at start
+                if (currentFocus < 0) currentFocus = items.length - 1;
+                
+                // Add active class to current item and remove from others
+                Array.from(items).forEach((item, index) => {
+                    if (index === currentFocus) {
+                        item.classList.add('active');
+                        searchInput.value = item.textContent;
+                    } else {
+                        item.classList.remove('active');
+                    }
+                });
+            }
+            
+            // Handle enter key
+            else if (e.key === 'Enter') {
+                e.preventDefault();
+                
+                if (currentFocus > -1) {
+                    // Simulate click on the active item
+                    items[currentFocus].click();
+                } else {
+                    // Execute search with current input value
+                    executeSearch();
+                }
+            }
+            
+            // Handle escape key
+            else if (e.key === 'Escape') {
+                suggestionsContainer.style.display = 'none';
+                currentFocus = -1;
+            }
+        });
+
+        // Hide suggestions when clicking outside
+        document.addEventListener('click', function(event) {
+            if (!searchInput.contains(event.target) && !suggestionsContainer.contains(event.target)) {
+                suggestionsContainer.style.display = 'none';
+                currentFocus = -1;
+            }
+        });
+        
+        // Listen for search button click
+        document.querySelector('.search-button').addEventListener('click', executeSearch);
+
+        // Listen for scroll event to load more papers (only in infinite scroll mode)
+        window.addEventListener('scroll', async () => {
+            if (isLoading || settings.displayMode === 'pagination') return;
+            const { scrollTop, clientHeight, scrollHeight } = document.documentElement;
+            if (scrollTop + clientHeight >= scrollHeight - 100) {
+                page++;
+                await loadPapers(false);
+            }
+        });
+
+        // Handle popstate event when using the back/forward browser buttons
+        window.addEventListener('popstate', (event) => {
+            if (event.state) {
+                searchQuery = event.state.searchQuery;
+                page = event.state.page;
+                
+                // Restore time filters if available
+                if (event.state.timeFilters) {
+                    selectedTimeFilters = event.state.timeFilters;
+                    
+                    // Update UI to reflect restored time filters
+                    document.querySelectorAll('.time-filter').forEach(filter => {
+                        filter.checked = selectedTimeFilters.includes(filter.value);
+                    });
+                }
+                
+                // Restore sort mode if available
+                if (event.state.sortMode) {
+                    sortMode = event.state.sortMode;
+                    updateSortButtonUI();
+                }
+                
+                container.innerHTML = ''; // Clear current papers
+                loadPapers(true); // Load papers based on the state in the URL
+            }
+        });
+
+        // Check for initial query in the URL when the page loads
+        const urlParams = new URLSearchParams(window.location.search);
+        const initialQuery = urlParams.get('query');
+        const initialTimeFilters = urlParams.get('timeFilters');
+        
+        if (initialTimeFilters) {
+            selectedTimeFilters = initialTimeFilters.split(',');
+            
+            // Update UI to reflect initial time filters
+            document.querySelectorAll('.time-filter').forEach(filter => {
+                filter.checked = selectedTimeFilters.includes(filter.value);
+            });
+        }
+
+        const initialSortMode = urlParams.get('sortMode');
+        if (initialSortMode && ['relevance', 'newest', 'oldest'].includes(initialSortMode)) {
+            sortMode = initialSortMode;
+            updateSortButtonUI();
+        }
+        
+        if (initialQuery) {
+            searchQuery = decodeURIComponent(initialQuery);
+            document.querySelector('.search-box').value = searchQuery;
+            loadPapers(true);
+        }
+        
+        // Listen for login/logout events from auth component
+        document.addEventListener('userLoggedIn', function(e) {
+            isLoggedIn = true;
+            // If we have papers loaded, initialize favorite stars
+            if (allPapers.length > 0) {
+                initializeFavoriteStars();
+            }
+        });
+        
+        document.addEventListener('userLoggedOut', function() {
+            isLoggedIn = false;
+            // Remove all favorite stars
+            document.querySelectorAll('.favorite-star').forEach(star => {
+                star.remove();
+            });
+        });
+    });
+
+    // More button interaction
+    const moreBtn = document.querySelector('.more-btn');
+    const dropdownMenu = document.querySelector('.dropdown-menu');
+    const arrow = document.querySelector('.arrow');
+
+    // Toggle dropdown menu
+    moreBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        dropdownMenu.classList.toggle('show');
+        
+        // Make sure the dropdown stays below the "More" button
+        const buttonRect = moreBtn.getBoundingClientRect();
+        dropdownMenu.style.left = `${buttonRect.left}px`;
+        dropdownMenu.style.top = `${buttonRect.bottom}px`;
+        
+        // Rotate the arrow based on dropdown visibility
+        arrow.style.transform = dropdownMenu.classList.contains('show')
+            ? 'rotate(180deg)'
+            : 'rotate(0deg)';
+    });
+
+    // Handle menu item click
+    document.querySelectorAll('.dropdown-item').forEach(item => {
+        item.addEventListener('click', () => {
+            dropdownMenu.classList.remove('show');
+            arrow.style.transform = 'rotate(0deg)';
+        });
+    });
+
+    // Close dropdown if clicking outside
+    document.addEventListener('click', (e) => {
+        if (!moreBtn.contains(e.target)) {
+            dropdownMenu.classList.remove('show');
+            arrow.style.transform = 'rotate(0deg)';
+        }
+    });
+</script>
+{% endblock %}
+</body>
+</html>

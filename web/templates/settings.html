@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Search - Settings</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        
+        body {
+            background-color: #ffffff;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #007bff;
+        }
+        
+        .settings-section {
+            margin-bottom: 30px;
+        }
+        
+        .settings-section h2 {
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #eee;
+            color: #333;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+        
+        .form-group select, 
+        .form-group input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        
+        .radio-group {
+            margin-bottom: 15px;
+        }
+        
+        .radio-group label {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+        
+        .radio-group input[type="radio"] {
+            margin-right: 10px;
+        }
+        
+        .button-group {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+        
+        .button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        
+        .save-button {
+            background-color: #007bff;
+            color: white;
+        }
+        
+        .save-button:hover {
+            background-color: #0056b3;
+        }
+        
+        .cancel-button {
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        
+        .cancel-button:hover {
+            background-color: #e0e0e0;
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #007bff;
+            text-decoration: none;
+        }
+        
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="/" class="back-link">← Back to homepage</a>
+        <h1>Research Search Settings</h1>
+        
+        <div class="settings-section">
+            <h2>Display Settings</h2>
+            
+            <div class="form-group">
+                <label>Display Mode:</label>
+                <div class="radio-group">
+                    <label>
+                        <input type="radio" name="displayMode" value="infinite" checked> 
+                        Infinite Scroll (Load more articles as you scroll)
+                    </label>
+                    <label>
+                        <input type="radio" name="displayMode" value="pagination"> 
+                        Pagination (Show articles in pages)
+                    </label>
+                </div>
+            </div>
+            
+            <div class="form-group" id="articlesPerPageGroup" style="display: none;">
+                <label for="articlesPerPage">Articles Per Page:</label>
+                <input type="number" id="articlesPerPage" min="5" max="50" value="10">
+            </div>
+        </div>
+        
+        <div class="button-group">
+            <button class="button cancel-button" id="resetButton">Reset to Defaults</button>
+            <button class="button save-button" id="saveButton">Save Settings</button>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const displayModeRadios = document.querySelectorAll('input[name="displayMode"]');
+            const articlesPerPageGroup = document.getElementById('articlesPerPageGroup');
+            const articlesPerPageInput = document.getElementById('articlesPerPage');
+            const saveButton = document.getElementById('saveButton');
+            const resetButton = document.getElementById('resetButton');
+            
+            // Load saved settings
+            function loadSettings() {
+                const settings = JSON.parse(localStorage.getItem('researchSearchSettings')) || {
+                    displayMode: 'infinite',
+                    articlesPerPage: 10
+                };
+                
+                // Set display mode radio button
+                displayModeRadios.forEach(radio => {
+                    radio.checked = radio.value === settings.displayMode;
+                });
+                
+                // Set articles per page
+                articlesPerPageInput.value = settings.articlesPerPage;
+                
+                // Show/hide articles per page input based on display mode
+                articlesPerPageGroup.style.display = 
+                    settings.displayMode === 'pagination' ? 'block' : 'none';
+            }
+            
+            // Save settings
+            function saveSettings() {
+                const displayMode = document.querySelector('input[name="displayMode"]:checked').value;
+                const articlesPerPage = parseInt(articlesPerPageInput.value, 10);
+                
+                // Validate articles per page
+                if (articlesPerPage < 5) {
+                    alert('Articles per page must be at least 5');
+                    articlesPerPageInput.value = 5;
+                    return;
+                }
+                
+                if (articlesPerPage > 50) {
+                    alert('Articles per page cannot exceed 50');
+                    articlesPerPageInput.value = 50;
+                    return;
+                }
+                
+                // Save settings to localStorage
+                const settings = {
+                    displayMode,
+                    articlesPerPage
+                };
+                
+                localStorage.setItem('researchSearchSettings', JSON.stringify(settings));
+                alert('Settings saved successfully!');
+            }
+            
+            // Reset settings to defaults
+            function resetSettings() {
+                if (confirm('Are you sure you want to reset all settings to defaults?')) {
+                    localStorage.removeItem('researchSearchSettings');
+                    loadSettings();
+                    alert('Settings have been reset to defaults.');
+                }
+            }
+            
+            // Show/hide articles per page based on display mode selection
+            displayModeRadios.forEach(radio => {
+                radio.addEventListener('change', () => {
+                    articlesPerPageGroup.style.display = 
+                        radio.value === 'pagination' ? 'block' : 'none';
+                });
+            });
+            
+            // Add event listeners
+            saveButton.addEventListener('click', saveSettings);
+            resetButton.addEventListener('click', resetSettings);
+            
+            // Load settings on page load
+            loadSettings();
+        });
+    </script>
+</body>
+</html>

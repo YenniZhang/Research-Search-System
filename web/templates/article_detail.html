@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ article.title }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/detail.css') }}">
+    <style>
+        /* Styles for the collapsible reference section */
+        .reference-container {
+            position: relative;
+        }
+        
+        .reference-content {
+            max-height: none;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        
+        .reference-content.collapsed {
+            max-height: calc(1.5em * 10); /* Approximately 10 lines */
+        }
+        
+        .toggle-reference {
+            display: none;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            background-color: white;
+            border: none;
+            cursor: pointer;
+            padding: 5px;
+            color: #0066cc;
+            align-items: center;
+            font-size: 14px;
+        }
+        
+        .toggle-reference .arrow {
+            display: inline-block;
+            margin-left: 5px;
+            transition: transform 0.3s ease;
+        }
+        
+        .toggle-reference .arrow.down {
+            transform: rotate(180deg);
+        }
+        
+        /* Add a gradient fade effect when collapsed */
+        .reference-content.collapsed::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 50px;
+            background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1));
+            pointer-events: none;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="/" class="back-button">← Back to homepage</a>
+        <a href="javascript:history.back()" class="history-back-button">← Back</a>
+
+        
+        <h1>{{ article.title }}</h1>
+        
+        <div class="metadata">
+            <p><strong>Published Date:</strong> {{ article.published_date }}</p>
+            <p><strong>URL:</strong> <a href="{{ article.url }}" target="_blank">{{ article.url }}</a></p>
+        </div>
+
+        <div class="content-section">
+            <h2>Abstract</h2>
+            <p class="abstract">{{ article.abstract }}</p>
+        </div>
+
+        <div class="content-section">
+            <h2>Full Content</h2>
+            <div class="content">{{ article.content|safe }}</div>
+        </div>
+
+        {% if article.reference %}
+        <div class="content-section">
+            <h2>References</h2>
+            <div class="reference-container">
+                <div id="referenceContent" class="reference-content">{{ article.reference|safe }}</div>
+                <button id="toggleReference" class="toggle-reference">
+                    <span class="toggle-text">Show More</span>
+                    <span class="arrow">↑</span>
+                </button>
+            </div>
+        </div>
+        {% endif %}
+
+        <div class="authors-section">
+            <h2>Authors</h2>
+            {% for author in authors %}
+            <div class="author-card">
+                <h3><a href="/author/{{ author.id }}" class="author-link">{{ author.full_name }}</a></h3>
+                <div class="author-info">
+                    {% if author.workplace %}<p><strong>Workplace:</strong> {{ author.workplace }}</p>{% endif %}
+                    {% if author.email %}<p><strong>Email:</strong> {{ author.email }}</p>{% endif %}
+                    {% if author.research %}<p><strong>Research Areas:</strong> {{ author.research }}</p>{% endif %}
+                    {% if author.bio %}<p class="bio">{{ author.bio }}</p>{% endif %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
+        {% if related_articles %}
+        <div class="related-section">
+            <h2>Related Articles</h2>
+            {% for article in related_articles %}
+            <div class="related-article">
+                <a href="/article/{{ article.id }}">{{ article.title }}</a>
+                <span class="date">{{ article.published_date }}</span>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const referenceContent = document.getElementById('referenceContent');
+            const toggleButton = document.getElementById('toggleReference');
+            
+            if (!referenceContent || !toggleButton) return;
+            
+            // Function to check if content is taller than 10 lines
+            function isContentTooTall() {
+                // Approximate line height calculation
+                const lineHeight = parseInt(window.getComputedStyle(referenceContent).lineHeight) || 24;
+                const contentHeight = referenceContent.scrollHeight;
+                const tenLinesHeight = lineHeight * 10;
+                
+                return contentHeight > tenLinesHeight;
+            }
+            
+            // Initialize the toggle button
+            if (isContentTooTall()) {
+                referenceContent.classList.add('collapsed');
+                toggleButton.style.display = 'flex';
+                
+                toggleButton.addEventListener('click', function() {
+                    const isCollapsed = referenceContent.classList.contains('collapsed');
+                    
+                    if (isCollapsed) {
+                        // Expand
+                        referenceContent.classList.remove('collapsed');
+                        toggleButton.querySelector('.toggle-text').textContent = 'Show Less';
+                        toggleButton.querySelector('.arrow').classList.add('down');
+                    } else {
+                        // Collapse
+                        referenceContent.classList.add('collapsed');
+                        toggleButton.querySelector('.toggle-text').textContent = 'Show More';
+                        toggleButton.querySelector('.arrow').classList.remove('down');
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>

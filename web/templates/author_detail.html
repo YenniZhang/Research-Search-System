@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ author.full_name }} - Author Profile</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/detail.css') }}">
+</head>
+<body>
+    <div class="container">
+        <a href="/" class="back-button">← Back to Homepage</a>
+        <a href="javascript:history.back()" class="history-back-button">← Back</a>
+        
+        <h1>{{ author.full_name }}</h1>
+        
+        <div class="author-profile">
+            {% if author.workplace %}
+            <div class="profile-item">
+                <span class="label">Workplace:</span>
+                <span class="value">{{ author.workplace }}</span>
+            </div>
+            {% endif %}
+            
+            {% if author.job %}
+            <div class="profile-item">
+                <span class="label">Position:</span>
+                <span class="value">{{ author.job }}</span>
+            </div>
+            {% endif %}
+            
+            {% if author.research %}
+            <div class="profile-item">
+                <span class="label">Research Areas:</span>
+                <span class="value">{{ author.research }}</span>
+            </div>
+            {% endif %}
+            
+            {% if author.email %}
+            <div class="profile-item">
+                <span class="label">Email:</span>
+                <span class="value">{{ author.email }}</span>
+            </div>
+            {% endif %}
+            
+            {% if author.article_number is not none %}
+            <div class="profile-item">
+                <span class="label">Publications:</span>
+                <span class="value">{{ author.article_number }}</span>
+            </div>
+            {% endif %}
+            
+            {% if author.influence is not none %}
+            <div class="profile-item">
+                <span class="label">Influence Score:</span>
+                <span class="value">{{ author.influence }}</span>
+            </div>
+            {% endif %}
+            
+            {% if author.bio %}
+            <div class="bio-section">
+                <h2>Biography</h2>
+                <p>{{ author.bio }}</p>
+            </div>
+            {% endif %}
+        </div>
+
+        <div class="author-articles">
+            <h2>Published Articles ({{ articles|length }})</h2>
+            {% if articles %}
+                <!-- Debug output -->
+                <div style="display: none;">
+                    {{ articles|tojson }}
+                </div>
+                {% for article in articles %}
+                <div class="article-item">
+                    <a href="/article/{{ article.id }}" class="article-link">
+                        {{ loop.index }}. {{ article.title }}  <!-- Show index -->
+                    </a>
+                    <div class="article-meta">
+                        <span class="date">{{ article.published_date }}</span>
+                        {% if article.url %}
+                        <a href="{{ article.url }}" target="_blank" class="external-link">Link to original website</a>
+                        {% endif %}
+                        <p class="abstract">{{ article.abstract }}</p>
+                    </div>
+                </div>
+                {% endfor %}
+            {% else %}
+                <div class="no-articles">No articles found for this author.</div>
+            {% endif %}
+        </div>
+
+
+        <!-- 在作者信息部分显示合并信息 -->
+        <div class="merge-notice">
+            {% if author.related_authors_count > 1 %}
+            <div class="alert info">
+                System already merge {{ author.related_authors_count }} author record(s) that who have the same name
+            </div>
+            {% endif %}
+        </div>
+
+        <!-- 在文章列表显示合并来源 -->
+        {% for article in articles %}
+        <div class="article-item">
+            <span class="merged-from">
+                {% if article.author_id != author.id %}
+                From correlation author's ID: {{ article.author_id }}
+                {% endif %}
+            </span>
+        </div>
+        {% endfor %}
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Management</title>
+    <!-- Use the same styles as the main page -->
+    <!--link rel="stylesheet" href="/static/styles/main.css">-->
+    <style>
+        :root {
+            --primary-color: #0D6EFD;
+            --primary-hover: #0b5ed7;
+            --light-blue: #e6f0ff;
+            --text-dark: #333;
+            --text-light: #666;
+            --success: #28a745;
+            --danger: #dc3545;
+            --white: #fff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        .management-container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 30px;
+            background: var(--white);
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(13, 110, 253, 0.15);
+            border-top: 4px solid var(--primary-color);
+        }
+
+        .management-title {
+            text-align: center;
+            margin-bottom: 30px;
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+
+        .password-form {
+            margin: 20px 0;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+            color: var(--text-dark);
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+
+        .form-group input:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(13, 110, 253, 0.2);
+        }
+
+        .form-hint {
+            font-size: 0.9em;
+            color: var(--text-light);
+            margin-top: 5px;
+        }
+
+        .password-match {
+            font-size: 0.9em;
+            margin-top: 5px;
+            font-weight: bold;
+        }
+
+        .form-success {
+            color: var(--success);
+            margin: 15px 0;
+            padding: 10px;
+            background-color: rgba(40, 167, 69, 0.1);
+            border-radius: 6px;
+            display: none;
+        }
+        
+        .form-error {
+            color: var(--danger);
+            margin: 15px 0;
+            padding: 10px;
+            background-color: rgba(220, 53, 69, 0.1);
+            border-radius: 6px;
+            display: none;
+        }
+
+        .form-submit {
+            background-color: var(--primary-color);
+            color: var(--white);
+            border: none;
+            padding: 12px 24px;
+            font-size: 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            width: 100%;
+            font-weight: 500;
+            transition: background-color 0.3s;
+        }
+
+        .form-submit:hover {
+            background-color: var(--primary-hover);
+        }
+
+        .form-submit:disabled {
+            background-color: #a9c6ff;
+            cursor: not-allowed;
+        }
+
+        .management-links {
+            margin-top: 25px;
+            text-align: center;
+        }
+
+        .back-link {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-size: 0.95em;
+            display: inline-flex;
+            align-items: center;
+            transition: color 0.3s;
+        }
+
+        .back-link:hover {
+            color: var(--primary-hover);
+            text-decoration: underline;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .management-container {
+                margin: 20px;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Auth component -->
+    <div id="auth-component" class="auth-component"></div>
+
+    <div class="management-container">
+        <h1 class="management-title">Account Management</h1>
+        
+        <div class="management-content">
+            <form id="password-form" class="password-form">
+                <div class="form-group">
+                    <label for="current-password">Current Password</label>
+                    <input type="password" id="current-password" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="new-password">New Password</label>
+                    <input type="password" id="new-password" required minlength="8">
+                    <div class="form-hint">Minimum 8 characters</div>
+                </div>
+
+                <div class="form-group">
+                    <label for="confirm-password">Confirm New Password</label>
+                    <input type="password" id="confirm-password" required>
+                    <div class="password-match" id="password-match"></div>
+                </div>
+
+                <div id="password-error" class="form-error"></div>
+                <div id="password-success" class="form-success"></div>
+
+                <button type="submit" class="form-submit">Update Password</button>
+            </form>
+        </div>
+
+        <div class="management-links">
+            <a href="/dashboard" class="back-link">← Back to Dashboard</a>
+        </div>
+    </div>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Check login status
+        checkLoginStatus();
+        
+        // Initialize form validation
+        initPasswordValidation();
+        
+        // Handle form submission
+        document.getElementById('password-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            updatePassword();
+        });
+    });
+
+    function checkLoginStatus() {
+        fetch('/api/user')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Unauthorized');
+                }
+                return response.json();
+            })
+            .catch(() => {
+                window.location.href = '/login?next=/management';
+            });
+    }
+
+    function initPasswordValidation() {
+        const newPassword = document.getElementById('new-password');
+        const confirmPassword = document.getElementById('confirm-password');
+        
+        function checkMatch() {
+            const matchElement = document.getElementById('password-match');
+            if (newPassword.value && confirmPassword.value) {
+                if (newPassword.value === confirmPassword.value) {
+                    matchElement.textContent = '✓ Passwords match';
+                    matchElement.style.color = '#28a745';
+                } else {
+                    matchElement.textContent = '✗ Passwords do not match';
+                    matchElement.style.color = '#dc3545';
+                }
+            }
+        }
+
+        newPassword.addEventListener('input', checkMatch);
+        confirmPassword.addEventListener('input', checkMatch);
+    }
+
+    function updatePassword() {
+        const formData = {
+            current: document.getElementById('current-password').value,
+            new: document.getElementById('new-password').value,
+            confirm: document.getElementById('confirm-password').value
+        };
+
+        // Frontend validation
+        if (formData.new !== formData.confirm) {
+            showError('New passwords do not match');
+            return;
+        }
+
+        if (formData.new.length < 8) {
+            showError('Password must be at least 8 characters');
+            return;
+        }
+
+        const submitBtn = document.querySelector('.form-submit');
+        submitBtn.disabled = true;
+        submitBtn.textContent = 'Updating...';
+
+        fetch('/api/update-password', {
+            method: 'PUT',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(formData)
+        })
+        .then(response => {
+            if (!response.ok) {
+                // Check response type
+                const contentType = response.headers.get('content-type');
+                if (contentType && contentType.includes('application/json')) {
+                    return response.json().then(err => { throw err; });
+                } else {
+                    // If not JSON, throw a general error
+                    throw new Error('Server returned an unexpected response');
+                }
+            }
+            return response.json();
+        })
+        .then(data => {
+            showSuccess('Password updated successfully!');
+            document.getElementById('password-form').reset();
+        })
+        .catch(err => {
+            console.error('Error:', err);
+            showError(err.message || err.error || 'Failed to update password');
+        })
+        .finally(() => {
+            submitBtn.disabled = false;
+            submitBtn.textContent = 'Update Password';
+        });
+    }
+
+    function showError(message) {
+        const errorEl = document.getElementById('password-error');
+        errorEl.textContent = message;
+        errorEl.style.display = 'block';
+        document.getElementById('password-success').style.display = 'none';
+    }
+
+    function showSuccess(message) {
+        const successEl = document.getElementById('password-success');
+        successEl.textContent = message;
+        successEl.style.display = 'block';
+        document.getElementById('password-error').style.display = 'none';
+    }
+    </script>
+</body>
+</html>

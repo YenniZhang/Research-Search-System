@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Research Search</title>
+    <link rel="stylesheet" href="/static/css/detail.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f5f5;
+            min-height: 100vh;
+        }
+        
+        .header {
+            background-color: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #007bff;
+            text-decoration: none;
+        }
+        
+        .user-container {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            position: relative;
+        }
+        
+        .user-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        
+        .user-dropdown {
+            position: absolute;
+            top: 100%;
+            right: 0;
+            margin-top: 10px;
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            display: none;
+            min-width: 180px;
+            z-index: 1001;
+        }
+        
+        .user-dropdown.show {
+            display: block;
+        }
+        
+        .user-email {
+            padding: 10px 15px;
+            border-bottom: 1px solid #eee;
+            font-size: 14px;
+            color: #666;
+            word-break: break-all;
+        }
+        
+        .dropdown-item {
+            padding: 10px 15px;
+            cursor: pointer;
+            color: #333;
+            text-decoration: none;
+            display: block;
+        }
+        
+        .dropdown-item:hover {
+            background-color: #f8f9fa;
+        }
+        
+        .dropdown-item.logout {
+            color: #dc3545;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        
+        .dashboard-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .dashboard-avatar {
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 24px;
+        }
+        
+        .dashboard-title {
+            flex-grow: 1;
+        }
+        
+        .dashboard-title h1 {
+            font-size: 24px;
+            margin-bottom: 0.5rem;
+        }
+        
+        .dashboard-title p {
+            color: #666;
+            font-size: 14px;
+        }
+        
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .card-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1rem;
+        }
+        
+        .grid-item {
+            background-color: #f9f9f9;
+            border-radius: 6px;
+            padding: 1rem;
+        }
+        
+        .grid-item h3 {
+            font-size: 16px;
+            margin-bottom: 0.5rem;
+        }
+        
+        .grid-item p {
+            color: #666;
+            font-size: 14px;
+        }
+        
+        .empty-state {
+            text-align: center;
+            padding: 2rem;
+            color: #666;
+        }
+        
+        /* Favorites section styles */
+        .favorites-container {
+            margin-top: 2rem;
+        }
+        
+        .favorite-item {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            position: relative;
+        }
+        
+        .favorite-item h3 {
+            font-size: 18px;
+            margin-bottom: 0.5rem;
+            padding-right: 30px; /* Space for remove button */
+        }
+        
+        .favorite-item p {
+            color: #666;
+            margin-bottom: 0.5rem;
+        }
+        
+        .favorite-item .meta {
+            display: flex;
+            justify-content: space-between;
+            font-size: 14px;
+            color: #888;
+            margin-top: 1rem;
+        }
+        
+        .remove-favorite {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background: none;
+            border: none;
+            color: #dc3545;
+            cursor: pointer;
+            font-size: 18px;
+            opacity: 0.7;
+            transition: opacity 0.2s;
+        }
+        
+        .remove-favorite:hover {
+            opacity: 1;
+        }
+        
+        .article-link {
+            color: #007bff;
+            text-decoration: none;
+        }
+        
+        .article-link:hover {
+            text-decoration: underline;
+        }
+        
+        .load-more {
+            display: block;
+            width: 100%;
+            padding: 0.75rem;
+            background-color: #f0f0f0;
+            border: none;
+            border-radius: 4px;
+            text-align: center;
+            cursor: pointer;
+            margin-top: 1rem;
+            color: #555;
+            transition: background-color 0.2s;
+        }
+        
+        .load-more:hover {
+            background-color: #e0e0e0;
+        }
+
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s, visibility 0.3s;
+        }
+
+        .modal-container {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            width: 90%;
+            max-width: 400px;
+            padding: 1.5rem;
+            transform: translateY(20px);
+            transition: transform 0.3s;
+        }
+
+        .modal-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .modal-overlay.active .modal-container {
+            transform: translateY(0);
+        }
+
+        .modal-header {
+            margin-bottom: 1rem;
+        }
+
+        .modal-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .modal-body {
+            margin-bottom: 1.5rem;
+            color: #555;
+        }
+
+        .modal-footer {
+            display: flex;
+            justify-content: flex-end;
+            gap: 0.75rem;
+        }
+
+        .modal-btn {
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            border: none;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background-color 0.2s;
+        }
+
+        .modal-btn-cancel {
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        .modal-btn-cancel:hover {
+            background-color: #e0e0e0;
+        }
+
+        .modal-btn-confirm {
+            background-color: #dc3545;
+            color: white;
+        }
+
+        .modal-btn-confirm:hover {
+            background-color: #c82333;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <a href="/" class="logo">Research Search</a>
+        <div class="user-container">
+            <div class="user-avatar" id="user-avatar">
+                <!-- Will be filled by JavaScript or server-side -->
+            </div>
+            <div class="user-dropdown" id="user-dropdown">
+                <div class="user-email" id="user-email"></div>
+                <a href="/dashboard" class="dropdown-item">Dashboard</a>
+                <a href="/settings" class="dropdown-item">Settings</a>
+                <a href="#" class="dropdown-item logout" id="logout-btn">Log out</a>
+            </div>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="dashboard-header">
+            <div class="dashboard-avatar" id="dashboard-avatar">
+                <!-- Will be filled by JavaScript or server-side -->
+            </div>
+            <div class="dashboard-title">
+                <h1>Welcome to your Dashboard</h1>
+                <p id="dashboard-email"><!-- Will be filled by JavaScript or server-side --></p>
+            </div>
+        </div>
+        
+        <!-- Favorites Section -->
+        <div class="card">
+            <h2 class="card-title">Your Favorites</h2>
+            <div id="favorites-container" class="favorites-container">
+                <div class="empty-state" id="favorites-empty-state">
+                    <p>You haven't favorited any articles yet</p>
+                </div>
+                <!-- Favorites will be loaded here -->
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2 class="card-title">Your Research Activity</h2>
+            <div class="grid">
+                <div class="grid-item">
+                    <h3>Recent Searches</h3>
+                    <p>No recent searches</p>
+                </div>
+                <div class="grid-item">
+                    <h3>Saved Papers</h3>
+                    <p>No saved papers</p>
+                </div>
+                <div class="grid-item">
+                    <h3>Reading List</h3>
+                    <p>Your reading list is empty</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2 class="card-title">Recommended for You</h2>
+            <div class="empty-state">
+                <p>Start searching to get personalized recommendations</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="confirm-modal">
+        <div class="modal-container">
+            <div class="modal-header">
+                <h3 class="modal-title">Confirm Removal</h3>
+            </div>
+            <div class="modal-body">
+                <p>Are you sure you want to remove this article from your favorites?</p>
+            </div>
+            <div class="modal-footer">
+                <button class="modal-btn modal-btn-cancel" id="modal-cancel">Cancel</button>
+                <button class="modal-btn modal-btn-confirm" id="modal-confirm">Remove</button>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Function to generate a color from email
+        function getColorFromEmail(email) {
+            let hash = 0;
+            for (let i = 0; i < email.length; i++) {
+                hash = email.charCodeAt(i) + ((hash << 5) - hash);
+            }
+            const hue = hash % 360;
+            return "hsl(" + hue + ", 65%, 50%)";
+        }
+        
+        // Function to load favorite articles
+        // Function to load favorite articles
+        function loadFavorites() {
+            const favoritesContainer = document.getElementById('favorites-container');
+            const emptyState = document.getElementById('favorites-empty-state');
+            
+            fetch('/api/favorites/details')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Failed to fetch favorites');
+                    }
+                    return response.json();
+                })
+                .then(favorites => {
+                    if (favorites.length === 0) {
+                        emptyState.style.display = 'block';
+                        return;
+                    }
+                    
+                    emptyState.style.display = 'none';
+                    
+                    // Clear existing content except empty state
+                    const existingItems = favoritesContainer.querySelectorAll('.favorite-item, .show-more-button');
+                    existingItems.forEach(item => item.remove());
+                    
+                    // Determine how many items to show initially
+                    const initialDisplayCount = 5;
+                    const hasMoreItems = favorites.length > initialDisplayCount;
+                    
+                    // Add each favorite
+                    favorites.forEach((favorite, index) => {
+                        const favoriteItem = document.createElement('div');
+                        favoriteItem.className = 'favorite-item';
+                        favoriteItem.dataset.favoriteId = favorite.favorite_id;
+                        favoriteItem.dataset.articleId = favorite.article_id;
+                        
+                        // Hide items beyond the initial display count
+                        if (index >= initialDisplayCount) {
+                            favoriteItem.style.display = 'none';
+                            favoriteItem.classList.add('hidden-favorite');
+                        }
+                        
+                        // Format date
+                        const publishedDate = favorite.published_date 
+                            ? new Date(favorite.published_date).toLocaleDateString('en-GB') 
+                            : 'Unknown date';
+                        
+                        // Create HTML content
+                        favoriteItem.innerHTML = `
+                            <h3>
+                                <a href="/article/${favorite.article_id}" class="article-link">${favorite.title}</a>
+                            </h3>
+                            <p><strong>Authors:</strong> ${favorite.authors || 'Unknown'}</p>
+                            <p>${favorite.abstract ? favorite.abstract.substring(0, 200) + '...' : 'No abstract available'}</p>
+                            <div class="meta">
+                                <span>Published: ${publishedDate}</span>
+                            </div>
+                            <button class="remove-favorite" title="Remove from favorites">❌</button>
+                        `;
+                        
+                        // Add event listener for remove button
+                        const removeButton = favoriteItem.querySelector('.remove-favorite');
+                        removeButton.addEventListener('click', function() {
+                            showConfirmModal(favorite.article_id, favoriteItem);
+                        });
+                        
+                        favoritesContainer.appendChild(favoriteItem);
+                    });
+                    
+                    // Add "Show more" button with arrow if there are more than 5 favorites
+                    if (hasMoreItems) {
+                        const showMoreButton = document.createElement('div');
+                        showMoreButton.className = 'show-more-button';
+                        showMoreButton.style.cssText = 'text-align: right; margin-top: 10px; cursor: pointer; user-select: none;';
+                        
+                        // Create the arrow icon with rotation styles
+                        showMoreButton.innerHTML = `
+                            <span class="show-more-text" style="margin-right: 5px; font-size: 14px;">Show more</span>
+                            <span class="arrow-icon" style="display: inline-block; transition: transform 0.3s ease;">▼</span>
+                        `;
+                        
+                        // Add event listener for show more/less toggle
+                        let expanded = false;
+                        showMoreButton.addEventListener('click', function() {
+                            const hiddenItems = favoritesContainer.querySelectorAll('.hidden-favorite');
+                            const arrowIcon = showMoreButton.querySelector('.arrow-icon');
+                            const showMoreText = showMoreButton.querySelector('.show-more-text');
+                            
+                            expanded = !expanded;
+                            
+                            // Toggle visibility of hidden items
+                            hiddenItems.forEach(item => {
+                                item.style.display = expanded ? 'block' : 'none';
+                            });
+                            
+                            // Rotate arrow and update text
+                            arrowIcon.style.transform = expanded ? 'rotate(180deg)' : '';
+                            showMoreText.textContent = expanded ? 'Show less' : 'Show more';
+                        });
+                        
+                        favoritesContainer.appendChild(showMoreButton);
+                    }
+                })
+                .catch(error => {
+                    console.error('Error loading favorites:', error);
+                    emptyState.innerHTML = '<p>Error loading favorites. Please try again later.</p>';
+                    emptyState.style.display = 'block';
+                });
+        }
+
+        // Variables to store the article being removed
+        let articleIdToRemove = null;
+        let elementToRemove = null;
+
+        // Function to show the confirmation modal
+        function showConfirmModal(articleId, element) {
+            // Store the article ID and element for later use
+            articleIdToRemove = articleId;
+            elementToRemove = element;
+            
+            // Show the modal
+            const modal = document.getElementById('confirm-modal');
+            modal.classList.add('active');
+        }
+
+        // Function to proceed with removal after confirmation
+        function proceedWithRemoval() {
+            if (!articleIdToRemove || !elementToRemove) return;
+            
+            // Log the article ID being removed for debugging
+            console.log('Removing article ID:', articleIdToRemove);
+            
+            fetch(`/api/unfavorite/${articleIdToRemove}`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                credentials: 'same-origin'
+            })
+            .then(response => {
+                // Log the response status for debugging
+                console.log('Response status:', response.status);
+                
+                if (response.status === 401) {
+                    alert('Your session has expired. Please log in again.');
+                    window.location.href = '/login';
+                    return Promise.reject('Authentication error');
+                }
+                
+                if (!response.ok) {
+                    return response.json().then(data => {
+                        throw new Error(data.message || 'Failed to remove favorite');
+                    });
+                }
+                
+                // Handle 204 No Content response
+                if (response.status === 204) {
+                    return { success: true }; // Return mock success object
+                }
+                
+                // For 200 OK responses, try to parse JSON
+                // If parsing fails (e.g., empty response), return a success object
+                return response.json().catch(() => ({ success: true }));
+            })
+            .then(data => {
+                // Log success data for debugging
+                console.log('Success removing favorite:', data);
+                
+                // Show success message
+                const successMessage = document.createElement('div');
+                successMessage.style.position = 'fixed';
+                successMessage.style.top = '20px';
+                successMessage.style.left = '50%';
+                successMessage.style.transform = 'translateX(-50%)';
+                successMessage.style.backgroundColor = '#4CAF50';
+                successMessage.style.color = 'white';
+                successMessage.style.padding = '10px 20px';
+                successMessage.style.borderRadius = '5px';
+                successMessage.style.zIndex = '9999';
+                successMessage.textContent = 'Favorite removed successfully! Refreshing...';
+                document.body.appendChild(successMessage);
+                
+                // Refresh the page after a short delay
+                setTimeout(() => {
+                    window.location.reload();
+                }, 1500);
+            })
+            .catch(error => {
+                // Log and display error
+                console.error('Error removing favorite:', error);
+                alert('Failed to remove favorite. Please try again.');
+            });
+        }
+        
+        // Function to close the modal without removing the favorite
+        function closeConfirmModal() {
+            const modal = document.getElementById('confirm-modal');
+            modal.classList.remove('active');
+            
+            // Reset the stored values
+            articleIdToRemove = null;
+            elementToRemove = null;
+        }
+
+        // Add event listeners for the modal buttons
+        document.getElementById('modal-confirm').addEventListener('click', function() {
+            proceedWithRemoval();
+            closeConfirmModal();
+        });
+
+        document.getElementById('modal-cancel').addEventListener('click', closeConfirmModal);
+
+        // Close modal when clicking outside
+        document.getElementById('confirm-modal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeConfirmModal();
+            }
+        });
+        
+        // Check if user is logged in
+        function checkUserLogin() {
+            // Get email from server-side rendered data or fetch from API
+            const userEmailElement = document.getElementById('user-email');
+            const email = userEmailElement.textContent || '';
+            
+            if (email) {
+                // Set up user avatar and email
+                const userAvatar = document.getElementById('user-avatar');
+                const dashboardAvatar = document.getElementById('dashboard-avatar');
+                const dashboardEmail = document.getElementById('dashboard-email');
+                
+                // Set avatar color and text
+                const avatarColor = getColorFromEmail(email);
+                const avatarText = email.charAt(0).toUpperCase();
+                
+                userAvatar.style.backgroundColor = avatarColor;
+                userAvatar.textContent = avatarText;
+                
+                dashboardAvatar.style.backgroundColor = avatarColor;
+                dashboardAvatar.textContent = avatarText;
+                
+                // Set email text if not already set
+                if (!dashboardEmail.textContent) {
+                    dashboardEmail.textContent = email;
+                }
+                
+                return true;
+            }
+            
+            // If we're on the dashboard page but not logged in, redirect to login
+            if (window.location.pathname === '/dashboard') {
+                window.location.href = '/login';
+                return false;
+            }
+            
+            return false;
+        }
+        
+        // Toggle dropdown on avatar click
+        document.getElementById('user-avatar').addEventListener('click', function(e) {
+            e.stopPropagation();
+            document.getElementById('user-dropdown').classList.toggle('show');
+        });
+        
+        // Handle logout click
+        document.getElementById('logout-btn').addEventListener('click', function(e) {
+            e.preventDefault();
+            
+            fetch('/logout', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            })
+            .then(response => {
+                if (response.ok) {
+                    window.location.href = '/';
+                }
+            })
+            .catch(error => {
+                console.error('Error logging out:', error);
+            });
+        });
+        
+        // Hide dropdown when clicking outside
+        document.addEventListener('click', function(e) {
+            const dropdown = document.getElementById('user-dropdown');
+            const avatar = document.getElementById('user-avatar');
+            
+            if (!avatar.contains(e.target) && !dropdown.contains(e.target)) {
+                dropdown.classList.remove('show');
+            }
+        });
+        
+        // Initialize on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            // Try to get user data from server-side rendered elements
+            const userEmailElement = document.getElementById('user-email');
+            
+            // If email is already set by server-side rendering
+            if (userEmailElement.textContent) {
+                checkUserLogin();
+                loadFavorites(); // Load favorites after confirming login
+            } else {
+                // Otherwise fetch user data from API
+                fetch('/api/user')
+                    .then(response => {
+                        if (response.ok) {
+                            return response.json();
+                        }
+                        throw new Error('Not logged in');
+                    })
+                    .then(userData => {
+                        userEmailElement.textContent = userData.email;
+                        document.getElementById('dashboard-email').textContent = userData.email;
+                        checkUserLogin();
+                        loadFavorites(); // Load favorites after getting user data
+                    })
+                    .catch(error => {
+                        console.error('Error fetching user data:', error);
+                        if (window.location.pathname === '/dashboard') {
+                            window.location.href = '/login';
+                        }
+                    });
+            }
+        });
+    </script>
+
+</body>
+</html>
+
