@@ -1,0 +1,225 @@
+CREATE TABLE articles (
+    id INT AUTO_INCREMENT PRIMARY KEY,  -- 文章唯一ID，自动增长
+    title VARCHAR(255) NOT NULL,        -- 文章标题
+    content TEXT NOT NULL,              -- 文章内容
+    abstract TEXT,                      -- 文章摘要
+    reference TEXT,                     -- 文章参考文献
+    url VARCHAR(255),                   -- 文章相关网址链接
+    published_date DATE                 -- 文章发布日期
+);
+
+CREATE TABLE authors (
+    id INT AUTO_INCREMENT PRIMARY KEY,  -- 作者唯一ID，自动增长
+    full_name VARCHAR(255) NOT NULL,    -- 作者的全名
+    INDEX (full_name)                   -- 对 full_name 建立索引以优化搜索
+);
+
+CREATE TABLE article_authors (
+    article_id INT,                     -- 文章ID，外键
+    author_id INT,                      -- 作者ID，外键
+    PRIMARY KEY (article_id, author_id), -- 组合主键：确保每篇文章与作者的关系唯一
+    FOREIGN KEY (article_id) REFERENCES articles(id) ON DELETE CASCADE,  -- 外键约束，删除文章时删除对应关系
+    FOREIGN KEY (author_id) REFERENCES authors(id) ON DELETE CASCADE   -- 外键约束，删除作者时删除对应关系
+);
+
+
+
+CREATE TABLE author_profile (
+    author_id INT PRIMARY KEY,          -- 作者ID，独立字段
+    full_name VARCHAR(255) NOT NULL,    -- 作者的全名
+    bio TEXT,                           -- 作者简介
+    email VARCHAR(255),            -- Email
+    workplace VARCHAR(255),             -- 工作地点
+    job VARCHAR(255),                   -- 职位
+    research VARCHAR(255),             -- 研究方向的ID编号（建议进一步优化）
+    reference INT,                     -- 参考资料或引用关系
+    article_number INT,                  -- 发表文章的数量
+    influence DECIMAL(10, 2)             -- 影响力（带小数）
+);
+
+
+ALTER TABLE author_profile 
+MODIFY COLUMN reference INT DEFAULT 0,
+MODIFY COLUMN article_number INT DEFAULT 0,
+MODIFY COLUMN influence INT DEFAULT 0;
+
+
+
+
+CREATE TABLE correlation (
+    author1_id INT,
+    author2_id INT,
+    PRIMARY KEY (author1_id, author2_id),
+    FOREIGN KEY (author1_id) REFERENCES author_profile(author_id),
+    FOREIGN KEY (author2_id) REFERENCES author_profile(author_id)
+);
+
+
+
+
+SET SESSION sql_mode = (SELECT REPLACE(@@sql_mode, 'ONLY_FULL_GROUP_BY', ''));
+
+
+
+以下是如何删除所有索引并重新创建所需索引的步骤：
+
+### 1. 删除所有现有索引
+
+首先，我们需要删除所有表上的索引。对于每个表，可以删除除主键索引之外的其他索引。
+
+#### 示例：删除所有索引的 SQL（除了主键索引）
+
+```sql
+-- 删除 articles 表上的索引（除了主键）
+ALTER TABLE articles DROP INDEX title;
+ALTER TABLE articles DROP INDEX ft_articles_title;
+ALTER TABLE articles DROP INDEX ft_articles_content;
+ALTER TABLE articles DROP INDEX published_date;
+
+-- 删除 authors 表上的索引（除了主键）
+ALTER TABLE authors DROP INDEX full_name;
+ALTER TABLE authors DROP INDEX idx_authors_name;
+ALTER TABLE authors DROP INDEX ft_authors_full_name;
+
+-- 删除 article_authors 表上的索引（除了主键）
+ALTER TABLE article_authors DROP INDEX author_id;
+ALTER TABLE article_authors DROP INDEX article_id;
+
+-- 删除 author_profile 表上的索引（除了主键）
+ALTER TABLE author_profile DROP INDEX author_id;
+```
+
+**注意**：这些命令假设索引名称与您查询到的名称相同。删除索引时，您需要确保不会删除主键索引（如 `PRIMARY`），因此只删除了其他的普通索引和全文索引。
+
+### 2. 重新创建所需的索引
+
+然后，您可以根据需要重新创建这些索引。
+
+#### 1) **为 `articles` 表创建所需的索引**：
+- 为 `title` 列创建全文索引
+- 为 `content` 列创建全文索引
+- 为 `published_date` 列创建普通索引
+
+```sql
+-- 创建 title 列的全文索引
+ALTER TABLE articles ADD FULLTEXT(title);
+
+-- 创建 content 列的全文索引
+ALTER TABLE articles ADD FULLTEXT(content);
+
+-- 创建 published_date 列的普通索引
+ALTER TABLE articles ADD INDEX(published_date);
+```
+
+#### 2) **为 `authors` 表创建所需的索引**：
+- 为 `full_name` 列创建全文索引
+
+```sql
+-- 创建 full_name 列的全文索引
+ALTER TABLE authors ADD FULLTEXT(full_name);
+```
+
+#### 3) **为 `article_authors` 表创建所需的索引**：
+- 为 `author_id` 列和 `article_id` 列创建普通索引
+
+```sql
+-- 为 author_id 列创建普通索引
+ALTER TABLE article_authors ADD INDEX(author_id);
+
+-- 为 article_id 列创建普通索引
+ALTER TABLE article_authors ADD INDEX(article_id);
+```
+
+#### 4) **为 `author_profile` 表创建所需的索引**：
+- 为 `author_id` 列创建普通索引
+
+```sql
+-- 为 author_id 列创建普通索引
+ALTER TABLE author_profile ADD INDEX(author_id);
+```
+
+### 3. 检查索引是否成功创建
+
+在删除和重新创建索引后，您可以再次运行以下查询来验证索引是否已成功创建：
+
+```sql
+SELECT DISTINCT index_name, table_name
+FROM information_schema.statistics
+WHERE table_schema = DATABASE();
+```
+
+这样，您就能够确保所有的索引已正确创建并生效。
+
+### 小结：
+- 删除现有索引（除了主键索引）。
+- 重新创建所需的全文索引和普通索引。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- 用户表
+CREATE TABLE users (
+    id VARCHAR(255) PRIMARY KEY,   -- id 作为主键
+    email VARCHAR(320) UNIQUE NOT NULL, -- 改为 VARCHAR(320)，符合邮箱最大长度
+    password VARCHAR(255) NOT NULL, -- 改为 VARCHAR(255)
+    salt VARCHAR(255) NOT NULL,     -- 改为 VARCHAR(255)
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+
+-- 用户配置文件表
+CREATE TABLE profiles (
+    user_id VARCHAR(255) PRIMARY KEY,
+    username VARCHAR(100) UNIQUE, -- 改为 VARCHAR(100)
+    full_name VARCHAR(255),       -- 改为 VARCHAR(255)
+    avatar_url VARCHAR(2083),     -- 适合存储 URL（符合 RFC 规范）
+    updated_at TIMESTAMP,
+    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+);
+
+-- 保存的搜索表
+CREATE TABLE saved_searches (
+    id VARCHAR(255) PRIMARY KEY,
+    user_id VARCHAR(255) NOT NULL,
+    query TEXT NOT NULL,
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+);
+
+-- 搜索历史表
+CREATE TABLE search_history (
+    id VARCHAR(255) PRIMARY KEY,
+    user_id VARCHAR(255) NOT NULL,
+    query TEXT NOT NULL,
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+);
+
+
+-- 收藏表
+CREATE TABLE IF NOT EXISTS favorites (
+            id VARCHAR(255) PRIMARY KEY,
+            user_id VARCHAR(255) NOT NULL,
+            article_id VARCHAR(255) NOT NULL,
+            created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+            FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
+            UNIQUE KEY (user_id, article_id)
+        );
