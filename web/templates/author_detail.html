@@ -89,7 +89,7 @@
         </div>
 
 
-        <!-- 在作者信息部分显示合并信息 -->
+        <!-- Displays merge information in the author information section -->
         <div class="merge-notice">
             {% if author.related_authors_count > 1 %}
             <div class="alert info">
@@ -98,7 +98,7 @@
             {% endif %}
         </div>
 
-        <!-- 在文章列表显示合并来源 -->
+        <!-- Show the merged source in the article list -->
         {% for article in articles %}
         <div class="article-item">
             <span class="merged-from">

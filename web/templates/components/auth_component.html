@@ -210,7 +210,7 @@
 }
 
 .form-group input {
-    width: 60%;
+    width: 70%;
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -218,7 +218,7 @@
 }
 
 .form-submit {
-    width: 60%;
+    width: 70%;
     padding: 12px;
     background-color: #007bff;
     color: white;
@@ -333,7 +333,7 @@ function checkUserLogin() {
                     </div>
                     <div class="user-dropdown" id="user-dropdown">
                         <div class="user-email">${userData.email}</div>
-                        <a href="/library" class="dropdown-item">Library</a>
+                        <a href="/dashboard" class="dropdown-item">Dashboard</a>
                         <a href="/management" class="dropdown-item">Management</a>
                         <a href="#" class="dropdown-item logout" id="logout-btn">Logout</a>
                     </div>
@@ -498,10 +498,10 @@ function initModalListeners() {
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ email, password })
         })
-        .then(response => response.json().catch(() => ({}))) // 处理非JSON响应
+        .then(response => response.json().catch(() => ({}))) // Handling non-JSON responses
         .then(data => {
             if (data.message === 'Login successful') {
-                window.location.href = data.redirect || '/library'; // 强制跳转
+                window.location.href = data.redirect || '/dashboard'; // Forced jump
             } else {
                 throw new Error(data.message || 'Login failed');
             }
@@ -518,18 +518,17 @@ function initModalListeners() {
     });
 
     // Handle signup form submission
-    // 注册表单提交处理（增强版）
     document.getElementById('signup-form').addEventListener('submit', async (e) => {
         e.preventDefault();
         const form = e.target;
         const submitBtn = form.querySelector('.form-submit');
         const errorEl = document.getElementById('signup-error');
         
-        // 保存原始按钮状态
+        // Save the original button state
         const originalText = submitBtn.textContent;
         const originalHtml = submitBtn.innerHTML;
         
-        // 初始化状态
+        // Initialization state
         errorEl.style.display = 'none';
         submitBtn.disabled = true;
         submitBtn.innerHTML = `
@@ -538,28 +537,28 @@ function initModalListeners() {
         `;
 
         try {
-            // 获取表单数据
+            // Get form data
             const email = document.getElementById('signup-email').value.trim();
             const password = document.getElementById('signup-password').value;
             const confirm = document.getElementById('signup-confirm').value;
 
-            // 客户端验证
+            // Client authentication
             const validationError = validateSignupForm(email, password, confirm);
             if (validationError) {
                 throw new Error(validationError);
             }
 
-            // 发送请求
-            const response = await fetch('/signup', {
+            // Send request
+            const response = await fetch('/signup' , {
                 method: 'POST',
                 headers: { 
                     'Content-Type': 'application/json',
-                    'X-Requested-With': 'XMLHttpRequest' // 标识 AJAX 请求
+                    'X-Requested-With': 'XMLHttpRequest' // Identifying AJAX requests
                 },
                 body: JSON.stringify({ email, password })
             });
 
-            // 处理 HTTP 状态码
+            // Processing HTTP status codes
             if (!response.ok) {
                 const errorData = await response.json().catch(() => ({
                     message: `HTTP Error: ${response.status}`
@@ -567,31 +566,31 @@ function initModalListeners() {
                 throw new Error(errorData.message || 'Registration failed');
             }
 
-            // 处理成功响应
+            // Processing successful response
             const data = await response.json();
             
-            // 延迟跳转以显示成功状态
+            // Delay jump to show success status
             setTimeout(() => {
                 window.location.href = data.redirect || '/login';
             }, 1500);
 
-            // 显示临时成功状态
+            // Displays temporary success status
             submitBtn.innerHTML = `
                 <span class="checkmark">✓</span>
                 Success!
             `;
 
         } catch (error) {
-            // 错误处理
+            // Error handling
             errorEl.textContent = error.message;
             errorEl.style.display = 'block';
             
-            // 抖动动画提示
+            // Jitter animation hint
             form.classList.add('shake');
             setTimeout(() => form.classList.remove('shake'), 500);
             
         } finally {
-            // 状态恢复
+            // State recovery
             setTimeout(() => {
                 submitBtn.disabled = false;
                 submitBtn.textContent = originalText;
@@ -600,7 +599,7 @@ function initModalListeners() {
         }
     });
 
-    // 表单验证函数
+    // Form validation function
     function validateSignupForm(email, password, confirm) {
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         
@@ -619,7 +618,7 @@ function initModalListeners() {
         return null;
     }
 
-    // 添加 CSS 动画
+    // Add CSS animation
     const style = document.createElement('style');
     style.textContent = `
         .shake {
@@ -748,5 +747,4 @@ function initFavoriteFeature() {
         });
 }
 </script>
-
 

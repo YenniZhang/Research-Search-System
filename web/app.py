@@ -755,7 +755,7 @@ def signup():
 
         db.commit()
         logging.debug("Signup successful")
-        return jsonify({'message': 'Signup successful', 'redirect': '/login'})
+        return jsonify({'message': 'Signup successful', 'redirect': '/'})
 
     except Exception as e:
         logging.error(f"Error creating account: {str(e)}", exc_info=True)
@@ -1036,13 +1036,13 @@ def include_auth(template_name):
         return True
     return False
 
-@app.route('/management')
+@app.route('/library')
 @login_required
 def management_page():
-    """Renders the management.html page."""
+    """Renders the library.html page."""
     if 'user_id' not in session:
-        return redirect(url_for('login', redirect='/management'))
-    return render_template('management.html')
+        return redirect(url_for('login', redirect='/library'))
+    return render_template('libraryt.html')
 
 # 添加这个新的 API 路由用于密码更新
 @app.route('/api/update-password', methods=['PUT'])

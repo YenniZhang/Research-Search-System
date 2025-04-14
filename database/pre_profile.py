@@ -370,30 +370,30 @@ button_frame = ttk.Frame(control_frame)
 button_frame.pack(side=tk.RIGHT)
 
 # Create buttons using the defined style
-import_btn = tk.Button(button_frame, text="Import from authors", 
+import_btn = ttk.Button(button_frame, text="Import from authors", 
                       command=import_authors)
 import_btn.pack(side=tk.LEFT, padx=5)
 
-run_delete_button = tk.Button(button_frame, text="Auto Check", 
+run_delete_button = ttk.Button(button_frame, text="Auto Check", 
                               command=run_autocheck_script)
 run_delete_button.pack(side=tk.LEFT, padx=5)
 
 
-refresh_btn = tk.Button(button_frame, text="Refresh Data",
+refresh_btn = ttk.Button(button_frame, text="Refresh Data",
                        command=display_data)
 refresh_btn.pack(side=tk.LEFT, padx=5)
 
-edit_btn = tk.Button(button_frame, text="Edit", 
+edit_btn = ttk.Button(button_frame, text="Edit", 
                     command=edit_selected)
 edit_btn.pack(side=tk.LEFT, padx=5)
 
 
-run_delete_button = tk.Button(button_frame, text="Add CSV", 
+run_delete_button = ttk.Button(button_frame, text="Add CSV", 
                               command=run_addcsv_script)
 run_delete_button.pack(side=tk.LEFT, padx=5)
 
 
-run_delete_button = tk.Button(button_frame, text="Delete", 
+run_delete_button = ttk.Button(button_frame, text="Delete", 
                               command=run_delete_script)
 run_delete_button.pack(side=tk.LEFT, padx=5)
 
