@@ -1,20 +1,48 @@
-import csv
-import json
+import pandas as pd
 import mysql.connector
+import os
+import json
+import tkinter as tk
+from tkinter import filedialog
 from mysql.connector import Error
-from tkinter import Tk, filedialog, messagebox
 
-def connect_to_db():
-    """ Connect to MySQL database using selected_config.json """
+def read_csv_with_fallback(file_path):
+    """Attempt to read CSV with multiple encodings to handle encoding issues."""
+    encodings = ['utf-8', 'gbk', 'ISO-8859-1']
+    for enc in encodings:
+        try:
+            return pd.read_csv(file_path, encoding=enc)
+        except UnicodeDecodeError:
+            continue
+    raise ValueError("Failed to read CSV with tried encodings.")
+
+def safe_value(val, val_type=None):
+    """Sanitize values and convert to appropriate types, handling missing data."""
+    if pd.isna(val) or val == "fail":
+        return None
+    if val_type == "int":
+        try:
+            return int(val)
+        except:
+            return None
+    if val_type == "float":
+        try:
+            return float(val)
+        except:
+            return None
+    return str(val).strip() if isinstance(val, str) else val
+
+def connect_db():
+    """Establish MySQL connection using config from selected_config.json."""
     try:
         with open('selected_config.json', 'r') as file:
             config = json.load(file)
         
+        # Validate required configuration parameters
         required_keys = ["host", "database", "user", "password"]
         for key in required_keys:
             if key not in config or not config[key].strip():
-                messagebox.showerror("Error", f"Missing or empty field in config: {key}")
-                return None
+                raise ValueError(f"Missing required config key: {key}")
         
         return mysql.connector.connect(
             host=config["host"],
@@ -22,101 +50,102 @@ def connect_to_db():
             user=config["user"],
             password=config["password"]
         )
-    except (FileNotFoundError, json.JSONDecodeError) as e:
-        messagebox.showerror("Error", f"Config file error: {e}")
-        return None
-    except mysql.connector.Error as err:
-        messagebox.showerror("Database Error", f"Connection failed: {err}")
+    except Exception as e:
+        print(f"Database connection error: {str(e)}")
         return None
 
-def process_csv(conn, csv_filepath):
-    """ Process CSV file by column position """
-    cursor = conn.cursor()
+def get_author_id_by_name(cursor, name):
+    """Retrieve author_id by full name, handling potential duplicates."""
+    query = "SELECT author_id FROM author_profile WHERE full_name = %s"
+    cursor.execute(query, (name,))
+    results = cursor.fetchall()
     
-    with open(csv_filepath, 'r', newline='', encoding='utf-8') as csvfile:
-        reader = csv.reader(csvfile)  # Use regular reader to read by column index
-        
-        # Skip the header row (if present)
-        next(reader, None)
-        
-        for row_num, row in enumerate(reader, 1):
-            try:
-                # Extract data by column index (based on table definition)
-                # Column index mapping: A=0, B=1, C=2, D=3, E=4, F=5, G=6, H=7
-                csv_name = row[0].strip().lower()  # Column A: full_name
-                bio = row[1].strip()               # Column B: bio
-                email = row[2].strip()             # Column C: email
-                workplace = row[3].strip()         # Column D: workplace
-                job = row[4].strip()               # Column E: job
-                research = row[5].strip()          # Column F: research
-                reference = row[6].strip()         # Column G: reference
-                article_num = row[7].strip()       # Column H: article_num influence (assuming a single value)
-                # Ignore columns I/J
-                
-                # Query existing database records
-                cursor.execute("""
-                    SELECT author_id, full_name, bio, email, workplace, job, research, reference, article_number, influence 
-                    FROM author_profile WHERE LOWER(TRIM(full_name)) = %s
-                """, (csv_name,))
-                result = cursor.fetchone()
-                
-                if result:
-                    author_id = result[0]
-                    current_data = list(result[1:])  # Convert to list for easy modification
-                    
-                    # Update columns (retain original value if new value is empty)
-                    update_data = [
-                        row[0].strip() or current_data[0],  # full_name
-                        bio or current_data[1],              # bio
-                        email or current_data[2],            # email
-                        workplace or current_data[3],        # workplace
-                        job or current_data[4],              # job
-                        research or current_data[5],         # research
-                        int(reference) if reference else current_data[6],  # reference
-                        int(article_num) if article_num else current_data[7],  # article_number
-                        current_data[8],  # influence (not in CSV, retain original value)
-                        author_id
-                    ]
-                    
-                    # Execute update query
-                    cursor.execute("""
-                        UPDATE author_profile SET
-                            full_name = %s, bio = %s, email = %s, workplace = %s,
-                            job = %s, research = %s, reference = %s, article_number = %s, influence = %s
-                        WHERE author_id = %s
-                    """, update_data)
-                    print(f"Row {row_num}: Updated author ID {author_id}")
-                else:
-                    print(f"Row {row_num}: No matching author: {csv_name}")
-                    
-            except IndexError:
-                print(f"Row {row_num}: Insufficient columns, skipping")
-            except ValueError as e:
-                print(f"Row {row_num}: Data format error - {e}")
-            except Exception as e:
-                print(f"Row {row_num}: Unknown error - {e}")
-    
-    conn.commit()
+    if not results:
+        return None
+    elif len(results) == 1:
+        return results[0][0]
+    else:
+        print(f"[Warning] Multiple entries found for {name}, using first ID: {results[0][0]}")
+        return results[0][0]
 
-def browse_file():
-    """ Open file dialog to select a CSV file """
-    root = Tk()
-    root.withdraw()
-    file_path = filedialog.askopenfilename(title="Select CSV File", filetypes=[("CSV files", "*.csv")])
+def select_csv_file():
+    """Open file dialog to select CSV file and return path."""
+    root = tk.Tk()
+    root.withdraw()  # Hide the main window
+    file_path = filedialog.askopenfilename(
+        title="Select CSV File",
+        filetypes=[("CSV files", "*.csv"), ("All files", "*.*")]
+    )
+    root.destroy()
     return file_path
 
-if __name__ == '__main__':
-    csv_path = browse_file()
-    if not csv_path:
+def main():
+    # Select CSV file through GUI dialog
+    file_path = select_csv_file()
+    if not file_path:
         print("No file selected. Exiting.")
-        exit()
+        return
+
+    # Read and preprocess CSV data
+    try:
+        df = read_csv_with_fallback(file_path)
+        df.replace("fail", None, inplace=True)
+    except Exception as e:
+        print(f"Error processing CSV file: {str(e)}")
+        return
+
+    # Establish database connection
+    conn = connect_db()
+    if not conn:
+        return
     
-    conn = connect_to_db()
-    if conn:
+    cursor = conn.cursor()
+    update_sql = """
+    UPDATE author_profile SET
+        bio = %s, email = %s, workplace = %s, job = %s,
+        research = %s, reference = %s, article_number = %s, influence = %s
+    WHERE author_id = %s
+    """
+
+    # Process each row and update database
+    update_count = 0
+    for _, row in df.iterrows():
+        name = safe_value(row.get('full_name'))
+        if not name:
+            print("Skipping row with missing name")
+            continue
+
+        author_id = get_author_id_by_name(cursor, name)
+        if not author_id:
+            print(f"[Skip] Author not found in database: {name}")
+            continue
+
+        # Prepare parameter values with type safety
+        params = (
+            safe_value(row.get('bio')),
+            safe_value(row.get('email')),
+            safe_value(row.get('workplace')),
+            safe_value(row.get('job')),
+            safe_value(row.get('research')),
+            None,  # reference field intentionally left blank
+            safe_value(row.get('article_number'), 'int'),
+            safe_value(row.get('influence'), 'float'),
+            author_id
+        )
+
         try:
-            process_csv(conn, csv_path)
-            print("CSV import completed!")
-        finally:
-            conn.close()
-    else:
-        print("Failed to establish database connection")
+            cursor.execute(update_sql, params)
+            update_count += 1
+            print(f"Updated {name} (ID: {author_id})")
+        except Error as e:
+            print(f"Update failed for {name}: {str(e)}")
+            conn.rollback()  # Rollback on individual failure
+
+    # Finalize database operations
+    conn.commit()
+    cursor.close()
+    conn.close()
+    print(f"✅ Update complete. {update_count}/{len(df)} records processed.")
+
+if __name__ == "__main__":
+    main()
