@@ -51,7 +51,7 @@ def parse_date(date_str):
         return None  # Return NULL if parsing fails
 
 def load_csv_data(csv_file_path, batch_size=500):
-    """ Load data from a CSV file and insert it into the MySQL database in batches. """
+    """ Load data from CSV into MySQL with title duplicate check. """
     connection = create_connection()
     if not connection:
         return
@@ -59,20 +59,24 @@ def load_csv_data(csv_file_path, batch_size=500):
     cursor = None
     try:
         cursor = connection.cursor()
-        article_authors_batch = []  # Store batch inserts for article-author relationships
+        article_authors_batch = []
         processed_rows = 0
 
         with open(csv_file_path, 'r', encoding='utf-8') as file:
             csv_reader = csv.reader(file)
-            headers = next(csv_reader)  # Read the CSV header
-            published_date_idx = headers.index("date")  # Find the index of the date column
+            headers = next(csv_reader)
+            published_date_idx = headers.index("date")
 
             for row_idx, row in enumerate(csv_reader):
-                # Parse and format the published_date column
-                published_date = parse_date(row[published_date_idx])
+                title = row[0]
+                # 检查标题是否已存在
+                cursor.execute("SELECT id FROM articles WHERE title = %s", (title,))
+                if cursor.fetchone():
+                    print(f"Skipping duplicate title: {title}")
+                    continue  # 跳过重复标题
 
-                # Insert the article data
-                article_data = (row[0], row[1], row[2], row[3], row[4], published_date)
+                published_date = parse_date(row[published_date_idx])
+                article_data = (title, row[1], row[2], row[3], row[4], published_date)
                 cursor.execute(
                     """INSERT INTO articles 
                     (title, content, abstract, reference, url, published_date)
@@ -81,41 +85,37 @@ def load_csv_data(csv_file_path, batch_size=500):
                 )
                 article_id = cursor.lastrowid
 
-                # Process authors (assuming they are in the last column)
+                # 处理作者信息（原有逻辑）
                 authors_str = row[-1]
                 for author_name in authors_str.split(','):
                     author_name = author_name.strip()
                     if not author_name:
                         continue
 
-                    # Insert author data (only full_name)
                     cursor.execute(
                         """INSERT INTO authors 
                         (full_name)
                         VALUES (%s)
-                        ON DUPLICATE KEY UPDATE
-                        full_name=VALUES(full_name)""",
+                        ON DUPLICATE KEY UPDATE full_name=VALUES(full_name)""",
                         (author_name,)
                     )
-                    author_id = cursor.lastrowid if cursor.lastrowid != 0 else \
-                        cursor.execute("SELECT LAST_INSERT_ID()").fetchone()[0]
-
-                    # Store the article-author relationship for batch insertion
+                    # 获取作者ID（新增或已存在）
+                    cursor.execute("SELECT id FROM authors WHERE full_name = %s", (author_name,))
+                    author_id = cursor.fetchone()[0]
                     article_authors_batch.append((article_id, author_id))
 
-                # Batch processing: Insert every 'batch_size' rows
+                # 批量提交逻辑（保持原有）
                 processed_rows += 1
                 if processed_rows % batch_size == 0:
                     cursor.executemany(
-                        """INSERT INTO article_authors 
-                        (article_id, author_id) VALUES (%s, %s)""",
+                        "INSERT INTO article_authors (article_id, author_id) VALUES (%s, %s)",
                         article_authors_batch
                     )
                     connection.commit()
                     article_authors_batch = []
                     print(f"Processed {processed_rows} rows")
 
-            # Insert remaining article-author relationships
+            # 提交剩余数据
             if article_authors_batch:
                 cursor.executemany(
                     "INSERT INTO article_authors (article_id, author_id) VALUES (%s, %s)",
