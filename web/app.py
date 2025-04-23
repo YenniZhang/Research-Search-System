@@ -48,7 +48,7 @@ dataloader = Dataloader(edges=edges,
 model = GNN(n_tokens=tokenizer.get_vocab_size(),
             n_keywords=len(keyword2id),
             n_authors=len(author2id))
-weights = torch.load("resources/old-model.pt", map_location="cpu")
+weights = torch.load("resources/model.pt", map_location="cpu")
 model.load_state_dict(weights)
 del weights
 
