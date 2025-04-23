@@ -30,8 +30,8 @@ with open("resources/features.pkl", "rb") as file:
     features = pickle.load(file)
 with open("resources/author_citations.pkl", "rb") as file:
     author_citations = pickle.load(file)
-with open("resources/papers_by_author.pkl", "rb") as file:
-    papers_by_author = pickle.load(file)
+# with open("resources/papers_by_author.pkl", "rb") as file:
+#     papers_by_author = pickle.load(file)
 with open("resources/authors.pkl", "rb") as file:
     author2id = pickle.load(file)
     id2author = {v: k for k, v in author2id.items()}
