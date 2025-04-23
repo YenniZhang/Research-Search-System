@@ -9,10 +9,53 @@ import hashlib
 import uuid
 from functools import wraps
 import logging
-
+from model import GNN, Dataloader
+import pickle
+import torch
+from tokenizers import Tokenizer
+from flask import Flask, request, send_from_directory, jsonify, render_template, session
 
 
 app = Flask(__name__)
+
+
+N_AUTHOR_SEARCH = 16
+N_TOP_RESULTS = 15
+N_HOPS_NEIGHBORHOOD = 3
+N_MIN_NODES = 1000
+
+with open("resources/edges.pkl", "rb") as file:
+    edges = pickle.load(file)
+with open("resources/features.pkl", "rb") as file:
+    features = pickle.load(file)
+with open("resources/author_citations.pkl", "rb") as file:
+    author_citations = pickle.load(file)
+# with open("resources/papers_by_author.pkl", "rb") as file:
+#     papers_by_author = pickle.load(file)
+with open("resources/authors.pkl", "rb") as file:
+    author2id = pickle.load(file)
+    id2author = {v: k for k, v in author2id.items()}
+with open("resources/keywords.pkl", "rb") as file:
+    keyword2id = pickle.load(file)
+    id2keyword = {v: k for k, v in keyword2id.items()}
+tokenizer = Tokenizer.from_file("resources/tokenizer.json")
+
+dataloader = Dataloader(edges=edges,
+                        features=features,
+                        tokenizer=tokenizer,
+                        k_hops=N_HOPS_NEIGHBORHOOD,
+                        n_min_nodes=N_MIN_NODES)
+model = GNN(n_tokens=tokenizer.get_vocab_size(),
+            n_keywords=len(keyword2id),
+            n_authors=len(author2id))
+weights = torch.load("resources/model.pt", map_location="cpu")
+model.load_state_dict(weights)
+del weights
+
+def bad_request(message):
+    response = jsonify({"error": message})
+    response.status_code = 400
+    return response
 
 # connect to database
 def get_db_config():
@@ -24,6 +67,7 @@ def get_db_config():
 
     # Construct the path to selected_config.json
     config_file_path = os.path.join(parent_directory, 'database', 'selected_config.json')
+    # config_file_path = os.path.join('database', 'selected_config.json')
 
     # Read the JSON configuration file
     with open(config_file_path, 'r') as f:
@@ -348,15 +392,14 @@ def search():
         if connection and connection.is_connected(): 
             connection.close()
 
- 
-
-
 
 
 @app.route('/article/<int:article_id>')
 def article_detail(article_id):
     connection = None
     cursor = None
+    with open('/Users/hxh/Desktop/Research-Search-System/web/static/css/updated_filtered_graph_model.json', 'r', encoding='utf-8') as f:
+        graph_data = json.load(f)
     try:
         connection = connection_pool.get_connection()
         cursor = connection.cursor(dictionary=True)
@@ -389,8 +432,48 @@ def article_detail(article_id):
         cursor.execute(authors_query, (article_id,))
         authors = cursor.fetchall()
 
-        return render_template('article_detail.html', article=article, authors=authors)
+        # # 根据传递的 article_id 筛选相关数据
+        # nodes = [article for article in graph_data['articles'] if article['id'] == article_id]
+        #
+        # # nodes = [article for article in graph_data['articles'] if article['key'] == article_id]
+        #
+        # # 获取与 article_id 相关的 edges
+        # edges = [edge for edge in graph_data['edges'] if edge['source'] == article_id or edge['target'] == article_id]
+        #
+        # # 获取相关的 node 信息（根据 edges 中的 'from' 和 'to' 字段）
+        # related_node_ids = set()
+        # for edge in edges:
+        #     if edge['source'] != article_id:
+        #         related_node_ids.add(edge['source'])
+        #     if edge['target'] != article_id:
+        #         related_node_ids.add(edge['target'])
+        #
+        # # 将当前节点（article_id）也添加到 related_node_ids 中
+        # related_node_ids.add(article_id)
+        #
+        # # 获取相关节点的信息
+        # related_nodes = [article for article in graph_data['articles'] if article['id'] in related_node_ids]
+        # #related_nodes = [article for article in graph_data['articles'] if article['key'] in related_node_ids]
+        #
+        # # 使用一个集合来避免重复的边
+        # edge_set = set(tuple(sorted([edge['source'], edge['target']])) for edge in edges)
+        #
+        # #查找节点之间的相互引用关系
+        # for node in related_nodes:
+        #     for other_node in related_nodes:
+        #         if node['key'] != other_node['key']:  # 排除自己引用自己
+        #             # 检查是否存在互相引用
+        #             if any(edge['source'] == node['key'] and edge['target'] == other_node['key'] for edge in graph_data['edges']) and \
+        #                     any(edge['source'] == other_node['key'] and edge['target'] == node['key'] for edge in graph_data['edges']):
+        #                 # 添加这条引用关系到 edge_set 中（避免重复）
+        #                 edge_set.add(tuple(sorted([node['key'], other_node['key']])))
+        #                 print(tuple(sorted([node['key'], other_node['key']])))
+        #
+        # #将 edge_set 转换回列表
+        # edges = [{'source': edge[0], 'target': edge[1]} for edge in edge_set]
 
+        return render_template('article_detail.html', article=article, authors=authors)
+        #return render_template('article_detail.html', article=article, authors=authors, edges=edges, nodes=related_nodes)
     except Exception as e:
         app.logger.error(f"Error fetching article details: {str(e)}")
         return render_template('error.html'), 500
@@ -399,11 +482,6 @@ def article_detail(article_id):
             cursor.close()
         if connection and connection.is_connected():
             connection.close()
-
-
-
-
-
 
 
 
@@ -462,12 +540,6 @@ def find_related_authors(main_author):
         cursor.close()
         connection.close()
 
-
-
-
-
-
-
 @app.route('/author/<int:author_id>')
 def author_detail(author_id):
     try:
@@ -517,10 +589,6 @@ def author_detail(author_id):
         cursor.close()
         connection.close()
 
-
-
-
-
 @app.route('/authors')
 def authors():
     connection = None
@@ -559,7 +627,65 @@ def authors():
         if connection and connection.is_connected():
             connection.close()
 
-            
+@app.route('/prediction')
+def predict():
+    return render_template( "prediction.html")
+
+
+@app.route("/predict", methods=["POST"])
+def get_prediction():
+    args = request.get_json()
+
+    if "author" not in args:
+        return bad_request("Please enter an author.")
+    author = " ".join(x.capitalize() for x in args["author"].split())
+    if author not in author2id:
+        return bad_request("Invalid Author.")
+    author_id = author2id[author]
+
+    text = args["text"].strip()
+    if "text" not in args or len(text) == 0:
+        return bad_request("Please enter a text.")
+
+    try:
+        node_ids, adjacencies, text, keywords, keyword_mask = dataloader.get(author_id, text)
+        predictions, keyword_attention = model.forward(node_ids, adjacencies, text, keywords, keyword_mask)
+
+        top_adjacent, top_non_adjacent, top_keywords = [], [], []
+
+        for argument in predictions.argsort(descending=True):
+            node_id = node_ids[1 + argument].item()
+            author = id2author[node_id]
+            if len(top_adjacent) < N_TOP_RESULTS and node_id in edges[author_id]:
+                top_adjacent.append(author)
+            if len(top_non_adjacent) < N_TOP_RESULTS and node_id not in edges[author_id]:
+                top_non_adjacent.append(author)
+            if len(top_adjacent) == N_TOP_RESULTS and len(top_non_adjacent) == N_TOP_RESULTS:
+                break
+
+        for argument in keyword_attention.argsort(descending=True)[:N_TOP_RESULTS]:
+            keyword = id2keyword[argument.item()]
+            keyword = " ".join(x.capitalize() for x in keyword.split())
+            top_keywords.append(keyword)
+
+        return {
+            "num_nodes": node_ids.shape[0],
+            "num_hops": N_HOPS_NEIGHBORHOOD + 2,  # 2 GNN layers
+            "adjacent_authors": top_adjacent,
+            "non_adjacent_authors": top_non_adjacent,
+            "keywords": top_keywords,
+        }
+
+        #渲染模板，将数据传入
+        return render_template("prediction_result.html", **prediction_data)
+    except:
+        return bad_request("Error during prediction.")
+
+@app.route('/prediction_result')
+def prediction_result():
+    return render_template('prediction_result.html')
+
+
 @app.route('/settings')
 def settings():
     return render_template('settings.html')
@@ -972,8 +1098,6 @@ def remove_favorite(article_id):
             cursor.close()
         if 'db' in locals() and db:
             db.close()
-
-
 
 @app.route('/api/favorites/details')
 @login_required

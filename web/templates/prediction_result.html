@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <!-- Include vis.js CDN for interactive graph -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vis-network@9.1.0/dist/vis-network.min.js"></script>
+    <style>
+        #graph-container {
+            width: 60%;
+            height: 500px;
+            border: 1px solid lightgray;
+            margin: 0 auto;  /* 居中容器 */
+        }
+
+        .data-container {
+            margin: 20px;
+        }
+
+        .data-container ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .flex-container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            padding: 0 20px;
+        }
+
+        .column {
+            flex: 1;
+            margin: 0 10px;
+        }
+
+        .column {
+            width: 33%;
+        }
+
+        .data-container li {
+            margin: 5px 0;
+        }
+
+        #spinner {
+            display: none;
+            text-align: center;
+        }
+
+        #error-message {
+            color: red;
+            display: none;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+    </style>
+</head>
+<body>
+
+<h2>Prediction Result</h2>
+
+<!-- Section for displaying the data -->
+<div class="data-container">
+    <p class="hidden"><strong>Number of Nodes:</strong> <span id="num-nodes"></span></p>
+    <p class="hidden"><strong>Number of Hops:</strong> <span id="num-hops"></span></p>
+</div>
+
+<!-- Section for displaying the network graph -->
+<h3>Author Collaboration Network</h3>
+<div id="graph-container"></div>
+
+<div class="flex-container">
+    <div class="column">
+        <h3>Adjacent Authors</h3>
+        <ul id="adjacent-authors-list"></ul>
+    </div>
+    <div class="column">
+        <h3>Non-Adjacent Authors</h3>
+        <ul id="non-adjacent-authors-list"></ul>
+    </div>
+    <div class="column">
+        <h3>Keywords</h3>
+        <ul id="keywords-list"></ul>
+    </div>
+</div>
+<!-- Spinner for loading state -->
+<div id="spinner">
+    <div class="spinner-border text-primary" role="status"></div>
+    <p>Loading...</p>
+</div>
+
+<!-- Error message -->
+<div id="error-message"></div>
+
+<script>
+    // When the page loads, retrieve data from localStorage and display it
+    window.onload = function() {
+        const storedData = JSON.parse(localStorage.getItem('data')); // Retrieve entire prediction data
+
+        if (storedData && storedData.predictionResult) {
+            const result = storedData.predictionResult;
+            const userAuthor = storedData.userAuthor; // Get the user-inputted author
+
+            // Display the data
+            document.getElementById("num-nodes").innerText = result.num_nodes;
+            document.getElementById("num-hops").innerText = result.num_hops;
+
+            // Display adjacent authors
+            result.adjacent_authors.forEach(author => createLinkListElement('adjacent-authors-list', author));
+
+            // Display non-adjacent authors
+            result.non_adjacent_authors.forEach(author => createLinkListElement('non-adjacent-authors-list', author));
+
+            // Display keywords
+            result.keywords.forEach(keyword => createListElement('keywords-list', keyword));
+
+            // Create the network graph with userAuthor, adjacent and non-adjacent authors
+            createNetworkGraph(userAuthor, result.adjacent_authors, result.non_adjacent_authors);
+
+        } else {
+            document.getElementById("error-message").innerText = "No prediction data found in localStorage.";
+            document.getElementById("error-message").style.display = "block";
+        }
+    };
+
+    // Helper function to create a list element for authors (adjacent/non-adjacent)
+    function createLinkListElement(listId, data) {
+        const listItem = document.createElement("li");
+        listItem.innerText = data;
+        document.getElementById(listId).appendChild(listItem);
+    }
+
+    // Helper function to create a list element for keywords
+    function createListElement(listId, data) {
+        const listItem = document.createElement("li");
+        listItem.innerText = data;
+        document.getElementById(listId).appendChild(listItem);
+    }
+
+    // Function to create the author collaboration network graph
+    function createNetworkGraph(userAuthor, adjacentAuthors, nonAdjacentAuthors) {
+        const nodes = [];
+        const edges = [];
+
+        // Create the center node for the user-provided author
+        nodes.push({ id: userAuthor, label: userAuthor, group: 0, size: 50, font: {
+                color: 'black',
+                size: 20,
+                face: 'Times New Roman'
+            },
+            color: {
+                background: '#6A8DFF',  // 浅蓝底
+                border: '#1E1EFF'       // 深蓝边
+            }
+        }); // Group 0 for the user-author
+
+        // Create nodes for adjacent authors (group 1)
+        adjacentAuthors.forEach(author => {
+            nodes.push({ id: author, label: author, group: 1 ,size:30, font: {
+                    color: 'black',
+                    size: 20,
+                    face: 'Times New Roman',
+                    {#vadjust: -10  // 垂直偏移，让文字位置更高/更低#}
+                },
+                color: {
+                    background: '#A5F3FC',  // 浅亮蓝底（电蓝偏青）
+                    border: '#0284C7'       // 深亮蓝边（蓝青调）
+                }
+            });
+            // Create edges from the user-author to adjacent authors with solid lines
+            edges.push({
+                from: userAuthor,
+                to: author,
+                dashes: false,
+                length: 250,
+                color: '#0284C7'  // 设置这条边的颜色为番茄红
+            });;
+        });
+
+        // Create nodes for non-adjacent authors (group 2)
+        nonAdjacentAuthors.forEach(author => {
+            nodes.push({ id: author, label: author, group: 2 , size:30, font: {
+                    color: 'black',
+                    size: 20,
+                    face: 'Times New Roman',
+                },
+                color: {
+                    background: '#E0BBFF',  // 浅紫粉底（梦幻）
+                    border: '#8A2BE2'       // 深紫边（BlueViolet）
+                }
+            });
+            // Create edges from the user-author to non-adjacent authors with dashed lines
+            edges.push({
+                from: userAuthor,
+                to: author,
+                dashes: true,
+                length:300,
+                color: '#8A2BE2'
+            });
+        });
+
+        // Create a network graph using vis.js
+        const container = document.getElementById('graph-container');
+        const data = { nodes: new vis.DataSet(nodes), edges: new vis.DataSet(edges) };
+        const options = {
+            groups: {
+                0: { color: { background: 'yellow', border: 'orange' } }, // Color for the user-author (center node)
+                1: { color: { background: 'lightgreen', border: 'darkgreen' } }, // Color for adjacent authors
+                2: { color: { background: 'lightblue', border: 'darkblue' } } // Color for non-adjacent authors
+            },
+            physics: { enabled: true },
+            layout: { randomSeed: 2 },
+            nodes: {
+                shape: 'box'},
+            edges: {
+                width: 3, // 边的宽
+                color: 'gray', // 默认边的颜色
+                smooth: false, // 平滑边线
+                dashes: false,// 是否使用虚线
+                length: 1000
+            }
+        };
+
+        new vis.Network(container, data, options);
+    }
+
+</script>
