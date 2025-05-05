@@ -41,14 +41,14 @@ def parse_date(date_str):
     Parse various date formats and convert them to 'YYYY-MM-DD' (MySQL DATE format).
     If the date is invalid or empty, return None.
     """
-    if not date_str.strip():
-        return None  # Handle empty values
+    if not date_str or not date_str.strip():
+        return None
     try:
-        parsed_date = parser.parse(date_str)  # Automatically detect format
-        return parsed_date.strftime('%Y-%m-%d')  # Convert to standard DATE format
+        parsed_date = parser.parse(date_str)
+        return parsed_date.strftime('%Y-%m-%d')
     except Exception:
         print(f"Warning: Could not parse date '{date_str}', setting to NULL")
-        return None  # Return NULL if parsing fails
+        return None
 
 def load_csv_data(csv_file_path, batch_size=500):
     """ Load data from CSV into MySQL with title duplicate check. """
@@ -62,21 +62,43 @@ def load_csv_data(csv_file_path, batch_size=500):
         article_authors_batch = []
         processed_rows = 0
 
-        with open(csv_file_path, 'r', encoding='utf-8') as file:
+        try:
+            file = open(csv_file_path, 'r', encoding='utf-8')
+        except UnicodeDecodeError:
+            file = open(csv_file_path, 'r', encoding='gbk')
+
+        with file:
             csv_reader = csv.reader(file)
             headers = next(csv_reader)
-            published_date_idx = headers.index("date")
+            try:
+                published_date_idx = headers.index("date")
+                authors_idx = headers.index("authors")
+            except ValueError:
+                print("CSV header missing required 'date' or 'authors' columns.")
+                return
 
             for row_idx, row in enumerate(csv_reader):
-                title = row[0]
-                # 检查标题是否已存在
+                if len(row) < 7:
+                    print(f"Skipping row {row_idx + 2}: insufficient columns.")
+                    continue
+
+                title = row[0].strip()
+                if not title:
+                    continue
+
+                # Check for duplicate article title
                 cursor.execute("SELECT id FROM articles WHERE title = %s", (title,))
                 if cursor.fetchone():
                     print(f"Skipping duplicate title: {title}")
-                    continue  # 跳过重复标题
+                    continue
 
+                content = row[1].strip() if len(row) > 1 else ''
+                abstract = row[2].strip() if len(row) > 2 else ''
+                reference = row[3].strip() if len(row) > 3 else ''
+                url = row[4].strip() if len(row) > 4 else ''
                 published_date = parse_date(row[published_date_idx])
-                article_data = (title, row[1], row[2], row[3], row[4], published_date)
+
+                article_data = (title, content, abstract, reference, url, published_date)
                 cursor.execute(
                     """INSERT INTO articles 
                     (title, content, abstract, reference, url, published_date)
@@ -85,26 +107,24 @@ def load_csv_data(csv_file_path, batch_size=500):
                 )
                 article_id = cursor.lastrowid
 
-                # 处理作者信息（原有逻辑）
-                authors_str = row[-1]
+                authors_str = row[authors_idx]
                 for author_name in authors_str.split(','):
                     author_name = author_name.strip()
                     if not author_name:
                         continue
 
-                    cursor.execute(
-                        """INSERT INTO authors 
-                        (full_name)
-                        VALUES (%s)
-                        ON DUPLICATE KEY UPDATE full_name=VALUES(full_name)""",
-                        (author_name,)
-                    )
-                    # 获取作者ID（新增或已存在）
+                    # Try to find author first
                     cursor.execute("SELECT id FROM authors WHERE full_name = %s", (author_name,))
-                    author_id = cursor.fetchone()[0]
+                    result = cursor.fetchone()
+                    if result:
+                        author_id = result[0]
+                    else:
+                        # Insert new author
+                        cursor.execute("INSERT INTO authors (full_name) VALUES (%s)", (author_name,))
+                        author_id = cursor.lastrowid
+
                     article_authors_batch.append((article_id, author_id))
 
-                # 批量提交逻辑（保持原有）
                 processed_rows += 1
                 if processed_rows % batch_size == 0:
                     cursor.executemany(
@@ -115,18 +135,18 @@ def load_csv_data(csv_file_path, batch_size=500):
                     article_authors_batch = []
                     print(f"Processed {processed_rows} rows")
 
-            # 提交剩余数据
             if article_authors_batch:
                 cursor.executemany(
                     "INSERT INTO article_authors (article_id, author_id) VALUES (%s, %s)",
                     article_authors_batch
                 )
             connection.commit()
-            print(f"Total processed: {processed_rows} rows")
+            print(f"✅ Import complete. Total processed: {processed_rows} rows")
 
     except Exception as e:
-        connection.rollback()
-        print(f"Error: {str(e)}")
+        if connection:
+            connection.rollback()
+        print(f"❌ Error: {str(e)}")
     finally:
         if cursor: cursor.close()
         if connection: connection.close()
