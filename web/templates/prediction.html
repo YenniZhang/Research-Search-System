@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Graph Neural Networks for Coauthor Recommendation</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        header {
+            margin-top: 1vh;
+            text-align: center;
+            margin-bottom: 1vh;
+        }
+
+        #content-container {
+            align-self: center;
+            min-width: 768px;
+            max-width: 1280px;
+        }
+
+        #author-results {
+            margin-top: 1em;
+            column-count: 4;
+        }
+
+        #author-results li {
+            cursor: pointer;
+        }
+
+        #results-container {
+            display: none;
+            margin-top: 1vh;
+            text-align: center;
+        }
+
+        #spinner {
+            display: none;
+            margin-top: 2.5vh;
+        }
+
+        #error-message {
+            display: none;
+            padding: .5rem 1rem;
+        }
+
+        #copyright {
+            position: fixed;
+            bottom: 1vh;
+            right: 2vh;
+        }
+
+        hr {
+            margin-top: .5rem;
+            margin-bottom: .5rem;
+        }
+
+        .btn-sm {
+            padding: 0 .2rem;
+        }
+
+        #description-text {
+            max-width: 768px;
+            text-align: center;
+        }
+
+        a {
+            color: #212529;
+            text-underline: none;
+        }
+    </style>
+</head>
+<body>
+<header style="margin-top: 80px;">
+    <h1>Find Your Next Co-Author</h1>
+{#    <h2>Graph Neural Networks</h2>#}
+</header>
+<form id="content-container" onsubmit="return submitForm()">
+{#    <p id="description-text">This application serves a Graph Neural Network trained to provide recommendations for scientific collaborations. The basis is a corpus with 265,974 papers, 221,483 unique authors, and 1,614,180 edges between authors. The authors can be selected via search, and predictions can be made for all of them. It is also necessary to specify what is being collaborated on. During training, this was a combination of title and abstract of a paper. There are some examples, however, any text can be entered.</p>#}
+    <div class="container text-center mt-4" id="intro">
+        <p class="lead" style="margin-top: -20px;">
+            🔍 <strong>Coauthor Recommendation System</strong> — Enter an author's name and your research interest to discover potential collaborators.
+        </p>
+        <p class="text-muted">
+            This tool is powered by a Graph Neural Network (GNN) model trained on academic collaboration data. It analyzes both network structure and semantic similarity to recommend the most promising coauthors for your research interest.
+        </p>
+        <p style="margin-top: -10px;"><strong>How to use:</strong></p>
+        <ul class="list-unstyled" style="margin-top: -10px;">
+            <li>① Type an author’s name in the <strong>“Author”</strong> input field (partial matches supported).</li>
+            <li>② Write your research topic in the <strong>“Query”</strong> area. This could be a title, abstract, or a few keywords.</li>
+            <li>③ Click <strong>“Submit”</strong> to view the recommended coauthors, along with an author graph and keyword analysis.</li>
+        </ul>
+    </div>
+    <div class="mb-3">
+        <div class="alert alert-danger" role="alert" id="error-message"></div>
+        <label for="author-input" class="form-label"><span class="fw-bold">Author:</span> For whom to make a
+            recommendation?</label>
+        <input type="text" class="needs-validation form-control" id="author-input" onkeyup="searchAuthors()" required>
+        <ul class="list-unstyled card-columns" id="author-results">
+            <li onclick="setAuthor(this.innerText)">Andreas Hotho</li>
+            <li onclick="setAuthor(this.innerText)">Geoffrey E. Hinton</li>
+            <li onclick="setAuthor(this.innerText)">Andrew Y. Ng</li>
+            <li onclick="setAuthor(this.innerText)">Jitendra Malik</li>
+            <li onclick="setAuthor(this.innerText)">Michael I. Jordan</li>
+            <li onclick="setAuthor(this.innerText)">Andrew Zisserman</li>
+            <li onclick="setAuthor(this.innerText)">Yoshua Bengio</li>
+            <li onclick="setAuthor(this.innerText)">Ilya Sutskever</li>
+            <li onclick="setAuthor(this.innerText)">David G. Lowe</li>
+            <li onclick="setAuthor(this.innerText)">Cordelia Schmid</li>
+            <li onclick="setAuthor(this.innerText)">Luc Van Gool</li>
+            <li onclick="setAuthor(this.innerText)">Andrew McCallum</li>
+            <li onclick="setAuthor(this.innerText)">Trevor Darrell</li>
+            <li onclick="setAuthor(this.innerText)">Christopher D. Manning</li>
+            <li onclick="setAuthor(this.innerText)">Kaiming He</li>
+            <li onclick="setAuthor(this.innerText)">Jürgen Schmidhuber</li>
+        </ul>
+    </div>
+    <div class="mb-3">
+        <label for="text-input" class="form-label"><span class="fw-bold">Query:</span> What is the paper about?</label>
+        <textarea class="form-control" id="text-input" type="text" rows="8" required></textarea>
+    </div>
+    <div class="text-center" style="padding-bottom: 50px;">
+        <button class="btn btn-primary" id="submit-button">Submit</button>
+        <br>
+        <div id="spinner">
+            <div class="spinner-border text-primary" role="status"></div><br>
+            <p>This may take a few seconds...</p>
+            <!--        <span class="sr-only">Loading...</span>-->
+        </div>
+    </div>
+    <div>
+        <div class="container" id="results-container">
+            <h4>Results</h4>
+            <div class="row text-center mb-2" id="results-message">
+                <span>Out of <span class="fst-italic" id="num-nodes-text"></span> nodes from the
+                    <span class="fst-italic"
+                          id="num-hops-text"></span>-hop neighborhood, the following were selected.</span>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <span class="fst-italic">Top adjacent Authors</span>
+                    <hr>
+                    <ul class="list-unstyled card-columns" id="top-adjacent"></ul>
+                </div>
+                <div class="col-sm">
+                    <span class="fst-italic">Top non-adjacent Authors</span>
+                    <hr>
+                    <ul class="list-unstyled card-columns" id="top-non-adjacent"></ul>
+                </div>
+                <div class="col-sm">
+                    <span class="fst-italic">Top Keywords</span>
+                    <hr>
+                    <ul class="list-unstyled card-columns" id="top-keywords"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+
+<script>
+    const authorInput = document.getElementById("author-input");
+    const textInput = document.getElementById("text-input");
+    {#textInput.value = textExamples[0];#}
+    textInput.style.height = textInput.scrollHeight + 5 + "px";
+    const searchResults = document.getElementById("author-results");
+    const defaultSearchResults = searchResults.innerHTML;
+    const spinner = document.getElementById("spinner");
+    const errorMessage = document.getElementById("error-message");
+    const adjacentList = document.getElementById("top-adjacent");
+    const nonAdjacentList = document.getElementById("top-non-adjacent");
+    const keywordList = document.getElementById("top-keywords");
+    const resultsContainer = document.getElementById("results-container");
+    const numNodesText = document.getElementById("num-nodes-text");
+    const numHopsText = document.getElementById("num-hops-text");
+    const submitButton = document.getElementById("submit-button")
+    const t_timeout = 1000;
+    let authorSearchTimeout = false;
+
+    {#document.querySelectorAll("#example-button-container button").forEach((element, index) => {#}
+    {#    textInput.style.boxSizing = "border-box";#}
+    {#    element.addEventListener("click", event => {#}
+    {#        if (index < 0 || index > textExamples.length)#}
+    {#            index = 0;#}
+    {#        textInput.value = textExamples[index];#}
+    {#        textInput.style.height = "5px";#}
+    {#        textInput.style.height = textInput.scrollHeight + 5 + "px";#}
+    {#    });#}
+
+
+    authorInput.addEventListener("keyup", resetErrors);
+    textInput.addEventListener("keyup", resetErrors);
+    submitButton.addEventListener("click", resetErrors)
+
+    function resetErrors() {
+        spinner.style.display = "none";
+        errorMessage.style.display = "none";
+        disableInputs(false);
+    }
+
+    function submitForm() {
+        {#const userAuthor = authorInput.value; // 获取输入框中的作者名#}
+        resultsContainer.style.display = "none";
+        spinner.style.display = "inline-block";
+        disableInputs(true);
+        window.scrollTo(0, document.body.scrollHeight);
+        fetch("/predict",
+            {
+                method: "POST",
+                body: JSON.stringify({author: authorInput.value, text: textInput.value}),
+                mode: "same-origin",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+            })
+            .catch(error => {
+                errorMessage.innerHTML = "Something went wrong &#9785; " + error.toString();
+                errorMessage.style.display = "inherit";
+                spinner.style.display = "none";
+                disableInputs(false);
+            })
+            .then(response => response.json())
+            .then(result => {
+                if (checkError(result))
+                    return;
+
+                const data = {
+                    userAuthor: authorInput.value,  // Store user author input
+                    predictionResult: result  // Store prediction result
+                };
+                localStorage.setItem('data', JSON.stringify(data));
+                window.location.href = "/prediction_result";
+            });
+
+        return false;
+    }
+
+    function disableInputs(status){
+        // authorInput.disabled = status;
+        // textInput.disabled = status;
+        submitButton.disabled = status;
+    }
+
+    function checkError(response) {
+        if (response.error) {
+            errorMessage.innerHTML = response.error;
+            errorMessage.style.display = "inherit";
+            spinner.style.display = "none";
+            disableInputs(false);
+            return true;
+        }
+        return false;
+    }
+
+    function createLinkListElement(container, text) {
+        const a = document.createElement("a");
+        a.href = "/author/" + text;
+        const li = document.createElement("li");
+        li.innerText = text;
+        a.appendChild(li)
+        container.appendChild(a);
+    }
+
+    function createListElement(container, text) {
+        const li = document.createElement("li");
+        li.innerText = text;
+        container.appendChild(li);
+    }
+
+    function searchAuthors() {
+        const currentInput = authorInput.value;
+
+        if (!currentInput) {
+            searchResults.innerHTML = defaultSearchResults;
+            return;
+        }
+
+        if (authorSearchTimeout) {
+            return;
+        }
+        authorSearchTimeout = true;
+
+        fetch("/authors",
+            {
+                method: "POST",
+                body: JSON.stringify({search: currentInput}),
+                mode: "same-origin",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+            })
+            .catch(error => {
+                errorMessage.innerHTML = "Something went wrong! &#9785;" + error.toString();
+            })
+            .then(result => result.json())
+            .then(result => {
+                if (checkError(result))
+                    return;
+
+                searchResults.innerHTML = "";
+                result.authors.forEach(author => {
+                    const li = document.createElement("li");
+                    li.innerText = author;
+                    li.onclick = () => {
+                        setAuthor(author)
+                    };
+                    searchResults.appendChild(li);
+                })
+            })
+
+        setTimeout(() => {
+            authorSearchTimeout = false;
+            if (authorInput.value !== currentInput) {
+                searchAuthors();
+            }
+        }, t_timeout);
+    }
+
+    function setAuthor(author) {
+        authorInput.value = author;
+    }
+</script>
+</body>
+</html>
