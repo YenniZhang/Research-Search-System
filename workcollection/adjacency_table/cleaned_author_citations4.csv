@@ -1,0 +1,529 @@
+Name（当前作者）,Value（该作者引用过的作者及引用次数）
+Diederik Aerts,"{'Measurement AB': 1, 'Van Rijsbergen': 2, 'Lambert Mogiliansky': 1}"
+Sandro Sozzo,"{'Measurement AB': 1, 'Van Rijsbergen': 2, 'Lambert Mogiliansky': 1}"
+Bhaskar Bhuyan,"{'Emad Felemban': 1, 'ChangGun Lee': 1}"
+Nityananda Sarma,"{'Emad Felemban': 1, 'ChangGun Lee': 1}"
+Amitabh Basu,"{'Robert Hildebrand': 1, 'Amitabh Basu': 1, 'Michele Conforti': 1, 'Gerard Cornuejols': 1}"
+Robert Hildebrand,"{'Robert Hildebrand': 1, 'Amitabh Basu': 1, 'Michele Conforti': 1, 'Gerard Cornuejols': 1}"
+MANUEL BODIRSKY,"{'Ben Yaacov': 1, 'Surajit Chaudhuri': 1, 'Michael Garey': 1, 'Cynthia Loten': 1, 'Stefan Kratsch': 1, 'Manuel Bodirsky': 1, 'Nikhil Bansal': 1, 'Meghyn Bienvenu': 1, 'Alexandra Meliou': 1, 'Caterina Viola': 1, 'Serge Abiteboul': 1, 'Antoine Mottet': 1, 'Vladimir Kolmogorov': 1, 'Andrei Krokhin': 2, 'Libor Barto': 1, 'Marcin Kozik': 1, 'Saharon Shelah': 1, 'Florent Madelaine': 1, 'Avrim Blum': 1, 'Gregory Cherlin': 1, 'Richard Hull': 1, 'Neha Makhija': 1, 'Marek Cygan': 1, 'Michael Pinsker': 1, 'Wolfgang Gatterbauer': 1, 'Cibele Freire': 1， 'Peter Fulla': 1, 'Diego Calvanese': 1, 'Henry Kautz': 1, 'Michael Kompatscher': 1}"
+Multilayer Perceptron,"{'KM Mackenthun': 1, 'Ben Krose': 1, 'Alex Trier': 1, 'Jorge Reyes': 1, 'Hector Jorquera': 1, 'Patricio Pérez': 1, 'Wilfredo Palma': 1, 'Islam Faisal': 1, 'Oketola AA': 1}"
+Generalized Feed,"{'KM Mackenthun': 1, 'Ben Krose': 1, 'Alex Trier': 1, 'Jorge Reyes': 1, 'Hector Jorquera': 1, 'Patricio Pérez': 1, 'Wilfredo Palma': 1, 'Islam Faisal': 1, 'Oketola AA': 1}"
+Sohail Abidi,"{'Ahmed Helmy': 1, 'Fan Bai': 1, 'Imran Shafi': 1, 'GuntupalliLakshmikanthMr Gaiwak': 1, 'Rambir Joon': 1, 'Sohail Abid': 1, 'Shahab Khan': 1, 'EG Padilla': 1, 'Pierpaolo Bergamo': 1, 'AUTHORS PROFILES': 1}"
+NATHAN BOWLER,{'La Jolla': 1}
+SERGEY GONCHAROV,{'La Jolla': 1}
+JAKUB BUL,{'Dejan Delic': 1}
+DEJAN DELI,{'Dejan Delic': 1}
+MARCEL JACKSON,{'Dejan Delic': 1}
+Sambhunath Biswas,"{'PingSing Tsai': 1, 'Tanaya Mandal': 1, 'Shuicheng Yan': 1, 'Harry Wechsler': 1, 'Xiaoyang Tan': 1, 'Kourosh JafariKhouzani': 1, 'Zhen Lei': 1, 'Mubarak Shah': 1, 'Shengcai Liao': 1, 'Chengjun Liu': 1, 'Bill Triggs': 1, 'Haitao Guo': 1, 'Hamid SoltanianZadeh': 1, 'CSydney Burrus': 1}"
+Amrita Biswas,"{'PingSing Tsai': 1, 'Tanaya Mandal': 1, 'Shuicheng Yan': 1, 'Harry Wechsler': 1, 'Xiaoyang Tan': 1, 'Kourosh JafariKhouzani': 1, 'Zhen Lei': 1, 'Mubarak Shah': 1, 'Shengcai Liao': 1, 'Chengjun Liu': 1, 'Bill Triggs': 1, 'Haitao Guo': 1, 'Hamid SoltanianZadeh': 1, 'CSydney Burrus': 1}"
+Mark Giesbrecht,{'Joos Heintz': 1}
+LARS BIRKEDAL,"{'Lars Birkedal': 1, 'PT Johnstone': 1, 'Schloss Dagstuhl': 1, 'PA Mellies': 1, 'MB Smyth': 1}"
+JAN SCHWINGHAMMER,"{'Lars Birkedal': 1, 'PT Johnstone': 1, 'Schloss Dagstuhl': 1, 'PA Mellies': 1, 'MB Smyth': 1}"
+Samson Abramsky,"{'JY Girard': 1, 'Lujo Bauer': 1, 'Michael Burrows': 1, 'Axel Legay': 1, 'Adam Bakewell': 1, 'Aleksandar Dimovski': 1, 'Anindya Banerjee': 1, 'Pasquale Malacaria': 1, 'Michael Mendler': 1, 'Deepak Garg': 1, 'Nikos Tzevelekos': 1, 'Natasha Alechina': 1, 'Patrick Baillot': 1, 'Matt Fairtlough': 1, 'Paola Maneggia': 1, 'Phokion Kolaitis': 1, 'Bob Coecke': 2, 'Georg Gottlob': 1, 'Hans Kamp': 1, 'Chinatsu Aone': 1, 'Rulan Mitkov': 1, 'Albert Visser': 1, 'Lucien Hardy': 1, 'Edward Grefenstette': 1, 'Ido Dagan': 1, 'Alon Itai': 1, 'Jim Lambek': 1, 'Martin Stokhof': 1, 'Jeroen Groenendijk': 1, 'Samson Abramsky': 2, 'Anaphora Resolution': 1, 'By Proposition': 1, 'Peter Heywood': 1, 'Stefan Milius': 1, 'Li Liu': 1, 'Ashley Montanaro': 1, 'RS Barbosa': 1, 'Richard Cleve': 1, 'Dirk Pattinson': 1, 'VB Scholz': 1, 'JM Estebaranz': 1, 'Daniel Reitzner': 1, 'Tomas Feder': 1, 'Adam Brandenburger': 1, 'Anuj Dawar': 1, 'Albert Atserias': 1, 'Business Media': 1}"
+Radha Jagadeesan,"{'By Functional': 1, 'JY Girard': 1, 'Lujo Bauer': 1, 'Michael Burrows': 1, 'Axel Legay': 1, 'Adam Bakewell': 1, 'Inf Comput': 1, 'Aleksandar Dimovski': 1, 'Anindya Banerjee': 1, 'Pasquale Malacaria': 1, 'Michael Mendler': 1, 'Deepak Garg': 1, 'Nikos Tzevelekos': 1, 'Natasha Alechina': 1, 'Patrick Baillot': 1, 'Matt Fairtlough': 1, 'Paola Maneggia': 1}"
+LAURENT BIENVENU,"{'Laurent Bienvenu': 1, 'Vladimir Uspensky': 1, 'Nikolai Vereshchagin': 1, 'Ming Li': 1, 'Peter Hertling': 1, 'Andrej Muchnik': 1, 'Sven Kohler': 1, 'Damien Desfontaines': 1, 'Cristian Calude': 1, 'Elena Calude': 1, 'Andre Nies': 1, 'Rodney Downey': 1}"
+DAMIEN DESFONTAINES,"{'Laurent Bienvenu': 1, 'Vladimir Uspensky': 1, 'Nikolai Vereshchagin': 1, 'Ming Li': 1, 'Peter Hertling': 1, 'Andrej Muchnik': 1, 'Sven Kohler': 1, 'Damien Desfontaines': 1, 'Cristian Calude': 1, 'Elena Calude': 1, 'Andre Nies': 1, 'Rodney Downey': 1}"
+Universidad Polit,{'Dongwon Lee': 1}
+MASSIMO BARTOLETTI,"{'Kaihua Qin': 1, 'Massimo Bartoletti': 1}"
+Jan Zizka,"{'BW Scotney': 1, 'Guangyu Pei': 1, 'Mohammad Masdari': 1, 'TsuWei Chen': 1, 'Shree Murthy': 1, 'YC Hu': 1, 'Moazam Bidaki': 1, 'Yi Mu': 1, 'Aleksi Penttinen': 1, 'GP Parr': 1, 'Mehdi Maleknasab': 1, 'Xiaonan Wang': 1}"
+Hybridizing PSM,{'SM Soak': 1}
+RSM Operator,{'SM Soak': 1}
+Rimah Amami,"{'Lamel LF': 1, 'CC Chang': 1, 'Garofolo JS': 1, 'RE Schapire': 1, 'Davis SB': 1, 'ML Borrajo': 1}"
+XH Amsterdam,{'He Jifeng': 1}
+Mohammad Bazmara,"{'Duraskovic Ratomir': 1, 'Joksimovic Aleksandar': 1}"
+Shahram Jafari,"{'Duraskovic Ratomir': 1, 'Joksimovic Aleksandar': 1}"
+Fatemeh Pasand,"{'Duraskovic Ratomir': 1, 'Joksimovic Aleksandar': 1}"
+Hamid Allouch,{'New Turbo': 1}
+Idriss Chana,{'New Turbo': 1}
+Mostafa Belkasmi,{'New Turbo': 1}
+Jan Broekaert,"{'JA Typicality': 1, 'Van Rijsbergen': 1, 'Lambert Mogiliansky': 1}"
+Tomas Veloz,"{'JA Typicality': 1, 'Van Rijsbergen': 1, 'Lambert Mogiliansky': 1}"
+JOHANNES BORGSTR,"{'Measure Wiley': 1, 'Morgan Kaufmann': 1, 'Johannes Borgstrom': 1, 'Derived Judgments': 1, 'Code Examples': 1}"
+MICHAEL GREENBERGc,"{'Measure Wiley': 1, 'Morgan Kaufmann': 1}"
+JAMES MARGETSONd,"{'Measure Wiley': 1, 'Morgan Kaufmann': 1}"
+Link Conflicts,"{'MA AlShabi': 1, 'DP Agrawal': 1, 'CC Fan': 1, 'TY Feng': 1, 'WJ Dally': 1, 'HJ Siegel': 1, 'EL Miller': 1, 'PK Bansal': 1, 'KS Kahlon': 1, 'LN Bhuyan': 1, 'SM Bataineh': 1, 'VK Sehgal': 1, 'LM Ni': 1, 'BY Allosl': 1, 'SM Bhandarkar': 1, 'JW Smith': 1, 'MA Oliver': 1, 'KK Cheema': 1, 'DS Chauhan': 1, 'HR Arabnia': 1, 'AK Katangur': 1}"
+Saudi Arabia,"{'Xiaoli Li': 1, 'Ivica Draganjac': 1, 'Jacky Baltes': 1, 'Alan Mutka': 1, 'Andrew Thomson': 1, 'Damjan Miklic': 1, 'ISO Standard': 1, 'David Claus': 1, 'Stjepan Bogdan': 1, 'Integration Actually': 1, 'Stuart Haber': 1, 'Tanweer Alam': 1}"
+THORSTEN ALTENKIRCH,{'PA Mellies': 1}
+JAMES CHAPMAN,{'PA Mellies': 1}
+Harbi AlMahafzah,"{'SK Singh': 1, 'Karthik Nandakumar': 1, 'David Zhang': 1, 'Zhou DeLong': 1, 'Zhuang DeWen': 1, 'Andrew Teoh': 1, 'Arun Ross': 1, 'Tobias Scheidat': 1, 'AK Jain': 1, 'PJ Flynn': 1, 'Lei Zhang': 1, 'Rohin Govindarajanb': 1, 'TC Faltemier': 1, 'KW Bowyer': 1, 'Lin Zhang': 1, 'Hailong Zhu': 1, 'Claus Vielhauer': 1, 'Jana Dittmann': 1}"
+Mohammad Imran,"{'SK Singh': 1, 'Karthik Nandakumar': 1, 'David Zhang': 1, 'Zhou DeLong': 1, 'Zhuang DeWen': 1, 'Andrew Teoh': 1, 'Arun Ross': 1, 'Tobias Scheidat': 1, 'AK Jain': 1, 'PJ Flynn': 1, 'Lei Zhang': 1, 'Rohin Govindarajanb': 1, 'TC Faltemier': 1, 'KW Bowyer': 1, 'Lin Zhang': 1, 'Hailong Zhu': 1, 'Claus Vielhauer': 1, 'Jana Dittmann': 1}"
+Ecole Polytechnique,"{'Subject Expansion': 1, 'Adequacy Lemma': 1, 'Eindhoven Univ': 1, 'JW Klop': 1, 'Marcel Dekker': 1, 'JH Wu': 1, 'Dal Lago': 1, 'Sacerdoti Coen': 1, 'Schloss Dagstuhl': 1, 'Alexandre Marechal': 1, 'Daniel Graca': 1}"
+INGO BATTENFELD,"{'Matthias Schroder': 1, 'Regina Tix': 1, 'Samson Abramsky': 1, 'Gerhard Gierz': 1, 'Martin Hyland': 1, 'Ingo Battenfeld': 1, 'Klaus Keimel': 1}"
+KLAUS KEIMEL,"{'Matthias Schroder': 1, 'Regina Tix': 1, 'Samson Abramsky': 1, 'Gerhard Gierz': 1, 'Martin Hyland': 1, 'Ingo Battenfeld': 1, 'Klaus Keimel': 1}"
+NATHALIE BERTRAND,"{'Arnaud Sangnier': 1, 'Jannis Uhlendorf': 1, 'Hugo Gimbert': 1, 'Blaise Genest': 1, 'Parosh Abdulla': 1, 'Panagiotis Kouvaros': 1, 'Javier Esparza': 1, 'Sanjay Jain': 1, 'Alain Finkel': 1, 'Marcin Jurdzinski': 1, 'Ranko Lazic': 1, 'Tomas Brazdil': 1, 'Pierre Ganty': 1, 'Aymeric Vincent': 1, 'Paulin Fournier': 1, 'James Aspnes': 1, 'Laurent Doyen': 1, 'Nathalie Bertrand': 1, 'Dana Angluin': 1, 'Michael Blondin': 1, 'Thierry Massart': 1, 'Agnes Miermont': 1}"
+THOMAS BRIHAYE,"{ 'Veronique Bruyere': 1, 'Joachim Klein': 1, 'Mauricio Gonzalez': 1}"
+ERONIQUE BRUY,{'Veronique Bruyere': 1}
+Marie Albenque,{'Ph Chassaing': 1}
+Lucas Gerin,{'Ph Chassaing': 1}
+ALTI Adel,"{'JP Bodeveix': 1, 'JM Barnes': 1}"
+ROOSE Phillipe,"{'JP Bodeveix': 1, 'JM Barnes': 1}"
+ANDREA ASPERTI,"{'Martin Sulzmann': 1, 'Peter Dybjer': 1, 'Ana Bove': 1, 'Andrea Asperti': 1, 'Francois Garillot': 1, 'Wilmer Ricciotti': 1, 'Georges Gonthier': 1, 'Matthieu Sozeau': 1, 'Thierry Coquand': 1}"
+WILMER RICCIOTTI,"{'Martin Sulzmann': 1, 'Peter Dybjer': 1, 'Ana Bove': 1, 'Andrea Asperti': 1, 'Francois Garillot': 1, 'Wilmer Ricciotti': 1, 'Georges Gonthier': 1, 'Matthieu Sozeau': 1, 'Thierry Coquand': 1}"
+MARTIN HILS,{'Ben Yaacov': 1}
+Russell Bradford,"{'GE Collins': 2, 'JT Schwartz': 2, 'DJ Wilson': 1, 'CW Brown': 2, 'JH Davenport': 2, 'RJ Bradford': 2, 'GO Passmore': 1, 'IA Fotiou': 1, 'PA Parrilo': 1}"
+David Wilson,"{'GE Collins': 1, 'JT Schwartz': 1, 'DJ Wilson': 1, 'CW Brown': 1, 'JH Davenport': 1, 'RJ Bradford': 1, 'GO Passmore': 1}"
+Reza Azad,"{'WJ Kuo': 1, 'CY Fang': 1, 'CJ Lin': 1, 'CC Lin': 1, 'HR Shayegh': 2, 'SW Chen': 1, 'CS Fuh': 1, 'Digital Image': 1, 'MH Yang': 1, 'Ch KwangTing': 1, 'WB Larbi': 1, 'RL Hsu': 1, 'SL Phung': 1, 'AK Jain': 1, 'MA Akhloufi': 1}"
+Babak Azad,"{'WJ Kuo': 1, 'CY Fang': 1, 'CJ Lin': 1, 'CC Lin': 1, 'HR Shayegh': 1, 'SW Chen': 1, 'CS Fuh': 1, 'Digital Image': 1}"
+Moiz Qyser,"{'Ruben PrietoDiaz': 1, 'MK McKusick': 1, 'PB Kessler': 1, 'KC Wallnau': 1, 'Wang Ling': 1, 'SL Graham': 1}"
+Fatemeh Alamdar,"{'GJ Lu': 1, 'JZ Wang': 1, 'TS Huang': 1}"
+MohammadReza Keyvanpour,"{'GJ Lu': 1, 'JZ Wang': 1, 'TS Huang': 1}"
+Saida Aissi,"{'TM Khoshgoftaar': 1, 'RH Gting': 1, 'Bédard Yvan': 1, 'Octavio Glorio': 1, 'WH Inmon': 1, 'Juan Trujillo': 1}"
+LUC SEGOUFIN,"{'Michael Benedikt': 1, 'Robert McNaughton': 1, 'Logic History': 1, 'Thomas Place': 1, 'Paul Erdos': 1, 'Howard Straubing': 1}"
+ADRIANA BALAN,"{'By Corollary': 1, 'Enriched Categories': 1, 'Category Seminar': 1, 'Addison Wesley': 1, 'Marcel Dekker': 1, 'Set Vcat': 1}"
+ALEXANDER KURZ,"{'By Corollary': 1, 'HH Hansen': 1, 'WJ Fokkink': 1, 'SL Bloom': 1, 'Continuing Example': 1, 'MM Bonsangue': 1, 'Vrije Uni': 1, 'Algebraic Programming': 1, 'MR Mousavi': 1, 'Enriched Categories': 1, 'Category Seminar': 1, 'Addison Wesley': 1, 'Marcel Dekker': 1, 'Set Vcat': 1}"
+New Zealand,"{'SA Naimpally': 1, 'Math Phys': 1, 'DS Bridges': 1, 'AS Troelstra': 1, 'EA Bishop': 1}"
+Jaouad Boutahar,"{'MariePierre Dubuisson': 1, 'De Bruijn': 1, 'Christiane Fellbaum': 1}"
+Taoufik Rachad,"{'MariePierre Dubuisson': 1, 'De Bruijn': 1, 'Christiane Fellbaum': 1}"
+Khadija BENAIJA,"{'KA Artto': 1, 'CP Killen': 1, 'MJ Sheykh': 1, 'SJ Mantel': 1, 'JR Meredith': 1, 'HA Levine': 1, 'BS Blichfeldt': 1, 'JK Crawford': 1, 'DZ Milosevic': 1, 'GI Kendall': 1, 'RA Hunt': 1, 'Portfolio Management': 1, 'SC Rollins': 1}"
+Laila KJIRI,"{'KA Artto': 1, 'CP Killen': 1, 'MJ Sheykh': 1, 'SJ Mantel': 1, 'JR Meredith': 1, 'HA Levine': 1, 'BS Blichfeldt': 1, 'JK Crawford': 1, 'DZ Milosevic': 1, 'GI Kendall': 1, 'RA Hunt': 1, 'Portfolio Management': 1, 'SC Rollins': 1}"
+ROBERTO BRUTTOMESSO,"{'Quantifierfree Interpolation': 1, 'Alessandro Armando': 1, 'Roberto Bruttomesso': 1, 'Silvio Ghilardi': 1, 'Silvio Ranise': 1}"
+SILVIO GHILARDI,"{'Quantifierfree Interpolation': 1, 'Alessandro Armando': 1, 'Roberto Bruttomesso': 1, 'Silvio Ghilardi': 1, 'Silvio Ranise': 1}"
+Viale Mor,"{'MS Alvim': 1, 'Comparing Adaptive': 1, 'Tech Rep': 1, 'MD Ford': 1, 'ME Andrés': 1, 'Maximum Leakage': 1}"
+PAOLA BRUSCOLI,"{'Atomic Flows': 1, 'Final Comments': 1, 'In Figure': 1, 'Threshold Formulae': 1, 'Alessio Guglielmi': 1}"
+ALESSIO GUGLIELMI,"{'Atomic Flows': 1, 'Final Comments': 1, 'In Figure': 1, 'Threshold Formulae': 1, 'Alessio Guglielmi': 1}"
+TOM GUNDERSEN,"{'Atomic Flows': 1, 'Final Comments': 1, 'In Figure': 1, 'Threshold Formulae': 1, 'Alessio Guglielmi': 1}"
+GEORG GOTTLOB,"{'AK Chandra': 1, 'CEUR Elec': 1, 'TU Darmstadt': 1, 'Ph Kolaitis': 1}"
+MINGZHONG CAI,"{'Ming Li': 1, 'Eric Allender': 1, 'Harry Buhrman': 1}"
+RACHEL EPSTEIN,"{'Ming Li': 1, 'Eric Allender': 1, 'Harry Buhrman': 1}"
+EMI BONNET,"{'TW Reps': 1, 'Patterns AddisonWesley': 1, 'SS Owicki': 1}"
+ROHIT CHADHA,"{'TW Reps': 1, 'Patterns AddisonWesley': 1, 'SS Owicki': 1}"
+ROBERT ATKEY,"{'HS Ko': 1, 'PE Dagand': 1, 'Algebraic Programming': 1, 'SC Mu': 1, 'TR Chuang': 1, 'Partial Refinement': 1, 'Inductive Types': 1}"
+PATRICIA JOHANN,"{'HS Ko': 1, 'PE Dagand': 1, 'Algebraic Programming': 1, 'SC Mu': 1, 'TR Chuang': 1, 'Partial Refinement': 1, 'Inductive Types': 1}"
+ALBERT ATSERIAS,"{'Nada Lavrac': 1, 'Liqiang Geng': 1, 'Aaron Ceglar': 1, 'Heikki Mannila': 1, 'Rina Dechter': 1, 'If WZ': 1, 'Marta Arias': 1, 'Kotagiri Ramamohanarao': 1, 'Michael Frazier': 1, 'James Hawthorne': 1, 'Bernhard Ganter': 1, 'Albert Atserias': 1, 'Tomasz Imielinski': 1, 'Petr Hajek': 1, 'Rakesh Agrawal': 1, 'Dana Angluin': 1, 'XY XYXkYk': 1}"
+Ali KHALFALLAH,"{'MS Bouhlel': 1, 'SS Maniccam': 1, 'XB Wang': 1, 'XF Liao': 1, 'NG Bourbakis': 1, 'LH Zhang': 1}"
+Faouzi Benzarti,"{'HR Sheikh': 1, 'Tony Chan': 1, 'Jooyoung Hahn': 1, 'XueCheng Tai': 1, 'Xiaogang Jin': 1, 'AC Bovik': 1, 'Jianbing Shen': 1, 'Raymond Chan': 1, 'EP Simoncelli': 1, 'Kaun DT': 1, 'Suresh GR': 1, 'Frost VS': 1, 'Bamber JC': 1, 'Michailovich OV': 1, 'Stiles JA': 1, 'Taya PC': 1, 'Bovik AC': 1, 'Authors Biographies': 1, 'Abbott JG': 1, 'Anil AR': 1}"
+Hamid Amiri,"{'HR Sheikh': 1, 'Tony Chan': 1, 'Jooyoung Hahn': 1, 'XueCheng Tai': 1, 'Xiaogang Jin': 1, 'AC Bovik': 1, 'Jianbing Shen': 1, 'Raymond Chan': 1, 'EP Simoncelli': 1, 'Kaun DT': 1, 'Suresh GR': 1, 'Frost VS': 1, 'Bamber JC': 1, 'Michailovich OV': 1, 'Stiles JA': 1, 'Taya PC': 1, 'Bovik AC': 1, 'Authors Biographies': 1, 'Abbott JG': 1, 'Anil AR': 1}"
+MARCO BERNARDO,"{'Placing Trace': 1, 'SD Brookes': 1, 'CAR Hoare': 1, 'CC Jou': 1, 'KG Larsen': 1, 'NA Lynch': 1, 'SA Smolka': 1}"
+Reza Zamani,{'DW Cranston': 1}
+EndtoEnd Communication,{'Codeword Parcelp': 1}
+Reza Ravanmehr,"{'ND Blas': 1, 'RE Woods': 1, 'MK Badini': 1, 'RC Gonzalez': 1, 'Introducing Bespin': 1, 'DD Feng': 1}"
+Fatema Akhter,{'El Safy': 1}
+SAM BUSS,"{'Douglas Cenzer': 1, 'RG Downey': 1, 'Marcel Dekker': 1}"
+DOUGLAS CENZER,"{'Douglas Cenzer': 1, 'RG Downey': 1, 'Marcel Dekker': 1}"
+AND JEFFREY,"{'Douglas Cenzer': 1, 'RG Downey': 1, 'Marcel Dekker': 1}"
+Khalifa Toumi,{'JM Orset': 1}
+Ana Cavalli,{'JM Orset': 1}
+JEANPIERRE JOUANNAUD,"{'Lousiana Technical': 1, 'JY Girard': 1, 'Université Paris': 1, 'JP Jouannaud': 1, 'Utrecht Universiteit': 1}"
+Harry Buhrman,"{'Peter Frankl': 1, 'HoiKwan Lau': 1, 'Joshua Brody': 1, 'Stefan Brands': 1, 'Shiteng Chen': 1, 'Oded Margalit': 1, 'Naveen Sastry': 1, 'Benny Chor': 1, 'Nishanth Chandran': 1, 'Srdjan Capkun': 1, 'Harry Buhrman': 1, 'Vipul Goyal': 1, 'Satoshi Ishizaka': 1, 'Laszlo Babai': 1, 'Umesh Shankar': 1, 'Serge Fehr': 1, 'If Rn': 1}"
+Serge Fehr,"{'Peter Frankl': 1, 'HoiKwan Lau': 1, 'Joshua Brody': 1, 'Stefan Brands': 1, 'Shiteng Chen': 1, 'Oded Margalit': 1, 'Naveen Sastry': 1, 'Benny Chor': 1, 'Nishanth Chandran': 1, 'Srdjan Capkun': 1, 'Harry Buhrman': 1, 'Vipul Goyal': 1, 'Satoshi Ishizaka': 1, 'Laszlo Babai': 1, 'Umesh Shankar': 1, 'Serge Fehr': 1}"
+Florian Speelman,"{'Peter Frankl': 1, 'HoiKwan Lau': 1, 'Joshua Brody': 1, 'Stefan Brands': 1, 'Shiteng Chen': 1, 'Oded Margalit': 1, 'Naveen Sastry': 1, 'Benny Chor': 1, 'Nishanth Chandran': 1, 'Srdjan Capkun': 1, 'Harry Buhrman': 1, 'Vipul Goyal': 1, 'Satoshi Ishizaka': 1, 'Laszlo Babai': 1, 'Umesh Shankar': 1, 'Serge Fehr': 1}"
+Liane Gabora,{'Lambert Mogiliansky': 1}
+Arash Ahadia,"{'MohammadReza Sadeghi': 1, 'Tomasz Bartnicki': 1, 'DingZhu Du': 1, 'Ali Dehghan': 1, 'Jennifer Diemunsch': 1, 'Futaba Okamoto': 1, 'Javier Marenco': 1, 'MR Sadeghi': 1, 'Gary Chartrand': 1, 'KerK Ko': 1, 'Maciej Kalkowski': 1, 'Sebastian Czerwinski': 1, 'Marcelo Mydlarz': 1, 'Axel Brandt': 1}"
+Ali Dehghanb,"{'MohammadReza Sadeghi': 1, 'Tomasz Bartnicki': 1, 'DingZhu Du': 1, 'Ali Dehghan': 1, 'Jennifer Diemunsch': 1, 'Futaba Okamoto': 1, 'Javier Marenco': 1, 'MR Sadeghi': 1, 'Gary Chartrand': 1, 'KerK Ko': 1, 'Maciej Kalkowski': 1, 'Sebastian Czerwinski': 1, 'Marcelo Mydlarz': 1, 'Axel Brandt': 1}"
+Bergh Equation,{'LexiFi Structuring': 1}
+Mehrez Boulares,"{'Educational Resources': 1, 'Algorithm ProximitySearch': 1}"
+Mohamed Jemni,"{'Educational Resources': 1, 'Algorithm ProximitySearch': 1}"
+Sodeif Ahadpour,"{'RL Rivest': 1, 'KW Wong': 1, 'LS Tsimring': 1, 'WH Chang': 1, 'NR Rema': 1, 'MA Jafarizadeh': 1, 'AL Ferrara': 1, 'AD SanJs': 1, 'ShM Guo': 1}"
+Yaser Sadra,"{'RL Rivest': 1, 'KW Wong': 1, 'LS Tsimring': 1, 'WH Chang': 1, 'NR Rema': 1, 'MA Jafarizadeh': 1, 'AL Ferrara': 1, 'AD SanJs': 1, 'ShM Guo': 1}"
+Zahra ArastehFard,"{'RL Rivest': 1, 'KW Wong': 1, 'LS Tsimring': 1}"
+Am Fallturm,"{'Computer Sci': 1, 'Concluding Discussion': 1, 'Symbolic Computation': 1, 'Deriving Guards': 1, 'Array Indices': 1, 'Prentice Hall': 1, 'Contributions Overall': 1}"
+Changbo Chen,"{'GE Collins': 1, 'JT Schwartz': 1, 'CW Brown': 1, 'JH Davenport': 1, 'RJ Bradford': 1, 'IA Fotiou': 1, 'PA Parrilo': 1}"
+Singularity OS,"{'Lorenzo Bettini': 1, 'Galen Hunt': 1, 'Etienne Lozes': 1, 'James Larus': 1, 'Zachary Stengel': 1, 'Marco Giunti': 1, 'Mariangiola DezaniCiancaglini': 1, 'Mark Aiken': 1, 'Simon Gay': 1, 'Kohei Honda': 1, 'Jules Villard': 1, 'Chiara Messa': 1, 'Manuel Fahndrich': 1, 'Simone Martini': 1, 'Luca Cardelli': 1, 'Dario Colazzo': 1}"
+SIVA ANANTHARAMAN,"{'JM Hullot': 1, 'JP Jouannaud': 1, 'HP Ko': 1, 'DA Wolfram': 1}"
+CHRISTOPHER BOUCHARD,"{'JM Hullot': 1, 'JP Jouannaud': 1, 'HP Ko': 1, 'DA Wolfram': 1}"
+PALIATH NARENDRAN,"{'JM Hullot': 1, 'JP Jouannaud': 1, 'HP Ko': 1, 'DA Wolfram': 1}"
+Universidad Sim,"{'Basic Facts': 1, 'FirstOrder Queries': 1, 'Main Result': 1}"
+Image Fusion,"{'TY Wang': 1, 'NV Kalyankar': 1, 'AA AlZuky': 1, 'NV Kalyank': 1, 'Jingying Fu': 1, 'Local Mean': 1, 'FUSED IMAGES': 1, 'International Confere': 1, 'HH Blotevogel': 1, 'REN Horne': 1}"
+Tyanko Aleksiev,"{'Ermir Qeli': 1, 'Julian Peters': 1, 'Christian Panse': 1, 'Tian Guo': 1, 'Riccardo Murri': 1, 'Upendra Sharma': 1, 'Thilo Muth': 1}"
+Simon Barkow,"{'Ermir Qeli': 1, 'Julian Peters': 1, 'Christian Panse': 1, 'Tian Guo': 1, 'Riccardo Murri': 1, 'Upendra Sharma': 1, 'Thilo Muth': 1}"
+Peter Kunszt,"{'Ermir Qeli': 1, 'Julian Peters': 1, 'Christian Panse': 1, 'Tian Guo': 1, 'Riccardo Murri': 1, 'Upendra Sharma': 1, 'Thilo Muth': 1}"
+Dmitry Ageyev,"{'DV Ageyev': 2, 'VK Kovalchuk': 1}"
+Alexander Pereverzev,"{'DV Ageyev': 1, 'VK Kovalchuk': 1}"
+Bruijn Graphs,{'Berlin Heidelberg': 1}
+DANEL AHMAN,"{'Dagstuhl Publishing': 1, 'Turku Centre': 1, 'Edizioni Cremonense': 1}"
+New Delhi,"{'Dunns Index': 1, 'Repeat Steps': 1, 'Tsuyoshi Murata': 1, 'Kota Saito': 1, 'Karypis George': 1, 'Refinement Of': 1, 'Process Description': 1, 'Harita Mehta': 1, 'PM Khan': 1, 'TD Nguyen': 1, 'MA Gondal': 1, 'DR Rizvi': 1, 'BN Tran': 1, 'TD Tran': 1, 'DK Bui': 1, 'AD Duong': 1, 'MT Tran': 1}"
+Mohaghegh Ardabili,"{'Chui CK': 1, 'Jafarizadeh MA': 1}"
+MIKOLAJ BOJA,"{'Forest Algebras': 1, 'Sophie Tison': 1, 'Thomas Wilke': 1, 'Joelle Cohen': 1, 'Faron Moller': 1, 'Path Algebras': 1, 'Zoltan Esik': 1, 'Mikolaj Bojanczyk': 1, 'Formal Logic': 1, 'Pablo Barcelo': 1, 'Distributive Algebras': 1, 'Dominique Perrin': 1}"
+HOWARD STRAUBING,"{'Forest Algebras': 1, 'Sophie Tison': 1, 'Thomas Wilke': 1, 'Joelle Cohen': 1, 'Faron Moller': 1, 'Path Algebras': 1, 'Zoltan Esik': 1, 'Mikolaj Bojanczyk': 1, 'Formal Logic': 1, 'Pablo Barcelo': 1, 'Distributive Algebras': 1, 'Dominique Perrin': 1}"
+Hemanth Tummala,"{'Al Amin': 1, 'Consent Creation': 1}"
+Colorado Springs,"{'Combined Efficiency': 1, 'WC Initiatives': 1, 'Proprietary Formats': 1, 'General Discussion': 1, 'Execution Speed': 1, 'MPEG BiM': 1}"
+Octavio Arriaga,{'Peter Shirley': 1}
+Jichen Guo,{'Peter Shirley': 1}
+Rebecca Adam,{'Peter Shirley': 1}
+Sebastian Houben,{'Peter Shirley': 1}
+Wireless Sensor,"{'Jagadish Kumar': 1, 'JG Ryu': 1, 'MANET Offers': 1, 'DH Jung': 1}"
+Moises Diaz,"{'Hurschler Lichtsteiner': 1, 'HeadToesKneesShoulders HTKS': 1}"
+Thibaut Benjamina,{'De Bruijn': 1}
+Ioannis Markakisa,{'De Bruijn': 1}
+Chiara Sartia,{'De Bruijn': 1}
+Mayowa Akinwande,"{'Financial Planning': 1, 'JPMorgan Chase': 1, 'Personal Consumption': 1, 'Financial Education': 1, 'Full Year': 1, 'Empirical Review': 1, 'Credit Card': 1}"
+Alexander Lopez,"{'Financial Planning': 1, 'JPMorgan Chase': 1, 'Personal Consumption': 1, 'Financial Education': 1, 'Full Year': 1, 'Empirical Review': 1, 'Credit Card': 1}"
+Tobi Yusuf,"{'Financial Planning': 1, 'JPMorgan Chase': 1, 'Personal Consumption': 1, 'Financial Education': 1, 'Full Year': 1, 'Empirical Review': 1, 'Credit Card': 1}"
+Victor Bulatov,{'Murzintcev Nikita': 1}
+Vasiliy Alekseev,{'Murzintcev Nikita': 1}
+Amr Alkhatib,{'Natesan Ramamurthy': 1}
+Henrik Bostr?m,{'Natesan Ramamurthy': 1}
+Walid Berrouk,"{'YS Fan': 1, 'SV Hashemian': 1, 'Sofiane Chemaa': 1, 'MC Zhou': 1, 'PC Xiong': 1, 'Allaoua Chaoui': 1, 'Hamid Harroud': 1, 'Yousra Chtouki': 1, 'Raida Elmansouri': 1}"
+Ouanes Aissaoui,"{'YS Fan': 1, 'SV Hashemian': 1, 'Sofiane Chemaa': 1, 'MC Zhou': 1, 'PC Xiong': 1, 'Allaoua Chaoui': 1, 'Hamid Harroud': 1, 'Yousra Chtouki': 1, 'Raida Elmansouri': 1}"
+Robert Atkeya,"{'Agda Developers': 1, 'In BV': 1, 'Since ChuA': 1}"
+Wen Kokke,"{'Agda Developers': 1, 'In BV': 1, 'Since ChuA': 1}"
+Adrita Barua,{'Ability Scores': 1}
+Cara Widmer,{'Ability Scores': 1}
+Pascal Hitzler,{'Ability Scores': 1}
+Martina Baiardi,"{'Proceedings Lec': 1, 'Woodworking Ma': 1}"
+Samuele Burattini,"{'Proceedings Lec': 1, 'Woodworking Ma': 1}"
+Fatemeh Davami,"{'MH Yang': 1, 'Ch KwangTing': 1, 'WB Larbi': 1, 'RL Hsu': 1, 'SL Phung': 1, 'AK Jain': 1, 'HR Shayegh': 1, 'MA Akhloufi': 1}"
+Lucia Anit,"{'Fort Lauderdale': 1, 'PMLR Jul': 1, 'Curran Associates': 1}"
+Hugo Sousa,{ 'DD Jan': 1}
+BENEDIKT BOLLIG,"{'JP Katoen': 1, 'TracesC Lzero': 1}"
+PETER HABERMEHL,"{'Th Schwentick': 1, 'JP Katoen': 1}"
+MARTIN LEUCKER,"{'Th Schwentick': 1, 'JP Katoen': 1}"
+RENATO ACAMPORA,"{'ECS In': 1, 'Morgan Kaufmann': 1, 'Given Aa': 1, 'Let ME': 1}"
+LUCA GEATTI,"{'ECS In': 1, 'Morgan Kaufmann': 1, 'Given Aa': 1, 'Let ME': 1}"
+Maciej Baczmanski,{'Unlike YOLOP': 1}
+Mateusz Wasala,{'Unlike YOLOP': 1}
+ARNAUD SANGNIER,"{'Existential Fragment': 1, 'Schloss Dagstuhl': 1, 'FirstOrder Logic': 1, 'Consider Figure': 1}"
+Colonel Roche,"{'HE Sturgis': 1, 'JC Shepherdson': 1, 'PO Ribet': 1}"
+UNAS GUTKOVAS,{'Johannes Borgstrom': 1}
+JOACHIM PARROW,{'Johannes Borgstrom': 1}
+ORN VICTOR,{'Johannes Borgstrom': 1}
+TU Dresden,"{'Surajit Chaudhuri': 1, 'Michael Garey': 1, 'Cynthia Loten': 1, 'Stefan Kratsch': 1, 'Manuel Bodirsky': 1, 'Nikhil Bansal': 1, 'Meghyn Bienvenu': 1, 'Alexandra Meliou': 1, 'Caterina Viola': 1, 'Serge Abiteboul': 1, 'Antoine Mottet': 1, 'Vladimir Kolmogorov': 1, 'Andrei Krokhin': 1, 'Libor Barto': 1, 'Marcin Kozik': 1, 'Saharon Shelah': 1, 'Florent Madelaine': 1, 'Avrim Blum': 1, 'Gregory Cherlin': 1, 'Richard Hull': 1, 'Neha Makhija': 1, 'By Lemma': 1, 'Marek Cygan': 1, 'Michael Pinsker': 1, 'Wolfgang Gatterbauer': 1, 'Cibele Freire': 1, 'Opt However': 1, 'Peter Fulla': 1, 'Diego Calvanese': 1}"
+WENHAO TANG,"{'Patrick Thomson': 1, 'Algebraic Effects': 1, 'Scoped Effects': 1, 'Term Syntax': 1, 'Operational Semantics': 1, 'Generalized Forwarding': 1}"
+Andrew Bolt,"{'PE Danielsson': 1, 'Timber Bureau': 1}"
+Conrad Sanderson,"{'PE Danielsson': 1, 'Timber Bureau': 1}"
+Carolyn Huston,"{'PE Danielsson': 1, 'Timber Bureau': 1}"
+Petra Kuhnert,"{'PE Danielsson': 1, 'Timber Bureau': 1}"
+LORA BAILEY,"{'Ben Raphael': 1, 'Haixu Tang': 1, 'Julia Mixtacki': 1, 'Toby Flint': 1, 'Pascal Koiran': 1, 'Pedro Feijao': 1, 'Erin Hanna': 1, 'Eric Allender': 1, 'John Kececioglu': 1, 'Guillaume Fertin': 1, 'Anne Bergeron': 1, 'Yu Lin': 1, 'Oliver Attie': 1, 'Maurice Jansen': 1, 'Let AG': 1, 'Mingfu Shao': 1, 'By Corollary': 1, 'Rasmus Nielsen': 1, 'Chunfang Zheng': 1, 'Rick Durrett': 1, 'Eliot Bixby': 1, 'Zheng Fu': 1, 'Xin Chen': 1, 'Joshua Cooper': 1, 'Bret Larget': 1, 'Jakkarin Suksawatchon': 1, 'Aaron Darling': 1, 'Aniket Mane': 1, 'Magnus Steinby': 1, 'Istvan Miklos': 1, 'Peter Gartland': 1, 'William Hesse': 1, 'Liqing Zhang': 1, 'Eric Tannier': 1, 'Guanqun Shi': 1, 'Zhaoshi Jiang': 1, 'Sophia Yancopoulos': 1, 'Anthony Labarre': 1, 'Jie Zheng': 1, 'Yasmine Ajana': 1, 'Lefebvre JeanFrancois': 1, 'NP For': 1, 'Sridhar Hannenhalli': 1, 'Lora Bailey': 1, 'Paul Medvedev': 1}"
+GARNER COCHRAN,"{'Ben Raphael': 1, 'Haixu Tang': 1, 'Julia Mixtacki': 1, 'Toby Flint': 1, 'Pascal Koiran': 1, 'Pedro Feijao': 1, 'Erin Hanna': 1, 'Eric Allender': 1, 'John Kececioglu': 1, 'Guillaume Fertin': 1, 'Anne Bergeron': 1, 'Yu Lin': 1, 'Oliver Attie': 1, 'Maurice Jansen': 1, 'Let AG': 1, 'Mingfu Shao': 1, 'By Corollary': 1, 'Rasmus Nielsen': 1, 'Chunfang Zheng': 1, 'Rick Durrett': 1, 'Eliot Bixby': 1, 'Zheng Fu': 1, 'Xin Chen': 1, 'Joshua Cooper': 1, 'Bret Larget': 1, 'Jakkarin Suksawatchon': 1, 'Aaron Darling': 1, 'Aniket Mane': 1, 'Magnus Steinby': 1, 'Istvan Miklos': 1, 'Peter Gartland': 1, 'William Hesse': 1, 'Liqing Zhang': 1, 'Eric Tannier': 1, 'Guanqun Shi': 1, 'Zhaoshi Jiang': 1, 'Sophia Yancopoulos': 1, 'Anthony Labarre': 1, 'Jie Zheng': 1, 'Yasmine Ajana': 1, 'Lefebvre JeanFrancois': 1, 'Sridhar Hannenhalli': 1, 'Lora Bailey': 1, 'Paul Medvedev': 1}"
+NATHAN FOX,"{'Ben Raphael': 1, 'Haixu Tang': 1, 'Julia Mixtacki': 1, 'Toby Flint': 1, 'Pascal Koiran': 1, 'Pedro Feijao': 1, 'Erin Hanna': 1, 'Eric Allender': 1, 'John Kececioglu': 1, 'Guillaume Fertin': 1, 'Anne Bergeron': 1, 'Yu Lin': 1, 'Oliver Attie': 1, 'Maurice Jansen': 1, 'Let AG': 1, 'Mingfu Shao': 1, 'By Corollary': 1, 'Rasmus Nielsen': 1, 'Chunfang Zheng': 1, 'Rick Durrett': 1, 'Eliot Bixby': 1, 'Zheng Fu': 1, 'Xin Chen': 1, 'Joshua Cooper': 1, 'Bret Larget': 1, 'Jakkarin Suksawatchon': 1, 'Aaron Darling': 1, 'Aniket Mane': 1, 'Magnus Steinby': 1, 'Istvan Miklos': 1, 'Peter Gartland': 1, 'William Hesse': 1, 'Liqing Zhang': 1, 'Eric Tannier': 1, 'Guanqun Shi': 1, 'Zhaoshi Jiang': 1, 'Sophia Yancopoulos': 1, 'Anthony Labarre': 1, 'Jie Zheng': 1, 'Yasmine Ajana': 1, 'Lefebvre JeanFrancois': 1, 'NP For': 1, 'Sridhar Hannenhalli': 1, 'Lora Bailey': 1, 'Paul Medvedev': 1}"
+MICHAEL LEVET,"{'Ben Raphael': 1, 'Haixu Tang': 1, 'Julia Mixtacki': 1, 'Toby Flint': 1, 'Pascal Koiran': 1, 'Pedro Feijao': 1, 'Erin Hanna': 1, 'Eric Allender': 1, 'John Kececioglu': 1, 'Guillaume Fertin': 1, 'Anne Bergeron': 1, 'Yu Lin': 1, 'Oliver Attie': 1, 'Maurice Jansen': 1, 'Let AG': 1, 'Mingfu Shao': 1, 'By Corollary': 1, 'Rasmus Nielsen': 1, 'Chunfang Zheng': 1, 'Rick Durrett': 1, 'Eliot Bixby': 1, 'Zheng Fu': 1, 'Xin Chen': 1, 'Joshua Cooper': 1, 'Bret Larget': 1, 'Jakkarin Suksawatchon': 1, 'Aaron Darling': 1, 'Aniket Mane': 1, 'Magnus Steinby': 1, 'Istvan Miklos': 1, 'Peter Gartland': 1, 'William Hesse': 1, 'Liqing Zhang': 1, 'Eric Tannier': 1, 'Guanqun Shi': 1, 'Zhaoshi Jiang': 1, 'Sophia Yancopoulos': 1, 'Anthony Labarre': 1, 'Jie Zheng': 1, 'Yasmine Ajana': 1, 'Lefebvre JeanFrancois': 1, 'NP For': 1, 'Sridhar Hannenhalli': 1, 'Lora Bailey': 1, 'Paul Medvedev': 1}"
+Richi Nayak,"{'Fronzetti Colladon': 1, 'Fronzetti Colladonid': 1, 'Palgrave Macmillan': 1}"
+Gareth Knapman,"{'Fronzetti Colladon': 1, 'Fronzetti Colladonid': 1, 'Palgrave Macmillan': 1}"
+Paul Turnbull,"{'Fronzetti Colladon': 1, 'Fronzetti Colladonid': 1, 'Palgrave Macmillan': 1}"
+Cressida Fforde,"{'Fronzetti Colladon': 1, 'Fronzetti Colladonid': 1, 'Palgrave Macmillan': 1}"
+Robust Private,"{'Brett Hemenway': 1, 'Rafail Ostrovsky': 1, 'Amos Beimel': 1, 'Jonathan Katz': 1, 'Alan Guo': 1, 'Peter Gemmell': 1, 'From Table': 1, 'USENIX Association': 1, 'Madhu Sudan': 1, 'Sergey Yekhanin': 1}"
+BRETT MCLEAN,{'Poschel BP': 1}
+Samson Abramskya,"{'Stefan Milius': 1, 'Yoav Montacute': 1, 'Andre Joyal': 1, 'Samson Abramsky': 1, 'Chase Ford': 1, 'Anuj Dawar': 1, 'Luca Reggio': 1, 'Jeremy Dubut': 1, 'Mogens Nielsen': 1}"
+Nihil Shahc,"{'Stefan Milius': 1, 'Yoav Montacute': 1, 'Andre Joyal': 1, 'Samson Abramsky': 1, 'Chase Ford': 1, 'Anuj Dawar': 1, 'Luca Reggio': 1, 'Jeremy Dubut': 1, 'Mogens Nielsen': 1}"
+Waseem Akram,"{'Qingmin Shi': 1, 'Prosenjit Gupta': 1, 'Ravi Janardan': 1, 'Peyman Afshani': 1, 'Herbert Edelsbrunner': 1}"
+Sanjeev Saxena,"{'Qingmin Shi': 1, 'Prosenjit Gupta': 1, 'Ravi Janardan': 1, 'Peyman Afshani': 1, 'Herbert Edelsbrunner': 1}"
+RADU MARDARE,"{'Claudio Hermida': 1, 'Schloss Dagstuhl': 1, 'Since PMet': 1, 'Vignudelli MSV': 1, 'By Proposition': 1}"
+Dylan Marinho,"{'LNCS Taipei': 1, 'LNCS Copen': 1, 'LNCS Philadelphia': 1, 'LNCS Lyngby': 1, 'LNCS Prague': 1, 'LNCS Pasadena': 1, 'LNCS Aarhus': 1, 'LNCS Porto': 1, 'LNCS Limassol': 1, 'LNCS Vienna': 1, 'LNCS Paris': 1}"
+Yacine Amara,{'Pascal Muller': 1}
+Yasmine Daheur,{'Pascal Muller': 1}
+Lamia Saichi,{'Pascal Muller': 1}
+JULIEN LANGE,"{'USENIX Association': 1, 'Jovanka Pantovic': 1, 'Peter Hofner': 1, 'Consider TG': 1, 'Marco Carbone': 2, 'Mario Bravetti': 1}"
+IVAN DRECUN,{'Ross McBride': 1}
+Sandro Bardelli,"{'Egon Brunswik': 1, 'Charles Dodge': 1, 'Sara Lenzi': 1, 'SJ Lilly': 1, 'Gael Dubus': 1, 'Bruce Walker': 1, 'Roberto Barbera': 1, 'John Dunn': 1, 'Oded BenTal': 1, 'April Jubett': 1, 'Paul Lunn': 1, 'IGI Global': 1, 'Florbela Pereira': 1, 'Federico Avanzini': 1, 'Giorgio Presti': 1, 'Mark Ballora': 1, 'Dragan Ahmetovic': 1, 'Gregory Kramer': 1, 'Ethan Brown': 1, 'Andrea Polli': 1, 'Salvatore Avanzo': 1, 'Michelle Daniels': 1, 'Stephen Barrass': 1}"
+Claudia Ferretti,"{'Egon Brunswik': 1, 'Charles Dodge': 1, 'Sara Lenzi': 1, 'SJ Lilly': 1, 'Gael Dubus': 1, 'Bruce Walker': 1, 'Roberto Barbera': 1, 'John Dunn': 1, 'Oded BenTal': 1, 'April Jubett': 1, 'Paul Lunn': 1, 'IGI Global': 1, 'Florbela Pereira': 1, 'Federico Avanzini': 1, 'Giorgio Presti': 1, 'Mark Ballora': 1, 'Dragan Ahmetovic': 1, 'Gregory Kramer': 1, 'Ethan Brown': 1, 'Andrea Polli': 1, 'Salvatore Avanzo': 1, 'Michelle Daniels': 1, 'Stephen Barrass': 1}"
+IVAN LANESE,"{'Concluding Remarks': 1, 'Message Se': 1, 'Josep Carmona': 1, 'Choreography Automata': 1, 'Deciding CUI': 1, 'Since AX': 1, 'Communication Properties': 1}"
+Alain Andres,"{'Nicolas Bougie': 1, 'Yannis FletBerliac': 1, 'Jonathan Ho': 1, 'Filip Wolski': 1, 'Arthur Aubret': 1, 'Chelsea Finn': 1, 'Marcin Andrychowicz': 1, 'Grigorescu Curiosity': 1, 'Harrison Edwards': 1, 'Tianjun Zhang': 1, 'David Szepesvari': 1, 'Julian Schrittwieser': 1, 'Matteo Hessel': 1, 'Huazhe Xu': 1, 'Marc Bellemare': 1, 'Ingmar Kanitscheider': 1, 'Anton Raichuk': 1, 'Pablo Sprechmann': 1, 'Yuri Burda': 1, 'Harri Edwards': 1, 'John Schulman': 1, 'Andres Campero': 1, 'Zhenwei Zhu': 1, 'Joseph Modayil': 1, 'Hubert Soyer': 1, 'Bowen Baker': 1, 'Deepak Pathak': 1, 'Pulkit Agrawal': 1, 'Haoran Tang': 1, 'Rein Houthooft': 1, 'David Silver': 1, 'Sriram Srinivasan': 1, 'Andreas Holzinger': 1, 'William Fedus': 1, 'Sergey Levine': 1, 'Roberta Raileanu': 1, 'Manu Orsini': 1, 'Xiao Jing': 1, 'Wenye Ma': 1, 'Lasse Espeholt': 1, 'Daochen Zha': 1, 'Johan Ferret': 1}"
+Benedikt Ahrens,"{'KU Leuven': 1, 'Local Substitution': 1, 'Comprehension Structure': 1, 'Comprehension Bicategories': 1, 'USA AAI': 1, 'Basic Rules': 1, 'Global Substitution': 1, 'Substitution Structure': 1}"
+IAN CASSAR,"{'Transducer Optimality': 1, 'Schloss Dagstuhl': 1}"
+ALAIN FINKEL,"{'Schloss Dagstuhl': 1, 'FMP Let': 1, 'TracesC Lzero': 1, 'OutputBounded Problems': 1, 'Prateek Karandikar': 1, 'Since ATS': 1, 'By Prop': 1}"
+Scienze Pure,{'Time Reversibility': 1}
+Andrea Asperti,"{'Andrea Asperti': 1, 'Kasper Brink': 1, 'Josef Urban': 1, 'Makarius Wenzel': 1, 'Wilmer Ricciotti': 1, 'Jesse Alama': 1, 'Yves Bertot': 1}"
+Wilmer Ricciotti,"{'Andrea Asperti': 1, 'Kasper Brink': 1, 'Josef Urban': 1, 'Makarius Wenzel': 1, 'Wilmer Ricciotti': 1, 'Jesse Alama': 1, 'Yves Bertot': 1}"
+Simo Alami,"{'Sander Dieleman': 1, 'Kunjin Chen': 1, 'Anthony Faustine': 1, 'Manish Marwah': 1, 'Hengxu Zhang': 1, 'Michele Valenti': 1, 'Gautam Shah': 1, 'Chaoyun Zhang': 1, 'Benjamin Lindemann': 1, 'Hyungsul Kim': 1, 'Yuanmeng Zhang': 1, 'Ziyue Jia': 1, 'Qin Wang': 1, 'Lukas Mauch': 1, 'Huijuan Shao': 1, 'Xiaohan Shi': 1, 'Olaf Ronneberger': 1, 'Stephen Makonin': 1, 'Yi Luo': 1, 'Alon Harell': 1, 'Zhang Shuichang': 1, 'Rene Vidal': 1, 'Timo Müller': 1, 'Andrea Felicetti': 1, 'Colin Lea': 1, 'WS Ng': 1, 'Berkan Kadioglu': 1, 'Mingjun Zhong': 1, 'Sunil Semwal': 1, 'Guanghua Yang': 1, 'Iosif Mporas': 1, 'Linfeng Yang': 1, 'Michael Horgan': 1, 'Shuqi Qin': 1, 'Jing Li': 1, 'Jack Kelly': 1, 'Angela Fan': 1, 'Liang Yu': 1, 'Emanuele Principi': 1, 'Lucas Pereira': 1}"
+Jérémie Decock,"{'Sander Dieleman': 1, 'Kunjin Chen': 1, 'Anthony Faustine': 1, 'Manish Marwah': 1, 'Hengxu Zhang': 1, 'Michele Valenti': 1, 'Gautam Shah': 1, 'Chaoyun Zhang': 1, 'Benjamin Lindemann': 1, 'Hyungsul Kim': 1, 'Yuanmeng Zhang': 1, 'Ziyue Jia': 1, 'Qin Wang': 1, 'Lukas Mauch': 1, 'Huijuan Shao': 1, 'Xiaohan Shi': 1, 'Olaf Ronneberger': 1, 'Stephen Makonin': 1, 'Yi Luo': 1, 'Alon Harell': 1, 'Zhang Shuichang': 1, 'Rene Vidal': 1, 'Timo Müller': 1, 'Andrea Felicetti': 1, 'Colin Lea': 1, 'WS Ng': 1, 'Berkan Kadioglu': 1, 'Mingjun Zhong': 1, 'Sunil Semwal': 1, 'Guanghua Yang': 1, 'Iosif Mporas': 1, 'Linfeng Yang': 1, 'Michael Horgan': 1, 'Shuqi Qin': 1, 'Jing Li': 1, 'Jack Kelly': 1, 'Angela Fan': 1, 'Liang Yu': 1, 'Emanuele Principi': 1, 'Lucas Pereira': 1}"
+Timothée Goubault,{'Rigeti Computing': 1}
+Marc Baboulin,{'Rigeti Computing': 1}
+ABSORBING SUBALGEBRAS,"{'CYCLIC TERMS': 1, 'Marcin Kozik': 1, 'Petar Markovic': 1}"
+Ehud Aharoni,{'Santa Clara': 1}
+Moran Baruch,{'Santa Clara': 1}
+Pradip Bose,{'Santa Clara': 1}
+JAKOB PIRIBAUER,{'Joachim Klein': 1}
+MARIO BRAVETTI,"{'Formal Se': 1, 'Mario Bravetti': 1, 'Marco Carbone': 1}"
+DARIUSZ BIERNACKI,"{'With Lemma': 1, 'By Lemma': 1, 'Luke Maurer': 1, 'Operational Correspondence': 1, 'Upto Techniques': 2, 'Diacritical Progress': 1, 'Symbolic Compu': 3, 'Contextual Equivalence': 1, 'Symbolic Computation': 1, 'CK Hur': 2, 'PL Curien': 1, 'Schloss Dagstuhl': 1, 'Following Madiot': 1, 'In Example': 1}"
+George Barmpalias,"{'VA Uspensky': 1, 'Elvira Mayordomo': 1, 'Dimension Extractors': 1, 'BYa Ryabko': 1}"
+Alexander Shen,"{'VA Uspensky': 1, 'Elvira Mayordomo': 1, 'Dimension Extractors': 1, 'BYa Ryabko': 1}"
+ANTONIO CASARES,"{'Graph UB': 1, 'By Lemma': 1, 'In Lemmas': 1, 'Schloss Dagstuhl': 1, 'In Section': 1}"
+Ameen Alkasem,"{'Gewei Zhang': 1, 'Yusha Wang': 1, 'Yuanshun Dai': 1, 'Renjie Zhang': 1, 'Yanping Xiang': 1, 'Vitaly Levashenko': 1, 'Maki Matandiko': 1}"
+Hongwei Liu,"{'Gewei Zhang': 1, 'Yusha Wang': 1, 'Yuanshun Dai': 1, 'Renjie Zhang': 1, 'Yanping Xiang': 1, 'Vitaly Levashenko': 1, 'Maki Matandiko': 1}"
+Zuo Decheng,"{'Gewei Zhang': 1, 'Yusha Wang': 1, 'Yuanshun Dai': 1, 'Renjie Zhang': 1, 'Yanping Xiang': 1, 'Vitaly Levashenko': 1, 'Maki Matandiko': 1}"
+Yao Zhao,"{'Gewei Zhang': 1, 'Yusha Wang': 1, 'Yuanshun Dai': 1, 'Renjie Zhang': 1, 'Yanping Xiang': 1, 'Vitaly Levashenko': 1, 'Maki Matandiko': 1}"
+Lyndon Benke,{'De Weerd': 1}
+Penny Sweetser,{'De Weerd': 1}
+Alexandru Baltag,"{ 'DJ Moore': 1, 'EG Beltrametti': 1, 'RI Goldblatt': 1}"
+Sonja Smets,"{ 'DJ Moore': 1, 'EG Beltrametti': 1, 'RI Goldblatt': 1}"
+Louise Bloch,"{'Curran Asso': 1, 'Van Rossum': 1, 'Berlin Heidelberg': 1}"
+Cartesian Bicategories,{'De Gruyter': 1}
+HUGO BAZILLE,"{'Robust Skolem': 1, 'Massers Torus': 1}"
+Tamas Bisztray,"{'European Parliament': 1, 'Kush Wadhwa': 1, 'David Wright': 1}"
+Nils Gruschka,"{'European Parliament': 1, 'Kush Wadhwa': 1, 'David Wright': 1}"
+Bob Harper,{'Yoram Hirshfeld': 1}
+JASMIN BLANCHETTE,"{'William Kaufmann': 2, 'Predicate Elimination': 1, 'AI Commun': 1, 'Morgan Kaufmann': 2, 'For DPE': 1, 'HiddenLiteralBased Elimination': 1, 'Hence JLKI': 1, 'Aart Middeldorp': 1}"
+Fuzzy Logic,"{'Radial Basis': 1, 'Sameem AK': 1, 'HD CHENG': 1, 'Karla HORSCH': 1, 'RF CHANG': 1, 'WJ WU': 1}"
+PAUL GASTIN,"{'Conrado Daws': 1, 'EventClock Automata': 1, 'Paul Gastin': 2, 'Raphael Meyer': 1, 'Alexandre David': 1, 'Margherita Napoli': 1, 'Parthasarathy Madhusudan': 1, 'Piotr Hofman': 1, 'Wojciech Czerwinski': 1, 'Aiswarya Cyriac': 1, 'Gerd Behrmann': 1, 'Rajeev Alur': 1, 'Lakshmi Manasa': 1, 'Lorenzo Clemente': 1, 'Ahmed Bouajjani': 1, 'Rachid Echahed': 1}"
+MAURIZIO MURGIA,"{'By Lemma': 1, 'Claudio Hermida': 1, 'Schloss Dagstuhl': 1}"
+Nikolay Babakov,"{'New Orleans': 1, 'Ann Arbor': 1, 'Punta Cana': 1}"
+David Dale,"{'New Orleans': 1, 'Ann Arbor': 1, 'Punta Cana': 1}"
+Varvara Logacheva,"{'New Orleans': 1, 'Ann Arbor': 1, 'Punta Cana': 1}"
+Irina Krotova,"{'New Orleans': 1, 'Ann Arbor': 1, 'Punta Cana': 1}"
+ECILIA PRADIC,{'Fritz Henglein': 1}
+Hoare Logic,"{'Quantum Information': 1, 'Quantum Logic': 1, 'RI Goldblatt': 1, 'Quantum Computation': 1}"
+Arturo Acuaviva,"{'By Lemma': 1, 'If Smin': 1, 'Business Media': 1, 'IOP Publishing': 1, 'DmDDm Typically': 1, 'ProcesiRazmyslovFormanek Pro': 1, 'If Mmin': 1}"
+Visu Makam,"{'By Lemma': 1, 'If Smin': 1, 'Business Media': 1, 'IOP Publishing': 1, 'DmDDm Typically': 1, 'ProcesiRazmyslovFormanek Pro': 1, 'If Mmin': 1}"
+Harold Nieuwboer,"{'By Lemma': 1, 'If Smin': 1, 'Business Media': 1, 'IOP Publishing': 1, 'DmDDm Typically': 1, 'ProcesiRazmyslovFormanek Pro': 1, 'If Mmin': 1}"
+Friedrich Sittner,"{'By Lemma': 1, 'If Smin': 1, 'Business Media': 1, 'IOP Publishing': 1, 'DmDDm Typically': 1, 'ProcesiRazmyslovFormanek Pro': 1, 'If Mmin': 1}"
+AHMET SENCAN,"{'Schloss Dagstuhl': 1, 'Experimental Evaluation': 1}"
+Hayashi Ani,"{'Austin Luchsinger': 1, 'Jose BalanzaMartinez': 1, 'Vaclav Koubek': 1, 'Dylan Hendrickson': 1, 'Isaac Grosof': 1}"
+Erik Demaine,"{'Austin Luchsinger': 1, 'Jose BalanzaMartinez': 1, 'Vaclav Koubek': 1, 'Dylan Hendrickson': 1, 'Isaac Grosof': 1}"
+Jenny Diomidova,"{'Austin Luchsinger': 1, 'Jose BalanzaMartinez': 1, 'Vaclav Koubek': 1, 'Dylan Hendrickson': 1, 'Isaac Grosof': 1}"
+Dylan Hendrickson,"{'Austin Luchsinger': 1, 'Jose BalanzaMartinez': 1, 'Vaclav Koubek': 1, 'Dylan Hendrickson': 1, 'Isaac Grosof': 1}"
+Jayson Lynch,"{'Austin Luchsinger': 1, 'Jose BalanzaMartinez': 1, 'Vaclav Koubek': 1, 'Dylan Hendrickson': 1, 'Isaac Grosof': 1}"
+Cubical MTT,{'Ranald Clouston': 1}
+Hugo AlcarazHerrera,{'Miguel Antonio': 1}
+John Cartlidge,{'Miguel Antonio': 1}
+Alexandre Alcoforado,"{'MingWei Chang': 1, 'Yuhong Guo': 1, 'Yunyi Zhang': 1, 'Jingqing Zhang': 1, 'Guru Guruganesh': 1, 'Amanpreet Singh': 1, 'Benjamin Mann': 1, 'Eric Mack': 1, 'Xin Li': 1, 'Livy Real': 1, 'Adina Williams': 1, 'Jacob Devlin': 1, 'Wenpeng Yin': 1, 'Lysandre Debut': 1, 'Alexandre Alcoforado': 1, 'Erick Fonseca': 1, 'Manzil Zaheer': 1, 'Jamaal Hay': 1, 'Yu Meng': 1, 'Alex Wang': 1, 'Piyawat Lertvittayakumjorn': 1, 'Victor Sanh': 1, 'Lukas Lange': 1, 'Yangfeng Ji': 1, 'Nikita Nangia': 1, 'Ashish Vaswani': 1}"
+Rodrigo Gerber,"{'MingWei Chang': 1, 'Yuhong Guo': 1, 'Yunyi Zhang': 1, 'Jingqing Zhang': 1, 'Guru Guruganesh': 1, 'Amanpreet Singh': 1, 'Benjamin Mann': 1, 'Eric Mack': 1, 'Xin Li': 1, 'Livy Real': 1, 'Adina Williams': 1, 'Jacob Devlin': 1, 'Wenpeng Yin': 1, 'Lysandre Debut': 1, 'Alexandre Alcoforado': 1, 'Erick Fonseca': 1, 'Manzil Zaheer': 1, 'Jamaal Hay': 1, 'Yu Meng': 1, 'Alex Wang': 1, 'Piyawat Lertvittayakumjorn': 1, 'Victor Sanh': 1, 'Lukas Lange': 1, 'Yangfeng Ji': 1, 'Nikita Nangia': 1, 'Ashish Vaswani': 1}"
+Enzo Bustos,"{'MingWei Chang': 1, 'Yuhong Guo': 1, 'Yunyi Zhang': 1, 'Jingqing Zhang': 1, 'Guru Guruganesh': 1, 'Amanpreet Singh': 1, 'Benjamin Mann': 1, 'Eric Mack': 1, 'Xin Li': 1, 'Livy Real': 1, 'Adina Williams': 1, 'Jacob Devlin': 1, 'Wenpeng Yin': 1, 'Lysandre Debut': 1, 'Alexandre Alcoforado': 1, 'Erick Fonseca': 1, 'Manzil Zaheer': 1, 'Jamaal Hay': 1, 'Yu Meng': 1, 'Alex Wang': 1, 'Piyawat Lertvittayakumjorn': 1, 'Victor Sanh': 1, 'Lukas Lange': 1, 'Yangfeng Ji': 1, 'Nikita Nangia': 1, 'Ashish Vaswani': 1}"
+Bérenger Bramas,"{'Nguyen AD': 1, 'Owens JD': 1, 'GHz Bramas': 1, 'Joerg CF': 1, 'Blumofe RD': 1}"
+LETTERIO GALLETTA,"{'Kaihua Qin': 1, 'Massimo Bartoletti': 1}"
+MATTEO ACCLAVIO,"{'Schloss DagstuhlLeibniz': 1, 'Studia Logica': 1}"
+ROSS HORNE,"{'Schloss DagstuhlLeibniz': 1, 'Studia Logica': 1}"
+ContextFree Grammar,"{'Eiji Kawaguchi': 1, 'Ullman JD': 1, 'JW Backus': 1, 'Peter Wayner': 1, 'Daniel Jurafsky': 1}"
+JAVIER ESPARZA,{'Schloss Dagstuhl': 1}
+PAOLO BALDAN,"{ 'Julia Kramer': 1, 'Bisimilarity Pseudometrics': 1, 'Babita Sharma': 1, 'John Wiley': 1, 'Andrea Asperti': 1, 'Wolfgang Reisig': 1, 'Gianni Conte': 1, 'Andrea Corradini': 1, 'Paolo Baldan': 1, 'Roberto Bruni': 1, 'Ugo Montanari': 1, 'Walter Vogler': 1, 'Ina Koch': 1, 'Antonio Brogi': 1, 'Jose Meseguer': 1, 'Claude Girault': 1, 'Kurt Jensen': 1, 'Roberto Gorrieri': 1, 'Federico Crazzolara': 1, 'Yrvann Emzivat': 1}"
+RICHARD EGGERT,"{'Hence Lemma': 1, 'Julia Kramer': 1}"
+Institut Polytechnique,"{ 'Nicolas Usunier': 1, 'Anton Dries': 1}"
+Sabah AlFedaghi,{'Sabah AlFedaghi': 1}
+Bader Behbehani,{'Sabah AlFedaghi': 1}
+Le Borgne,"{'Edouard Grave': 1, 'Nevena Lazic': 1, 'For BERT': 1, 'Jinfeng Rao': 1, 'Jianyong Wang': 1, 'Ines Chami': 1, 'Hua He': 1, 'Jiasen Lu': 1, 'Kai Chen': 1, 'Maria Pershina': 1, 'Ralph Grishman': 1, 'Aishwarya Agrawal': 1, 'Andrej Karpathy': 1, 'WenHaw Chong': 1, 'Mark Dredze': 1, 'Youssef Tamaazousti': 1, 'Sam Gross': 1, 'Matteo Pagliardini': 1, 'Seungwhan Moon': 1, 'Akira Fukui': 1, 'Omar Adjali': 1, 'Zhaochen Guo': 1, 'Ryan Kiros': 1, 'Jia Deng': 1, 'Mithun Chowdhury': 1, 'Xavier Glorot': 1, 'Mark Neumann': 1, 'Yitong Li': 1, 'Luisa Bentivogli': 1, 'Yunbo Cao': 1, 'Justin Johnson': 1, 'Adam Paszke': 1, 'Alexis Conneau': 1, 'Tomas Mikolov': 1, 'Hongzhao Huang': 1, 'Vincent Vanhoucke': 1, 'Hongliang Dai': 1, 'MingWei Chang': 1, 'Razvan Bunescu': 1, 'Yifan He': 1, 'Jacob Devlin': 1, 'Paul McNamee': 1, 'Romaric Besancon': 1, 'Dan Roth': 1, 'Hani Daher': 1, 'Douwe Kiela': 1, 'Kai Zheng': 1, 'Ciprian Chelba': 1, 'Pamela Forner': 1, 'EePeng Lim': 1, 'Allan Jabri': 1, 'Yangqiu Song': 1, 'Amir Globerson': 1, 'Armand Joulin': 1, 'Yotam Eshel': 1, 'Damien Ernst': 1, 'Panda Rameswar': 1, 'Nicholas Andrews': 1, 'Yuan Fang': 1, 'Yukun Zhu': 1, 'Wei Shen': 1, 'Prakhar Gupta': 1, 'Olga Russakovsky': 1, 'Pierre Geurts': 1, 'Marius Pasca': 1, 'David Milne': 1, 'Liwei Wang': 1, 'Xiaohua Liu': 1, 'Yin Li': 1, 'Christian Szegedy': 1, 'Wen Hua': 1, 'Leonardo Neves': 1, 'Heng Ji': 1, 'Kevin Gimpel': 1}"
+Bart Bussmann,"{'Tristan Deleu': 1, 'Olexa Bilaniuk': 1, 'Jakob Runge': 1, 'Dominik Janzing': 1, 'Olivier Goudet': 1, 'Adaptive LASSO': 1, 'Ian Covert': 1, 'Ehung Baek': 1, 'Yoshua Bengio': 1, 'Angeliki Papana': 1, 'Giles Hooker': 1, 'Jurgen Schmidhuber': 1, 'Wei Liao': 1, 'Daniele Marinazzo': 1, 'Hui Zou': 1, 'Diviyan Kalainathan': 1, 'Rishabh Agarwal': 1, 'Meike Nauta': 1, 'Nicholas Frosst': 1, 'Lars Kasper': 1, 'Bryon Aragam': 1, 'Yonghong Chen': 1, 'Maria Guerrisi': 1, 'Daniel Marbach': 1, 'Kang Lin': 1, 'Remi Bardenet': 1, 'Yueming Wang': 1, 'Zahra Abbasvandi': 1, 'Sebastian Bathiany': 1, 'Alex Tank': 1, 'Andrea Duggento': 1, 'Stephan Bongers': 1, 'Sebastian Weichwald': 1, 'Sebastien Lachapelle': 1, 'Jonas Peters': 1, 'Saurabh Khanna': 1, 'Peter Buhlmann': 1, 'Xun Zheng': 1}"
+Jannes Nys,"{'Tristan Deleu': 1, 'Olexa Bilaniuk': 1, 'Jakob Runge': 1, 'Dominik Janzing': 1, 'Olivier Goudet': 1, 'Adaptive LASSO': 1, 'Ian Covert': 1, 'Ehung Baek': 1, 'Yoshua Bengio': 1, 'Angeliki Papana': 1, 'Giles Hooker': 1, 'Jurgen Schmidhuber': 1, 'Wei Liao': 1, 'Daniele Marinazzo': 1, 'Hui Zou': 1, 'Diviyan Kalainathan': 1, 'Rishabh Agarwal': 1, 'Meike Nauta': 1, 'Nicholas Frosst': 1, 'Lars Kasper': 1, 'Bryon Aragam': 1, 'Yonghong Chen': 1, 'Maria Guerrisi': 1, 'Daniel Marbach': 1, 'Kang Lin': 1, 'Remi Bardenet': 1, 'Yueming Wang': 1, 'Zahra Abbasvandi': 1, 'Sebastian Bathiany': 1, 'Alex Tank': 1, 'Andrea Duggento': 1, 'Stephan Bongers': 1, 'Sebastian Weichwald': 1, 'Sebastien Lachapelle': 1, 'Jonas Peters': 1, 'Saurabh Khanna': 1, 'Peter Buhlmann': 1, 'Xun Zheng': 1}"
+Steven Latr,"{'Tristan Deleu': 1, 'Olexa Bilaniuk': 1, 'Jakob Runge': 1, 'Dominik Janzing': 1, 'Olivier Goudet': 1, 'Adaptive LASSO': 1, 'Ian Covert': 1, 'Ehung Baek': 1, 'Yoshua Bengio': 1, 'Angeliki Papana': 1, 'Giles Hooker': 1, 'Jurgen Schmidhuber': 1, 'Wei Liao': 1, 'Daniele Marinazzo': 1, 'Hui Zou': 1, 'Diviyan Kalainathan': 1, 'Rishabh Agarwal': 1, 'Meike Nauta': 1, 'Nicholas Frosst': 1, 'Lars Kasper': 1, 'Bryon Aragam': 1, 'Yonghong Chen': 1, 'Maria Guerrisi': 1, 'Daniel Marbach': 1, 'Kang Lin': 1, 'Remi Bardenet': 1, 'Yueming Wang': 1, 'Zahra Abbasvandi': 1, 'Sebastian Bathiany': 1, 'Alex Tank': 1, 'Andrea Duggento': 1, 'Stephan Bongers': 1, 'Sebastian Weichwald': 1, 'Sebastien Lachapelle': 1, 'Jonas Peters': 1, 'Saurabh Khanna': 1, 'Peter Buhlmann': 1, 'Xun Zheng': 1}"
+Haytham AlFeel,"{'Web DocumentURL': 1, 'TopBraid Composer': 1, 'Ontology Matching': 1, 'Web Document': 1, 'Michael Ashburner': 1, 'Laura Hollink': 1, 'Dennis Spohr': 1, 'Mustafa Abusalah': 1, 'Barry Smith': 1, 'Jorge Gracia': 1, 'Neon Toolkit': 1, 'Bo Fu': 1}"
+Ralph Schafermeier,"{'Web DocumentURL': 1, 'TopBraid Composer': 1, 'Ontology Matching': 1, 'Web Document': 1, 'Michael Ashburner': 1, 'Laura Hollink': 1, 'Dennis Spohr': 1, 'Mustafa Abusalah': 1, 'Barry Smith': 1, 'Jorge Gracia': 1, 'Neon Toolkit': 1, 'Bo Fu': 1}"
+Adrian Paschke,"{'Web DocumentURL': 1, 'TopBraid Composer': 1, 'Ontology Matching': 1, 'Web Document': 1, 'Michael Ashburner': 1, 'Laura Hollink': 1, 'Dennis Spohr': 1, 'Mustafa Abusalah': 1, 'Barry Smith': 1, 'Jorge Gracia': 1, 'Neon Toolkit': 1, 'Bo Fu': 1}"
+Ibai Aedo,"{'JP Allouche': 1, 'AE Frid': 1, 'DG FonDerFlaass': 1, 'JF Morgenbesser': 1, 'Combinatorial Number': 1, 'BL Rothschild': 1, 'EV Pribavkina': 1, 'JC Martin': 1, 'OG Parshina': 1, 'RL Graham': 1}"
+Uwe Grimm,"{'JP Allouche': 1, 'AE Frid': 1, 'DG FonDerFlaass': 1, 'JF Morgenbesser': 1, 'Combinatorial Number': 1, 'BL Rothschild': 1, 'EV Pribavkina': 1, 'JC Martin': 1, 'OG Parshina': 1, 'RL Graham': 1}"
+Yasushi Nagai,"{'JP Allouche': 1, 'AE Frid': 1, 'DG FonDerFlaass': 1, 'JF Morgenbesser': 1, 'Combinatorial Number': 1, 'BL Rothschild': 1, 'EV Pribavkina': 1, 'JC Martin': 1, 'OG Parshina': 1, 'RL Graham': 1}"
+LUCA ACETO,{'Schloss Dagstuhl': 1}
+GILLES GEERAERTS,{'Gilles Geeraerts': 1}
+AXEL HADDAD,{'Gilles Geeraerts': 1}
+ENGEL LEFAUCHEUX,{'Gilles Geeraerts': 1}
+Udit Maniyar,"{'Stephane Durocher': 1, 'Revised Pa': 1, 'Thomas Odenthal': 1, 'Ellen Gethner': 1, 'Petra Mutzel': 1, 'Thomas Blasius': 1, 'Daniel Goncalves': 1, 'Vida Dujmovic': 1, 'Alejandro EstrellaBalderrama': 1}"
+KlausDieter Schewe,{'KD Schewe': 1}
+Abdelkrim HAQIQ,"{'KS Trivedi': 1, 'Abdelkrim HAQIQ': 1, 'Abdelkrim Haqiq': 1}"
+Alexandru Cojocaru,"{'Alexandru Cojocaru': 1, 'Daniele Micciancio': 1, 'Anne Broadbent': 1, 'Yuki Takeuchi': 1, 'Scott Aaronson': 1, 'Vedran Dunjko': 1, 'Léo Colisson': 1, 'Tomoyuki Morimae': 1, 'Daniel Cavalcanti': 1, 'Atul Mantri': 1, 'Nicolas Brunner': 1}"
+Léo Colisson,"{'Alexandru Cojocaru': 1, 'Daniele Micciancio': 1, 'Anne Broadbent': 1, 'Yuki Takeuchi': 1, 'Scott Aaronson': 1, 'Vedran Dunjko': 1, 'Léo Colisson': 1, 'Tomoyuki Morimae': 1, 'Daniel Cavalcanti': 1, 'Atul Mantri': 1, 'Nicolas Brunner': 1}"
+Secret Santa,"{'Jannik Dreier': 1, 'Qingkai Ma': 1, 'Xavier Bultel': 1, 'Its Deployment': 1, 'Leo Liberti': 1, 'Sjouke Mauw': 1, 'Ping Deng': 1}"
+Saloua Bennani,{'HMCSCollab Tool': 1}
+Sophie Ebersold,{'HMCSCollab Tool': 1}
+Bernard Coulette,{'HMCSCollab Tool': 1}
+Péter Bereczky,{'De Angelis': 1}
+Haidara Abdalla,{'DV Ageyev': 1}
+MARCO CARBONE,"{'Mario Bravetti': 1, 'Marco Carbone': 1}"
+Maxim Borisyak,{'Business Media': 1}
+Tatiana Gaintseva,{'Business Media': 1}
+Andrey Ustyuzhanin,{'Business Media': 1}
+Maria Dasc,"{'Bluetooth SIG': 1, 'Inc Biovigil': 1}"
+Agnieszka Gaczowska,"{'Bluetooth SIG': 1, 'Inc Biovigil': 1}"
+Adequate Explanations,"{'Morgan Kaufmann': 1, 'De Raedt': 1}"
+MICHAEL BLONDIN,"{'Ruslan LedesmaGarza': 1, 'Santiago Figueira': 1, 'In Section': 1, 'Prateek Karandikar': 1, 'Since ATS': 1, 'By Prop': 1}"
+CHRISTOPH HAASE,"{'Ruslan LedesmaGarza': 1, 'Santiago Figueira': 1, 'In Section': 1}"
+FILIP MAZOWIECKI,"{'Ruslan LedesmaGarza': 1, 'Santiago Figueira': 1, 'In Section': 1}"
+Satisfaction Problems,"{'Per Austrin': 1, 'Andrei Bulatov': 1, 'Venkatesan Guruswami': 1, 'Andrei Krokhin': 1, 'Libor Barto': 1, 'David Cohen': 1, 'Tomas Feder': 1, 'Oded Regev': 1, 'Irit Dinur': 1, 'Peter Jeavons': 1, 'Sanjeev Arora': 1, 'Carsten Lund': 1, 'Joshua Brakensiek': 1}"
+Marta Mejail,"{'JH Lin': 1, 'JJ Huang': 1, 'AC Bovik': 1, 'Zhou Wang': 1, 'HJ Muller': 1}"
+Julio Jacobo,"{'JH Lin': 1, 'JJ Huang': 1, 'AC Bovik': 1, 'Zhou Wang': 1, 'HJ Muller': 1}"
+BARTEK KLIN,"{'Bartek Klin': 1, 'Stephane Demri': 1, 'Laurent Braud': 1}"
+LAWOMIR LASOTA,"{'Bartek Klin': 1, 'Stephane Demri': 1, 'Laurent Braud': 1}"
+JOHANNES GREINER,"{'Dagstuhl Publishing': 1, 'Henry Kautz': 1}"
+Particle Competition,{'So Carlos': 1}
+ENS Cachan,"{'Conrado Daws': 1, 'Deepak DSouza': 1, 'TTSQA TTSAA': 1, 'Contextual TTS': 1, 'Hence PS': 1}"
+CACHAN Cedex,"{'Conrado Daws': 1, 'Deepak DSouza': 1, 'TTSQA TTSAA': 1, 'Contextual TTS': 1, 'Hence PS': 1}"
+NICOLAS BEHR,"{'Jerome Feret': 1, 'Shuohao Liao': 1, 'Sebastian Matera': 1, 'Susanna Roblitz': 1, 'Muruhan Rathinam': 1, 'Matthias Reis': 1, 'Hartmut Ehrig': 1, 'Andrea Corradini': 1, 'John Wiley': 1, 'Yves Vandecan': 1, 'Yang Cao': 1, 'Nicolas Behr': 1, 'Youfang Cao': 1, 'Guido Sanguinetti': 1, 'Schloss DagstuhlLeibniz': 1, 'Jonathan Dubois': 1, 'Ferdinanda Camporesi': 1, 'Wassim AbouJaoude': 1, 'Jean Krivine': 1, 'Tobias Jahnke': 1, 'Ugo Montanari': 1, 'Pawel Blasiak': 1, 'Zheng Zhang': 1, 'Lie Algebras': 1, 'Russ Harmer': 1, 'Tobias Heindel': 1, 'Stephen Lack': 1, 'Anna Terebus': 1, 'Benjamin Braatz': 1, 'Thilo Gross': 1, 'Luca Cardelli': 1, 'Reiko Heckel': 1, 'Ivan Kryven': 1, 'Gabriele Taentzer': 1, 'Xiu Yang': 1, 'Karsten Gabriel': 1, 'Mirco Tribastone': 1, 'Elaine Murphy': 1, 'Tatjana Petrov': 1, 'Thomas Henzinger': 1}"
+Jan Goedgebeur,"{'By Lemma': 1, 'CT Hoang': 1, 'Since Lc': 1, 'By Claims': 1, 'PA Golovach': 1}"
+Peter Maceli,"{'By Lemma': 1, 'CT Hoang': 1, 'Since Lc': 1, 'By Claims': 1, 'PA Golovach': 1}"
+GIORGIO BACCI,"{'Schloss Dagstuhl': 1, 'Giovanni Bacci': 2, 'Mem HdA': 1, 'Shaz Qadeer': 1, 'Probabilistic Automata': 1, 'Claudio Hermida': 1}"
+GIOVANNI BACCI,"{'Schloss Dagstuhl': 1, 'Giovanni Bacci': 2, 'Mem HdA': 1, 'Shaz Qadeer': 1, 'Probabilistic Automata': 1, 'Claudio Hermida': 1}"
+JAN KRAJ,"{'Alexander Golovnev': 1, 'Aduri Pavan': 1, 'Computational Com': 1, 'Moritz Muller': 1, 'Propositional Logic': 1, 'Pavel Pudlak': 1, 'Rahul Santhanam': 1}"
+AND IGOR,"{'Alexander Golovnev': 1, 'Aduri Pavan': 1, 'Computational Com': 1, 'Moritz Muller': 1, 'Propositional Logic': 1, 'Pavel Pudlak': 1, 'Rahul Santhanam': 1}"
+Christoph Berkholz,"{'Dietrich Kuske': 1, 'Raphael Yuster': 1, 'Alexandre Vigny': 1, 'Daniel Marx': 1, 'Dan Olteanu': 1, 'Georg Gottlob': 1, 'Serge Abiteboul': 1, 'Ronald Fagin': 1, 'Shaleen Deep': 1, 'Pierre Bourhis': 1, 'Arnaud Durand': 1, 'Gianluigi Greco': 1, 'Wojciech Kazana': 1, 'Matthias Niewerth': 1, 'Fabian Gerhardt': 1, 'Christoph Berkholz': 1, 'Martin Grohe': 1, 'Nicola Leone': 1, 'Nicole Schweikardt': 1, 'Francesco Scarcello': 1, 'Muhammad Idris': 1, 'Richard Hull': 1, 'Guillaume Bagan': 1, 'Ahmet Kara': 1, 'Antoine Amarilli': 1, 'Catriel Beeri': 1, 'Katja Losemann': 1}"
+Nicole Schweikardt,"{'Dietrich Kuske': 1, 'Raphael Yuster': 1, 'Alexandre Vigny': 1, 'Daniel Marx': 1, 'Dan Olteanu': 1, 'Georg Gottlob': 1, 'Serge Abiteboul': 1, 'Ronald Fagin': 1, 'Shaleen Deep': 1, 'Pierre Bourhis': 1, 'Arnaud Durand': 1, 'Gianluigi Greco': 1, 'Wojciech Kazana': 1, 'Matthias Niewerth': 1, 'Fabian Gerhardt': 1, 'Christoph Berkholz': 1, 'Martin Grohe': 1, 'Nicola Leone': 1, 'Nicole Schweikardt': 1, 'Francesco Scarcello': 1, 'Muhammad Idris': 1, 'Richard Hull': 1, 'Guillaume Bagan': 1, 'Ahmet Kara': 1, 'Antoine Amarilli': 1, 'Catriel Beeri': 1, 'Katja Losemann': 1}"
+MILAD AGHAJOHARI,"{'KR Apt': 1, 'EA Emerson': 1}"
+GUY AVNI,"{'KR Apt': 1, 'EA Emerson': 1}"
+AND THOMAS,"{'KR Apt': 1, 'EA Emerson': 1}"
+Gorjan Alagic,"{'Zvika Brakerski': 1, 'Dennis Kretschmann': 1, 'Frederic Dupuis': 1, 'Finite Geometries': 1, 'Michele Mosca': 1, 'Gorjan Alagic': 2, 'Louis Salvail': 1, 'Andris Ambainis': 1, 'Scott Aaronson': 1, 'Dirk Schlingemann': 1, 'Aidan Roy': 1, 'Dave Bacon': 1, 'Mihir Bellare': 1, 'Joseph Emerson': 1, 'Tommaso Gagliardoni': 2, 'Gilles Brassard': 1, 'Jelle Don': 1, 'Omri Shmueli': 1, 'YiKai Liu': 1, 'Dominic Mayers': 1, 'Charles Bennett': 1, 'Thomas Johansson': 1, 'Dan Boneh': 2, 'Oded Goldreich': 1, 'Zhengfeng Ji': 2, 'Serge Fehr': 1, 'Since Vs': 1, 'LZ Qipeng': 1, 'Sina Shiehian': 1, 'William Slofstra': 1, 'Verify Vcrs': 1, 'Prove Pcrs': 1, 'Henry Yuen': 1, 'Andreas Hulsing': 1, 'Stephen Jordan': 1, 'Kirsten Eisentrager': 1, 'Gaetan Leurent': 1, 'Masakatu Morii': 1, 'Dominique Unruh': 1, 'Marc Kaplan': 1, 'Leo Ducas': 1, 'Sumegha Garg': 1, 'Mark Zhandry': 1, 'Ethan Bernstein': 1, 'Sean Hallgren': 1, 'Amit Sahai': 1, 'Lily Chen': 1, 'JeanFrancois Biasse': 1, 'Ronald Cramer': 1, 'Fang Song': 1, 'Thomas Santoli': 1, 'Chris Peikert': 1, 'QINDCCA QUF': 1, 'UF AE': 1, 'QAE QINDCCA': 1, 'QAE QUF': 1, 'Part II': 1, 'AE AE': 1}"
+Christian Majenz,"{'Zvika Brakerski': 1, 'Dennis Kretschmann': 1, 'Frederic Dupuis': 1, 'Finite Geometries': 1, 'Michele Mosca': 1, 'Gorjan Alagic': 2, 'Louis Salvail': 1, 'Andris Ambainis': 1, 'Scott Aaronson': 1, 'Dirk Schlingemann': 1, 'Aidan Roy': 1, 'Dave Bacon': 1, 'Mihir Bellare': 1, 'Joseph Emerson': 1, 'Tommaso Gagliardoni': 2, 'Gilles Brassard': 1, 'Jelle Don': 1, 'Omri Shmueli': 1, 'YiKai Liu': 1, 'Dominic Mayers': 1, 'Charles Bennett': 1, 'Thomas Johansson': 1, 'Dan Boneh': 2, 'Oded Goldreich': 1, 'Zhengfeng Ji': 1, 'Serge Fehr': 1, 'Henry Yuen': 1, 'Andreas Hulsing': 1, 'Stephen Jordan': 1, 'Kirsten Eisentrager': 1, 'Gaetan Leurent': 1, 'Masakatu Morii': 1, 'Dominique Unruh': 1, 'Marc Kaplan': 1, 'Leo Ducas': 1, 'Sumegha Garg': 1, 'Mark Zhandry': 1, 'Ethan Bernstein': 1, 'Sean Hallgren': 1, 'Amit Sahai': 1, 'Lily Chen': 1, 'JeanFrancois Biasse': 1, 'Ronald Cramer': 1, 'Fang Song': 1, 'Thomas Santoli': 1, 'Chris Peikert': 1, 'QINDCCA QUF': 1, 'UF AE': 1, 'QAE QINDCCA': 1, 'QAE QUF': 1, 'Part II': 1, 'AE AE': 1}"
+Alexander Russell,"{'Zvika Brakerski': 1, 'Dennis Kretschmann': 1, 'Frederic Dupuis': 1, 'Finite Geometries': 1, 'Michele Mosca': 1, 'Gorjan Alagic': 2, 'Louis Salvail': 1, 'Andris Ambainis': 1, 'Scott Aaronson': 1, 'Dirk Schlingemann': 1, 'Aidan Roy': 1, 'Dave Bacon': 1, 'Mihir Bellare': 1, 'Joseph Emerson': 1, 'Tommaso Gagliardoni': 2, 'Gilles Brassard': 1, 'Jelle Don': 1, 'Omri Shmueli': 1, 'YiKai Liu': 1, 'Dominic Mayers': 1, 'Charles Bennett': 1, 'Thomas Johansson': 1, 'Dan Boneh': 2, 'Oded Goldreich': 1, 'Zhengfeng Ji': 1, 'Serge Fehr': 1, 'Henry Yuen': 1, 'Andreas Hulsing': 1, 'Stephen Jordan': 1, 'Kirsten Eisentrager': 1, 'Gaetan Leurent': 1, 'Masakatu Morii': 1, 'Dominique Unruh': 1, 'Marc Kaplan': 1, 'Leo Ducas': 1, 'Sumegha Garg': 1, 'Mark Zhandry': 1, 'Ethan Bernstein': 1, 'Sean Hallgren': 1, 'Amit Sahai': 1, 'Lily Chen': 1, 'JeanFrancois Biasse': 1, 'Ronald Cramer': 1, 'Fang Song': 1, 'Thomas Santoli': 1, 'Chris Peikert': 1}"
+Pablo Barenbaum,"{'Subject Reduction': 1, 'Schloss DagstuhlLeibnizZentrum': 1, 'Substitution Lemma': 1}"
+Gonzalo Ciruelos,"{'Subject Reduction': 1, 'Schloss DagstuhlLeibnizZentrum': 1, 'Substitution Lemma': 1}"
+MICKAEL RANDOUR,{'Schloss Dagstuhl': 1}
+Tazin Afrin,"{'New Orleans': 1, 'Eli Review': 1, 'Writing Mentor': 1, 'Louisiana June': 1}"
+Diane Litman,"{'New Orleans': 1, 'Eli Review': 1, 'Writing Mentor': 1, 'Louisiana June': 1}"
+Mattias Billast,{'Van Leemput': 1}
+David Robben,{'Van Leemput': 1}
+Gilles ZURFLUH,{'Diego Ruiz': 1}
+Marcus Liwicki,"{'Pradan Pattanayak': 1, 'Danilo Gligoroski': 1, 'Alex Biryukov': 1, 'Arvind Narayanan': 1, 'Zahra Beheshti': 1, 'Carsten Witt': 1, 'Mayank Raikwar': 1, 'Michael Crosby': 1, 'Russell Eberhart': 1, 'Rajeev Sobti': 1, 'Maurice Clerc': 1, 'Joseph Bonneau': 1, 'HL Willis': 1}"
+Georgios Amanatidis,"{'If NWB': 1, 'Jing Chen': 1, 'Richard Cole': 1, 'Hau Chan': 1, 'David Kurokawa': 1, 'Jugal Garg': 1, 'Georgios Birmpas': 1, 'Laurent Gourves': 1, 'Arpita Biswas': 1, 'Nick Gravin': 1, 'AI Access': 1, 'Georgios Amanatidis': 1, 'Maria Kyropoulou': 1, 'Warut Suksompong': 1, 'Sylvain Bouveret': 1, 'Yann Chevaleyre': 1, 'Siddharth Barman': 1, 'Evangelos Markakis': 1, 'Ioannis Caragiannis': 1, 'Pooja Kulkarni': 1, 'Setareh Taki': 1, 'Marek Karpinski': 1, 'Piotr Berman': 1, 'Pasin Manurangsi': 1}"
+Georgios Birmpas,"{'If NWB': 1, 'Jing Chen': 1, 'Richard Cole': 1, 'Hau Chan': 1, 'David Kurokawa': 1, 'Jugal Garg': 1, 'Georgios Birmpas': 1, 'Laurent Gourves': 1, 'Arpita Biswas': 1, 'Nick Gravin': 1, 'AI Access': 1, 'Georgios Amanatidis': 1, 'Maria Kyropoulou': 1, 'Warut Suksompong': 1, 'Sylvain Bouveret': 1, 'Yann Chevaleyre': 1, 'Siddharth Barman': 1, 'Evangelos Markakis': 1, 'Ioannis Caragiannis': 1, 'Pooja Kulkarni': 1, 'Setareh Taki': 1, 'Marek Karpinski': 1, 'Piotr Berman': 1, 'Pasin Manurangsi': 1}"
+Aris FilosRatsikas,"{'If NWB': 1, 'Jing Chen': 1, 'Richard Cole': 1, 'Hau Chan': 1, 'David Kurokawa': 1, 'Jugal Garg': 1, 'Georgios Birmpas': 1, 'Laurent Gourves': 1, 'Arpita Biswas': 1, 'Nick Gravin': 1, 'AI Access': 1, 'Georgios Amanatidis': 1, 'Maria Kyropoulou': 1, 'Warut Suksompong': 1, 'Sylvain Bouveret': 1, 'Yann Chevaleyre': 1, 'Siddharth Barman': 1, 'Evangelos Markakis': 1, 'Ioannis Caragiannis': 1, 'Pooja Kulkarni': 1, 'Setareh Taki': 1, 'Marek Karpinski': 1, 'Piotr Berman': 1, 'Pasin Manurangsi': 1}"
+Curtis Bright,{'Hall Jr': 1}
+Brett Stevens,{'Hall Jr': 1}
+Ilias Kotsireas,{'Hall Jr': 1}
+LAURA BOCCHI,{'TC Chen': 1}
+AN MELGRATTI,{'TC Chen': 1}
+ETIENNE ANDR,"{'Benjamin Monmege': 1, 'Laurent Fribourg': 1, 'Judi Romijn': 1, 'Laurent Doyen': 2}"
+DIDIER LIME,"{'Benjamin Monmege': 1, 'Laurent Fribourg': 1, 'Judi Romijn': 1, 'Laurent Doyen': 2}"
+Haji Akhundov,"{'MD Yu': 1, 'JP Linnartz': 1, 'Prevent Misuse': 1}"
+Said Hamdioui,"{'MD Yu': 1, 'JP Linnartz': 1, 'Prevent Misuse': 1}"
+Mottaqiallah Taouil,"{'MD Yu': 1, 'JP Linnartz': 1, 'Prevent Misuse': 1}"
+Fabio Fioravanti,{'TH Pham': 1}
+Arthur Brack,{'Ruiz Iniesta': 1}
+AHMED BOUAJJANI,"{'Hongseok Yang': 1, 'Trace Formally': 1, 'Mahsa Najafzadeh': 1, 'Alexey Gotsman': 1, 'Program Robustness': 1, 'Achour Mostefaoui': 1, 'Mustaque Ahamad': 1, 'Jade Alglave': 1, 'Giovanni Bernardi': 1, 'Sergio Almeida': 1, 'Minimal Violations': 1, 'Sameh Elnikety': 1, 'Matthieu Perrin': 1, 'Roland Meyer': 1, 'Gil Neiger': 1, 'From Lemma': 1, 'Lucas Brutschy': 1, 'Jiaqing Du': 1, 'Egor Derevenetc': 1, 'Kartik Nagar': 1, 'Andrea Cerone': 1, 'Ori Lahav': 1, 'ETH Zurich': 1, 'Joao Leitao': 1, 'Ahmed Bouajjani': 1, 'Constantin Enea': 1, 'Daniel Kroening': 1, 'Nick Giannarakis': 1, 'Causal Consistency': 1, 'Seth Gilbert': 1, 'Wyatt Lloyd': 1, 'Yuri Meshman': 1, 'USENIX Association': 1, 'Marek Zawirski': 1, 'Sebastian Burckhardt': 1, 'Luc Maranget': 1, 'PTR Prentice': 1, 'MF Atig': 1}"
+ALEXANDER BENTKAMP,"{'Aart Middeldorp': 1, 'Morgan Kaufmann': 1, 'William Kaufmann': 1}"
+SIMON CRUANES,"{'Aart Middeldorp': 1, 'Morgan Kaufmann': 1, 'William Kaufmann': 1}"
+ALINE GOEMINNE,"{'By Lemma': 1, 'Veronique Bruyere': 1, 'Weak SPE': 1}"
+Denis Diderot,"{'By Corollary': 1, 'Karin Quaas': 1, 'By Lemma': 1, 'Let Xnx': 1}"
+SIMON PERDRIX,{'Simon Perdrix': 2}
+CHRISTINE TASSON,{'Simon Perdrix': 1}
+Sinem Aslan,{'Rota Bulo': 1}
+Marcello Pelillo,{'Rota Bulo': 1}
+Empirical Studies,"{'MB Here': 1, 'Field Programmable': 1, 'Final Ranking': 1, 'Spacetime Diagram': 1, 'For CAs': 1, 'JF Cordeau': 1}"
+Daniel Graf,"{'Swiss Post': 1, 'ETH Zürich': 1}"
+SWARAT CHAUDHURI,"{'Marco Faella': 1, 'Business Media': 1, 'Aldric Degorre': 1}"
+MIHEER DEWASKAR,"{'Jannis Uhlendorf': 1, 'Hugo Gimbert': 1, 'Blaise Genest': 1, 'Parosh Abdulla': 1, 'Panagiotis Kouvaros': 1, 'Javier Esparza': 1, 'Sanjay Jain': 1, 'Alain Finkel': 1, 'Marcin Jurdzinski': 1, 'Ranko Lazic': 1, 'Tomas Brazdil': 1, 'Pierre Ganty': 1, 'Aymeric Vincent': 1, 'Paulin Fournier': 1, 'James Aspnes': 1, 'Laurent Doyen': 1, 'Nathalie Bertrand': 1, 'Dana Angluin': 1, 'Michael Blondin': 1, 'Thierry Massart': 1, 'Agnes Miermont': 1}"
+BLAISE GENEST,"{'Jannis Uhlendorf': 1, 'Hugo Gimbert': 1, 'Blaise Genest': 1, 'Parosh Abdulla': 1, 'Panagiotis Kouvaros': 1, 'Javier Esparza': 1, 'Sanjay Jain': 1, 'Alain Finkel': 1, 'Marcin Jurdzinski': 1, 'Ranko Lazic': 1, 'Tomas Brazdil': 1, 'Pierre Ganty': 1, 'Aymeric Vincent': 1, 'Paulin Fournier': 1, 'James Aspnes': 1, 'Laurent Doyen': 1, 'Nathalie Bertrand': 1, 'Dana Angluin': 1, 'Michael Blondin': 1, 'Thierry Massart': 1, 'Agnes Miermont': 1}"
+HUGO GIMBERT,"{'Jannis Uhlendorf': 1, 'Hugo Gimbert': 1, 'Blaise Genest': 1, 'Parosh Abdulla': 1, 'Panagiotis Kouvaros': 1, 'Javier Esparza': 1, 'Sanjay Jain': 1, 'Alain Finkel': 1, 'Marcin Jurdzinski': 1, 'Ranko Lazic': 1, 'Tomas Brazdil': 1, 'Pierre Ganty': 1, 'Aymeric Vincent': 1, 'Paulin Fournier': 1, 'James Aspnes': 1, 'Laurent Doyen': 1, 'Nathalie Bertrand': 1, 'Dana Angluin': 1, 'Michael Blondin': 1, 'Thierry Massart': 1, 'Agnes Miermont': 1}"
+MARTIN GROHE,{'By Lemma': 1}
+MARCELO ARENAS,"{'Carsten Lund': 1, 'Schloss Dagstuhl': 1, 'Aggeliki Chalki': 1, 'Pierre Bourhis': 1, 'In SST': 1, 'Dy Dz': 1}"
+MARTIN MU,"{'Carsten Lund': 1, 'Schloss Dagstuhl': 1, 'Aggeliki Chalki': 1, 'Pierre Bourhis': 1, 'In SST': 1, 'Dy Dz': 1}"
+XG Amsterdam,{'Andrej Bauer': 1}
+Xavier Allamigeon,"{'Sicun Gao': 1, 'Cordian Riener': 1, 'Jeremy Avigad': 1, 'Sriram Sankaranarayanan': 1, 'Stephane Gaubert': 1, 'Ecole Polytechnique': 1, 'Amer Math': 1, 'Alexey Solovyev': 1, 'Behzad Akbarpour': 1, 'John Harrison': 1, 'Sunyoung Kim': 1, 'Xavier Allamigeon': 1, 'ER Hansen': 1, 'Bin Li': 1, 'Charoenchai Khompatraporn': 1, 'Coralia Cartis': 1, 'David Monniaux': 1, 'Nicolas Brisebarre': 1, 'Helfried Peyrl': 1, 'Hayato Waki': 1}"
+Victor Magron,"{'Sicun Gao': 1, 'Cordian Riener': 1, 'Jeremy Avigad': 1, 'Sriram Sankaranarayanan': 1, 'Stephane Gaubert': 1, 'Ecole Polytechnique': 1, 'Amer Math': 1, 'Alexey Solovyev': 1, 'Behzad Akbarpour': 1, 'John Harrison': 1, 'Sunyoung Kim': 1, 'Xavier Allamigeon': 1, 'ER Hansen': 1, 'Bin Li': 1, 'Charoenchai Khompatraporn': 1, 'Coralia Cartis': 1, 'David Monniaux': 1, 'Nicolas Brisebarre': 1, 'Helfried Peyrl': 1, 'Hayato Waki': 1}"
+Golriz Amooee,"{'Sankar Mahadevan': 1, 'Li Xiu': 1, 'LongSheng Chen': 1, 'JyunCheng Wang': 1, 'KaiYing Chen': 1, 'SS Liu': 1, 'EWT Ngai': 1, 'Chris Rygielski': 1, 'Julien Rabatel': 1, 'Sandra Bringay': 1, 'MS Choudhury': 1}"
+Behrouz MinaeiBidgoli,"{'Sankar Mahadevan': 1, 'Li Xiu': 1, 'LongSheng Chen': 1, 'JyunCheng Wang': 1, 'KaiYing Chen': 1, 'SS Liu': 1, 'EWT Ngai': 1, 'Chris Rygielski': 1, 'Julien Rabatel': 1, 'Sandra Bringay': 1, 'MS Choudhury': 1}"
+Malihe BagheriDehnavi,"{'Sankar Mahadevan': 1, 'Li Xiu': 1, 'LongSheng Chen': 1, 'JyunCheng Wang': 1, 'KaiYing Chen': 1, 'SS Liu': 1, 'EWT Ngai': 1, 'Chris Rygielski': 1, 'Julien Rabatel': 1, 'Sandra Bringay': 1, 'MS Choudhury': 1}"
+Corrado B?hm,{'JP Kahane': 1}
+FLORENT DELGRANGE,"{'Joachim Klein': 1, 'General MDPs': 1, 'Mauricio Gonzalez': 1}"
+Mikael Brudfors,"{'YM Huang': 1, 'YW Wen': 1}"
+Parashkev Nachev,"{'YM Huang': 1, 'YW Wen': 1}"
+Bernard Berthomieu,"{'Bernard Berthomieu': 1, 'Thomas Nielsen': 1, 'Laura Recalde': 1, 'Denis Poitrenaud': 1, 'Computational Cybernetics': 1, 'PierreOlivier Ribet': 1, 'Enrique Teruel': 1, 'Michel Hack': 1, 'Yann ThierryMieg': 1, 'Javier Esparza': 1, 'Raymond Hemmecke': 1, 'Manuel Silva': 1, 'Markus Behle': 1}"
+San Jose,"{'Nick Craswell': 1, 'Nadav Golbandi': 1, 'Praveen Chandar': 1, 'Laura Granka': 1, 'Zhe Cao': 1, 'Ilya Markov': 1, 'Adith Swaminathan': 1, 'Chengxiang Zhai': 1, 'Olivier Chapelle': 1, 'Qingyao Ai': 1, 'Filip Radlinski': 1, 'Xuanhui Wang': 1, 'Jing He': 1, 'Aman Agarwal': 1, 'Katja Hofmann': 1, 'Aleksandr Chuklin': 1, 'Fan Guo': 1, 'Chao Liu': 1, 'Robert Kleinberg': 1, 'Keping Bi': 1, 'Ivan Zaitsev': 1, 'Torsten Joachims': 1, 'Ben Carterete': 1, 'Tao Qin': 1, 'Shimon Whiteson': 1}"
+Rue Berlier,"{'In Section': 1, 'SRI International': 1, 'Inductive Types': 1}"
+Fang Song,"{'Henry Yuen': 1, 'Andreas Hulsing': 1, 'Stephen Jordan': 1, 'Kirsten Eisentrager': 1, 'Gaetan Leurent': 1, 'Gorjan Alagic': 1, 'Masakatu Morii': 1, 'Dominique Unruh': 1, 'Marc Kaplan': 1, 'Leo Ducas': 1, 'Sumegha Garg': 1, 'Mark Zhandry': 1, 'Ethan Bernstein': 1, 'Tommaso Gagliardoni': 1, 'Sean Hallgren': 1, 'Amit Sahai': 1, 'Lily Chen': 1, 'Dan Boneh': 1, 'JeanFrancois Biasse': 1, 'Ronald Cramer': 1, 'Fang Song': 1, 'Thomas Santoli': 1, 'Chris Peikert': 1}"
+Air France,{'Van Ditmarsch': 1}
+ALVARO GARC,{'Schloss Dagstuhl': 1}
+Alfredo Goldmanb,"{'YK Kwok': 1, 'CC Lin': 1, 'CM Wu': 1, 'CW Tsai': 1, 'Due Dates': 1, 'CL Wang': 1, 'MR Shie': 1, 'Input Accuracy': 1, 'BG Chun': 1, 'Basic Concepts': 1, 'Input Semantics': 1, 'RS Chang': 1, 'ZH Zhan': 1, 'TQ He': 1, 'WC Huang': 1, 'ES Jung': 1, 'LJ Cai': 1, 'Proceedings International': 1, 'XF Liu': 1, 'CY Liu': 1}"
+Ehsan Shoja,"{'JY Huang': 1, 'LH Yen': 1}"
+Emde Boas,"{'Relative Unfoldings': 1, 'UsefulUseless Steps': 1, 'Useful Derivations': 1, 'Standard Derivations': 1, 'Made Abstract': 1, 'Road Map': 1, 'In Sect': 1, 'LOU Contexts': 1, 'Marcel Dekker': 1, 'Summing Up': 1}"
+HARSH BEOHAR,{'Modern Algebra': 1}
+ALEXANDRA SILVA,"{'Modern Algebra': 1, 'Generalised Determinisation': 1, 'In Example': 1, 'Convex Algebras': 1, 'Probabilistic Automata': 1}"
+Issa Atoum,"{'JH Chiang': 1, 'Hybrid Methods': 1, 'Google Trigrams': 1, 'HC Yu': 1, 'EXPERIMENTAL EVALUATION': 1}"
+Ahmed Otoom,"{'JH Chiang': 1, 'Hybrid Methods': 1, 'Google Trigrams': 1, 'HC Yu': 1, 'EXPERIMENTAL EVALUATION': 1}"
+Narayanan Kulathuramaiyer,"{'JH Chiang': 1, 'Hybrid Methods': 1, 'Google Trigrams': 1, 'HC Yu': 1, 'EXPERIMENTAL EVALUATION': 1}"
+KARINE ALTISEN,"{'Anissa Lamani': 1, 'Frederic Blanqui': 1, 'Andrea Asperti': 1, 'Alexis Fouilhe': 1, 'Cedric Auger': 1, 'Zohir Bouzid': 1, 'Frederic Desprez': 1, 'Georges Gonthier': 1, 'Software Engineers': 1, 'Gerry Siegemund': 1, 'Nicolas BraudSantoni': 1, 'Eddy Caron': 1, 'Manuel Barbosa': 1, 'Nachum Dershowitz': 1, 'Borzoo Bonakdarpour': 1, 'Uwe Nestmann': 1, 'JeanMichel Couvreur': 1, 'Alain Bui': 1, 'Lionel Rieg': 1, 'Pierre Corbineau': 1, 'ShingTsaan Huang': 1, 'Nissim Francez': 1, 'Pierre Courtieu': 1, 'Mathilde Duclos': 1, 'Shlomi Dolev': 1, 'Karim Bessaoud': 1, 'In Section': 1, 'Vincent Filou': 1, 'Roderick Bloem': 1, 'Stephane Devismes': 1, 'Fathiyeh Faghih': 1, 'Corbineau Pierre': 1, 'David Monniaux': 1, 'HweyPyng Yu': 1, 'Pierre Casteran': 1, 'NianShing Chen': 1, 'Meixian Chen': 1, 'Karine Altisen': 1, 'John Mccarthy': 1, 'Distributed Comput': 1, 'Yuxin Deng': 1}"
+PIERRE CORBINEAU,"{'Anissa Lamani': 1, 'Frederic Blanqui': 1, 'Andrea Asperti': 1, 'Alexis Fouilhe': 1, 'Cedric Auger': 1, 'Zohir Bouzid': 1, 'Frederic Desprez': 1, 'Georges Gonthier': 1, 'Software Engineers': 1, 'Gerry Siegemund': 1, 'Nicolas BraudSantoni': 1, 'Eddy Caron': 1, 'Manuel Barbosa': 1, 'Nachum Dershowitz': 1, 'Borzoo Bonakdarpour': 1, 'Uwe Nestmann': 1, 'JeanMichel Couvreur': 1, 'Alain Bui': 1, 'Lionel Rieg': 1, 'Pierre Corbineau': 1, 'ShingTsaan Huang': 1, 'Nissim Francez': 1, 'Pierre Courtieu': 1, 'Mathilde Duclos': 1, 'Shlomi Dolev': 1, 'Karim Bessaoud': 1, 'In Section': 1, 'Vincent Filou': 1, 'Roderick Bloem': 1, 'Stephane Devismes': 1, 'Fathiyeh Faghih': 1, 'Corbineau Pierre': 1, 'David Monniaux': 1, 'HweyPyng Yu': 1, 'Pierre Casteran': 1, 'NianShing Chen': 1, 'Meixian Chen': 1, 'Karine Altisen': 1, 'John Mccarthy': 1, 'Distributed Comput': 1, 'Yuxin Deng': 1}"
+AND ST,"{'Anissa Lamani': 1, 'Frederic Blanqui': 1, 'Andrea Asperti': 1, 'Alexis Fouilhe': 1, 'Cedric Auger': 1, 'Zohir Bouzid': 1, 'Frederic Desprez': 1, 'Georges Gonthier': 1, 'Software Engineers': 1, 'Gerry Siegemund': 1, 'Nicolas BraudSantoni': 1, 'Eddy Caron': 1, 'Manuel Barbosa': 1, 'Nachum Dershowitz': 1, 'Borzoo Bonakdarpour': 1, 'Uwe Nestmann': 1, 'JeanMichel Couvreur': 1, 'Alain Bui': 1, 'Lionel Rieg': 1, 'Pierre Corbineau': 1, 'ShingTsaan Huang': 1, 'Nissim Francez': 1, 'Pierre Courtieu': 1, 'Mathilde Duclos': 1, 'Shlomi Dolev': 1, 'Karim Bessaoud': 1, 'In Section': 1, 'Vincent Filou': 1, 'Roderick Bloem': 1, 'Stephane Devismes': 1, 'Fathiyeh Faghih': 1, 'Corbineau Pierre': 1, 'David Monniaux': 1, 'HweyPyng Yu': 1, 'Pierre Casteran': 1, 'NianShing Chen': 1, 'Meixian Chen': 1, 'Karine Altisen': 1, 'John Mccarthy': 1, 'Distributed Comput': 1, 'Yuxin Deng': 1}"
+EPHANE DEVISMES,"{'Anissa Lamani': 1, 'Frederic Blanqui': 1, 'Andrea Asperti': 1, 'Alexis Fouilhe': 1, 'Cedric Auger': 1, 'Zohir Bouzid': 1, 'Frederic Desprez': 1, 'Georges Gonthier': 1, 'Software Engineers': 1, 'Gerry Siegemund': 1, 'Nicolas BraudSantoni': 1, 'Eddy Caron': 1, 'Manuel Barbosa': 1, 'Nachum Dershowitz': 1, 'Borzoo Bonakdarpour': 1, 'Uwe Nestmann': 1, 'JeanMichel Couvreur': 1, 'Alain Bui': 1, 'Lionel Rieg': 1, 'Pierre Corbineau': 1, 'ShingTsaan Huang': 1, 'Nissim Francez': 1, 'Pierre Courtieu': 1, 'Mathilde Duclos': 1, 'Shlomi Dolev': 1, 'Karim Bessaoud': 1, 'In Section': 1, 'Vincent Filou': 1, 'Roderick Bloem': 1, 'Stephane Devismes': 1, 'Fathiyeh Faghih': 1, 'Corbineau Pierre': 1, 'David Monniaux': 1, 'HweyPyng Yu': 1, 'Pierre Casteran': 1, 'NianShing Chen': 1, 'Meixian Chen': 1, 'Karine Altisen': 1, 'John Mccarthy': 1, 'Distributed Comput': 1, 'Yuxin Deng': 1}"
+JEAN CARDINAL,"{'Lower Bound': 1, 'Greg Aloupis': 1, 'Freie Universitat': 1, 'Jean Cardinal': 1, 'Matt Gibson': 1, 'Computational Geometry': 1, 'Gabor Tardos': 1, 'William Evans': 1, 'Peter Brass': 1, 'Xiaomin Chen': 1, 'Balazs Keszegh': 1}"
+NATHANN COHEN,"{'Lower Bound': 1, 'Greg Aloupis': 1, 'Freie Universitat': 1, 'Jean Cardinal': 1, 'Matt Gibson': 1, 'Computational Geometry': 1, 'Gabor Tardos': 1, 'William Evans': 1, 'Peter Brass': 1, 'Xiaomin Chen': 1, 'Balazs Keszegh': 1}"
+EBASTIEN COLLETTE,"{'Lower Bound': 1, 'Greg Aloupis': 1, 'Freie Universitat': 1, 'Jean Cardinal': 1, 'Matt Gibson': 1, 'Computational Geometry': 1, 'Gabor Tardos': 1, 'William Evans': 1, 'Peter Brass': 1, 'Xiaomin Chen': 1, 'Balazs Keszegh': 1}"
+Sri Lanka,"{'Zhong Ning': 1, 'Web Intelligence': 1, 'Cellular Services': 1, 'Liu Yao': 1, 'Government Websites': 1}"
+Palaiseau Cedex,{'Daniel Graca': 1}
+KAZUYUKI ASADA,"{'Let Un': 1, 'By Lemma': 1, 'Strong Connectivity': 1, 'EiJPiK LG': 1, 'Since LG': 1}"
+NAOKI KOBAYASHI,"{'Let Un': 1, 'By Lemma': 1, 'Strong Connectivity': 1, 'EiJPiK LG': 1, 'Since LG': 1}"
+RYOMA SIN,"{'Let Un': 1, 'By Lemma': 1, 'Strong Connectivity': 1, 'EiJPiK LG': 1, 'Since LG': 1}"
+Ankit Garg,"{'Brent Doran': 1, 'IOP Publishing': 1, 'Matthias Christandl': 1}"
+Rafael Oliveira,"{'Brent Doran': 1, 'IOP Publishing': 1, 'Matthias Christandl': 1}"
+Michael Walter,"{'Brent Doran': 1, 'IOP Publishing': 1, 'Matthias Christandl': 1}"
+Avi Wigderson,"{'Brent Doran': 1, 'IOP Publishing': 1, 'Matthias Christandl': 1}"
+DAVID CACHERA,{'Uli Fahrenberg': 1}
+ULI FAHRENBERG,{'Uli Fahrenberg': 1}
+DAVIDE BASILE,"{'Weak Agreement': 1, 'CONCLUDING REMARKS': 1, 'AN EXAMPLE': 1}"
+Workforce Centric,{'Zur Mühlen': 1}
+DK Odense,{'Concurrency PrenticeHall': 1}
+Quantum Equilibria,"{'Carlos Palazuelos': 1, 'Oded Regev': 1}"
+Dhinaharan Nagamalai,"{'Smart Contracts': 2, 'In KoET': 2, 'In Bitcoin': 2, 'DH Chu': 2}"
+Later He,{'Inf Comput': 1}
+Svetlana Puzynina,"{'JP Allouche': 1, 'JM Dumont': 1}"
+BENEDIKT AHRENS,"{'Schloss Dagstuhl': 1, 'Benedikt Ahrens': 1, 'Logical Structures': 1, 'Krzysztof Kapulkin': 1}"
+HENNING KERSTAN,"{'Bisimilarity Pseudometrics': 1, 'Schloss Dagstuhl': 1, 'Trace Pseudometrics': 1, 'Babita Sharma': 1, 'John Wiley': 1}"
+Jérémie Chalopin,"{'Miroslaw Dynia': 1, 'Jurek Czyzowicz': 1, 'Julian Anaya': 1, 'Yann Disser': 1, 'Jérémie Chalopin': 1, 'Jack Edmonds': 1, 'Leszek Gasieniec': 1, 'Paola Flocchini': 1, 'Krzysztof Diks': 1, 'Shantanu Das': 1, 'Miroslaw Korzeniowski': 1, 'Pierre Fraigniaud': 1, 'Margrit Betke': 1, 'Dariusz Dereniowski': 1, 'Susanne Albers': 1, 'Riko Jacob': 1, 'Mohammadtaghi Hajiaghayi': 1, 'Christian Ortolf': 1, 'Baruch Awerbuch': 1}"
+Shantanu Das,"{'Miroslaw Dynia': 1, 'Jurek Czyzowicz': 1, 'Julian Anaya': 1, 'Yann Disser': 1, 'Jérémie Chalopin': 1, 'Jack Edmonds': 1, 'Leszek Gasieniec': 1, 'Paola Flocchini': 1, 'Krzysztof Diks': 1, 'Shantanu Das': 1, 'Miroslaw Korzeniowski': 1, 'Pierre Fraigniaud': 1, 'Margrit Betke': 1, 'Dariusz Dereniowski': 1, 'Susanne Albers': 1, 'Riko Jacob': 1, 'Mohammadtaghi Hajiaghayi': 1, 'Christian Ortolf': 1, 'Baruch Awerbuch': 1}"
+Yann Disser,"{'Miroslaw Dynia': 1, 'Jurek Czyzowicz': 1, 'Julian Anaya': 1, 'Yann Disser': 1, 'Jérémie Chalopin': 1, 'Jack Edmonds': 1, 'Leszek Gasieniec': 1, 'Paola Flocchini': 1, 'Krzysztof Diks': 1, 'Shantanu Das': 1, 'Miroslaw Korzeniowski': 1, 'Pierre Fraigniaud': 1, 'Margrit Betke': 1, 'Dariusz Dereniowski': 1, 'Susanne Albers': 1, 'Riko Jacob': 1, 'Mohammadtaghi Hajiaghayi': 1, 'Christian Ortolf': 1, 'Baruch Awerbuch': 1}"
+Barbara Geissmann,"{'Miroslaw Dynia': 1, 'Jurek Czyzowicz': 1, 'Julian Anaya': 1, 'Yann Disser': 1, 'Jérémie Chalopin': 1, 'Jack Edmonds': 1, 'Leszek Gasieniec': 1, 'Paola Flocchini': 1, 'Krzysztof Diks': 1, 'Shantanu Das': 1, 'Miroslaw Korzeniowski': 1, 'Pierre Fraigniaud': 1, 'Margrit Betke': 1, 'Dariusz Dereniowski': 1, 'Susanne Albers': 1, 'Riko Jacob': 1, 'Mohammadtaghi Hajiaghayi': 1, 'Christian Ortolf': 1, 'Baruch Awerbuch': 1}"
+Michel Boyera,{'HK Lo': 1}
+Rotem Lissb,{'HK Lo': 1}
+Tal Morb,{'HK Lo': 1}
+REMOVING CONFUSION,"{'Andrea Asperti': 1, 'Gianni Conte': 1, 'Ed Brinksma': 1, 'Christian Eisentraut': 1, 'Part II': 1, 'Holger Hermanns': 1, 'Paolo Baldan': 1, 'Petri Nets': 1, 'Stefan Haar': 1, 'Roberto Bruni': 1, 'Grzegorz Rozenberg': 1, 'Ugo Montanari': 1, 'Daniele Varacca': 1, 'Anne Bouillard': 1, 'Federico Crazzolara': 1, 'Mogens Nielsen': 1, 'Probabilistic Nets': 1, 'Samy Abbes': 1, 'Rom Langerak': 1, 'JoostPieter Katoen': 1, 'Ursula Goltz': 1}"
+Local Descriptors,"{'Xs Huang': 1, 'Sj Feng': 1, 'Min Max': 1, 'Table II': 1, 'Yb Zheng': 1}"
+OLIVIER CARTON,"{'Deciding Com': 1, 'Andreas Krebs': 1, 'Laure Daviaud': 1, 'Olivier Gauwin': 1, 'PierreAlain Reynier': 1, 'Christophe Reutenaeur': 1, 'Pascal Tesson': 1, 'Formal Logic': 1, 'Emmanuel Filiot': 1, 'Mai Gehrke': 1, 'Jorge Almeida': 1}"
+AMIOARA AS,"{'SRI International': 1, 'SW Lin': 1, 'In QEST': 1}"
+SADDEK BENSALEM,"{'SRI International': 1, 'SW Lin': 1, 'In QEST': 1}"
+SOORAJ BHATa,"{'Derived Judgments': 1, 'Code Examples': 1}"
+Susmita Bhaduri,"{'Fred Lerdahl': 1, 'AP Klapuri': 1}"
+Anirban Bhaduri,"{'Fred Lerdahl': 1, 'AP Klapuri': 1}"
+Dipak Ghosh,"{'Fred Lerdahl': 1, 'AP Klapuri': 1}"
+YOUSSEF ARBACH,"{'Extended Bundle': 1, 'Shrinking Causality': 1, 'Dynamic Causality': 1, 'Petri Nets': 1, 'For RCESs': 1, 'Branching Time': 1, 'Event Structures': 1, 'Growing Causality': 1, 'Technical Preliminaries': 1, 'Xid Xi': 1}"
+KIRSTIN PETERS,"{'Extended Bundle': 1, 'Shrinking Causality': 1, 'Dynamic Causality': 1, 'Petri Nets': 1, 'For RCESs': 1, 'Branching Time': 1, 'Event Structures': 1, 'Growing Causality': 1, 'Technical Preliminaries': 1, 'Xid Xi': 1}"
+ANDREI POPESCU,"{'Fresh Variables': 1, 'Background Logics': 1, 'Instance Type': 1}"
+Stanford NER,{'OpenCalais WS': 1}
+OpenCalais NER,{'OpenCalais WS': 1}
+ES ARISTIZ,{ 'PL Curien': 1}
+ROBERTO BRUNI,"{'Universitat Hamburg': 1, 'Andrea Asperti': 1, 'Wolfgang Reisig': 1, 'Gianni Conte': 1, 'Andrea Corradini': 1, 'Paolo Baldan': 1, 'Roberto Bruni': 1, 'Ugo Montanari': 1, 'Walter Vogler': 1, 'Ina Koch': 1, 'Antonio Brogi': 1, 'Jose Meseguer': 1, 'Claude Girault': 1, 'Kurt Jensen': 1, 'Roberto Gorrieri': 1, 'Federico Crazzolara': 1, 'Yrvann Emzivat': 1, 'If LnM': 1, 'Congruence For': 1, 'PT Calculus': 1}"
+ANDREA CORRADINI,"{'Universitat Hamburg': 1, 'Andrea Asperti': 1, 'Wolfgang Reisig': 1, 'Gianni Conte': 1, 'Andrea Corradini': 1, 'Paolo Baldan': 1, 'Roberto Bruni': 1, 'Ugo Montanari': 1, 'Walter Vogler': 1, 'Ina Koch': 1, 'Antonio Brogi': 1, 'Jose Meseguer': 1, 'Claude Girault': 1, 'Kurt Jensen': 1, 'Roberto Gorrieri': 1, 'Federico Crazzolara': 1, 'Yrvann Emzivat': 1}"
+FABIO GADDUCCI,"{'Universitat Hamburg': 1, 'Andrea Asperti': 1, 'Wolfgang Reisig': 1, 'Gianni Conte': 1, 'Andrea Corradini': 1, 'Paolo Baldan': 1, 'Roberto Bruni': 1, 'Ugo Montanari': 1, 'Walter Vogler': 1, 'Ina Koch': 1, 'Antonio Brogi': 1, 'Jose Meseguer': 1, 'Claude Girault': 1, 'Kurt Jensen': 1, 'Roberto Gorrieri': 1, 'Federico Crazzolara': 1, 'Yrvann Emzivat': 1}"
+PAOLO CAPRIOTTI,"{'Fibrant Limits': 2, 'SemiSimplicial Types': 2, 'Soonho Kong': 1, 'DANIL ANNENKOV': 1, 'Technische Univer': 1, 'PAOLO CAPRIOTTI': 1}"
+DANA ANGLUIN,"{'Maik Merten': 1, 'Translating To': 1, 'USENIX Association': 1, 'Boolean Operations': 1}"
+UDI BOKER,"{'Maik Merten': 1, 'Translating To': 1, 'USENIX Association': 1, 'Boolean Operations': 1}"
+OLAF BEYERSDORFF,"{'Martin Kronegger': 2, 'Leroy Chew': 2, 'Carlos Domingo': 2}"
+LEROY CHEW,"{'Martin Kronegger': 2, 'Leroy Chew': 2, 'Carlos Domingo': 2}"
+MEENA MAHAJAN,"{'Martin Kronegger': 2, 'Leroy Chew': 2, 'Carlos Domingo': 2}"
+KRZYSZTOF BAR,"{'Andre Joyal': 1, 'In Section': 1, 'Krzysztof Bar': 1, 'Aleks Kissinger': 1}"
+ALEKS KISSINGER,"{'Andre Joyal': 1, 'In Section': 1, 'Krzysztof Bar': 1, 'Aleks Kissinger': 1}"
+Meisam Sadeghi,"{'WH Chang': 1, 'NR Rema': 1, 'MA Jafarizadeh': 1, 'AL Ferrara': 1, 'AD SanJs': 1, 'ShM Guo': 1}"
+Yusuke Kawamoto,{'Massey Guessing': 1}
+FRANCO BARBANERA,"{'JR Hindley': 1, 'By Prop': 1, 'PL Curien': 1, 'Th Streicher': 1, 'Name Contexts': 1, 'Restricted Types': 1, 'Formal Filters': 1, 'DP Friedman': 1, 'Restricted Bases': 1, 'ZM Ariola': 1, 'By Lem': 1}"
+LORENZO BETTINI,"{'Bill Joy': 1, 'Sebastian Erdweg': 1, 'Type Inference': 1, 'Sara Capecchi': 1, 'Schloss Dagstuhl': 1, 'Ameya Ketkar': 1, 'Sophia Drossopoulou': 1, 'Jan Vitek': 1, 'Susan Eisenbach': 1, 'Andrej Dudenhefner': 1}"
+MARIANGIOLA DEZANICIANCAGLINI,"{'Bill Joy': 1, 'Sebastian Erdweg': 1, 'Type Inference': 1, 'Sara Capecchi': 1, 'Schloss Dagstuhl': 1, 'Ameya Ketkar': 1, 'Sophia Drossopoulou': 1, 'Jan Vitek': 1, 'Susan Eisenbach': 1, 'Andrej Dudenhefner': 1}"
+Omar AlHarbi,"{'YH Sung': 1, 'SIGIR Forum': 1, 'Both SNLP': 1, 'DS Wang': 1, 'CT Chu': 1}"
+Shaidah Jusoh,"{'YH Sung': 1, 'SIGIR Forum': 1, 'Both SNLP': 1, 'DS Wang': 1, 'CT Chu': 1}"
+JAN BESSAI,"{'Schloss Dagstuhl': 1, 'Andrej Dudenhefner': 1, 'Boris Dudder': 1, 'Moritz Martens': 1}"
+TZUCHUN CHEN,"{'Schloss Dagstuhl': 1, 'Andrej Dudenhefner': 1, 'Boris Dudder': 1, 'Moritz Martens': 1}"
+ANDREJ DUDENHEFNER,"{'Schloss Dagstuhl': 1, 'Andrej Dudenhefner': 1, 'Boris Dudder': 1, 'Moritz Martens': 1}"
+Matthias Christandl,"{'If Rn': 1, 'ACM Preprint': 1, 'Matthias Christandl': 1, 'Franck Butelle': 1}"
+Jeroen Zuiddam,"{'If Rn': 1, 'ACM Preprint': 1, 'Matthias Christandl': 1, 'Franck Butelle': 1}"
+FLAVIEN BREUVART,"{'On Probabilistic': 1, 'Claudia Faggian': 1, 'In Section': 1, 'Operational Semantics': 1, 'Multistep Reduction': 1, 'Typing Rules': 1}"
+Technische Universit,"{'JL Krivine': 1, 'JY Girard': 1, 'Classical Logic': 1, 'Classical Realizability': 1, 'Silvio Ghilardi': 1, 'Karas Lemma': 1, 'Generic Combinations': 1}"
+Wiedner Haupt,"{'JL Krivine': 1, 'JY Girard': 1, 'Classical Logic': 1, 'Classical Realizability': 1}"
+Péter Burcsia,{'LK Lee': 1}
+Gabriele Ficib,{'LK Lee': 1}
+Frank Ruskeyd,{'LK Lee': 1}
+Joe Sawadae,{'LK Lee': 1}
+ELIX BASCHENIS,"{'MP Schutzenberger': 1, 'MP Beal': 1}"
+OLIVIER GAUWIN,"{'MP Schutzenberger': 1, 'MP Beal': 1}"
+ANCA MUSCHOLL,"{'MP Schutzenberger': 1, 'MP Beal': 1}"
+NICK BENTON,"{'Andrew Kennedy': 1, 'Observational Equivalence': 1, 'DirectStyle Proofs': 1, 'Aurelio Carboni': 1, 'Fundamental Lemma': 1}"
+MARTIN HOFMANN,"{'Andrew Kennedy': 1, 'Observational Equivalence': 1, 'DirectStyle Proofs': 1, 'Aurelio Carboni': 1, 'Fundamental Lemma': 1}"
+Luca Arnaboldi,{'Santhosh Kumar': 1}
+Charles Morisset,{'Santhosh Kumar': 1}
+Zarif Masud,{'BC Chen': 1}
+Rubaida Easmin,{'BC Chen': 1}
+Alim Ul,{'BC Chen': 1}
+John Abbott,{'EPiC Series': 1}
+Bernd Becker,{'EPiC Series': 1}
+BULETINUL STIINTIFIC,{'CN Chuah': 1}
+Chaitanya Bapat,"{'Parvinder Sandhu': 2, 'Chander Kant': 2, 'Rajender Nath': 2, 'Mamta Juneja': 2}"
+Shivani Inamdar,"{'Parvinder Sandhu': 2, 'Chander Kant': 2, 'Rajender Nath': 2, 'Mamta Juneja': 2}"
+Ganesh Baleri,"{'Parvinder Sandhu': 2, 'Chander Kant': 2, 'Rajender Nath': 2, 'Mamta Juneja': 2}"
+Redmond WA,"{'JD Ullman': 1, 'Quantum Information': 1, 'AO Mendelzon': 1, 'RS Barbosa': 1, 'HF Korth': 1, 'MQC Nielsen': 1, 'GM Kuper': 1, 'JM Estebaranz': 1}"
+ANTONIO BUCCIARELLI,"{'By Lemma': 1, 'Characterizing Solvability': 1, 'JW Klop': 1, 'SubstitutionAntiSubstitution Lemma': 1}"
+DELIA KESNER,"{'By Lemma': 1, 'Characterizing Solvability': 1, 'JW Klop': 1, 'SubstitutionAntiSubstitution Lemma': 1}"
+Markus Bl?ser,"{'ACM Preprint': 1, 'Matthias Christandl': 1, 'Franck Butelle': 1}"
+Kohei Kishida,{'By Proposition': 1}
+Octavio Zapata,"{'Peter Heywood': 1, 'Stefan Milius': 1, 'Li Liu': 1, 'Ashley Montanaro': 1, 'RS Barbosa': 1, 'Richard Cleve': 1, 'Bob Coecke': 1, 'Dirk Pattinson': 1, 'VB Scholz': 1, 'JM Estebaranz': 1, 'Daniel Reitzner': 1, 'Tomas Feder': 1, 'Adam Brandenburger': 1, 'Anuj Dawar': 1, 'Albert Atserias': 1, 'Business Media': 1, 'Samson Abramsky': 1}"
+AND TERMINATION,"{'Monad Maps': 1, 'For LTS': 1}"
+TIZIANA CIMOLI,{'PM Denielou': 1}
+HADRIAN ANDRADI,"{'JB Wright': 1, 'KH Hofmann': 1}"
+ANTOINE MOTTET,"{'Andrei Krokhin': 1, 'Michael Kompatscher': 1}"
+MIRIAM BACKENS,{'Simon Perdrix': 1}
+Lester Beltran,{'Van Rijsbergen': 1}
+Lyneth Beltran,{'Van Rijsbergen': 1}
+DANIL ANNENKOV,"{'Soonho Kong': 1, 'DANIL ANNENKOV': 1, 'Technische Univer': 1, 'PAOLO CAPRIOTTI': 1}"
+NICOLAI KRAUS,"{'Soonho Kong': 1, 'DANIL ANNENKOV': 1, 'Technische Univer': 1, 'PAOLO CAPRIOTTI': 1}"
+CORECURSIVE ALGEBRAS,"{'Stefan Milius': 1, 'Alex Simpson': 1, 'Tarmo Uustalu': 1, 'Pierre America': 1, 'Neil Ghani': 1, 'Venanzio Capretta': 1, 'Peter Aczel': 1, 'Mahdieh Haddadi': 1, 'CORECURSIVE ALGEBRAS': 1, 'Reinhard Borger': 1, 'Horst Herrlich': 1}"
+CORECURSIVE MONADS,"{'Stefan Milius': 1, 'Alex Simpson': 1, 'Tarmo Uustalu': 1, 'Pierre America': 1, 'Neil Ghani': 1, 'Venanzio Capretta': 1, 'Peter Aczel': 1, 'Mahdieh Haddadi': 1, 'CORECURSIVE ALGEBRAS': 1, 'Reinhard Borger': 1, 'Horst Herrlich': 1}"
+LAURE DAVIAUD,"{'Lukasz Kaiser': 1, 'Dietrich Kuske': 1, 'Henryk Michalewski': 1, 'Pawel Parys': 1, 'Jiamou Liu': 1, 'Markus Lohrey': 1, 'Olivier Carton': 1, 'Achim Blumensath': 1}"
+VINCENT PENELLE,"{'Lukasz Kaiser': 1, 'Dietrich Kuske': 1, 'Henryk Michalewski': 1, 'Pawel Parys': 1, 'Jiamou Liu': 1, 'Markus Lohrey': 1, 'Olivier Carton': 1, 'Achim Blumensath': 1}"
+Tommaso Gagliardoni,"{'QINDCCA QUF': 1, 'UF AE': 1, 'QAE QINDCCA': 1, 'QAE QUF': 1, 'Part II': 1, 'AE AE': 1}"
+Shreyas Badiger,"{'Brandon Heller': 2, 'Harshit Gupta': 2, 'Martin Arlitt': 2, 'Aakash Khochare': 2, 'Manish Marwah': 2, 'Prateeksha Varshney': 2, 'Bob Lantz': 2, 'Brian Grant': 2, 'Pushkara Ravindra': 2, 'Sumit Roy': 2, 'Anshu Shukla': 2, 'Minqi Zhou': 2, 'Cagatay Sonmez': 2, 'Dr Barker': 2, 'Rajiv Ranjan': 2, 'Rajrup Ghosh': 2, 'Atay Ozgovde': 2, 'Ling Gu': 2, 'Shilpa Chaturvedi': 2, 'Uchechukwu Awada': 2, 'Brendan Burns': 2, 'Rodolfo Milito': 2}"
+Shrey Baheti,"{'Brandon Heller': 2, 'Harshit Gupta': 2, 'Martin Arlitt': 2, 'Aakash Khochare': 2, 'Manish Marwah': 2, 'Prateeksha Varshney': 2, 'Bob Lantz': 2, 'Brian Grant': 2, 'Pushkara Ravindra': 2, 'Sumit Roy': 2, 'Anshu Shukla': 2, 'Minqi Zhou': 2, 'Cagatay Sonmez': 2, 'Dr Barker': 2, 'Rajiv Ranjan': 2, 'Rajrup Ghosh': 2, 'Atay Ozgovde': 2, 'Ling Gu': 2, 'Shilpa Chaturvedi': 2, 'Uchechukwu Awada': 2, 'Brendan Burns': 2, 'Rodolfo Milito': 2}"
+Yogesh Simmhan,"{'Brandon Heller': 2, 'Harshit Gupta': 2, 'Martin Arlitt': 2, 'Aakash Khochare': 2, 'Manish Marwah': 2, 'Prateeksha Varshney': 2, 'Bob Lantz': 2, 'Brian Grant': 2, 'Pushkara Ravindra': 2, 'Sumit Roy': 2, 'Anshu Shukla': 2, 'Minqi Zhou': 2, 'Cagatay Sonmez': 2, 'Dr Barker': 2, 'Rajiv Ranjan': 2, 'Rajrup Ghosh': 2, 'Atay Ozgovde': 2, 'Ling Gu': 2, 'Shilpa Chaturvedi': 2, 'Uchechukwu Awada': 2, 'Brendan Burns': 2, 'Rodolfo Milito': 2}"
+John Baez,"{'Yuri Gurevich': 1, 'Alexei Kitaev': 1, 'Saunders Maclane': 1, 'Prakash Panangaden': 1, 'Andre Joyal': 1, 'Samuel Eilenberg': 1, 'Miguel Laplaza': 1, 'Andreas Blass': 1, 'Ross Street': 1, 'Zhenghan Wang': 1}"
+Zhengfeng Ji,{'DAMG ARD': 1}
+ACHIM BLUMENSATH,"{'Phokion Kolaitis': 1, 'HeinzDieter Ebbinghaus': 1, 'Jorg Flum': 1, 'Egon Borger': 1, 'Martin Otto': 1, 'Stavros Cosmadakis': 1, 'Valentin Goranko': 1, 'Stephan Kreutzer': 1, 'Universite Paris': 1, 'Harry Mairson': 1, 'Haim Gaifman': 1, 'Hainal Andreka': 1, 'Erich Gradel': 1, 'Paris Kanellakis': 1, 'Martin Grohe': 1, 'Anuj Dawar': 1, 'Gerd Hillebrand': 1, 'Colin Hirsch': 1, 'Jon Barwise': 1, 'Spanning Trees': 1, 'Thomas Colcombet': 1, 'David Janin': 1}"
+MARTIN OTTO,"{'Phokion Kolaitis': 1, 'HeinzDieter Ebbinghaus': 1, 'Jorg Flum': 1, 'Egon Borger': 1, 'Martin Otto': 1, 'Stavros Cosmadakis': 1, 'Valentin Goranko': 1, 'Stephan Kreutzer': 1, 'Universite Paris': 1, 'Harry Mairson': 1, 'Haim Gaifman': 1, 'Hainal Andreka': 1, 'Erich Gradel': 1, 'Paris Kanellakis': 1, 'Martin Grohe': 1, 'Anuj Dawar': 1, 'Gerd Hillebrand': 1, 'Colin Hirsch': 1, 'Jon Barwise': 1, 'Spanning Trees': 1, 'Thomas Colcombet': 1, 'David Janin': 1}"
+Youssef Baddi,"{'Kluwer Academic': 1, 'TopologyBased Algorithm': 1, 'Status EXPERIMENTAL': 1, 'Experience RFC': 1, 'YC Bang': 1, 'PR Sheu': 1, 'LITERATURE REVIEW': 1, 'IP Multicast': 1, 'DVVNSRPM ALGORITHM': 1}"
