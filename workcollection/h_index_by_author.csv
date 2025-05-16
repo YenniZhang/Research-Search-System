@@ -1,0 +1,7190 @@
+author,h_index,total_citations,paper_count
+Diederik Aerts,10,342,14
+Sandro Sozzo,9,281,12
+Lars Birkedal,8,542,11
+Patricia Bouyer,8,259,9
+Andrew M. Childs,8,379,9
+J¨¹rgen M¨¹nch,8,195,13
+Philippe Schnoebelen,7,257,8
+Moshe Y. Vardi,7,462,7
+Alexander Kurz,7,200,8
+Harumichi Nishimura,7,256,10
+Radu Mardare,7,88,8
+Luc Segoufin,7,261,10
+Matthew England,7,280,10
+Simon Perdrix,7,193,8
+Sylvain Schmitz,6,234,6
+Giorgi Japaridze,6,123,7
+Manuel Bodirsky,6,239,7
+Bart Jacobs,6,421,7
+Amy Glen,6,147,7
+Krishnendu Chatterjee,6,419,6
+Ashraf A. Shahin,6,107,8
+Thomas A. Henzinger,6,384,6
+Martin Grohe,6,139,7
+James Worrell,6,251,7
+Igor Walukiewicz,6,193,7
+Nicolas Markey,6,318,6
+Kim G. Larsen,6,148,6
+Carsten Lutz,6,229,6
+Thierry Coquand,6,163,7
+Fran?ois Le Gall,6,117,9
+Matthew Hennessy,6,253,7
+Alejandro D¨ªaz-Caro,5,97,6
+Sevag Gharibian,5,201,6
+Miko?aj Boja¨½czyk,5,258,8
+Achim Blumensath,5,67,6
+Lutz Schr?der,5,104,9
+Johannes Borgstr?m,5,205,5
+Michael Timothy Bennett,5,34,7
+Alain Finkel,5,132,7
+Benedikt Bollig,5,105,7
+Stefan Milius,5,120,11
+Filippo Bonchi,5,241,10
+Klaus Weihrauch,5,67,5
+Thomas Place,5,109,8
+Clemens Kupke,5,243,5
+Bruno Courcelle,5,96,5
+Giulio Manzonetto,5,71,7
+Ugo Dal Lago,5,324,6
+Hongseok Yang,5,235,5
+Carlo A. Furia,5,196,5
+Bertrand Meyer,5,190,5
+Benedikt Ahrens,5,101,8
+Holger Hermanns,5,127,6
+Thomas Brihaye,5,139,6
+M. England,5,129,5
+Arno Pauly,5,162,5
+Rasmus Ejlers M?gelberg,5,294,5
+Delia Kesner,5,111,7
+Thomas Colcombet,5,194,7
+Massimo Bartoletti,5,113,6
+Sven Schewe,5,65,6
+Michael Lampis,5,79,6
+Martin Zimmermann,5,89,5
+Marc Zeitoun,5,112,5
+Tarmo Uustalu,5,251,5
+Bernd Bischl,4,298,4
+Tomas Veloz,4,87,5
+David Lillis,4,37,4
+Emmanuel Filiot,4,89,5
+Olaf Beyersdorff,4,117,4
+Bart?omiej P?aczek,4,56,4
+Conrad Sanderson,4,138,4
+Christine Tasson,4,77,4
+Yuri Gordienko,4,60,5
+Robin Kothari,4,206,4
+Jan Schwinghammer,4,254,4
+Yusuke Kawamoto,4,67,4
+J. H. Davenport,4,114,4
+Oleg Alienin,4,52,4
+Heribert Vollmer,4,83,5
+Bas Spitters,4,154,5
+Sergii Stirenko,4,60,5
+Jurriaan Rot,4,122,6
+Gabriel Kronberger,4,41,8
+Parosh Aziz Abdulla,4,105,5
+Vincenzo Aquilanti,4,66,4
+Matthias Christandl,4,35,4
+Giuseppe Casalicchio,4,298,4
+Jonathan D. Beezley,4,112,4
+Alexander Rabinovich,4,109,7
+Dusko Pavlovic,4,52,6
+Thomas Ehrhard,4,62,5
+Ichiro Hasuo,4,260,5
+Nick Bezhanishvili,4,90,5
+Joachim Parrow,4,183,4
+Ana Carla P. Bitencourt,4,66,4
+Thorsten Altenkirch,4,160,4
+Mirco Ragni,4,66,4
+Joerg Endrullis,4,88,4
+Prateek Karandikar,4,73,4
+Dimitri Hendriks,4,75,4
+Frank Wolter,4,154,4
+R. Portugal,4,71,4
+Ahmed Bouajjani,4,170,4
+Jean-Louis Krivine,4,119,4
+Martin Ziegler,4,83,4
+Samson Abramsky,4,252,5
+Florent Foucaud,4,68,6
+Neil Ghani,4,129,5
+Nicolai Kraus,4,157,5
+Helle Hvid Hansen,4,182,4
+Hendrik Jan Hoogeboom,4,67,4
+Alexandra Silva,4,218,7
+Barbara K?nig,4,138,4
+James H. Davenport,4,88,4
+Richard Garner,4,186,4
+Daniel Hirschkoff,4,64,4
+Nobuko Yoshida,4,209,4
+Samuel Mimram,4,94,6
+Andreas Abel,4,134,4
+Simona Ronchi Della Rocca,4,67,4
+Anca Muscholl,4,177,5
+Pascal Weil,4,52,5
+Davide Sangiorgi,4,47,5
+Gabriele Fici,4,83,8
+Hugo Gimbert,4,63,4
+Richard Mayr,4,282,5
+Pablo Arrighi,4,99,4
+Christian Majenz,4,282,4
+Nathana?l Fijalkow,4,52,5
+Fabio Zanasi,4,65,8
+Jean Goubault-Larrecq,4,137,5
+Mickael Randour,4,58,4
+Bj?rn Kjos-Hanssen,4,40,4
+Anupam Das,4,88,7
+Chris Heunen,4,48,4
+Luca Padovani,4,213,5
+Michele Loreti,4,124,4
+Michael Affenzeller,4,39,6
+Tom Hirschowitz,4,60,4
+Simon Castellan,4,82,4
+Pierre Clairambault,4,89,5
+Benny Kimelfeld,4,117,4
+Damien Pous,4,94,6
+Nathalie Bertrand,4,112,4
+Jan Krajicek,4,64,4
+Matteo Mio,4,79,4
+Yde Venema,4,63,4
+Alexis Ocampo,4,69,4
+Russell O'Connor,4,95,4
+Stefan Wagner,4,51,7
+Jan Mandel,4,116,5
+Bartek Klin,4,182,5
+Wojciech Czerwi¨½ski,4,79,4
+Philip B. Stark,3,24,5
+Peter J. Stuckey,3,28,7
+Jiri Velebil,3,75,3
+David N. Jansen,3,85,3
+Gorjan Alagic,3,131,3
+Jan Rutten,3,220,3
+Roger W. Anderson,3,51,3
+Anastasios Nentidis,3,99,3
+Anastasia Krithara,3,99,3
+Marcelo Fiore,3,17,3
+Andrew M. Pitts,3,107,4
+Matija Pretnar,3,286,4
+Naoki Kobayashi,3,129,4
+Joost-Pieter Katoen,3,170,3
+Manfred Kufleitner,3,46,3
+Rui Soares Barbosa,3,159,3
+Alexander Khoperskov,3,62,3
+Patricia Johann,3,55,3
+Pekka Abrahamsson,3,102,3
+C. -H. Luke Ong,3,113,3
+Fr¨¦d¨¦ric Blanqui,3,95,4
+Kazuo Iwama,3,174,3
+Rem W. Collier,3,32,3
+Rudy Raymond,3,178,3
+Olivier Colliot,3,42,3
+Alessio Guglielmi,3,110,3
+¨¦tienne Andr¨¦,3,53,6
+Yogesh Simmhan,3,174,4
+Marta Kwiatkowska,3,375,3
+David Monniaux,3,885,3
+Mikolaj Bojanczyk,3,81,3
+Frank Pfenning,3,26,3
+George Metcalfe,3,44,4
+Konstantinos Chatzikokolakis,3,41,3
+Ulrich Berger,3,73,4
+Karl Svozil,3,49,6
+Catuscia Palamidessi,3,41,3
+Jan Kyn?l,3,40,3
+Nikita Gordienko,3,37,3
+Magda Friedjungov¨¢,3,18,3
+Dariusz Dereniowski,3,36,4
+Rob van Glabbeek,3,154,4
+Bas Luttik,3,104,6
+Christoph Molnar,3,291,3
+Benjamin Werner,3,64,3
+Adam K. Kochanski,3,69,3
+Olivier Finkel,3,32,4
+Grigore Rosu,3,168,3
+Nikos Tzevelekos,3,64,3
+Neil Immerman,3,274,4
+Prahladh Harsha,3,43,4
+Dirk Pattinson,3,162,4
+John Fearnley,3,32,3
+Balder ten Cate,3,96,3
+Luca de Alfaro,3,62,3
+Axel Legay,3,26,3
+Ugo Montanari,3,88,4
+Benedetto Intrigila,3,19,5
+Wilmer Ricciotti,3,74,3
+Peter LeFanu Lumsdaine,3,177,3
+Stefano Berardi,3,76,3
+Kousha Etessami,3,422,3
+Seiichiro Tani,3,118,6
+Rupak Majumdar,3,59,3
+Paolo Baldan,3,115,3
+Mohamed Faouzi Atig,3,132,4
+Jeroen Zuiddam,3,25,3
+Aniello Murano,3,154,3
+Thomas Schwentick,3,179,4
+Philippe Gaucher,3,43,4
+Luca Q. Zamboni,3,99,4
+Xin-She Yang,3,2143,3
+Shigeru Yamashita,3,174,3
+Wojciech Moczydlowski,3,24,3
+Luca Aceto,3,74,5
+Thibaut Horel,3,75,3
+Zvonko Iljazovic,3,74,3
+Lyneth Beltran,3,41,3
+Yi-Kai Liu,3,45,3
+Massimiliano Sassoli de Bianchi,3,41,3
+Pawel Sobocinski,3,110,3
+Glynn Winskel,3,97,4
+Sam Staton,3,157,3
+Ana Sokolova,3,227,3
+Frank Stephan,3,147,4
+Max A. Alekseyev,3,27,6
+Antoine Meyer,3,68,3
+Makoto Hamana,3,22,3
+Christof L?ding,3,100,4
+Yves Guiraud,3,42,3
+Willem Conradie,3,156,5
+Brijesh Dongol,3,27,3
+Dariusz Biernacki,3,112,3
+Sikiru Adewale,3,28,3
+Prakash Panangaden,3,50,4
+Tosin Ige,3,28,3
+Giorgio Bacci,3,23,4
+Jean Cardinal,3,44,4
+Valerio Schiavoni,3,45,4
+Noam Zeilberger,3,50,3
+Niels van der Weide,3,32,3
+Robin Piedeleu,3,12,3
+Lijun Zhang,3,100,3
+Flemming Nielson,3,60,4
+J¨¦r?me Leroux,3,112,4
+Warut Suksompong,3,90,5
+Pierre Vandenhove,3,47,3
+Dana Fisman,3,17,3
+Thorsten Wi?mann,3,27,4
+Amir M. Ben-Amram,3,82,4
+Maurizio Murgia,3,24,4
+Uli Fahrenberg,3,33,4
+Georg Struth,3,24,3
+Denis Kuperberg,3,43,4
+Sabah Al-Fedaghi,3,26,7
+Laurent Doyen,3,359,3
+Octavio Malherbe,3,42,3
+Tomoyuki Yamakami,3,42,4
+Piotr Hofman,3,45,4
+Erich Gr?del,3,35,3
+Andrej Bauer,3,86,4
+Wei Zeng,3,195,3
+Karoliina Lehtinen,3,35,3
+Alessandro De Luca,3,80,6
+Pierre-Alain Reynier,3,46,5
+Diego Latella,3,73,3
+Mieke Massink,3,73,3
+Martti Karvonen,3,40,3
+Benjamin Monmege,3,42,4
+S?awomir Lasota,3,199,5
+Didem G?z¨¹pek,3,19,4
+Borzoo Bonakdarpour,3,54,3
+Jan Broekaert,3,71,3
+Damjan Vukcevic,3,28,7
+Samir Kumar Borgohain,3,46,3
+Youssouf Oualhadj,3,50,3
+Philipp Hieronymi,3,29,3
+Tim A. C. Willemse,3,27,4
+Mirko Viroli,3,52,3
+Fredrik Nordvall Forsberg,3,33,3
+Tatsuji Kawai,3,33,4
+Anuj Dawar,3,41,4
+Edita Pelantov¨¢,3,23,3
+Cyril Banderier,3,55,3
+Didier Lime,3,49,3
+Mahesh Viswanathan,3,52,3
+Jan Willem Klop,3,21,4
+Kate?ina Medkov¨¢,3,23,3
+Michael Shulman,3,93,4
+Krzysztof Wo?k,3,96,3
+August Thio-ac,3,108,3
+Michael Blondin,3,49,3
+Jessica Velasco,3,108,3
+Wim Martens,3,66,3
+Jonathan Grattage,3,69,3
+Igor C. Oliveira,3,59,3
+Colin Defant,3,52,4
+Udi Boker,3,38,3
+Elham Kashefi,3,162,3
+Michael Kommenda,3,34,7
+Howard Straubing,3,93,3
+Iztok Peterin,3,14,3
+Martin Krallinger,3,99,3
+Antonio Bucciarelli,3,33,3
+Georgios Paliouras,3,99,3
+Andrew Polonsky,3,28,5
+Peter Selinger,3,91,3
+Furio Honsell,3,35,3
+Micha? Skrzypczak,3,37,4
+Jamie Vicary,3,88,4
+Eric Goubault,3,111,3
+Berit Gru?ien,3,17,3
+Karel Klouda,3,34,3
+Makoto Tatsuta,3,25,3
+Ugo de'Liguoro,3,33,4
+Mariangiola Dezani-Ciancaglini,3,177,3
+Paula Severi,3,45,3
+Sergey Goncharov,3,33,3
+Simone Tini,3,47,3
+Olivier Gauwin,3,35,3
+Gabriele Puppis,3,27,3
+Flavien Breuvart,3,19,3
+Bernd Finkbeiner,3,36,4
+Cynthia Kop,3,36,3
+Karin Quaas,3,28,3
+Stefan Kiefer,3,48,3
+Patrick Gallinari,2,94,2
+Lester Beltran,2,37,2
+Andris Ambainis,2,26,2
+Leonid B. Sokolinsky,2,19,2
+David Callan,2,4,2
+Chris McCool,2,16,2
+Muhammad Marwan Muhammad Fuad,2,10,2
+Daniel Langr,2,6,2
+Haofu Liao,2,42,2
+Marek Szyku?a,2,65,2
+Sylvain Gravier,2,23,2
+Jiebo Luo,2,42,2
+Dimitrios Los,2,20,2
+Todd Davies,2,9,2
+Arnaldo Cesco,2,5,2
+Roberto Gorrieri,2,5,2
+Christoph Koutschan,2,93,2
+Beniamino Accattoli,2,115,3
+Mikael Brudfors,2,20,2
+Tobias Nipkow,2,11,2
+Sudarshan Nandy,2,57,2
+Nadia Polikarpova,2,65,2
+Partha Pratim Sarkar,2,57,2
+Achintya Das,2,57,2
+Bruno Grenet,2,29,2
+Pascal Koiran,2,29,2
+Natacha Portier,2,29,2
+Ronald Hochreiter,2,12,2
+Andre Diatta,2,11,2
+Peter Giblin,2,11,2
+Carlos Seara,2,13,2
+Lukasz Kaiser,2,65,2
+Dimitri Marinelli,2,32,2
+John Ashburner,2,20,2
+Graciela Nasini,2,14,2
+Daniel Sever¨ªn,2,14,2
+Daniel Karapetyan,2,24,2
+Irit Dinur,2,33,2
+Paola Bruscoli,2,34,2
+Yuval Filmus,2,22,2
+Tom Gundersen,2,102,2
+Sergey Kitaev,2,18,3
+Josef Cibulka,2,28,2
+Viola M¨¦sz¨¢ros,2,28,2
+Rudolf Stola?,2,28,2
+Pavel Valtr,2,28,2
+Fabien De Montgolfier,2,16,2
+Micha?l Rao,2,19,2
+Adam Koprowski,2,112,2
+Krzysztof Zaremba,2,27,2
+Yann Strozecki,2,36,2
+Jarkko Kari,2,10,2
+David Eppstein,2,8,2
+Frederik Lerbjerg Aagaard,2,6,2
+Luca Magri,2,46,2
+Soham Chakraborty,2,81,2
+Arthur-Jozsef Molnar,2,14,3
+Jan Goedgebeur,2,12,2
+Holger R. Roth,2,691,2
+Jens Heidrich,2,65,3
+Subhabrata Mukherjee,2,152,2
+Laura Kov¨¢cs,2,5,3
+Anne Broadbent,2,116,2
+Pushpak Bhattacharyya,2,152,2
+Zsuzsanna Lipt¨¢k,2,19,2
+Luigi Santocanale,2,18,3
+Andrei Voronkov,2,5,2
+Natsuki Urabe,2,36,2
+Mehdi Mhalla,2,24,2
+Vincent Limouzy,2,17,4
+Robert G. Littlejohn,2,34,2
+Roderick Bloem,2,64,2
+Nicole Schweikardt,2,65,3
+Bartlomiej Placzek,2,6,2
+Nicol¨° Navarin,2,8,2
+Chuangjie Xu,2,11,2
+Alessandro Sperduti,2,8,2
+Petros Wallden,2,52,2
+Thomas Varghese,2,26,2
+Tomoyuki Morimae,2,8,2
+David Wilson,2,52,2
+Daniel Lund¨¦n,2,18,3
+Shujun Li,2,27,3
+Guanrong Chen,2,26,2
+Volker Diekert,2,13,2
+V. C. Barbosa,2,8,4
+Sebastian Nanz,2,385,2
+Marina Lenisa,2,24,2
+Micha? ?opuszy¨½ski,2,16,2
+St¨¦phane Gaubert,2,88,2
+Daniel Va?ata,2,14,2
+Clement Fumex,2,41,2
+Marcel Ji?ina,2,14,2
+Chiara Boldrini,2,7,2
+Andrea Passarella,2,7,2
+Marco Conti,2,7,2
+Helge Spieker,2,13,2
+Arnaud Gotlieb,2,13,2
+Omid Jafari,2,11,2
+Parth Nagarkar,2,11,2
+Flavio Ferrarotti,2,48,2
+Klaus-Dieter Schewe,2,48,2
+Loredana Tec,2,48,2
+Wojciech Samek,2,27,2
+Alexander Russell,2,41,2
+Qing Wang,2,48,2
+Alexandru Cojocaru,2,52,2
+L¨¦o Colisson,2,52,2
+Andreas Beham,2,21,4
+Bogdan Burlacu,2,7,2
+David Broman,2,18,3
+M¨¢rio S. Alvim,2,27,2
+Barak Nehoran,2,8,2
+Dinh Doan Van Bien,2,12,2
+Petra Hozzov¨¢,2,5,2
+Giuseppe Angora,2,11,2
+Swen Jacobs,2,81,2
+Massimo Brescia,2,11,2
+Cosmin Badea,2,18,2
+Peter Hoyer,2,71,2
+Stefano Cavuoti,2,11,2
+Christel Baier,2,52,2
+Giuseppe Riccio,2,11,2
+Lubom¨ªra Dvo?¨¢kov¨¢,2,12,2
+Hao Liao,2,35,2
+Piotr P?o¨½ski,2,27,2
+Giuseppe Longo,2,13,2
+Ali Parsai,2,15,2
+Serge Demeyer,2,15,2
+Hao-En Chueh,2,32,2
+Mai Gehrke,2,71,2
+Robert Atkey,2,134,3
+Alwen F Tiu,2,72,2
+Thomas Schneider,2,71,2
+Jiri Adamek,2,61,2
+Gert Smolka,2,52,2
+Arnon Avron,2,23,3
+Taolue Chen,2,130,2
+Jesper Bengtson,2,143,2
+Takeshi Tsukada,2,32,3
+Atsushi Igarashi,2,50,2
+G. Abal,2,57,2
+R. Donangelo,2,57,2
+Kazushige Terui,2,68,2
+Samir AbdelRahman,2,16,2
+Basma Hassan,2,16,2
+Reem Bahgat,2,16,2
+Alberto Griggio,2,36,2
+Cameron E. Freer,2,31,3
+Dietrich Kuske,2,39,3
+Silvio Ghilardi,2,140,2
+Silvio Ranise,2,140,2
+Stephane Demri,2,20,2
+Olivier Laurent,2,23,3
+David Pichardie,2,21,2
+Federico Aschieri,2,61,2
+Henning Schnoor,2,55,2
+Jean-Guillaume Dumas,2,25,2
+Marcello Bonsangue,2,197,2
+Franz Baader,2,100,2
+Barbara Morawska,2,100,2
+Stepan Starosta,2,19,2
+Lionel Vaux,2,17,2
+Stefano Gogioso,2,28,2
+Bob Coecke,2,175,2
+Stefano Mancini,2,35,2
+Markus Lohrey,2,25,4
+Ala'a Z. Al-Howaide,2,34,2
+Veronique Bruyere,2,73,2
+F. L. Marquezino,2,43,2
+Liane Gabora,2,70,2
+Riccardo Guidotti,2,24,2
+Ian J. Hayes,2,31,2
+A. Ukil,2,34,2
+Jonathan Monta?o,2,11,2
+Wim van Dam,2,82,2
+Harley Eades III,2,9,2
+Barnaby Martin,2,44,2
+Julian Rathke,2,77,2
+Dexter Kozen,2,40,4
+Eckhard Hitzer,2,21,2
+Michael Ummels,2,96,2
+Gill Barequet,2,12,2
+Alex Simpson,2,95,2
+Robert Constable,2,36,2
+Jakob Grue Simonsen,2,20,2
+Vladimiro Sassone,2,42,2
+Damiano Mazza,2,32,2
+Aldo de Luca,2,31,2
+Robbert Krebbers,2,70,2
+Reinhard Laubenbacher,2,96,2
+Martin Hofmann,2,50,2
+Florent R. Madelaine,2,43,2
+Marcos Faundez-Zanuy,2,12,3
+Rainer Plaga,2,34,2
+Pasin Manurangsi,2,16,3
+Jan Legersky,2,7,2
+Richard Statman,2,11,3
+Jean-Francois Raskin,2,85,2
+Gang Mei,2,60,2
+Georg Moser,2,45,2
+Ji?¨ª Srba,2,38,2
+Francois Le Gall,2,36,2
+Faisal Shah Khan,2,60,2
+Marelie H. Davel,2,29,6
+Olivier Danvy,2,103,2
+Samuel R. Buss,2,85,2
+Marcelo Arenas,2,149,2
+Pablo Barcelo,2,148,3
+Rick Salay,2,66,2
+Predrag Janicic,2,30,2
+Vincent Labatut,2,103,2
+Vishwanath Raman,2,51,2
+Gunnar K?nig,2,64,2
+Andrea Corradini,2,70,2
+Marvin N. Wright,2,64,2
+Bo N?rregaard J?rgensen,2,5,5
+Russell Miller,2,12,2
+Robert Brijder,2,29,2
+Francois Laroussinie,2,201,2
+Andreas Winter,2,36,2
+Alberto Carraro,2,16,2
+Michelangelo Bucci,2,65,3
+Jelle Don,2,204,2
+Viorica Sofronie-Stokkermans,2,103,2
+Serge Fehr,2,204,2
+Leonid Libkin,2,228,3
+Mihalis Yannakakis,2,294,2
+Hocine Cherifi,2,113,2
+Martin Berger,2,37,2
+Pat Morin,2,61,3
+Roland Meyer,2,18,2
+Douglas Cenzer,2,10,2
+Francesc Comellas,2,66,2
+Marcin Jurdzinski,2,149,2
+Andrea Asperti,2,60,2
+Andre Platzer,2,140,2
+Florent Jacquemard,2,37,2
+Etienne Lozes,2,29,2
+M. Rizwan Jameel Qureshi,2,13,2
+J. A. Bergstra,2,7,2
+Robert Rettinger,2,20,3
+Uwe Aickelin,2,1177,3
+Jingpeng Li,2,1177,2
+Jo?l Ouaknine,2,21,2
+Claudia Faggian,2,41,2
+Yuri Gurevich,2,64,2
+Dean Rosenzweig,2,64,2
+Alexis B¨¨s,2,25,2
+Patrick Baillot,2,55,2
+Michelle Blom,2,23,5
+Florian Horn,2,17,2
+Alan Jeffrey,2,134,3
+Wolfgang Thomas,2,95,2
+Vanessa Teague,2,23,4
+Ines Klimann,2,96,2
+Andreas Blass,2,64,2
+Paolo Capriotti,2,105,2
+Benjamin Rossman,2,65,3
+Claude Tardif,2,103,2
+Krzysztof Czarnecki,2,66,2
+Gilles Dowek,2,45,2
+Petr Hlineny,2,55,2
+Martin Lange,2,45,2
+Joost Engelfriet,2,27,2
+Bakhadyr Khoussainov,2,123,2
+Shin-ya Katsumata,2,25,3
+Michele Basaldella,2,77,2
+Guillaume Bonfante,2,22,2
+C. A. Middelburg,2,8,3
+Joel Ouaknine,2,157,2
+Armin Biere,2,259,2
+Victor Dalmau,2,121,2
+Masahito Hasegawa,2,18,2
+Lutz Strassburger,2,78,2
+Cornelius Diekmann,2,21,2
+Alwen Tiu,2,83,2
+Ron Fulbright,2,9,2
+Vincent Christlein,2,72,3
+Javier Esparza,2,187,3
+Ian McQuillan,2,20,5
+Shane Mansfield,2,124,2
+Rudolf Gr¨¹bel,2,10,2
+Wan Fokkink,2,59,2
+Anna Ingolfsdottir,2,58,2
+Erik Winfree,2,45,2
+Georg Carle,2,21,2
+Yo¨¤v Montacute,2,5,2
+Chad E. Brown,2,44,2
+Dominik Kirst,2,8,2
+Gilles Brassard,2,4780,2
+Andrei Asinowski,2,45,2
+Zhongzhi Zhang,2,66,2
+Paul-Andr¨¦ Melli¨¨s,2,10,2
+Eun Jung Kim,2,10,2
+Tillmann Miltzow,2,20,2
+Alexander Kartzow,2,26,2
+Gregorio Malajovich,2,55,2
+Diego Figueira,2,89,3
+Cristina Sirangelo,2,23,2
+Ivan Lanese,2,57,2
+Michael Benedikt,2,17,3
+C¨¦cilia Pradic,2,17,4
+A. Abreu,2,14,2
+Dag Normann,2,26,5
+Willem Heijltjes,2,14,2
+Sandi Klav?ar,2,14,2
+Yang Wang,2,17,2
+Louis Esperet,2,6,2
+Xiaoyong Xi,2,30,3
+Claudio Antares Mezzina,2,6,2
+Ezgi Deniz Ulker,2,34,2
+Sadik Ulker,2,34,2
+Hyvernat Pierre,2,31,2
+Hubie Chen,2,25,2
+Thabet Slimani,2,175,2
+Tao Gu,2,8,3
+Harry Buhrman,2,29,2
+Patrick Bahr,2,10,2
+Christophe Fouquer¨¦,2,10,2
+Myriam Quatrini,2,10,2
+Al-Akhir Nayan,2,32,2
+Md. Obaidur Rahman,2,32,2
+Jeffrey Shallit,2,16,2
+Iosif Petrakis,2,11,2
+Kirstin Peters,2,30,3
+L. Cunha,2,14,2
+Paul Gastin,2,24,3
+F¨¢bio Protti,2,15,4
+Marco Bernardo,2,40,3
+Andreas B?rtschi,2,29,2
+Daniel Graf,2,29,2
+Olivier Carton,2,11,5
+Clemens Grabmayer,2,6,2
+T. Fernandes,2,14,2
+Uwe Nestmann,2,37,3
+Jan Friso Groote,2,8,3
+Emmanuel Jeandel,2,45,2
+Peng Gang,2,190,2
+Marie van den Bogaard,2,42,2
+Jean-Fran?ois Raskin,2,42,2
+Peter Dankelmann,2,22,3
+Oleksandr Rokovyi,2,9,2
+C. de Figueiredo,2,14,2
+Roberto Zunino,2,46,3
+Yuki Takeuchi,2,16,2
+L. Kowada,2,14,2
+F. Marquezino,2,14,2
+Laurent Beaudou,2,20,3
+D. Posner,2,14,2
+Oscar H. Ibarra,2,20,5
+Valia Mitsou,2,25,2
+Alexandr Kazda,2,13,2
+Peter Mayr,2,16,2
+Francesco Dagnino,2,33,3
+Matthijs V¨¢k¨¢r,2,30,2
+Alessio Santamaria,2,13,3
+Hazrat Ali,2,23,2
+Khalid Iqbal,2,15,2
+P. Madhusudan,2,15,2
+Pawe? Soboci¨½ski,2,9,2
+Ervin Gy?ri,2,37,3
+Nikita Alexeev,2,18,3
+Gyesik Lee,2,25,2
+L. Nenzi,2,57,2
+L. Bortolussi,2,57,2
+Yoshiko Wakabayashi,2,16,2
+David Fern¨¢ndez-Duque,2,26,2
+?ukasz Bo?yk,2,6,2
+Tom¨¢? Masa?¨ªk,2,38,2
+Orna Kupferman,2,50,3
+Ornela Dardha,2,17,2
+Xerxes D. Arsiwalla,2,6,2
+B¨¦renger Bramas,2,14,2
+Vincenzo Ciancia,2,60,2
+M. Loreti,2,57,2
+Fr¨¦d¨¦ric Havet,2,22,2
+Johanna Carvajal,2,16,2
+Yassine Himeur,2,181,2
+Wen Kokke,2,18,3
+Brian Lovell,2,16,2
+Stanley Durrleman,2,39,2
+Silvano Dal Zilio,2,28,2
+J?rgen Bang-Jensen,2,22,2
+Daniele Nantes-Sobrinho,2,10,3
+Jorge A. P¨¦rez,2,7,2
+Dominique Larchey-Wendling,2,7,2
+Thomas Wilke,2,38,2
+Konstantinos Georgiou,2,64,3
+Luis Gasco,2,68,2
+Pawe? Parys,2,18,2
+Pawe? Gawrychowski,2,26,2
+G. A. Kavvos,2,38,2
+Michele Pagani,2,42,2
+Jakub Rydval,2,9,2
+Olivier Rukundo,2,237,2
+Tommi Meskanen,2,10,2
+Ambroise Lafont,2,24,3
+Maria Emilia Maietti,2,16,3
+Samuele Maschio,2,14,3
+Michael Rathjen,2,14,2
+Eike Neumann,2,56,4
+Sara Ramezanian,2,10,2
+Valtteri Niemi,2,10,2
+Vasco Brattka,2,70,3
+Seth Fogarty,2,88,2
+Antoine Amarilli,2,14,2
+Charles Paperman,2,5,2
+Michal Opler,2,5,3
+Ramanathan S. Thinniyam,2,15,2
+Valentina Castiglioni,2,10,2
+Michel Rigo,2,4,2
+Thomas Zeume,2,80,2
+Lucia Moura,2,11,3
+Georg Zetzsche,2,29,2
+Mario Bravetti,2,41,3
+Gianluigi Zavattaro,2,60,3
+Jaroslav Ne?et?il,2,92,2
+Patrice Ossona de Mendez,2,92,2
+Jeffrey B. Remmel,2,13,5
+Martin Otto,2,160,2
+Clark Barrett,2,16,2
+Micha? Pilipczuk,2,41,3
+Cristina Feier,2,49,2
+Ferruccio Damiani,2,32,2
+Andr¨¦ Hirschowitz,2,17,2
+Johannes Greiner,2,9,2
+Antti Valmari,2,7,2
+G¨¹nter Rote,2,33,2
+Roberto Casadei,2,25,2
+Sebastian Ordyniak,2,70,2
+Ross Horne,2,21,2
+Lutz Stra?burger,2,27,3
+Dan Suciu,2,23,2
+Letterio Galletta,2,28,2
+Maurice Laveaux,2,5,2
+James Cheney,2,44,2
+Jean-Simon Pacaud Lemay,2,9,2
+Michael A. Henning,2,15,3
+Ester Livshits,2,84,2
+Thais Bardini Idalino,2,9,2
+Dan Frumin,2,44,2
+Fernando P¨¦rez-Garc¨ªa,2,25,2
+Petr Jancar,2,27,3
+Gwena?l Joret,2,32,2
+Rachel Sparks,2,25,2
+Khaled Elbassioni,2,24,2
+Bassel Mannaa,2,48,2
+Niccol¨° Veltri,2,31,2
+Angelo Montanari,2,23,2
+Pietro Sala,2,23,2
+S¨¦bastien Ourselin,2,25,2
+Georgios Katsimpras,2,68,2
+Benjamin Hackl,2,26,3
+S. C. Steenkamp,2,20,2
+Vlad Taran,2,43,2
+Alexandr Rokovyi,2,43,2
+Filip Mazowiecki,2,33,2
+Sergey Khrapov,2,56,2
+J?rg Endrullis,2,13,3
+Cristian Riveros,2,36,2
+St¨¦phane Le Roux,2,53,2
+Jean-Luc Baril,2,22,2
+Kim Guldstrand Larsen,2,20,2
+Sanjit A. Seshia,2,79,3
+Anirban Majumdar,2,15,2
+Assia Mahboubi,2,62,2
+Zolt¨¢n F¨¹l?p,2,14,2
+Heiko Vogler,2,16,3
+Kord Eickmeyer,2,31,2
+William Pettersson,2,17,2
+Romeo Jr. Jorda,2,96,2
+Yi-Cheng Zhang,2,155,2
+Cristian S. Calude,2,38,2
+Christoph Haase,2,55,2
+Johann A. Makowsky,2,29,3
+Sam Buss,2,12,2
+Normunds Gruzitis,2,21,2
+U¨¦verton S. Souza,2,12,2
+Johannes ?man Pohjola,2,15,2
+Marcelo Finger,2,35,2
+Jarkko Peltom?ki,2,28,2
+Guntis Barzdins,2,21,2
+Rajeev Gore,2,72,2
+Jan Reineke,2,839,2
+V¨¦ronique Bruy¨¨re,2,50,2
+Francesco Ciraulo,2,10,3
+Florian Steinberg,2,21,2
+Helmut Schwichtenberg,2,5,2
+Nicolas Behr,2,40,2
+Vincent Danos,2,35,2
+Lorijn van Rooijen,2,37,2
+Saad Chakkor,2,77,2
+Mostafa Baghouri,2,77,2
+Abderrahmane Hajraoui,2,77,2
+Sergi Elizalde,2,36,2
+Mohammad H. Alomari,2,108,2
+Dominik Wojtczak,2,54,2
+Christian Johansen,2,22,3
+R¨¦my Belmonte,2,17,2
+Ripon Patgiri,2,24,2
+Sabuzima Nayak,2,24,2
+Martin L¨¹ck,2,17,2
+Marco Maggesi,2,22,2
+Matthias Niewerth,2,43,2
+Victor Marsault,2,10,4
+Aline Parreau,2,48,2
+Christian Sattler,2,63,2
+Apoloniusz Tyszka,2,20,5
+Shaohua Kevin Zhou,2,42,2
+Ismael G. Yero,2,10,2
+Dimitrios Kouzapas,2,48,3
+Yaping Mao,2,16,2
+Eddie Cheng,2,16,2
+Ambrus Kaposi,2,40,2
+M. Hasnat Kabir,2,7,2
+Stephan Wagner,2,12,3
+Michael Mislove,2,13,2
+Douglas F. Rall,2,13,2
+Hortensia Galeana-S¨¢nchez,2,15,2
+Sulamita Klein,2,13,2
+Tetsuya Sato,2,21,2
+Andreas Karrenbauer,2,15,2
+Pascal Hitzler,2,44,2
+Adrian Francalanza,2,17,3
+Fran?ois Laroussinie,2,68,2
+Seung Woo Shin,2,170,2
+Andrea Cerone,2,31,2
+Giuseppe Castagna,2,163,2
+Vasco T. Vasconcelos,2,45,2
+Adriana Balan,2,31,2
+Ji?¨ª Velebil,2,31,2
+Giuseppe Perelli,2,60,2
+Paul Brunet,2,9,2
+Mar¨ªa Luz Puertas,2,13,2
+Anna Ing¨®lfsd¨®ttir,2,16,3
+Dmytro Terletskyi,2,12,2
+Robin Kaarsgaard,2,42,2
+Shelby Kimmel,2,43,2
+Bogdan S. Chlebus,2,47,2
+Sergue? Lenglet,2,19,2
+Piotr Polesiuk,2,19,2
+B Srivathsan,2,10,2
+Gabriel Dulac-Arnold,2,94,2
+Alexander Weinert,2,20,2
+T. A. Munandar,2,18,2
+Ludovic Denoyer,2,94,2
+Andrei Bulatov,2,18,2
+Daisuke Kimura,2,10,2
+Roberto Bruni,2,56,2
+Wied Pakusa,2,32,2
+Aart Middeldorp,2,15,3
+Gordon D. Plotkin,2,74,2
+Thomas Sauerwald,2,20,2
+?t¨§p¨¢n Starosta,2,13,2
+Rohit Chadha,2,47,2
+Pawe? Rz??ewski,2,8,3
+Dana Angluin,2,12,2
+Viviana Bono,2,71,2
+Hernan Melgratti,2,56,2
+Dimiter Skordev,2,6,3
+Rodrigo I. Silveira,2,17,2
+Henning Kerstan,2,72,2
+Andrej Dudenhefner,2,19,2
+Martin Mundhenk,2,24,2
+Oliver Friedmann,2,49,2
+Jiamou Liu,2,24,3
+Amar Ranjan Dash,2,49,2
+Christian G?ttel,2,21,2
+Niel de Beaudrap,2,11,2
+Pascal Felber,2,21,2
+Christoph Rauch,2,28,2
+Weng Kin Ho,2,34,2
+Simon Docherty,2,21,2
+David Pym,2,21,2
+Jakob Rehof,2,19,2
+Rahul Savani,2,21,2
+Thomas Seiller,2,15,2
+Oleg Kudinov,2,9,2
+Klaus Wehmuth,2,65,2
+Artur Ziviani,2,65,2
+T?naz Ekim,2,7,3
+Ademir Hujdurovi?,2,16,2
+Martin Milani?,2,16,2
+James Chapman,2,178,2
+Keiko Nakata,2,58,2
+Csaba D. T¨®th,2,30,2
+M. Usman Ali,2,62,2
+Shahzad Ahmed,2,62,2
+Javed Ferzund,2,62,2
+Atif Mehmood,2,62,2
+Abbas Rehman,2,62,2
+Krzysztof Marasek,2,45,2
+Eryk Kopczy¨½ski,2,6,2
+Massimo Merro,2,26,2
+Justin Yirka,2,27,2
+Emilio Ferrara,2,198,2
+Robert Ganian,2,82,2
+Petr Hlin¨§ny,2,64,2
+Jan Obdr?¨¢lek,2,64,2
+Eryk Kopczynski,2,35,3
+Robert A. Proctor,2,7,3
+Matthew J. Willis,2,7,3
+David Baelde,2,11,2
+John Haslegrave,2,50,2
+Ignacio F¨¢bregas,2,16,2
+Victor Selivanov,2,27,2
+Stefan Hetzl,2,10,2
+Lara Pudwell,2,9,2
+St¨¦phanie Delaune,2,15,2
+Franco Barbanera,2,12,2
+Romain Beauxis,2,12,2
+Frank Piessens,2,58,2
+Henryk Michalewski,2,28,2
+Martin Koutecky,2,54,2
+Daniel Gebler,2,41,2
+Giovanni Bacci,2,15,2
+Ali Dehghan,2,48,3
+Mohammad-Reza Sadeghi,2,44,2
+Arash Ahadi,2,48,3
+Aleks Kissinger,2,148,2
+Giovanni Bernardi,2,83,2
+Bart D'Hooghe,2,43,2
+Antti Kuusisto,2,39,2
+Paul Blain Levy,2,7,2
+Ahmed Mateen,2,26,3
+Clemens Heuberger,2,8,2
+Harald Zankl,2,26,2
+Klaus Keimel,2,66,3
+Mart¨ªn Soto,2,39,3
+Evangelos Kranakis,2,63,2
+Nicolas Trotignon,2,23,2
+Pierpaolo Degano,2,64,2
+Gian-Luigi Ferrari,2,64,2
+Edita Pelantova,2,15,2
+Emilio Tuosto,2,44,2
+Thomas Streicher,2,9,3
+Jiri Rosicky,2,43,2
+Patrik Jansson,2,27,2
+David Sabel,2,19,2
+Hans Zantema,2,10,2
+S¨¦bastien Labb¨¦,2,26,2
+Danny Rorabaugh,2,10,3
+Sylvain Salvati,2,41,2
+Y H Sharath Kumar,2,41,2
+H. M. de Oliveira,2,46,2
+Marcello M. Bonsangue,2,73,2
+Petr Gregor,2,26,2
+Torsten M¨¹tze,2,27,2
+Aaron Stump,2,10,2
+Tom¨¢? Dvo?¨¢k,2,17,2
+Alessandra Palmigiano,2,57,2
+E. Nikulchev,2,60,2
+Cyril Cohen,2,75,2
+Brian Y. Sun,2,25,2
+Vincent Vatter,2,26,2
+Ignasi Sau,2,11,2
+David Bevan,2,9,2
+Prabath Chaminda Abeysiriwardana,2,18,2
+J¨¦r¨¦mie Roland,2,24,2
+Alessandro Abate,2,57,2
+Paliath Narendran,2,4,2
+Luiz Fernando Capretz,2,32,2
+Sara Kropf,2,7,2
+Marius Bozga,2,64,2
+George Davie,2,19,2
+Alessandro Cimatti,2,32,2
+Kaifeng Zou,1,1,1
+Frederic Cordier,1,1,1
+Timo von Oertzen,1,80,1
+Aya Sayed,1,80,1
+Abdullah Alsalemi,1,80,1
+Faycal Bensaali,1,80,1
+Abbes Amira,1,80,1
+Iraklis Varlamis,1,80,1
+Magdalini Eirinaki,1,80,1
+Christos Sardianos,1,80,1
+George Dimitrakopoulos,1,80,1
+Omar Fawzi,1,6,1
+Hoang Ta,1,6,1
+Massimo Fornasier,1,23,1
+Timo Klock,1,23,1
+Konstantin Riedl,1,23,1
+Eric Culf,1,6,1
+Karima Boudaoud,1,10,1
+Marco Winckler,1,10,1
+Ahmed Abdelmaksoud,1,10,1
+Theodore James Thibault Heiser,1,4,1
+Mari-Liis Allikivi,1,4,1
+Meelis Kull,1,4,1
+Nikolay Bazhenov,1,5,2
+Vittorio Cipriani,1,4,1
+Luca San Mauro,1,5,2
+Helena Williams,1,6,1
+Jo?o Pedrosa,1,6,1
+Laura Cattani,1,6,1
+Susanne Housmans,1,6,1
+Tom Vercauteren,1,6,1
+Jan Deprest,1,6,1
+Yoshihiro Maruyama,1,2,1
+Johannes Karder,1,3,1
+Jan D'hooge,1,6,1
+Klaus Schmid,1,3,1
+Sascha El-Sharkawy,1,3,1
+Christian Kr?her,1,3,1
+Tamas Bisztray,1,18,1
+Nils Gruschka,1,18,1
+Xuan Tang,1,2,1
+Zachary Ferguson,1,2,1
+Teseo Schneider,1,2,1
+Denis Zorin,1,2,1
+Shoaib Kamil,1,2,1
+Daniele Panozzo,1,2,1
+Adrian Reuter,1,10,1
+Christoph Gerum,1,1,1
+Oliver Bringmann,1,1,1
+Anastasia Moutafidou,1,1,1
+Wadie Lemrazzeq,1,10,1
+Kilian Ollivier,1,4,1
+Pavlos Paraskevopoulos,1,3,1
+Dimitrios Boursinos,1,3,1
+Xenofon Koutsoukos,1,3,1
+Ankur Shukla,1,32,1
+Basel Katt,1,32,1
+Livinus Obiora Nweke,1,32,1
+Prosper Kandabongee Yeng,1,32,1
+Goitom Kahsay Weldehawaryat,1,32,1
+Maximilian Dreyer,1,12,1
+Karsten M¨¹ller,1,12,1
+Sebastian Lapuschkin,1,12,1
+Markku Suomalainen,1,3,1
+Katherine J. Mimnaugh,1,3,1
+Ahmed El-Gazzar,1,19,1
+Rajat Mani Thomas,1,19,1
+Guido van Wingen,1,19,1
+Anwesh Mohanty,1,1,1
+Adrian Frischknecht,1,1,1
+Marcin Wolski,1,2,1
+Andrijana Todosijevic,1,2,1
+Philipp Fleck,1,1,1
+Manfred K¨¹gel,1,1,1
+Giuseppe Desolda,1,10,1
+Francesco Greco,1,10,1
+Francisco Guarnieri,1,10,1
+Vasileios Toulatzis,1,1,1
+Ioannis Fudos,1,1,1
+Mohamed Baioumy,1,8,1
+Corrado Pezzato,1,8,1
+Carlos Hernandez Corbato,1,8,1
+Nick Hawes,1,8,1
+Riccardo Ferrari,1,8,1
+Daniel Becking,1,12,1
+Attaullah Sahito,1,10,2
+Eibe Frank,1,10,2
+Bernhard Pfahringer,1,10,2
+Linda Lastrico,1,6,1
+Alessandro Carf¨¬,1,6,1
+Francesco Rea,1,6,1
+Alessandra Sciutti,1,6,1
+Fulvio Mastrogiovanni,1,6,1
+Israel Becerra,1,3,1
+Eliezer Lozano,1,3,1
+Rafael Murrieta-Cid,1,3,1
+Steven M. LaValle,1,3,1
+Bartosz Walter,1,2,1
+Branko Marovic,1,2,1
+Ivan Garnizov,1,2,1
+Ayumi Igarashi,1,3,1
+Ulrike Schmidt-Kraepelin,1,3,1
+Robert Schwieger,1,3,2
+Mat¨ªas R. Bender,1,1,1
+Heike Siebert,1,1,1
+Christian Haase,1,1,1
+Denis Cousineau,1,5,1
+Nicole Mariz,1,10,1
+Massimo Zancanaro,1,11,2
+Timo Freiesleben,1,57,1
+Lesandro Ponciano,1,5,1
+Erik Pitzer,1,1,1
+Jan Zenisek,1,5,1
+Josef Wolfartsberger,1,5,1
+Norbert Wild,1,5,1
+Adri¨¤ Casamitjana,1,14,1
+Matteo Mancini,1,14,1
+Juan Eugenio Iglesias,1,14,1
+Janos Zsarg¨®,1,7,1
+Betty Saridou,1,4,1
+Gueltoum Bendiab,1,4,1
+Stavros N. Shiaeles,1,4,1
+Basil K. Papadopoulos,1,4,1
+Edith Elkind,1,3,1
+Piotr Faliszewski,1,3,1
+Florian Bachinger,1,5,1
+Bettina Fazzinga,1,19,1
+Andrea Galassi,1,19,1
+Paolo Torroni,1,19,1
+Jurlind Budurushi,1,13,1
+Ronald L. Rivest,1,13,1
+Clovis Eberhart,1,5,2
+Akihisa Yamada,1,2,2
+Fuyuki Ishikawa,1,10,2
+Henrique Ramos,1,5,1
+Mateus Fonseca,1,5,1
+Manat Mustafa,1,1,1
+Sergei Ospichev,1,1,1
+Carmina P¨¦rez-Guerrero,1,4,1
+Adriana Palacios,1,4,1
+Gilberto Ochoa-Ruiz,1,4,1
+Christian Mata,1,4,1
+Miguel Gonzalez-Mendoza,1,4,1
+Luis Eduardo Falc¨®n-Morales,1,4,1
+Eirini Vandorou,1,45,1
+Celia Rosa Fierro-Santill¨¢n,1,7,1
+Jaime Klapp,1,7,1
+Anabel Arrieta,1,7,1
+Lorena Arias,1,7,1
+Jurij Mendoza Valencia,1,7,1
+Leonardo Di G. Sigalotti,1,7,1
+Valentin Garnero,1,4,1
+Garrin Kimmell,1,7,1
+Ruba El Haj Omar,1,7,1
+Sodeif Ahadpour,1,22,1
+Yaser Sadra,1,22,1
+Cinzia Di Giusto,1,37,1
+Jorge A Perez,1,37,1
+Johannes Ebbing,1,7,1
+Julian-Steffen M¨¹ller,1,7,1
+Philippe Darondeau,1,14,1
+Christophe Morvan,1,14,1
+Am¨¦lie Gheerbrant,1,5,1
+Marc Bezem,1,16,1
+Lars Kuhtz,1,12,1
+Peter Jonsson,1,80,1
+Stefan Klikovits,1,1,1
+Jens Seeber,1,4,1
+Konstantinos Bougiatiotis,1,31,1
+Carlos Rodriguez-Penagos,1,31,1
+Marta Villegas,1,31,1
+Hiromi Ishii,1,1,1
+Nicolas Guidotti,1,1,1
+Pedro Ceyrat,1,1,1
+Jo?o Barreto,1,1,1
+Jos¨¦ Monteiro,1,1,1
+Rodrigo Rodrigues,1,1,1
+Ricardo Fonseca,1,1,1
+Xavier Martorell,1,1,1
+Hanqiang Cao,1,225,1
+Jonathan Aitken,1,12,1
+Rob Alexander,1,12,1
+James Law,1,12,1
+Youri Coppens,1,3,1
+Antonio J. Pe?a,1,1,1
+Sarah E. Carter,1,2,1
+Marco David,1,3,1
+Abhik Pal,1,3,1
+Benedikt Stock,1,3,1
+Catherine Scott,1,15,1
+Beate Diehl,1,15,1
+Dylan Marinho,1,2,1
+Jaco van de Pol,1,2,1
+Ann Now¨¦,1,3,1
+Boaz Barak,1,32,1
+Kunal Marwaha,1,32,1
+Inigo Incer,1,2,1
+Albert Benveniste,1,2,1
+Alberto Sangiovanni-Vincentelli,1,2,1
+Ra¨²l Nozal,1,14,1
+Jose Luis Bosque,1,14,1
+Herman Goulet-Ouellet,1,2,1
+Matthew Baas,1,6,1
+Mario Gleirscher,1,12,1
+Radu Calinescu,1,12,1
+James Douthwaite,1,12,1
+Benjamin Lesage,1,12,1
+Colin Paterson,1,12,1
+Nidhi Hegde,1,19,1
+Laurent Massouli¨¦,1,19,1
+Laurent Viennot,1,19,1
+Dan Hernest,1,1,1
+Trifon Trifonov,1,1,1
+Neelamadhab Padhy,1,255,1
+Dr. Pragnyaban Mishra,1,255,1
+Rasmita Panigrahi,1,255,1
+Luca Cardelli,1,31,1
+Adrian Vetta,1,28,1
+Eudes Petonnet,1,21,1
+Ilya Tkachev,1,35,1
+Saluka R Kodituwakku,1,12,1
+Alceste Scalas,1,37,1
+Denis Steckelmacher,1,3,1
+Catholijn M. Jonker,1,3,1
+Florio M. Ciaglia,1,2,1
+Fabio Di Nocera,1,2,1
+Vahagn Abgaryan,1,1,1
+Arsen Khvedelidze,1,1,1
+Ilya Rogojin,1,1,1
+Chee Hung Koo,1,5,1
+Stefan Rothbauer,1,5,1
+Marian Vorderer,1,5,1
+Kai Hoefig,1,5,1
+Marc Zeller,1,5,1
+Fabiola Moy¨®n,1,1,1
+Daniel M¨¦ndez,1,1,1
+Kristian Beckers,1,1,1
+Sebastian Klepper,1,1,1
+Alessandro Antonucci,1,2,1
+Satabdi Barman,1,1,1
+Claudio Bonesana,1,2,1
+Giorgia Adorni,1,2,1
+Danish Kashaev,1,6,1
+Richard Santiago,1,6,1
+Jana Lep?ov¨¢,1,7,1
+Imad Kissami,1,4,1
+Christophe Cerin,1,4,1
+Fayssal Benkhaldoun,1,4,1
+Gilles Scarella,1,4,1
+Irina M. Sokolinskaya,1,4,1
+Xintong Yang,1,13,1
+Ze Ji,1,13,1
+Jing Wu,1,13,1
+Herman Kamper,1,6,1
+Aysha Luis,1,4,1
+Yu-Kun Lai,1,13,1
+Shuichi Hirahara,1,14,1
+Arthur J. Parzygnat,1,5,1
+Lukas Stankevi?ius,1,2,1
+Mantas Luko?evi?ius,1,2,1
+Yimeng Zhao,1,3,1
+Ahmed Saeed,1,3,1
+Mostafa Ammar,1,3,1
+Ellen Zegura,1,3,1
+Simon Ro?kopf,1,8,1
+Francesca Mangili,1,2,1
+Omar Adjali,1,46,1
+Romaric Besan?on,1,46,1
+Olivier Ferret,1,46,1
+Herve Le Borgne,1,46,1
+Brigitte Grau,1,46,1
+Ji?¨ª Ad¨¢mek,1,11,3
+Lawrence S. Moss,1,1,1
+Paolo Tell,1,1,1
+Stephen MacDonell,1,5,2
+Sherlock A. Licorish,1,1,1
+Thomas Booth,1,4,1
+Bernice Akpinar,1,4,1
+Andrei Roman,1,4,1
+Haris Shuaib,1,4,1
+Alexis Perakis,1,32,1
+Ali Gorji,1,32,1
+Samriddhi Jain,1,32,1
+Krishna Chaitanya,1,32,1
+Simone Rizza,1,32,1
+Nathan Grosshans,1,5,2
+Alysha Chelliah,1,4,1
+Ayisha Al Busaidi,1,4,1
+Ayesha Mirchandani,1,4,1
+Burcu Alparslan,1,4,1
+Nina Mansoor,1,4,1
+Keyoumars Ashkan,1,4,1
+Sebastien Ourselin,1,4,1
+Marc Modat,1,4,1
+Marco Kuhrmann,1,4,1
+Philipp Diebold,1,4,1
+Joel Stadelmann,1,6,1
+Sergey Kastryulin,1,6,1
+Dmitry V. Dylov,1,6,1
+Cyril Branciard,1,8,1
+Marco Wallner,1,3,1
+Kristian Fossum,1,4,1
+Sergey Alyaev,1,4,1
+Jan Tveranger,1,4,1
+Ahmed Elsheikh,1,4,1
+Neil P. Chue Hong,1,3,1
+Jeremy Cohen,1,3,1
+Caroline Jay,1,3,1
+Thierry Paquet,1,21,1
+Yuichi Komorida,1,2,1
+Iena Petronella Derks,1,21,1
+Alta de Waal,1,21,1
+Kazuhiro Kurita,1,3,1
+Kunihiro Wasa,1,3,1
+Andrea Cavallo,1,1,1
+Vasiliki Kouni,1,5,1
+Holger Rauhut,1,5,1
+Johannes C. Myburgh,1,25,1
+Arthur E. W. Venter,1,3,1
+Kai-Kristian Kemell,1,5,1
+Ville Ravaska,1,5,1
+Anh Nguyen-Duc,1,5,1
+Aleksandr Belov,1,6,1
+Elvin Isufi,1,1,1
+Umair Qudus,1,5,1
+Michael Roeder,1,5,1
+Muhammad Saleem,1,5,1
+Axel-Cyrille Ngonga Ngomo,1,5,1
+Paul Christiano,1,1,1
+Jacob Hilton,1,1,1
+Daniel Steininger,1,3,1
+Verena Widhalm,1,3,1
+Matthias Sch?rghuber,1,3,1
+Csaba Beleznai,1,3,1
+Andrei Iantsen,1,56,1
+Dimitris Visvikis,1,56,1
+Mathieu Hatt,1,56,1
+Denis Coquenet,1,21,1
+Cl¨¦ment Chatelain,1,21,1
+Henricus Bouwmeester,1,22,1
+Andrew Dougherty,1,22,1
+Andrew V. Knyazev,1,22,1
+Andr¨¦ Hernich,1,11,1
+Bastian Laubner,1,11,1
+Shahkar Tramboo,1,40,1
+Humma,1,40,1
+S M Shafi,1,40,1
+Sumeer Gul,1,40,1
+Beno?t Delahaye,1,9,1
+John C. Tipper,1,5,1
+Nengxiong Xu,1,5,1
+Prasun Ghosal,1,1,1
+Arijit Chakraborty,1,1,1
+Sabyasachee Banerjee,1,1,1
+Mohammad Sabbaqi,1,1,1
+Kentaro Inui,1,6,1
+Finn Klessascheck,1,1,1
+Stephan A. Fahrenkrog-Petersen,1,1,1
+Jan Mendling,1,1,1
+Luise Pufahl,1,1,1
+Bj?rn Schembera,1,2,2
+Frank W¨¹bbeling,1,2,2
+Hendrik Kleikamp,1,2,2
+Burkhard Schmidt,1,2,2
+Victor Lecomte,1,1,1
+Mark Xu,1,1,1
+Sushant More,1,1,1
+Priya Kotwal,1,1,1
+Sujith Chappidi,1,1,1
+Dinesh Mandalapu,1,1,1
+Chris Khawand,1,1,1
+Omar Kermia,1,2,1
+Aurela Shehu,1,2,2
+Marco Reidelbach,1,2,2
+Christine Biedinger,1,2,2
+Jochen Fiedler,1,2,2
+Thomas Koprucki,1,2,2
+Dorothea Iglezakis,1,2,2
+Dominik G?ddeke,1,2,2
+Melanie Dohmen,1,1,1
+Tuan Truong,1,1,1
+Ivo M. Baltruschat,1,1,1
+Matthias Lenga,1,1,1
+Hiroaki Funayama,1,6,1
+Yuya Asazuma,1,6,1
+Yuichiroh Matsubayashi,1,6,1
+Tomoya Mizumoto,1,6,1
+Simon Dima,1,1,1
+Simon Fischer,1,1,1
+Jobst Heitzig,1,1,1
+Joss Oliver,1,1,1
+Brandon Jaipersaud,1,3,1
+Paul Zhang,1,3,1
+Jimmy Ba,1,3,1
+Andrew Petersen,1,3,1
+Lisa Zhang,1,3,1
+Michael R. Zhang,1,3,1
+N. B. Melnikova,1,31,1
+A. M. Chirkin,1,31,1
+S. V. Ivanov,1,31,1
+A. V. Boukhanovsky,1,31,1
+P. M. A. Sloot,1,31,1
+Rahul Jain,1,7,1
+Luis Bargu?¨®,1,23,1
+Carles Creus,1,23,1
+Camille Vacher,1,23,1
+Daniel Kral,1,28,1
+Jan Obdrzalek,1,28,1
+Jarett Schwartz,1,28,1
+Jakub Teska,1,28,1
+Paul Ralph,1,63,1
+Stephane Le Roux,1,17,1
+Andrzej Murawski,1,28,1
+Bjoern Wachter,1,28,1
+Radu Iosif,1,53,1
+Filip Konecny,1,53,1
+Seth J. Fogarty,1,33,1
+V. V. Krzhizhanovskaya,1,31,1
+Rastislav Lenhardt,1,10,1
+Mariana de Azevedo Santos,1,11,1
+Paulo Henrique de Souza Bermejo,1,11,1
+Marcelo Silva de Oliveira,1,11,1
+Adriano Ol¨ªmpio Tonelli,1,11,1
+Enio J¨²nior Seidel,1,11,1
+Fatiha Boubekeur,1,347,1
+Wassila Azzoug,1,347,1
+Kamal Sarkar,1,29,1
+Robert W. J. Furber,1,58,1
+Bart P. F. Jacobs,1,58,1
+Abraham P. Punnen,1,20,1
+Piyashat Sripratak,1,20,1
+Julio-Mario Daza-Escorcia,1,1,1
+David ¨¢lvarez Mart¨ªnez,1,1,1
+Gunar Schirner,1,10,1
+Roman Vygon,1,58,1
+Yangde Wang,1,1,1
+Haozhang Li,1,1,1
+Weidong Qiu,1,1,1
+Peng Tang,1,1,1
+Markus Wei?flog,1,1,2
+Peter Protzel,1,1,2
+Peer Neubert,1,1,2
+Antoine Legouhy,1,2,1
+Ross Callaghan,1,2,1
+Hojjat Azadbakht,1,2,1
+Hui Zhang,1,2,1
+Thomas Flinkow,1,4,1
+Preugschat Sebastian,1,5,1
+Wassim Bouachir,1,5,1
+Riadh Ksantini,1,5,1
+Barak A. Pearlmutter,1,4,1
+Rosemary Monahan,1,5,2
+Christopher Hahn,1,1,1
+Jana Hofmann,1,1,1
+Leander Tentrup,1,16,2
+Piotr Bartman,1,1,1
+Sylwester Arabas,1,1,1
+Devshree Patel,1,16,1
+Ratnam Parikh,1,16,1
+Yesha Shastri,1,16,1
+Mehrshad Zandigohar,1,10,1
+Mo Han,1,10,1
+Deniz Erdogmus,1,10,1
+Michel Grabisch,1,5,1
+Jo?o M. T. Romano,1,6,2
+Nikolay Mikhaylovskiy,1,58,1
+Sohail Ahmed Khan,1,21,1
+Wasiq Khan,1,21,1
+Abir Hussain,1,21,1
+Ibai Aedo,1,4,1
+Uwe Grimm,1,4,1
+Yasushi Nagai,1,4,1
+Petra Staynova,1,4,1
+Yudhik Agrawal,1,23,1
+Ramaguru Guru Ravi Shanker,1,23,1
+Vinoo Alluri,1,23,1
+Gaia Belardinelli,1,3,1
+Rasmus K. Rendsvig,1,3,1
+Ahmed Zgaren,1,5,1
+Sophie Aubin,1,14,1
+Robert Bossy,1,14,1
+James D. Watson,1,14,1
+Johannes Bausch,1,14,1
+Fernando Mateo,1,1,1
+Jordi Munoz-Mari,1,1,1
+Valero Laparra,1,1,1
+Jochem Verrelst,1,1,1
+Gustau Camps-Valls,1,1,1
+Chiara Plizzari,1,185,1
+Marco Cannici,1,185,1
+Matteo Matteucci,1,185,1
+Elizaveta Kovalevskaya,1,2,1
+Guilherme D. Pelegrina,1,6,2
+Leonardo T. Duarte,1,6,2
+Bencie Woll,1,17,1
+Reda Al-batat,1,17,1
+Tyron Woolfe,1,17,1
+Anna Glazkova,1,6,1
+Yury Egorov,1,6,1
+Maksim Glazkov,1,6,1
+Carles Sierra,1,2,2
+J¨¦r¨¦my Scheurer,1,12,1
+Yoshitomo Matsubara,1,23,1
+Charles Moussa,1,3,1
+Hao Wang,1,3,1
+Henri Calandra,1,3,1
+Thomas B?ck,1,3,1
+Vedran Dunjko,1,3,1
+Claire N¨¦dellec,1,14,1
+Wiktoria Golik,1,14,1
+Madhur Tulsiani,1,18,1
+Stratis Limnios,1,3,1
+Christophe Paul,1,3,1
+Joanny Perret,1,3,1
+Dimitrios M. Thilikos,1,3,1
+Maria Iuliana Bocicor,1,1,1
+Maria Dasc?lu,1,1,1
+Agnieszka Gaczowska,1,1,1
+Qingchao Zhang,1,9,1
+Coy D. Heldermon,1,9,1
+Corey Toler-Franklin,1,9,1
+Xing Liang,1,17,1
+Anastassia Angelopoulou,1,17,1
+Epaminondas Kapetanios,1,17,1
+Ken Chang,1,158,1
+Praveer Singh,1,158,1
+Nir Neumark,1,158,1
+Wenqi Li,1,158,1
+Vikash Gupta,1,158,1
+Sharut Gupta,1,158,1
+Liangqiong Qu,1,158,1
+Alvin Ihsani,1,158,1
+Bernardo C. Bizzo,1,158,1
+Claudio Ferrari,1,12,1
+Luis Berenguer Todo Bom,1,12,1
+Michaela Beer,1,12,1
+Werner Kempf,1,12,1
+Luis Haug,1,12,1
+Colin Compas,1,158,1
+Jesse Tetreault,1,158,1
+Prerna Dogra,1,158,1
+Yan Cheng,1,158,1
+Selnur Erdal,1,158,1
+Richard White,1,158,1
+Behrooz Hashemian,1,158,1
+Thomas Schultz,1,158,1
+Iuliana Marin,1,5,1
+Sorin Hostiuc,1,1,1
+Alin Moldoveanu,1,1,1
+Antonio Molina,1,1,1
+Ionu? Negoi,1,1,1
+Vlad Racovi??,1,1,1
+Koji Nakamichi,1,45,1
+Kyoko Ohashi,1,45,1
+Isao Namba,1,45,1
+Rieko Yamamoto,1,45,1
+Mikio Aoyama,1,45,1
+Aniket Joshi,1,4,1
+Gaurav Mishra,1,4,1
+Jayanthi Sivaswamy,1,4,1
+Yuhong Wen,1,158,1
+Varun Buch,1,158,1
+Meesam Shah,1,158,1
+Felipe Kitamura,1,158,1
+Matheus Mendon?a,1,158,1
+Vitor Lavor,1,158,1
+Ahmed Harouni,1,158,1
+Dominik Leichtle,1,19,1
+Atul Mantri,1,19,1
+Andrew Conway,1,2,1
+Piyush Yadav,1,5,1
+Shamsuddin Ladha,1,5,1
+Shailesh Deshpande,1,5,1
+Edward Curry,1,5,1
+Maria-Iuliana Bocicor,1,5,1
+Alexandra Neam?u,1,8,1
+Simona Motogna,1,8,1
+J. L¨®pez-Gonz¨¢lez,1,1,1
+Juan M. Serrano,1,1,1
+Julien Siebert,1,45,1
+Lisa Joeckel,1,45,1
+Maksym Balatsko,1,11,1
+Nicolay Rusnachenko,1,3,1
+Natalia Loukachevitch,1,3,1
+Timo M. Deist,1,6,1
+Stefanus C. Maree,1,6,1
+Tanja Alderliesten,1,6,1
+Peter A. N. Bosman,1,6,1
+Christian Badertscher,1,19,1
+Maurizio Proietti,1,9,1
+Anthony Bagnall,1,43,1
+Michael Flynn,1,43,1
+James Large,1,43,1
+Jason Lines,1,43,1
+Matthew Middlehurst,1,43,1
+Nouraldin Jaber,1,20,1
+Christopher Wagner,1,20,1
+Roman Rodionov,1,10,1
+Ali Alim-Marvasti,1,10,1
+John S. Duncan,1,10,1
+Nikolay Arefyev,1,5,1
+Boris Sheludko,1,5,1
+Tatiana Aleksashina,1,5,1
+Muhammad Ammad-Ud-Din,1,61,1
+Seph De Busser,1,8,1
+Christoph Ostrau,1,7,1
+Jonas Homburg,1,7,1
+Christian Klarhorst,1,7,1
+Michael Thies,1,7,1
+Ulrich R¨¹ckert,1,7,1
+Ilya Gusev,1,23,1
+Frank Leymann,1,6,1
+Johanna Barzen,1,6,1
+Emanuele De Angelis,1,9,1
+Fabio Fioravanti,1,9,1
+Alberto Pettorossi,1,9,1
+Dominik Kowald,1,3,1
+Denis Helic,1,3,1
+Elisabeth Lex,1,3,1
+Georg Grasegger,1,4,1
+Kaifeng Gao,1,55,1
+Francesco Piccialli,1,55,1
+Salvatore Cuomo,1,55,1
+Milind Kulkarni,1,20,1
+Roopsha Samanta,1,20,1
+Adrian Flanagan,1,61,1
+Were Oyomno,1,61,1
+Alexander Grigorievskiy,1,61,1
+Kuan Eeik Tan,1,61,1
+Suleiman A. Khan,1,61,1
+Mikolaj Wieczorek,1,14,1
+Andrzej Michalowski,1,14,1
+Anna Wroblewska,1,14,1
+Jacek Dabrowski,1,14,1
+Divyam Aggarwal,1,7,1
+Xiaoxiao Long,1,60,1
+Lingjie Liu,1,60,1
+Christian Theobalt,1,60,1
+Wenping Wang,1,60,1
+Tomislav Duricic,1,3,1
+Hussain Hussain,1,3,1
+Emanuel Lacic,1,3,1
+Jerzy Konorski,1,1,1
+Karol Rydzewski,1,1,1
+Dmitry Berdinsky,1,12,2
+Prohrak Kruengthomya,1,1,1
+Bernhard Gleiss,1,5,1
+Laura Kovacs,1,5,1
+Lena Schnedlitz,1,5,1
+Kamil Khadiev,1,13,1
+Jingzhi Tu,1,55,1
+Zenan Huo,1,55,1
+Simran Tinani,1,4,1
+Joachim Rosenthal,1,4,1
+Spyridon Papastergiou,1,14,1
+Haralambos Mouratidis,1,14,1
+Eleni-Maria Kalogeraki,1,14,1
+Maria Mannone,1,9,1
+Luca Turchet,1,9,1
+Susana Ladra,1,1,1
+Miguel R. Luaces,1,1,1
+Jos¨¦ R. Param¨¢,1,1,1
+Fernando Silva-Coira,1,1,1
+S?nziana-Maria Sebe,1,2,1
+J?rg P. M¨¹ller,1,2,1
+Juraj Machaj,1,2,1
+Peter Brida,1,2,1
+Ondrej Krejcar,1,2,1
+Dhish Kumar Saxena,1,7,1
+Thomas Back,1,7,1
+Michael Emmerich,1,7,1
+Yasuhiro Takahashi,1,11,1
+Juergen Gall,1,2,1
+Johan Medrano,1,3,1
+Fuchun Joseph Lin,1,3,1
+M. Utkan Gezer,1,1,1
+Clemens Kirisits,1,2,1
+Eric Setterqvist,1,2,1
+Otmar Scherzer,1,2,1
+Camilo M. Signorelli,1,3,1
+Xihui Chen,1,1,1
+Ema K?puska,1,1,1
+Artem Ilikaev,1,13,1
+Lucas Assun??o,1,4,1
+Andr¨¦a Cynthia Santos,1,4,1
+Thiago F. Noronha,1,4,1
+Rafael Andrade,1,4,1
+Christian Roncal,1,39,1
+Trisha Mittal,1,39,1
+Rohan Chandra,1,39,1
+Kyra Kapsaskis,1,39,1
+Kurt Gray,1,39,1
+Aniket Bera,1,39,1
+Dinesh Manocha,1,39,1
+Alex B. Grilo,1,53,1
+Shih-Han Hung,1,53,1
+Milica Petkovic,1,2,1
+Quingjiang Shi,1,2,1
+Pau Panareda Busto,1,2,1
+Ezequiel de la Rosa,1,3,1
+Koen Van Leemput,1,3,1
+Diana M. Sima,1,3,1
+Petra Kubern¨¢tov¨¢,1,4,1
+Max van Duijn,1,4,1
+Paola Bonizzoni,1,5,1
+Clelia De Felice,1,5,1
+Rocco Zaccagnino,1,5,1
+Rosalba Zizza,1,5,1
+Matteo Tiezzi,1,5,1
+Stefano Melacci,1,5,1
+Marco Maggini,1,5,1
+Angelo Frosini,1,5,1
+Sjouke Mauw,1,1,1
+Yunior Ram¨ªrez-Cruz,1,1,1
+Uttaran Bhattacharya,1,39,1
+Markus D. Foote,1,16,2
+Pouya Sabouri,1,1,1
+Amit Sawant,1,16,2
+Sarang C. Joshi,1,1,1
+Timo C. Wunderlich,1,2,1
+Akos F. Kungl,1,2,1
+Eric M¨¹ller,1,2,1
+Johannes Schemmel,1,2,1
+Mihai Petrovici,1,2,1
+Chiranjibi Sitaula,1,14,1
+Yong Xiang,1,14,1
+Sunil Aryal,1,14,1
+Xuequan Lu,1,14,1
+Abdelrahman Zayed,1,4,1
+Hassan Rivaz,1,4,1
+Maria Ines Meyer,1,3,1
+Marcello Pelillo,1,1,1
+Dibyayan Chakraborty,1,8,1
+Harmender Gahlawat,1,8,1
+Subir Kumar Ghosh,1,8,1
+Bodhayan Roy,1,8,1
+Pedro Machado,1,5,1
+Georgina Cosma,1,5,1
+T. M McGinnity,1,5,1
+Stephen Piddock,1,13,1
+Nina Tuluptceva,1,5,1
+Jelena Fiosina,1,5,1
+Maksims Fiosins,1,5,1
+Stefan Bonn,1,5,1
+Sanjay Jain,1,25,1
+Samuel Seah,1,25,1
+Roy Mennicke,1,8,1
+Gerald L¨¹ttgen,1,34,1
+Walter Vogler,1,34,1
+Sukhpal Singh,1,24,1
+Harinder Singh,1,24,1
+Ibrahim Kabiru Musa,1,3,1
+Stuart Walker,1,3,1
+Carl A. Miller,1,11,1
+Peter Hines,1,4,1
+Sebastian M¨¹ller,1,7,1
+Sherif M. Abuelenin,1,17,1
+Adel Y. Abul-Magd,1,17,1
+Sinem Aslan,1,1,1
+Irina Fedulova,1,5,1
+Anton Konushin,1,5,1
+Tazin Afrin,1,3,1
+Diane Litman,1,3,1
+Libor Barto,1,151,2
+K. R. Jayaram,1,9,1
+Junyi Tu,1,6,1
+Mustafa Hajij,1,6,1
+Paul Rosen,1,6,1
+Brendon Boldt,1,4,1
+Taisuke Izumi,1,32,1
+Fr¨¦d¨¦ric Magniez,1,32,1
+Gabriele Valvano,1,8,1
+Agisilaos Chartsias,1,8,1
+Andrea Leo,1,8,1
+Michael Widom,1,8,1
+Th¨¦r¨¨se Baldeweck,1,8,1
+Nguyen Anh Khoa Doan,1,39,1
+Wolfgang Polifke,1,39,1
+Kyle E. Niemeyer,1,1,1
+Sotirios A. Tsaftaris,1,8,1
+Davide Taibi,1,70,1
+Valentina Lenarduzzi,1,70,1
+Claus Pahl,1,70,1
+Sara Giuliani,1,2,1
+Francesco Masillo,1,2,1
+Romeo Rizzi,1,2,1
+Mohammadreza Baharani,1,10,1
+Shrey Mohan,1,10,1
+Bart Bakker,1,5,1
+Carlos Segarra,1,21,1
+Ricard Delgado-Gonzalo,1,21,1
+Mathieu Lemay,1,21,1
+Pierre-Louis Aublin,1,21,1
+Hamed Tabkhi,1,10,1
+Benoit Charbonneau,1,1,1
+Spencer Whitehead,1,1,1
+Etienne Decenci¨¨re,1,8,1
+Santiago Velasco-Forero,1,8,1
+Fu Min,1,8,1
+Juanjuan Chen,1,8,1
+H¨¦l¨¨ne Burdin,1,8,1
+Gervais Gauthier,1,8,1
+Bruno La?,1,8,1
+Thomas Bornschloegl,1,8,1
+Xiaokang Zhang,1,2,1
+Inge Jonassen,1,2,1
+Xiao Chen,1,2,1
+Zhi-Gang Jia,1,2,1
+Yunfeng Cai,1,2,1
+?t¨§p¨¢n Holub,1,2,2
+Moti Freiman,1,2,1
+Hannes Nickisch,1,2,1
+Holger Schmitt,1,2,1
+Pal Maurovich-Horvat,1,2,1
+Patrick Donnelly,1,2,1
+Mani Vembar,1,2,1
+Liran Goshen,1,2,1
+Sandro Stucki,1,11,1
+C¨¦sar S¨¢nchez,1,11,1
+Gerardo Schneider,1,11,1
+Tamara Radivilova,1,21,1
+Lyudmyla Kirichenko,1,21,1
+Dmytro Ageiev,1,21,1
+Vitalii Bulakh,1,21,1
+Scott D. Stoller,1,1,1
+Peter Pietzuch,1,21,1
+Ines Rieger,1,9,1
+Thomas Hauenstein,1,9,1
+Sebastian Hettenkofer,1,9,1
+Jens-Uwe Garbas,1,9,1
+Roman Chertovskih,1,3,1
+Nathalie T. Khalil,1,3,1
+Fernando Lobo Pereira,1,3,1
+Jan Laermann,1,15,1
+Nils Strodthoff,1,15,1
+Tsutomu Kobayashi,1,10,2
+Saurav Manchanda,1,3,1
+George Karypis,1,3,1
+Hanan Hindy,1,20,1
+David Brosset,1,20,1
+Ethan Bayne,1,20,1
+Amar Seeam,1,20,1
+Xavier Bellekens,1,20,1
+Mei-Xiang Zhao,1,2,1
+Lukas Krenz,1,5,1
+Leonhard Rannabauer,1,5,1
+Michael Bader,1,5,1
+Alberto Giaretta,1,6,1
+Stefano Pepe,1,6,1
+Nicola Dragoni,1,6,1
+Maulik Parmar,1,6,1
+V. Susheela Devi,1,6,1
+Iskander Kalimullin,1,2,1
+Hans Schoutens,1,2,1
+Frederik Kratzert,1,78,1
+Mathew Herrnegger,1,78,1
+Daniel Klotz,1,78,1
+Sepp Hochreiter,1,78,1
+Yanhong A. Liu,1,1,1
+Andrea Morichetta,1,11,1
+Martino Trevisan,1,11,1
+Luca Vassio,1,11,1
+Dorian Florescu,1,24,1
+Shengcai Liao,1,128,1
+Ling Shao,1,128,1
+Alain Tchagang,1,8,1
+Julio Vald¨¦s,1,8,1
+Zhihao Jiang,1,2,1
+Haoyu Zhao,1,2,1
+Rohit Agrawal,1,7,1
+Yi-Hsiu Chen,1,7,1
+Salil Vadhan,1,7,1
+Laura Giordano,1,2,1
+Alberto Policriti,1,2,1
+Christian Schaffner,1,143,1
+Yusuke Ujitoko,1,27,1
+Jason Castiglione,1,2,1
+Peter-Michael Seidel,1,2,1
+Tullio Traverso,1,7,1
+Richard Taupe,1,11,1
+Antonius Weinzierl,1,11,1
+Gerhard Friedrich,1,11,1
+Eliseo P. Vergara,1,2,1
+Alexander Wittig,1,2,1
+Juan F¨¦lix San-Juan,1,2,1
+¨¦tienne Bamas,1,4,1
+Morten Mossige,1,10,1
+Hein Meling,1,10,1
+Mats Carlsson,1,10,1
+Alberto Leporati,1,6,1
+Luca Manzoni,1,6,1
+G¨¹nter Klambauer,1,78,1
+Devsi Bantva,1,7,2
+Denis I. Saveliev,1,1,1
+Marijn van Knippenberg,1,2,1
+Vlado Menkovski,1,2,1
+Sergio Consoli,1,2,1
+Alexandros A. Voudouris,1,62,1
+Quentin Roy,1,24,1
+Yves Guiard,1,24,1
+Gilles Bailly,1,24,1
+Eric Lecolinet,1,24,1
+Olivier Rioul,1,24,1
+Janosch D?cker,1,7,2
+Simone Linz,1,7,2
+Charles Semple,1,6,1
+Chaitanya Bapat,1,11,1
+Yuki Ban,1,27,1
+Tarun Yadav,1,3,1
+Koustav Sadhukhan,1,3,1
+Iv¨¢n P¨¦rez,1,2,1
+Montserrat San-Mart¨ªn,1,2,1
+Rosario L¨®pez,1,2,1
+Vyacheslav Gritsenko,1,6,1
+Yan Zhao,1,23,1
+Lu Liu,1,23,1
+Chunhua Liu,1,23,1
+Ruoyao Yang,1,23,1
+Dong Yu,1,23,1
+Andrea Arcuri,1,44,1
+Giancarlo Mauri,1,6,1
+Antonio E. Porreca,1,6,1
+Claudio Zandron,1,6,1
+Matheus Henrique Junqueira Saldanha,1,4,1
+Paulo S¨¦rgio Lopes de Souza,1,4,1
+Maria Kyropoulou,1,62,1
+Roni Permana Saputra,1,15,1
+Petar Kormushev,1,15,1
+Elias J??saari,1,9,1
+Ville Hyv?nen,1,9,1
+Teemu Roos,1,9,1
+Daniele D'Angeli,1,4,1
+Emanuele Rodaro,1,4,1
+Masood Masjoody,1,9,1
+Ladislav Stacho,1,9,1
+Erik D. Demaine,1,11,1
+Ganesh Baleri,1,11,1
+Shivani Inamdar,1,11,1
+Anant V Nimkar,1,11,1
+Markus Schmidmeier,1,1,1
+Liudmyla Nechepurenko,1,6,1
+Viktor Voss,1,6,1
+Zhimin Huo,1,30,1
+William J. Sehnert,1,30,1
+Arash Atashpendar,1,2,1
+G. Vamsi Policharla,1,2,1
+Peter B. R?nne,1,2,1
+Peter Y. A. Ryan,1,2,1
+Takao Murakami,1,26,1
+Mauro Lucci,1,2,1
+Yuriy Kochura,1,28,1
+Grigor Aslanyan,1,5,1
+Utkarsh Porwal,1,5,1
+Itsuki Noda,1,8,1
+Tomio Kamada,1,8,1
+Quoc Hung Ngo,1,24,1
+Nhien-An Le-Khac,1,24,1
+Tahar Kechadi,1,24,1
+Olga Parshina,1,6,1
+Anton Andreychuk,1,2,1
+Natalia Soboleva,1,2,1
+Konstantin Yakovlev,1,2,1
+Ansis Rosmanis,1,29,1
+Dylan H. Hendrickson,1,11,1
+Jayson Lynch,1,11,1
+Yucheng Tang,1,12,1
+Gareth Funka-Lea,1,12,1
+Li Peng,1,25,1
+Yuquan Le,1,25,1
+Jiawei He,1,25,1
+Xiangyu Zhu,1,25,1
+Yael Balbastre,1,10,1
+Parashkev Nachev,1,10,1
+Soheil Esmaeilzadeh,1,94,1
+Dimitrios Ioannis Belivanis,1,94,1
+Maciej Zamorski,1,2,1
+Maciej Zi?ba,1,2,1
+Yohsuke Murase,1,8,1
+Hiroyasu Matsushima,1,8,1
+Apoorva Bharthur Sanjay,1,9,1
+Enrico Amico,1,9,1
+Shannon L. Risacher,1,9,1
+John D. West,1,9,1
+Mario Dzemidzic,1,9,1
+Andrew Saykin,1,9,1
+Liana Apostolova,1,9,1
+Andrea Loreggia,1,11,2
+Nicholas Mattei,1,10,1
+Francesca Rossi,1,10,1
+K. Brent Venable,1,10,1
+Mikhail Rybakov,1,15,1
+Dmitry Shkatov,1,15,1
+Maxime Devanne,1,3,1
+Sao Mai Nguyen,1,3,1
+Congqing He,1,25,1
+Alexander A Kurz,1,37,1
+Alessandra A Palmigiano,1,37,1
+Lakshmi Anantharamu,1,21,1
+Maxwell Hutchinson,1,8,1
+Fiona Katharina Ewald,1,7,1
+Ludwig Bothmann,1,7,1
+Marharyta Domnich,1,2,2
+Raul Vicente,1,2,2
+Jose Florido,1,1,1
+He Wang,1,1,1
+Amirul Khan,1,1,1
+Peter K. Jimack,1,1,1
+Kilian M. Pohl,1,94,1
+Ehsan Adeli,1,94,1
+Diana O. Svaldi,1,9,1
+Joaqu¨ªn Go?i,1,9,1
+Yucheng Chu,1,8,1
+Taylor Darwin,1,8,1
+Ahreum Han,1,8,1
+Hang Li,1,8,1
+Afifa Ghenai,1,2,1
+Mohamed Youcef Badaoui,1,2,1
+Mohamed Benmohammed,1,2,1
+S. Padmavathi,1,47,1
+Manojna K. S. S,1,47,1
+S. Sphoorthy Reddy,1,47,1
+D. Meenakshy,1,47,1
+Richard M. Mayr,1,14,1
+Lawrence S Moss,1,22,1
+Daniel Schwencke,1,22,1
+Joost Winter,1,25,1
+Jan J. M. Rutten,1,25,1
+Andrew D Gordon,1,105,1
+Michael Greenberg,1,105,1
+James Margetson,1,105,1
+Jurgen Van Gael,1,105,1
+Lukasz Mikulski,1,5,1
+Leonardo I. L. Oliveira,1,2,1
+Takakazu Mori,1,5,1
+Yoshiki Tsujii,1,5,1
+Mariko Yasugi,1,5,1
+Marta Bilkova,1,14,1
+Xiaoxia Wang,1,1,1
+Jakob Nordstrom,1,9,1
+Danilo Pianini,1,20,2
+Kaiqi Yang,1,8,1
+Ming Wang,1,2,1
+Shi Feng,1,2,1
+Alexander H. Berger,1,2,1
+Nico Stucki,1,2,1
+Laurin Lux,1,2,1
+Hongzhi Wen,1,8,1
+Yasemin Copur-Gencturk,1,8,1
+Jiliang Tang,1,8,1
+Hui Liu,1,8,1
+Valentin Gilbert,1,1,1
+St¨¦phane Louise,1,1,1
+Eric Guiffo Kaigom,1,2,1
+Dmitrii Zhemchuzhnikov,1,1,1
+Sergei Grudinin,1,1,1
+Jo?o Gama,1,1,2
+Remi Bonnet,1,10,1
+Daniel Rueckert,1,2,1
+Ulrich Bauer,1,2,1
+Johannes C. Paetzold,1,2,1
+Alan Perotti,1,67,2
+Vali Tawosi,1,4,1
+Salwa Alamir,1,4,1
+Xiaomo Liu,1,4,1
+Harsh Lunia,1,2,1
+Ajoy Mondal,1,2,1
+Emad Efatinasab,1,3,1
+Francesco Marchiori,1,3,1
+Alessandro Brighente,1,3,1
+Mirco Rampazzo,1,3,1
+Mauro Conti,1,3,1
+Huaiwen Zhang,1,2,1
+Yu Chen,1,2,1
+H¨¦ctor Mart¨ªnez,1,1,1
+Enrique S. Quintana-Ort¨ª,1,1,1
+Erik Wittern,1,26,1
+Alan Cha,1,26,1
+Jim A. Laredo,1,26,1
+I. S. W. B. Prasetya,1,1,1
+Minh An Tran,1,1,1
+Bj?rn Barz,1,11,1
+Christoph K?ding,1,11,1
+Joachim Denzler,1,11,1
+Zilong Lin,1,248,1
+Yong Shi,1,248,1
+Zhi Xue,1,248,1
+Vincent Buergin,1,2,1
+Suprosanna Shit,1,2,1
+Anna Banaszak,1,2,1
+Mikhail Mandrykin,1,20,1
+Alexey Khoroshilov,1,20,1
+Irene C¨®rdoba,1,6,1
+Gherardo Varando,1,6,1
+Concha Bielza,1,6,1
+Pedro Larra?aga,1,6,1
+Matus Mihalak,1,9,1
+Gregor Ulm,1,21,1
+C V Jawahar,1,2,1
+Cristian Ram¨ªrez,1,1,1
+Adri¨¢n Castell¨®,1,1,1
+Babak Salimi,1,5,1
+Haoyue Ping,1,5,1
+Julia Stoyanovich,1,5,1
+Bill Howe,1,5,1
+Gang Peng,1,5,1
+Costis Melolidakis,1,6,1
+Stefanos Leonardos,1,6,1
+Constandina Koki,1,6,1
+Leo Cazenille,1,6,1
+Nicolas Bredeche,1,6,1
+Jos¨¦ Halloy,1,6,1
+Evgeniy Martyushev,1,8,1
+Karlis Freivalds,1,6,1
+Burak Satar,1,15,1
+Ahmet Emir Dirik,1,15,1
+Denis Efremov,1,20,1
+Jie Luo,1,3,1
+Bruno Madore,1,3,1
+Lapo Cioni,1,5,1
+Luca Ferrari,1,5,1
+Blake E. Zimmerman,1,15,1
+Sarang Joshi,1,15,1
+Meredydd Williams,1,10,1
+Jason R. C. Nurse,1,10,1
+Georg L. Grob,1,14,1
+?ngelo Cardoso,1,14,1
+C. H. Bryan Liu,1,14,1
+Emil Gustavsson,1,21,1
+Mats Jirstrand,1,21,1
+Luke Rodriguez,1,5,1
+Matthew Wicker,1,111,1
+Wenjie Ruan,1,111,1
+Xiaowei Huang,1,111,1
+Bernard Berthomieu,1,22,1
+Didier Le Botlan,1,22,1
+Abdulaziz M. Alayba,1,143,1
+Vasile Palade,1,143,1
+Rahat Iqbal,1,143,1
+Chairi Kiourt,1,2,1
+Dimitris Kalles,1,2,1
+Panagiotis Kanellopoulos,1,2,1
+Jans Glagolevs,1,6,1
+Frank Preiswerk,1,3,1
+Cheng-Chieh Cheng,1,3,1
+Andreas Niggl,1,5,1
+Ernst Rank,1,5,1
+C. Mulligan,1,19,1
+Andrey K. Gorshenin,1,2,1
+Victor Yu. Korolev,1,2,1
+Evgenii Tsymbalov,1,55,1
+Maxim Panov,1,55,1
+Alexander Shapeev,1,55,1
+David K¨¹gler,1,2,1
+Alexander Distergoft,1,2,1
+Arjan Kuijper,1,2,1
+Duncan A. Little,1,14,1
+Benjamin Paul Chamberlain,1,14,1
+Min Wu,1,111,1
+M. A. Hakim Newton,1,6,1
+M. M. A. Polash,1,6,1
+Abdul Sattar,1,6,1
+Eric M¨¹ller-Budack,1,3,1
+Kader Pustu-Iren,1,3,1
+Sebastian Diering,1,3,1
+Kevin D. Osborn,1,10,1
+Waltraut Wustmann,1,10,1
+Ya?l Balbastre,1,10,1
+Kevin Bronik,1,10,1
+Isabel Funke,1,44,1
+Alexander Jenke,1,44,1
+S?ren Torge Mees,1,44,1
+Ralf-Peter Mundani,1,5,1
+Alexander D¨¹ster,1,5,1
+Jovana Kne?evi?,1,5,1
+Shreyas Badiger,1,9,1
+Shrey Baheti,1,9,1
+J. A. Kropotina,1,4,1
+A. M. Bykov,1,4,1
+A. M. Krassilchtchikov,1,4,1
+K. P. Levenfish,1,4,1
+Aleksandr Chuklin,1,11,1
+Aliaksei Severyn,1,11,1
+Johanne Trippas,1,11,1
+Enrique Alfonseca,1,11,1
+Hanna Silen,1,11,1
+Damiano Spina,1,11,1
+Anirban Mukhopadhyay,1,2,1
+Majid Namazi,1,6,1
+Yuichiro Oyabu,1,16,1
+Florian Kauer,1,3,1
+Volker Turau,1,3,1
+Marko Smilevski,1,18,1
+Ilija Lalkovski,1,18,1
+Gjorgji Madjarov,1,18,1
+Fran?ois Hernandez,1,335,1
+Vincent Nguyen,1,335,1
+Sahar Ghannay,1,335,1
+Natalia Tomashenko,1,335,1
+Yannick Est¨¨ve,1,335,1
+J¨¹rgen Weitz,1,44,1
+Stefanie Speidel,1,44,1
+Sebastian Bodenstedt,1,44,1
+Takumi Akazaki,1,87,1
+Shuang Liu,1,87,1
+Yoriyuki Yamagata,1,87,3
+Yihai Duan,1,87,1
+Jianye Hao,1,87,1
+Moreno Marzolla,1,2,1
+¨¤ngel Farguell Caus,1,4,1
+James Haley,1,4,1
+Ana Cort¨¦s Fit¨¦,1,4,1
+Phongpitak Trakuldit,1,11,1
+Fang Song,1,38,1
+Benjamin Hellouin de Menibus,1,1,1
+Takeaki Uno,1,1,1
+Toru Takisaka,1,16,1
+Jiangjun Tang,1,4,1
+Hussein Abbass,1,4,1
+Maurizio Paolillo,1,3,1
+Thomas H. Puzia,1,3,1
+Valeria Amaro,1,8,1
+Civita Vellucci,1,8,1
+Sunoo Park,1,19,1
+Silas Richelson,1,19,1
+Ryan Curtin,1,116,1
+Wojciech Chojnacki,1,1,1
+Zygmunt L. Szpak,1,1,1
+Nicholas Weber,1,6,1
+Valeria de Paiva,1,6,2
+Andrey Kutuzov,1,10,1
+Maria Kunilovskaya,1,10,1
+Anders Hast,1,2,1
+Per Cullhed,1,2,1
+Ekta Vats,1,2,1
+Markus Matilainen,1,11,1
+Klaus Nordhausen,1,11,1
+Joni Virta,1,11,1
+Matthias K?ppe,1,19,2
+George Leu,1,4,1
+Jens-Wolfhard Schicke-Uffmann,1,24,1
+Martin Avanzini,1,16,1
+Arpna Shrivastava,1,5,1
+R. C. Jain,1,5,1
+Nathan Bowler,1,5,1
+Victor Khomenko,1,4,1
+Reiner H¨¹chting,1,4,1
+Zi Chao Wang,1,2,1
+Markus Latte,1,10,1
+S?awomir Lasota,1,13,1
+Alexander P. Kreuzer,1,20,1
+Tomer Kotek,1,22,1
+Alexey Gotsman,1,40,1
+Vinod Vaikuntanathan,1,19,1
+An Yan,1,6,1
+Nick J. Hay,1,13,1
+Adam Safron,1,13,1
+John Noll,1,43,1
+Mohammad Abdur Razzak,1,43,1
+Travis S. Humble,1,11,1
+M. V. Polyakov,1,13,1
+A. V. Khoperskov,1,13,1
+T. V. Zamechnic,1,13,1
+Milena Svobodov¨¢,1,3,1
+Yu. Gordienko,1,186,1
+Jiang Hui,1,186,1
+Yu. Kochura,1,186,1
+O. Alienin,1,186,1
+O. Rokovyi,1,186,1
+S. Stirenko,1,186,1
+Manjil P. Saikia,1,4,1
+Marcos Villagra,1,4,1
+Alexander Voronin,1,6,1
+Inessa Isaeva,1,6,1
+Umang Mathur,1,5,1
+Shambwaditya Saha,1,5,1
+Gopal P. Sarma,1,13,1
+Alexandre Routier,1,23,1
+Michael Bacci,1,23,1
+St¨¦phanie Allassonni¨¨re,1,23,1
+Julian M Bass,1,43,1
+Sarah Beecham,1,43,1
+Marina Zimmermann,1,36,1
+Mostafa Mehdipour Ghazi,1,36,1
+Haz?m Kemal Ekenel,1,36,1
+Jean-Philippe Thiran,1,36,1
+Ramses Sala,1,9,1
+Niccolo Baldanzini,1,9,1
+Marco Pierini,1,9,1
+Javier T. Akagi,1,4,1
+Carlos F. Gaona,1,4,1
+Fabricio Mendoza,1,4,1
+Johannes Kinder,1,28,1
+St¨¦phane Grumbach,1,25,1
+Robert Riemann,1,25,1
+Isabel Wagner,1,26,1
+Eerke Boiten,1,26,1
+Sergey Grebenjuk,1,6,1
+Pascal Lu,1,3,1
+Jan-Hendrik Lorenz,1,17,1
+Valentin Touzeau,1,837,1
+Claire Ma?za,1,837,1
+David Mestel,1,3,1
+Igor Koval,1,23,1
+Jean-Baptiste Schiratti,1,23,1
+Istvan Csabai,1,5,1
+Eszter Bokanyi,1,5,1
+Gabor Vattay,1,5,1
+Moritz Schubotz,1,16,1
+Norman Meuschke,1,16,1
+Jorge Samper-Gonz¨¢lez,1,16,1
+Ninon Burgos,1,16,1
+Sabrina Fontanella,1,16,1
+Hugo Bertin,1,16,1
+Marie-Odile Habert,1,16,1
+Theodoros Evgeniou,1,16,1
+Tuomo K?hk?nen,1,43,1
+Tommaso Gagliardoni,1,40,1
+Claudio Rizzo,1,28,1
+Lorenzo Cavallaro,1,28,1
+Sarthak Sharma,1,53,1
+Prateeksha Varshney,1,53,1
+Alexander Osinsky,1,9,1
+Irina Sokolinskaya,1,15,1
+Hassan Errami,1,21,1
+Michele Boreale,1,23,1
+Chi Ling Chan,1,4,1
+Justin Lai,1,4,1
+Bryan Hooi,1,4,1
+Elias Rohrer,1,27,1
+Jann-Frederik La?,1,27,1
+Florian Tschorsch,1,27,1
+Zsofia Kallus,1,5,1
+Daniel Kondor,1,5,1
+Jozsef Steger,1,5,1
+Vahan Nanumyan,1,26,1
+Ingo Scholtes,1,26,1
+Frank Schweitzer,1,26,1
+Amirhossein Tavanaei,1,52,1
+Anthony Maida,1,52,1
+Thomas Hepp,1,16,1
+Howard S. Cohl,1,16,1
+Bela Gipp,1,16,1
+Marian Daun,1,12,1
+Jennifer Brings,1,12,1
+Thorsten Weyer,1,12,1
+Julien Cassaigne,1,19,1
+Julien Leroy,1,19,1
+Pushkara Ravindra,1,53,1
+Aakash Khochare,1,53,1
+Siva Prakash Reddy,1,53,1
+Chase Norman,1,2,1
+M¨¢rton Hajdu,1,3,1
+Giles Reger,1,3,1
+Dima Grigoriev,1,21,1
+Ovidiu Radulescu,1,21,1
+Thomas Sturm,1,21,1
+Andreas Weber,1,21,1
+Sam Kriegman,1,3,1
+Marcin Szubert,1,3,1
+Josh C. Bongard,1,3,1
+Christian Skalka,1,3,1
+Alessio Caminata,1,36,1
+Elisa Gorla,1,36,1
+Giona Casiraghi,1,26,1
+Haoqi He,1,3,1
+Michelle Levesque,1,2,1
+Mouloud Amazouz,1,2,1
+Bal¨¢zs Andr¨¢s Tolnai,1,3,2
+Julian Frattini,1,1,1
+Madhavun Candadai Vasu,1,5,1
+Eduardo Izquierdo,1,5,1
+Nadish de Silva,1,35,1
+Octavio Zapata,1,35,1
+Ursula Goltz,1,24,1
+Laurens P. Stoop,1,3,1
+Erik Duijm,1,3,1
+Ad J. Feelders,1,3,1
+Machteld van den Broek,1,3,1
+Kamal Taha,1,6,1
+Paul D. Yoo,1,6,1
+Chan Yeun,1,6,1
+Aya Taha,1,6,1
+Richin Sukesh,1,1,1
+David Bernecker,1,65,1
+Andreas Maier,1,65,1
+Elli Angelopoulou,1,65,1
+Sabrina Herbst,1,1,1
+Vincenzo De Maio,1,1,1
+Ivona Brandic,1,1,1
+Nicole Novielli,1,2,1
+M. Lakner,1,1,1
+P. Petek,1,1,1
+M. ?kapin Rugelj,1,1,1
+Ale? Bizjak,1,18,1
+Alexis Bernadet,1,72,1
+St¨¦phane Jean Lengrand,1,72,1
+Barnaby D. Martin,1,20,1
+Fr¨¦d¨¦ric Lang,1,24,1
+Radu Mateescu,1,24,1
+Yordan Kalmukov,1,13,1
+Vince B¨¢r¨¢ny,1,140,1
+Georg Gottlob,1,140,1
+Andi Wahju Rahardjo Emanuel,1,6,1
+Daniel Jahja Surjawan,1,6,1
+Rob J. van Glabbeek,1,24,1
+Ulas Bagci,1,156,1
+Yuki Fujimoto,1,4,1
+Toru Ohira,1,4,1
+Mathieu Cliche,1,67,1
+David Rosenberg,1,67,1
+Dhruv Madeka,1,67,1
+Fabian Lenke,1,1,1
+Henning Urbat,1,2,3
+Max Maass,1,21,1
+Pascal Wichmann,1,21,1
+Henning Prid?hl,1,21,1
+Dominik Herrmann,1,21,1
+Fabio Calefato,1,2,1
+Giuseppe Iaffaldano,1,2,1
+Filippo Lanubile,1,2,1
+Antonio Lategano,1,2,1
+Magali Sanches Duran,1,9,1
+Sandra Maria Alu¨ªsio,1,9,1
+Ajinkya Kadu,1,11,1
+Tristan van Leeuwen,1,11,1
+K. Joost Batenburg,1,11,1
+Teresa Heiss,1,17,1
+Hubert Wagner,1,17,1
+Masahito Ohue,1,3,1
+Takuro Yamazaki,1,3,1
+Tomohiro Ban,1,3,1
+Yutaka Akiyama,1,3,1
+Tatyana Dyakonova,1,22,1
+Sarfaraz Hussein,1,156,1
+Kunlin Cao,1,156,1
+Qi Song,1,156,1
+Myagmarbayar Nergui,1,8,1
+Jose Gonzalez,1,8,1
+Dongyun Gu,1,8,1
+Weidong Chen,1,8,1
+Kenzo Nonami,1,8,1
+Wenwei Yu,1,8,1
+Connie Yee,1,67,1
+Muzamil Yahia,1,6,1
+Fabio D'Andreagiovanni,1,21,1
+Carlo Mannino,1,21,1
+Antonio Sassano,1,21,1
+Giles Tetteh,1,14,1
+Markus Rempfler,1,14,1
+Bjoern H. Menze,1,14,1
+Claus Zimmer,1,14,1
+Nathan Siegle Hartmann,1,9,1
+Matthijs van Leeuwen,1,11,1
+Riccardo Zucca,1,3,1
+Hoang Le,1,3,2
+Mikail Rubinov,1,3,1
+Paul Verschure,1,3,1
+Sergiu Bursuc,1,4,1
+Shiwei Xu,1,4,1
+Abhishek Bhrushundi,1,3,1
+Srikanth Srinivasan,1,3,1
+Valentina Franzoni,1,41,1
+Jasmin Ramadani,1,14,1
+Nevrez Imamoglu,1,8,1
+Zhixuan Wei,1,8,1
+Huangjun Shi,1,8,1
+Yuki Yoshida,1,8,1
+Mourad Debbabi,1,47,1
+Lingyu Wang,1,47,1
+Yair Censor,1,4,1
+Yehuda Zur,1,4,1
+Jonito Aerts Argu?lles,1,6,1
+Helmut Fischer,1,10,1
+Petr Lisonek,1,7,1
+Thijs Laarhoven,1,5,1
+Cl¨¦ment Carbonnel,1,10,1
+Emmanuel H¨¦brard,1,10,1
+Vladimir Dzyuba,1,11,1
+Ye Guo,1,2,1
+Zeyun Yu,1,2,1
+Cyriac Grigorious,1,5,1
+Thomas Kalinowski,1,5,1
+Joe Ryan,1,5,1
+Sudeep Stephen,1,5,1
+Lenar Iskhakov,1,1,1
+Maksim Mironov,1,1,1
+Giovanna J. Lavado,1,11,1
+Giovanni Pighizzini,1,11,1
+Luca Prigioniero,1,11,1
+Yuanxi Li,1,41,1
+Clement H. C. Leung,1,41,1
+Alfredo Milani,1,41,1
+Saed Alrabaee,1,47,1
+Paria Shirani,1,47,1
+Michele Gusso,1,4,1
+Urs Aeberhard,1,4,1
+Masanori Takano,1,7,1
+Kazuya Wada,1,7,1
+Ichiro Fukuda,1,7,1
+Jo?o Vinagre,1,1,1
+Al¨ªpio M¨¢rio Jorge,1,1,1
+Rakesh Venkat,1,15,1
+Henry Yuen,1,15,1
+Alexander Spenke,1,17,1
+Ralph Breithaupt,1,17,1
+Niek Tax,1,428,1
+Ilya Verenich,1,428,1
+Marcello La Rosa,1,428,1
+Marlon Dumas,1,428,1
+Ke Liu,1,2,1
+Nadia Heninger,1,53,1
+Emmanuel Thom¨¦,1,53,1
+J¨¦r¨¦mie Chalopin,1,20,1
+Shantanu Das,1,20,1
+Yann Disser,1,20,1
+Jan Hackfeld,1,20,1
+Paolo Penna,1,20,1
+Anil Usumezbas,1,19,1
+Ricardo Fabbri,1,19,1
+Benjamin B. Kimia,1,19,1
+Shintaro Narisada,1,1,1
+Diptarama Hendrian,1,1,1
+Kazuyuki Narisawa,1,1,1
+Philippe Czaja,1,4,1
+Massimo Celino,1,4,1
+Simone Giusepponi,1,4,1
+Francisco Prieto-Castrillo,1,39,1
+Alex Pentland,1,39,1
+Robert Colvin,1,27,1
+Larissa Meinicke,1,27,1
+Kirsten Winter,1,27,1
+Andrius Velykis,1,27,1
+J¨¡nis Iraids,1,3,2
+Daniel Nagaj,1,3,1
+Andrzej Kisielewicz,1,14,1
+Maja H. Kirkeby,1,4,1
+Mads Rosendahl,1,4,1
+E. Abraham,1,38,1
+Joshua Fried,1,53,1
+Pierrick Gaudry,1,53,1
+M. Brain,1,38,1
+B. Buchberger,1,38,1
+A. Cimatti,1,38,1
+P. Fontaine,1,38,1
+S. Forrest,1,38,1
+A. Griggio,1,38,1
+D. Kroening,1,38,1
+W. M. Seiler,1,38,1
+T. Sturm,1,38,1
+Konstantin Kobylkin,1,6,1
+Paolo Pareti,1,78,1
+Benoit Testu,1,78,1
+Shunsuke Inenaga,1,1,1
+Ayumi Shinohara,1,1,1
+Abdullah Almaatouq,1,39,1
+Vincenza Carchiolo,1,34,1
+Alessandro Longheu,1,34,1
+Michele Malgeri,1,34,1
+Giuseppe Mangioni,1,34,1
+Lars Hupel,1,10,1
+Stephan-A. Posselt,1,11,1
+Heiko Niedermayer,1,11,1
+Holger Kinkelin,1,11,1
+Oliver Hanka,1,11,1
+J. Abbott,1,38,1
+B. Becker,1,38,1
+A. M. Bigatti,1,38,1
+Akihiro Munemasa,1,3,1
+Hiroko Nakamura,1,3,1
+Arnold Wiliem,1,6,1
+Katina Kralevska,1,5,1
+Danilo Gligoroski,1,5,1
+Harald Oeverby,1,5,1
+Miriam Menzel,1,13,1
+Ryutaro Ichise,1,78,1
+Ewan Klein,1,78,1
+Adam Barker,1,78,1
+A. Canton,1,1,1
+L. Fernandez-Jambrina,1,1,1
+E. Rosado Maria,1,1,1
+M. J. Vazquez-Gallo,1,1,1
+Tudor Protopopescu,1,8,1
+Pavel Hrab¨¢k,1,4,1
+Marek Buk¨¢?ek,1,4,1
+Nadia Labai,1,2,1
+Nicolas Borie,1,3,1
+Sergey Avgustinovich,1,7,1
+A. Gajardo,1,2,1
+V. Nesme,1,2,1
+Guillaume Theyssier,1,2,1
+Arun Verma,1,3,1
+Dominik L. Michels,1,2,1
+Dmitry A. Lyakhov,1,2,1
+Vladimir P. Gerdt,1,2,1
+Gerrit A. Sobottka,1,2,1
+Andreas G. Weber,1,2,1
+Milosh Stolikj,1,21,1
+Thomas M. M. Meyfroyt,1,21,1
+Pieter J. L. Cuijpers,1,21,1
+Johan J. Lukkien,1,21,1
+Daniel Ruprecht,1,9,1
+Giovanni Da San Martino,1,5,1
+Markus Axer,1,13,1
+Hans De Raedt,1,13,1
+Kristel Michielsen,1,13,1
+Ilia Polian,1,11,1
+Kae Nemoto,1,11,1
+Simon J. Devitt,1,11,1
+Carlos Alegr¨ªa-Galicia,1,10,1
+Tzolkin Gardu?o,1,10,1
+Areli Rosas-Navarrete,1,10,1
+Jorge Urrutia,1,10,1
+Peter B¨¹rgisser,1,3,1
+Kathl¨¦n Kohn,1,3,1
+Pierre Lairez,1,3,1
+Bernd Sturmfels,1,3,1
+Anna Frid,1,7,1
+Svetlana Puzynina,1,7,1
+Anshu Shukla,1,3,1
+Michael Joswig,1,12,1
+Georg Loho,1,12,1
+Benjamin Lorenz,1,12,1
+Benjamin Schr?ter,1,12,1
+Rimah Amami,1,4,1
+Dorra Ben Ayed,1,4,1
+Nouerddine Ellouze,1,4,1
+Wen Shen,1,45,1
+Cristina Lopes,1,45,1
+Riccardo Tesselli,1,3,1
+Tehreem Masood,1,6,1
+Aamer Nadeem,1,6,1
+Gang-soo Lee,1,6,1
+Alexandru Paler,1,11,1
+Silvio Guimar?¡êes,1,8,1
+Yusupjan Habibulla,1,21,1
+Jin-Hua Zhao,1,21,1
+Hai-Jun Zhou,1,21,1
+Simone Bianco,1,119,1
+Gianluigi Ciocca,1,119,1
+Raimondo Schettini,1,119,1
+Citlalli Gamez Serna,1,25,1
+Ruven Pillay,1,25,1
+Alain Tremeau,1,25,1
+Marek Chrobak,1,5,1
+Mordecai Golin,1,5,1
+J. Ian Munro,1,5,1
+Rem W. Collier`,1,5,1
+Thomas Chatain,1,16,1
+Neal E. Young,1,5,1
+Sascha Witt,1,52,1
+Nardine Osman,1,2,1
+Alessandro Provetti,1,2,1
+Valerio Riggi,1,2,1
+W. Siti,1,29,1
+J. Jordaan,1,29,1
+Marcin Jurdzi¨½ski,1,45,1
+Ranko Lazi?,1,45,1
+Eric Chitambar,1,9,1
+Ben Fortescue,1,9,1
+Jean Cousty,1,8,1
+Laurent Najman,1,8,1
+Yukiko Kenmochi,1,8,1
+Salma Ben Dhaou,1,10,1
+Mouloud Kharoune,1,10,1
+Ola Younis,1,7,1
+Said Ghoul,1,7,1
+Antonino Salibra,1,7,1
+Daniela Luan Petri?an,1,32,1
+Przemys?aw Gordinowicz,1,13,1
+Martin Lang,1,7,1
+Pascal Michel,1,7,1
+Jeremy Meyers,1,2,1
+Jonni Virtema,1,2,1
+Nidhal Khdhair El Abbadi,1,13,1
+Enas Hamood Al Saadi,1,13,1
+Sandie Balaguer,1,16,1
+J. K. Sahoo,1,44,1
+Daniel Augot,1,37,1
+Min-Hsiu Hsieh,1,9,1
+Kohei Kishida,1,109,1
+Raymond Lal,1,109,1
+Seung-Hoon Na,1,19,1
+In-Su Kang,1,19,1
+Jong-Hyeok Lee,1,19,1
+Marijn ten Thij,1,18,1
+Tanneke Ouboter,1,18,1
+Daniel Worm,1,18,1
+Nelly Litvak,1,18,1
+Hans van den Berg,1,18,1
+Sandjai Bhulai,1,18,1
+Rustem Aidagulov,1,15,1
+David Wessel,1,22,1
+Maksym A. Girnyk,1,8,1
+Fr¨¦d¨¦ric Gabry,1,8,1
+Mikko Vehkaper?,1,8,1
+Lars K. Rasmussen,1,8,1
+Arnaud Martin,1,11,2
+Boutheina Ben Yaghlane,1,10,1
+Jean-Christophe Dubois,1,1,1
+Yolande Le Gall,1,1,1
+Aina Frau-Pascual,1,8,1
+Thomas Vincent,1,8,1
+Jennifer Sloboda,1,8,1
+Philippe CIUCIU,1,8,1
+Florence Forbes,1,8,1
+Kratarth Goel,1,44,1
+Raunaq Vohra,1,44,1
+Helmut G. Katzgraber,1,2,1
+Jaakko Luttinen,1,11,1
+Tapani Raiko,1,11,1
+Alexander Ilin,1,11,1
+Flavia Bonomo-Braberman,1,5,1
+Fran?oise Levy-Dit-Vehel,1,37,1
+Abdullatif Shikfa,1,37,1
+Jens Ma?berg,1,2,1
+Simao P. S. Santos,1,18,1
+Natalia Martins,1,18,1
+Delfim F. M. Torres,1,18,1
+Ilya Trofimov,1,15,1
+Alexander Genkin,1,15,1
+Andreas Maurer,1,24,1
+Daniel J. Fremont,1,22,1
+Alexandre Donz¨¦,1,22,1
+Peter Fontana,1,7,1
+Rance Cleaveland,1,7,1
+Carsten Kolassa,1,25,1
+Dirk Riehle,1,25,1
+Mikael Skoglund,1,8,1
+Fergus Toolan,1,20,1
+John Dunnion,1,20,1
+Annalisa Marzuoli,1,11,1
+Roberto Santana,1,2,1
+Ross B. McDonald,1,2,1
+Gabriel Martins Dias,1,2,1
+Simon Oechsner,1,2,1
+Boris Bellalta,1,2,1
+Peteris Paikens,1,13,1
+Maria Chudnovsky,1,5,1
+Peter Maceli,1,5,1
+Oliver Schaudt,1,5,1
+Maya Stein,1,5,1
+Mingxian Zhong,1,5,1
+Roger Anderson,1,15,1
+Oleg Finko,1,1,1
+Sergey Dichenko,1,1,1
+Isabel M¨¦ndez D¨ªaz,1,12,1
+Russell Bradford,1,29,1
+Igor Goychuk,1,2,1
+Michel A. Salim,1,25,1
+Micha? Jungiewicz,1,12,1
+Katie Brodhead,1,5,1
+Konstantin S. Solnushkin,1,2,1
+Pavol ?erny,1,21,1
+Arjun Radhakrishna,1,21,1
+Leonid Ryzhyk,1,21,1
+Thorsten Tarrach,1,21,1
+Huming Liu,1,4,1
+Takashi Yamakawa,1,3,1
+Aleksandr Timofeev,1,2,1
+Anastasiia Fadeeva,1,2,1
+Andrei Afonin,1,2,1
+Le Lu,1,533,1
+Ari Seff,1,533,1
+Kevin M. Cherry,1,533,1
+Joanne Hoffman,1,533,1
+Shijun Wang,1,533,1
+Jiamin Liu,1,533,1
+Evrim Turkbey,1,533,1
+Ronald M. Summers,1,533,1
+Dana Dann¨¦lls,1,7,1
+Normunds Gr¨±z¨©tis,1,7,1
+Aur¨¦lie Lagoutte,1,2,2
+Jean-Florent Raymond,1,2,1
+Pragyan Shrestha,1,5,1
+Chun Xie,1,5,1
+Hidehiko Shishido,1,5,1
+Yuichi Yoshii,1,5,1
+Itary Kitahara,1,5,1
+Erik B. Terres Escudero,1,3,1
+Danel Arias Alamo,1,3,1
+Oier Mentxaka G¨®mez,1,3,1
+Quim Motger,1,2,1
+Xavier Franch,1,2,1
+Vincenzo Gervasi,1,2,1
+Jordi Marco,1,2,1
+Zheng Chen,1,4,1
+Mohamed Eltaher,1,6,1
+Frank Mohn,1,6,1
+Alexander Shieh,1,6,1
+Suprateek Kundu,1,6,1
+Joshua P. Yung,1,6,1
+Ankit B. Patel,1,6,1
+Kristy K. Brock,1,6,1
+Oliver J. Sutton,1,2,1
+Qinghua Zhou,1,2,1
+Alexander N. Gorban,1,2,1
+Ivan Y. Tyukin,1,2,1
+Claudiu Musat,1,2,1
+Andrii Maksai,1,2,1
+Pranjal Dutta,1,1,1
+Gorav Jindal,1,1,1
+Oscar Defrain,1,2,2
+Diego Klabjan,1,1,1
+Jean Utke,1,1,1
+Aditi Kabra,1,5,1
+Jonathan Laurent,1,5,1
+Stefan Mitsch,1,5,1
+Andr¨¦ Platzer,1,5,1
+Jos¨¦ Manuel Ag¨¹ero Trejo,1,2,1
+Michael J. Dinneen,1,2,1
+Arkady Fedorov,1,2,1
+Anatoly Kulikov,1,2,1
+Pablo Garc¨ªa Bringas,1,3,1
+McKell Woodland,1,6,1
+Austin Castelo,1,6,1
+Mais Al Taie,1,6,1
+Jessica Albuquerque Marques Silva,1,6,1
+Gunnar Stevens,1,4,1
+Philipp Schaer,1,8,1
+Johann Schaible,1,8,1
+Leyla Jael Garcia Castro,1,8,1
+Florian Geissler,1,5,1
+Syed Qutub,1,5,1
+Michael Paulitsch,1,5,1
+Karthik Pattabiraman,1,5,1
+Alexander E. I. Brownlee,1,17,1
+James Callan,1,17,1
+Karine Even-Mendoza,1,17,1
+Diaeddin Rimawi,1,2,1
+Antonio Liotta,1,2,1
+Marco Todescato,1,2,1
+Barbara Russo,1,2,1
+Hanqing Li,1,1,1
+Justyna Petke,1,17,1
+Federica Sarro,1,17,1
+Dominik Sobania,1,17,1
+Yongsong Huang,1,2,1
+Wanqing Xie,1,2,1
+Mingzhen Li,1,2,1
+Mingmei Cheng,1,2,1
+Jinzhou Wu,1,2,1
+Weixiao Wang,1,2,1
+Jane You,1,2,1
+Xiaofeng Liu,1,2,1
+Rohit Navarathna,1,2,1
+Md Shajalal,1,4,1
+Sebastian Denef,1,4,1
+Md. Rezaul Karim,1,4,1
+Alexander Boden,1,4,1
+Mathieu Lamard,1,4,1
+Ramachandra Rao Kurada,1,18,1
+Dr. K Karteeka Pavan,1,18,1
+Dr. AV Dattareya Rao,1,18,1
+Gordon D Plotkin,1,176,1
+Hafez Moawad,1,1,1
+Eman Shaaban,1,1,1
+Zaki Taha Fayed,1,1,1
+Manuel A. Martins,1,9,1
+Alexandre Madeira,1,9,1
+Luis S. Barbosa,1,9,1
+Akitoshi Kawamura,1,36,1
+Hiroyuki Ota,1,36,1
+Carsten R?snick,1,36,1
+Alina Geiger,1,17,1
+Carol Hanna,1,17,1
+Dion Coumans,1,5,1
+Samuel J. van Gool,1,5,1
+Dick de Jongh,1,5,1
+Holger Neu,1,28,1
+Justin Le Lou?dec,1,2,1
+Grzegorz Cielniak,1,2,1
+Rachid Zeghlache,1,4,1
+Pierre-Henri Conze,1,4,1
+Mostafa El Habib Daho,1,4,1
+Yihao Li,1,4,1
+Hugo Le Boit¨¦,1,4,1
+Ramin Tadayoni,1,4,1
+Pascal Massin,1,4,1
+B¨¦atrice Cochener,1,4,1
+Ikram Brahim,1,4,1
+Gwenol¨¦ Quellec,1,4,1
+Ove Armbrust,1,38,1
+Masafumi Katahira,1,38,1
+Yuko Miyamoto,1,38,1
+Haruka Nakao,1,38,1
+Olga Jaufman,1,24,1
+R. Bradford,1,33,1
+Margherita Andrao,1,1,1
+Barbara Treccani,1,1,1
+St¨¦phan Thomass¨¦,1,38,2
+Nayan Jyoti Kalita,1,4,1
+Navanath Saharia,1,4,1
+Smriti Kumar Sinha,1,4,1
+Peter Banda,1,12,1
+Christof Teuscher,1,12,1
+Julian Tschannen,1,40,1
+Alok Kumbhare,1,109,1
+Charith Wickramaarachchi,1,109,1
+Soonil Nagarkar,1,109,1
+Thomas Hanne,1,28,1
+Stefan Nickel,1,28,1
+Andreas Wirsen,1,28,1
+Ulrike Becker-Kornstaedt,1,10,1
+Daniela Boggio,1,10,1
+Gino Palladino,1,10,1
+Benjamin A. Burton,1,12,2
+Ansgar Lamersdorf,1,12,1
+Manfred Ries,1,12,1
+Stefan Solbrig,1,12,1
+Tilo Wettig,1,12,1
+Diego Garlaschelli,1,1,1
+Sebastian E. Ahnert,1,1,1
+Thomas M. A. Fink,1,1,1
+C. Chen,1,33,1
+M. Moreno Maza,1,33,1
+D. Wilson,1,33,1
+Adam Trendowicz,1,7,1
+Michael Ochs,1,7,1
+Axel Wickenkamp,1,7,1
+Yasushi Ishigai,1,7,1
+Takashi Kawaguchi,1,7,1
+Pavel Tvrd¨ªk,1,3,1
+Tom¨¢? Dytrych,1,3,1
+Jerry P. Draayer,1,3,1
+Peter Paule,1,6,1
+Santosh Ravi,1,109,1
+Cauligi Raghavendra,1,109,1
+Viktor Prasanna,1,109,1
+Nikolai Krivulin,1,20,1
+Marcin Berna?,1,10,1
+Rhys Martin,1,37,1
+Ognjen Arandjelovi?,1,37,1
+Christoph Feilmayr,1,9,1
+Stephan Winkler,1,1,1
+Nils Meyer,1,12,1
+Stratis Ioannidis,1,49,1
+S. Muthukrishnan,1,49,1
+Philip Scott,1,26,1
+Marko Horvat,1,2,1
+Guido Caldarelli,1,18,2
+?ukasz Bolikowski,1,4,1
+Mischael Schill,1,8,1
+Xavier Allamigeon,1,10,1
+Victor Magron,1,10,1
+Barry C. Sanders,1,10,1
+Magnus Lie Hetland,1,1,1
+Nathann Cohen,1,23,1
+S¨¦bastien Collette,1,23,1
+Thomas Hackl,1,23,1
+Michael Hoffmann,1,23,1
+Kolja Knauer,1,23,1
+Stefan Langerman,1,23,1
+Sergei K. Suslov,1,6,1
+Pavel Chebotarev,1,24,1
+Michael Lange,1,21,1
+Gerard Gorman,1,21,1
+Michele Weiland,1,21,1
+Lawrence Mitchell,1,21,1
+James Southern,1,21,1
+Katarzyna Musial,1,18,1
+Przemyslaw Kazienkol,1,18,1
+H. -Christian Estler,1,35,1
+Martin Nordio,1,35,1
+Marco Piccioni,1,35,1
+Sudhindu Bikash Mandal,1,14,1
+Amlan Chakrabarti,1,14,1
+Gordan Gledec,1,2,1
+Nikola Bogunovi?,1,2,1
+Tyanko Aleksiev,1,4,1
+Simon Barkow,1,4,1
+Peter Kunszt,1,4,1
+Sergio Maffioletti,1,4,1
+Riccardo Murri,1,4,1
+Christian Panse,1,4,1
+Amitabh Basu,1,19,1
+Robert Hildebrand,1,19,1
+David Garlan,1,16,1
+Vishal Dwivedi,1,16,1
+Ivan Ruchkin,1,16,1
+Bradley Schmerl,1,16,1
+Micha? Laso¨½,1,23,1
+Piotr Micek,1,23,1
+Torsten Ueckerdt,1,23,1
+Michael Clear,1,27,1
+Arthur Hughes,1,27,1
+Hitesh Tewari,1,27,1
+Benjamin Morandi,1,377,1
+Scott West,1,377,1
+Hassan Gomaa,1,377,1
+Mario Mureddu,1,17,1
+Alessandro Chessa,1,17,1
+Alfonso Damiano,1,17,1
+Peter Arndt,1,22,1
+Chris Kapulkin,1,23,2
+Camelia-M. Pintea,1,13,1
+Susmita Sur-Kolay,1,14,1
+Ari Harju,1,25,1
+Topi Siro,1,25,1
+Filippo Federici-Canova,1,25,1
+Samuli Hakala,1,25,1
+Teemu Rantalaiho,1,25,1
+Hossain Mahmud,1,20,1
+Ashfaq Mahmood Amin,1,20,1
+Mohammed Eunus Ali,1,20,1
+Tanzima Hashem,1,20,1
+Maria E. Buemi,1,1,1
+Marta Mejail,1,1,1
+Julio Jacobo,1,1,1
+Alejandro C. Frery,1,1,1
+Heitor S. Ramos,1,1,1
+G¨¹nce Orman,1,86,1
+Jose A. Iglesias,1,10,1
+Ron Kimmel,1,10,1
+Balasubramanian Sivan,1,1,1
+Vasilis Syrgkanis,1,1,1
+Arkadiusz Biernacki,1,8,1
+Udo Krieger,1,8,1
+Andr¨¢s Seb?,1,51,1
+Antonio Scala,1,17,1
+Junichi Teruyama,1,15,1
+P¨¦ter N¨¦meti,1,8,1
+Gergely Sz¨¦kely,1,8,1
+Frank Koob,1,17,1
+S. Laplante,1,15,1
+V. Lerays,1,15,1
+Camelia Chira,1,13,1
+Gloria-C. Crisan,1,13,1
+Giulio Cimini,1,31,1
+Matus Medo,1,31,1
+Jocelyn Tapia,1,39,1
+Hans L. Bodlaender,1,16,1
+Bart M. P. Jansen,1,16,1
+Stefan Kratsch,1,16,1
+Joan Sol¨¤,1,55,1
+Jean-Marie Codol,1,55,1
+Nicolas Mansard,1,55,1
+Simon Lacroix,1,55,1
+Michel Devy,1,55,1
+Matthew P. Szudzik,1,3,1
+J¨®nathan Heras,1,9,1
+Mar¨ªa Poza,1,9,1
+Julio Rubio,1,9,1
+Iztok Fister Jr.,1,24,1
+Iztok Fister,1,24,1
+Janez Brest,1,24,1
+Richard Cleve,1,15,1
+Joaqu¨ªn Gayoso-Cabada,1,4,1
+Antonio Sarasa-Cabezuelo,1,4,1
+Jos¨¦-Luis Sierra,1,4,1
+Lan-Zhe Guo,1,1,1
+Lin-Han Jia,1,1,1
+Jie-Jing Shao,1,1,1
+Yu-Feng Li,1,1,1
+Balaji Shesharao Ingole,1,4,1
+Vishnu Ramineni,1,4,1
+J. Roland,1,15,1
+Bruce Edmonds,1,6,1
+Carlos Gershenson,1,6,1
+Martin Bachwerk,1,5,1
+Carl Vogel,1,5,1
+Cyril Roussillon,1,55,1
+Aurelien Gonzalez,1,55,1
+Joao Pedro Couto,1,13,1
+Teresa Tiago,1,13,1
+Flavio Tiago,1,13,1
+Ahmed Ben Achballah,1,59,1
+Slim Ben Saoud,1,59,1
+Aya Samaha,1,101,1
+Khaled AlKamha,1,101,1
+Victoriano Valencia Garc¨ªa,1,11,1
+Eugenio J. Fern¨¢ndez Vicente,1,11,1
+Luis Usero Aragon¨¦s,1,11,1
+Susumu Matsumae,1,6,2
+Fukuhito Ooshita,1,6,1
+Simon Parkinson,1,6,1
+Andrew Crampton,1,6,1
+Nasser A Alsadhan,1,1,2
+Kam Kwai Wong,1,7,1
+Yifang Wang,1,7,1
+Nikhil Kumar Pulipeta,1,4,1
+Manoj Jayntilal Kathiriya,1,4,1
+Manjunatha Sughaturu Krishnappa,1,4,1
+Vivekananda Jayaram,1,4,1
+Harsh Beohar,1,5,2
+Sebastian K¨¹pper,1,5,2
+Georg Hahn,1,2,1
+Elijah Pelofske,1,2,1
+Hristo N. Djidjev,1,2,1
+Jonathan Sterling,1,2,2
+Zachary P. Neal,1,58,1
+Renaud Vilmart,1,37,2
+Liron Cohen,1,1,2
+Danel Ahman,1,30,2
+Andrzej S. Murawski,1,3,2
+Bartosz Bednarczyk,1,1,2
+Takayuki Kihara,1,2,2
+Veronika Hendrychov¨¢,1,2,1
+Andrea Avogaro,1,11,1
+Federico Cunico,1,11,1
+Bodo Rosenhahn,1,11,1
+Francesco Setti,1,11,1
+Wei Zhang,1,7,1
+Jian-Wei Zhang,1,7,1
+Sergei L. Bezrukov,1,10,1
+Pavle Bulatovic,1,10,1
+Nikola Kuzmanovski,1,10,1
+Nadia Lafreni¨¨re,1,1,1
+Yan Zhuang,1,1,1
+Yili Zhang,1,1,1
+Hanyan Huang,1,1,1
+Mei Xiong,1,1,1
+Zengquan Yao,1,1,1
+Arnaud Sangnier,1,10,2
+Olivier Stietel,1,1,1
+Yingchaojie Feng,1,7,1
+Luwei Wang,1,7,1
+Wei Chen,1,7,1
+J¨¦r?me Javelle,1,16,1
+Khaled Salah,1,9,1
+Ravindra Thool,1,9,1
+Daniel M Leivant,1,2,2
+E. T. Tchao,1,3,1
+K. Diawuo,1,3,1
+W. K. Ofosu,1,3,1
+E. Affum,1,3,1
+Eyal Ackerman,1,6,1
+Michelle M. Allen,1,6,1
+Maarten L?ffler,1,6,1
+Joshua Mermelstein,1,6,1
+Diane L. Souvaine,1,6,1
+Christine Ga?ner,1,4,1
+Randal S. Olson,1,58,1
+Du?an Knop,1,34,2
+Ahmad S. Doulat,1,31,1
+Yaser M. Khamayseh,1,31,1
+Mohammad Zaidul Karim,1,9,1
+Nargis Akter,1,9,1
+Samvel Kh. Darbinyan,1,1,1
+Adda Boualem,1,4,2
+Djahida Taibi,1,3,1
+Aroua Ammar,1,3,1
+Hanan Alhazmi,1,4,1
+Nadine Akkari,1,4,1
+Feng Chen,1,41,1
+Emil Je?¨¢bek,1,11,1
+Shaz Qadeer,1,90,1
+Raffaella Gentilini,1,43,1
+Timo Jolivet,1,4,1
+Assal¨¦ Adj¨¦,1,78,1
+N. Ramasubramanian,1,10,1
+Srinivas V. V.,1,10,1
+N. Ammasai Gounden,1,10,1
+Colin Riba,1,5,3
+Kishorjit Nongmeikapam,1,11,1
+Sivaji Bandyopadhyay,1,11,1
+David Hood,1,11,1
+Syed Shawon Rahman,1,11,1
+Mohammed I. Khaleel,1,3,1
+Ayad M. Salhieh,1,3,1
+M. Y. Shams,1,43,1
+M. Z. Rashad,1,43,1
+O. Nomir,1,43,1
+R. M. El-Awady,1,43,1
+Vikas J Dongre,1,51,1
+Vijay H Mankar,1,51,1
+G. Victo Sudha George,1,83,1
+V. Cyril Raj,1,83,1
+Said Leghmizi,1,14,1
+Jean-Fran?¡ìois Raskin,1,43,1
+Jan Foniok,1,1,1
+Gianfranco Bilardi,1,3,1
+Francesco Versaci,1,3,1
+Aslan Askarov,1,30,1
+Andrew Myers,1,30,1
+Jyotirmoy Deshmukh,1,19,1
+G. Ramalingam,1,19,1
+Bernhard Reus,1,70,1
+A. Prasad Sistla,1,37,1
+Mahesh R. Dube,1,18,1
+Shantanu K. Dixit,1,18,1
+Steve Awodey,1,6,1
+Florian Rabe,1,6,1
+Felix Weiss,1,4,1
+Stefan G?ller,1,2,2
+Sheng Liu,1,14,1
+Chaiwat Jassadapakorn,1,17,1
+Prabhas Chongstitvatana,1,17,1
+Filip Maric,1,12,1
+Alessandro Chiesa,1,25,1
+Michael A. Forbes,1,25,1
+Vassilios Gregoriades,1,5,1
+Fritz M¨¹ller,1,3,1
+Abdelkrim Bouramoul,1,24,1
+Mohamed-Khireddine Kholladi,1,24,1
+Bich-Lien Doan,1,24,1
+Lei Song,1,23,1
+Jens Chr. Godskesen,1,23,1
+Venkatesh-Prasad Ranganath,1,19,1
+Kapil Vaswani,1,19,1
+Samuele Giraudo,1,4,2
+Chung-Kil Hur,1,3,1
+Sotirios Kentros,1,6,1
+Aggelos Kiayias,1,6,1
+Kira Vyatkina,1,6,1
+Wojciech Kazana,1,43,1
+Nazanin Tavana,1,30,1
+Henri Binsztok,1,52,1
+Corina Cirstea,1,64,2
+Matthew R. Lakin,1,3,1
+Paul Brodhead,1,8,1
+Ferit Toska,1,8,1
+Sebastian Wyman,1,8,1
+Riza Sulaiman,1,9,1
+Mohammad Khatim Hasan,1,9,1
+Abdul Yazid Mohd Kassim,1,9,1
+Daniel Paulusma,1,60,1
+Fr¨¦d¨¦ric Herbreteau,1,6,1
+Thomas Braibant,1,45,1
+Matthew T. Dickerson,1,6,1
+David Hodorkovsky,1,6,1
+Marco Gaboardi,1,114,1
+Linda Postniece,1,47,1
+Wesley Calvert,1,10,1
+Ken Kramer,1,10,1
+Nicola Olivetti,1,27,1
+Azrulhizam Shapi'i,1,9,1
+Amal Ahmed,1,127,1
+Sebastian Rudolph,1,35,1
+Antonio Vetr¨°,1,1,2
+Dimitrios Vardoulakis,1,92,1
+Olin Shivers,1,92,1
+Juan Carlos De Martin,1,1,2
+Cem Say,1,11,1
+Stefan Szeider,1,60,1
+Renate A. Schmidt,1,49,1
+Dmitry Tishkovsky,1,49,1
+Tom¨¢? Br¨¢zdil,1,54,1
+V¨¢clav Bro?ek,1,54,1
+Federico Mazzoni,1,2,1
+Vojt¨§ch Forejt,1,54,1
+Anton¨ªn Ku?era,1,54,1
+Alessio Malizia,1,2,1
+Wojciech Fraczek,1,31,1
+Wojciech Mazurczyk,1,31,1
+Krzysztof Szczypiorski,1,31,1
+Nizo Jaman Shohan,1,1,1
+Tobias Heindel,1,42,1
+Alexandre Miquel,1,32,2
+Gazi Tanbhir,1,1,1
+Faria Elahi,1,1,1
+Dai Tri Man Le,1,14,1
+Stephen A. Cook,1,14,1
+Ahsan Ullah,1,1,1
+Arne Meier,1,20,1
+Md. Nazmus Sakib,1,1,1
+Michael Thomas,1,20,1
+K. Karteeka Pavan,1,18,1
+Derek Dreyer,1,127,1
+Julien Cristau,1,10,1
+Stephen A Cook,1,12,1
+Lila A Fontes,1,12,1
+Kojiro Higuchi,1,50,1
+Allam Appa Rao,1,18,1
+Desharnais Jules,1,31,1
+Bernhard Moeller,1,31,1
+Abuzer Yakaryilmaz,1,11,1
+A. V. Dattatreya Rao,1,18,1
+G. R. Sridhar,1,18,1
+Miguel Pagano,1,27,1
+Alexis Bes,1,3,1
+Marcin Kozik,1,151,1
+Jean-Marc F¨¦dou,1,2,2
+Lo?c Colson,1,2,1
+Vincent Demange,1,2,1
+Mark Kaminski,1,24,1
+Sigurd Schneider,1,24,1
+K. S. Kuppusamy,1,17,1
+Peter Bubenik,1,5,1
+matthew hennessy,1,13,1
+Senthilraja. R,1,17,1
+Ori Lahav,1,11,1
+G. Aghila,1,17,1
+Tingting Han,1,127,1
+Stephan Kreutzer,1,19,1
+Alexandru Mereacre,1,127,1
+K. Sreedhar,1,136,1
+Magnus Johansson,1,80,1
+B. Panlal,1,136,1
+Bj??rn Victor,1,80,1
+Volodymyr Y. Kondratenko,1,42,1
+Thi Thieu Hoa Le,1,28,1
+Roberto Sebastiani,1,28,1
+Hongyang Sun,1,6,1
+Yuxiong He,1,6,1
+Wen-Jing Hsu,1,6,1
+Rui Fan,1,6,1
+Minjeong Kim,1,42,1
+Sevim Cengiz,1,1,1
+Struth Georg,1,31,1
+St¨¦phane Jean Eric Lengrand,1,18,1
+Roy Dyckhoff,1,18,1
+James McKinna,1,18,1
+Alastair A. Abbott,1,36,1
+Gilda Ferreira,1,13,2
+Paulo Oliva,1,13,1
+Salman Khan,1,1,1
+Ibraheem Hamdi,1,1,2
+William Lovas,1,12,1
+Mohammad Yaqub,1,1,2
+Niraj Kumar Singh,1,4,1
+Mita Pal,1,4,1
+M. Forets,1,22,1
+Elmar B??hler,1,4,1
+Nadia Creignou,1,4,1
+Matthew J. Parkinson,1,97,1
+Alexander J. Summers,1,97,1
+Xin Liu,1,5,1
+Tsuyoshi Murata,1,5,1
+Coenraad Mouton,1,26,4
+Zhipeng Ma,1,2,3
+Zheng Ma,1,3,3
+Zheng Grace Ma,1,2,2
+Jasni Mohamad Zain,1,27,1
+Abdullah Embong,1,27,1
+Hans H Zantema,1,7,1
+S. V. Sheela,1,2,2
+K. R. Radhika,1,2,2
+Md. Tarek Hasan,1,1,1
+Bjoern Kjos-Hanssen,1,9,1
+Arifa Akter,1,1,1
+Mohammad Nazmush Shamael,1,1,1
+Aquinas Hobor,1,33,1
+Marc de Falco,1,7,1
+Andrei A. Bulatov,1,23,1
+Daniel Marx,1,23,1
+Cristian Gherghina,1,33,1
+Takahito Aoto,1,19,1
+Juha Kontinen,1,8,2
+Yoshihito Toyama,1,19,1
+Pavel Krcal,1,17,1
+Gabriel Scherer,1,53,1
+Wang Yi,1,17,1
+Antoine Min¨¦,1,50,1
+Sumayra Islam,1,1,1
+D. Sasikala,1,10,1
+R. Neelaveni,1,10,1
+Matthias Galota,1,4,1
+Steffen Reith,1,4,1
+Swakkhar Shatabda,1,1,1
+Saipunidzam Mahamad,1,75,1
+Mohammad Noor Ibrahim,1,75,1
+Shakirah Mohd Taib,1,75,1
+leroux jerome,1,82,1
+Rahmat Widia Sembiring,1,27,1
+Guilherme D. da Fonseca,1,4,1
+Raphael Machado,1,4,1
+Celina M. H. de Figueiredo,1,4,1
+Gr¨¦gory Nuel,1,4,1
+Naveen Kr. Malik,1,27,1
+Olivier Bouissou,1,3,1
+Yassamine Seladji,1,3,1
+Alexandre Chapoutot,1,3,1
+Ingmar Meinecke,1,36,1
+John O. Adeyeye,1,55,1
+David Murrugarra,1,55,1
+Thomas A Henzinger,1,85,1
+Boris Aguilar,1,55,1
+Jakub Gajarsky,1,27,1
+Waseem Qureshi,1,8,1
+Laurent Hubert,1,7,1
+Ruchira Naskar,1,3,1
+Indranil Sengupta,1,3,1
+Yaser Miaji Osman Gazali,1,3,1
+Suhaidi Hassan,1,3,1
+Spits Warnars H. L. H,1,27,1
+A. Nag,1,128,1
+S. Biswas,1,128,1
+D. Sarkar,1,128,1
+Henryk Fuk?,1,10,1
+Thomas Jensen,1,14,1
+Florent Kirchner,1,14,1
+Petter Kristian K?ber,1,1,1
+Bjarki Holm,1,16,1
+Roel de Vrijer,1,21,1
+Johannes Waldmann,1,21,1
+Vin¨ªcius G. P. de S¨¢,1,4,1
+Mohammad Sabbir Hasan,1,2,1
+C. N. Marimuthu,1,35,1
+P. Thangaraj,1,35,1
+Aswathy Ramesan,1,35,1
+Chao Chen,1,15,1
+Carlos Pomalaza-Raez,1,15,1
+Srirangam V Addepallil,1,5,1
+Per Andersen,1,5,1
+Stefan Michael Kahrs,1,1,1
+Vladimir V. Podolskii,1,3,1
+Roberto Bruttomesso,1,26,1
+Md. Headayetullah,1,7,1
+G. K. Pradhan,1,7,1
+P. Raja Rajeswari,1,19,1
+Allam Apparo,1,19,1
+V. K. Kumar,1,19,1
+Alain Denise,1,24,1
+Yann Ponty,1,24,1
+Michel Termier,1,24,1
+Tobias G?rtner,1,7,1
+Mehboob Sharif,1,5,1
+Nayyar Iqbal,1,5,1
+Kosta DOSEN,1,7,1
+Zoran Petric,1,7,1
+Jeremy Dawson,1,25,1
+Ali Assaf,1,20,1
+Ant¨®nio Ravara,1,22,1
+P. P. Sarkar,1,128,1
+Natarajan Meghanathan,1,1,2
+Koushik Majumder,1,3,1
+Subir Kumar Sarkar,1,3,1
+K. M. Azharul Hasan,1,2,1
+Yasuyuki Tsukamoyo,1,6,1
+D. J. Wilson,1,24,1
+R. J. Bradford,1,24,1
+Fatma El-Ghannam,1,347,1
+Tarek El-Shishtawy,1,347,1
+Puneet Kumar,1,14,1
+Dharminder Kumar,1,14,1
+Narendra Kumar,1,14,1
+Siva Anantharaman,1,2,1
+Christopher Bouchard,1,2,1
+Micha?l Rusinowitch,1,2,1
+Md. Amir Khusru Akhtar,1,2,2
+G. Sahoo,1,2,2
+Jamil Hamodi,1,9,1
+George L Barnes,1,5,1
+Guillem Godoy,1,23,2
+Cristiano Calcagno,1,28,1
+R¨¦mi Bonnet,1,11,1
+Alain FInkel,1,11,1
+Yusuf Perwej,1,22,1
+Asif Perwej,1,22,1
+Femke van Raamsdonk,1,22,1
+Sumit Sharma,1,10,1
+Marco Lucamarini,1,22,1
+Rohitt Sharma,1,10,1
+Roman Kontchakov,1,43,1
+Ian Pratt-Hartmann,1,44,2
+Paramjit Singh,1,10,1
+Michael Zakharyaschev,1,43,1
+Bill Edwards,1,90,1
+Matthew Steven Bauer,1,10,1
+Hideki Tsuiki,1,6,1
+Qingqing Yuan,1,4,1
+Hirotada Kobayashi,1,3,1
+Keiji Matsumoto,1,3,1
+Nils Bruin,1,6,1
+Sander R. Dahmen,1,6,1
+Aditya Mahajan,1,10,1
+Thierry Bouche,1,27,1
+Bernard Boigelot,1,22,1
+Julien Brusten,1,22,1
+Alasdair Urquhart,1,5,1
+Christian Mathissen,1,52,1
+Youssef Bassil,1,34,1
+R. J. van Glabbeek,1,100,1
+G. D. Plotkin,1,100,1
+Beno? t Valiron,1,20,1
+James Brotherston,1,28,1
+Ulrike von Luxburg,1,125,1
+Mohammad Alwani,1,34,1
+Pradeep Singla,1,27,1
+Nikola Trcka,1,37,1
+Md Al Emran Hossain,1,1,1
+H. M. Mutasim Billah,1,1,1
+Sandeep Udayagiri,1,8,1
+Fabrice Chevalier,1,25,1
+Manfred Droste,1,9,2
+Guo-Qiang Zhang,1,9,1
+Wilfried Huss,1,4,1
+Ecaterina Sava,1,4,1
+Wolfgang Woess,1,4,1
+Guy McCusker,1,13,1
+Robert W. Spekkens,1,90,1
+Haruna Isah,1,2,1
+Daniel Gayo-Avello,1,310,1
+Nicolas Catusse,1,2,1
+Victor Chepoi,1,2,1
+Yann Vax¨¨s,1,2,1
+Naoki Nishida,1,23,1
+Masahiko Sakai,1,23,1
+Martin Hils,1,41,1
+Jacob Vosmaer,1,6,1
+Vida Dujmovic,1,46,1
+Joachim Gudmundsson,1,46,1
+Thomas Wolle,1,46,1
+Elena Dimitrova,1,41,1
+Luis David Garcia-Puente,1,41,1
+Franziska Hinkelmann,1,41,1
+Markus Maier,1,125,1
+Matthias Hein,1,125,1
+Brandilyn Stigler,1,41,1
+Michael Stillman,1,41,1
+Paola Vera-Licona,1,41,1
+Toshiki Sakabe,1,23,1
+Nicholas Ruozzi,1,23,1
+Tino Teige,1,11,1
+Colin Stirling,1,22,1
+Sylvain Lebresne,1,5,1
+Philipp Weis,1,54,1
+Martin Fr?nzle,1,11,1
+Iman Narasamdya,1,10,1
+Marco Roveri,1,10,1
+Mark Bickford,1,23,1
+Samir Genaim,1,8,1
+Jeroen Ketema,1,15,1
+Damiano Zanardini,1,8,1
+Pietro Di Gianantonio,1,14,1
+Christian Urban,1,67,1
+G. Gutin,1,14,1
+D. Karapetyan,1,14,1
+I. Razgon,1,14,1
+Catalin Hritcu,1,8,1
+Michael T. Goodrich,1,18,1
+Cezary Kaliszyk,1,67,1
+Julie De Pril,1,23,1
+Peter Hancock,1,70,1
+Pierre Hyvernat,1,2,2
+Johan van Benthem,1,34,1
+Nils Gesbert,1,22,1
+Jouko Vaananen,1,34,1
+Abdul S. Jarrah,1,41,1
+Yashbir Singh,1,101,1
+Thomas Reps,1,92,1
+Mooly Sagiv,1,92,1
+Siddharth Srivastava,1,92,1
+Greta Yorsh,1,92,1
+Shun Watanabe,1,3,1
+Ryutaroh Matsumoto,1,3,1
+Tomohiko Uyematsu,1,3,1
+Samuel Humeau,1,1,1
+Daniela Petrisan,1,15,2
+D. Cacciagrano,1,21,1
+F. Corradini,1,21,1
+C. Palamidessi,1,21,1
+Zhigang Cao,1,10,2
+Xiaoguang Yang,1,10,2
+Joseph Halpern,1,23,1
+Sabina Petride,1,23,1
+Andreas Schnabl,1,29,1
+Chin Soon Lee,1,17,1
+Alejandro Diaz-Caro,1,37,1
+Stefano Pirandola,1,4,1
+Samuel L. Braunstein,1,4,1
+Seth Lloyd,1,4,1
+Cezara Dragoi,1,32,1
+Constantin Enea,1,32,1
+Yan Jurski,1,32,1
+Mihaela Sighireanu,1,32,1
+Susan Leavy,1,2,1
+Marco Faella,1,11,1
+Emilie Pine,1,2,1
+Jean-Yves Marion,1,9,1
+Mark T Keane,1,2,1
+Tal Lev-Ami,1,92,1
+Luis Pinto,1,12,1
+Philipp Kohl,1,1,1
+Nils Freyer,1,1,1
+Mohammad Raza,1,26,1
+Philippa Gardner,1,26,1
+Yoka Kr?mer,1,1,1
+Scott Aaronson,1,3,1
+Olha Shkaravska,1,39,1
+Marko van Eekelen,1,39,1
+Ron van Kesteren,1,39,1
+Goetz Schwandtner,1,3,1
+Christoph Benzmueller,1,16,1
+Michael Kohlhase,1,16,1
+Henri Werth,1,1,1
+Kohtaro Tadaki,1,17,1
+Steffen Wolf,1,1,1
+Jan-Willem Roorda,1,2,1
+William Blum,1,31,1
+Bodo Kraft,1,1,1
+Michael Bauland,1,51,1
+Ilka Schnoor,1,51,1
+Zhifang Zhang,1,228,1
+Mulan Liu,1,228,1
+Yeow Meng Chee,1,228,1
+San Ling,1,228,1
+Huaxiong Wang,1,228,1
+Matthias Meinecke,1,1,1
+Filip Murlak,1,24,1
+Albert Z¨¹ndorf,1,1,1
+Bernard Mourrain,1,39,1
+Jose Espirito Santo,1,12,1
+Ralph Matthes,1,12,1
+Tero Harju,1,9,1
+Petitpierre Claude,1,8,1
+Maciej Baczmanski,1,1,1
+Kevin Millikin,1,10,1
+C. Kupke,1,48,1
+Y. Venema,1,48,1
+Matthew Hague,1,27,1
+Mateusz Wasala,1,1,1
+Jan Hoffmann,1,65,1
+Jan Johannsen,1,65,1
+Rajeev Alur,1,128,1
+Tomasz Kryjak,1,2,2
+Ender Konukoglu,1,32,2
+Ant¨®n Makarov,1,4,1
+Eric Pacuit,1,103,1
+Koen Claessen,1,2,1
+Yuxin Deng,1,111,2
+M¨¢rcio M. Taddei,1,4,1
+Carroll Morgan,1,110,1
+Eneko Osaba,1,4,1
+Giacomo Franceschetto,1,4,1
+Esther Villar-Rodriguez,1,4,1
+Izaskun Oregi,1,4,1
+Hartmut Ehrig,1,61,1
+Reiko Heckel,1,61,1
+Shahab Saquib Sohail,1,101,1
+Piero A. Bonatti,1,69,1
+Faiza Farhat,1,101,1
+Mohammad Nadeem,1,101,1
+Paolo Coppola,1,20,1
+Philippe Tr¨¦buchet,1,39,1
+Dag ?ivind Madsen,1,101,1
+Salvador Lima L¨®pez,1,23,1
+Jeremy Sproston,1,100,1
+Friedrich Eisenbrand,1,44,1
+Naokata Shikuma,1,26,1
+Eul¨¢lia Farr¨¦-Maduell,1,23,1
+Shadi Atalla,1,101,1
+Martin Escardo,1,47,1
+J. J. M. M. Rutten,1,30,1
+Wathiq Mansoor,1,101,1
+Filippo Betello,1,6,1
+Milad Niqui,1,10,1
+Mari?lle Stoelinga,1,34,1
+Federico Siciliano,1,6,1
+Pushkar Mishra,1,6,1
+Fabrizio Silvestri,1,6,1
+Laura Bocchi,1,2,2
+Adrien Guignard,1,17,1
+Eric Sopena,1,17,1
+Andy King,1,22,2
+Kohei Honda,1,30,1
+Alexander Ek,1,5,3
+Manuel Gadella,1,16,1
+Daria Walukiewicz-Chrzaszcz,1,13,1
+Jacek Chrzaszcz,1,13,1
+Jan Tretmans,1,1,1
+Anna Zamansky,1,11,1
+Alessandro Ferrante,1,40,1
+Mimmo Parente,1,40,1
+Tibor Sloboda,1,2,1
+Luk¨¢? Hudec,1,2,1
+Wanda Bene?ov¨¢,1,2,1
+Rashid Barket,1,3,1
+Michael A. Bender,1,16,1
+S¨¢ndor P. Fekete,1,16,1
+Alexander Kr?ller,1,16,1
+Vincenzo Liberatore,1,16,1
+Joseph S. B. Mitchell,1,16,1
+Valentin Polishchuk,1,16,1
+Jukka Suomela,1,16,1
+J¨¹rgen Gerhard,1,3,1
+Jyotishka Ray Choudhury,1,1,1
+Hubert Comon-Lundh,1,14,1
+Aytijhya Saha,1,1,1
+Nicolas Perrin,1,14,1
+Ghassan Oreiby,1,101,1
+Nicola Gambino,1,119,1
+Sarbojit Roy,1,1,1
+Subhajit Dutta,1,1,1
+Theresa Pekarek Rosin,1,2,1
+Stefan W?hrle,1,36,1
+Franck van Breugel,1,55,1
+Babita Sharma,1,55,1
+Stefan Wermter,1,2,1
+Sheikh Enayet Ullah,1,3,1
+M. G. Rashed,1,4,1
+Edmund Burke,1,16,1
+Qin Ma,1,4,1
+Luc Maranget,1,4,1
+M. Sajjadur Rahim,1,4,1
+Qiqi Yan,1,64,1
+Jonathan Hayman,1,30,1
+Sk. Enayet Ullah,1,4,1
+Florence Lev¨¦,1,22,1
+Gw¨¦na?l Richomme,1,22,1
+Ben Moszkowski,1,18,1
+Hasni Neji,1,9,1
+Mathilde Bouvel,1,19,2
+Dominique Rossin,1,19,1
+Ridha Bouallegue,1,9,1
+Sylvain Conchon,1,20,1
+Neil D. Jones,1,32,1
+Nina Bohr,1,32,1
+Aldar C-F. Chan,1,1,1
+Evelyne Contejean,1,20,1
+Mohamed Iguernelala,1,20,1
+Ashley Montanaro,1,19,1
+Radha Jagadeesan,1,30,3
+Sujatha Srinivasan,1,4,1
+Corin Pitcher,1,1,1
+James Riely,1,72,2
+Veronique Cortier,1,47,1
+Michael Rusinovitch,1,47,1
+Sivakumar Ramakrishnan,1,4,1
+Saket Warade,1,8,1
+Vincent Atassi,1,25,1
+Jagannath Aghav,1,8,1
+Sylvain Lombardy,1,73,1
+Jean Mairesse,1,73,1
+Christophe Prieur,1,73,1
+S¨¦bastien Verel,1,28,1
+Philippe Collard,1,28,1
+Marco Tomassini,1,28,1
+Leonardo Vanneschi,1,28,1
+Arnaud Spiwack,1,31,1
+Morten Heine S?rensen,1,4,1
+Gijs van Cuyck,1,1,1
+Sasha Rubin,1,109,1
+Lars van Arragon,1,1,1
+Greg Slabaugh,1,3,1
+Vladimir Sazonov,1,8,1
+Benoit Larose,1,98,1
+Cynthia Loten,1,98,1
+Christos Bourantas,1,3,1
+M. W. Bunder,1,2,1
+W. M. J. Dekkers,1,2,1
+<br> Jean-Francois Raskin,1,240,1
+Noomene Ben Henda,1,52,1
+Qianni Zhang,1,3,1
+Klaus Aehlig,1,61,1
+Dimitar P. Guelev,1,8,1
+Ranjit Jhala,1,111,1
+Kenneth L. McMillan,1,111,1
+Akihiro Tanaka,1,1,1
+Shuvendu K. Lahiri,1,46,1
+Eugen Zalinescu,1,47,1
+Juniper Tyree,1,1,1
+Emil Kiss,1,30,1
+Matthew Valeriote,1,30,1
+Nir Piterman,1,315,1
+Sanjiang Li,1,7,1
+Mingsheng Ying,1,7,1
+Maurice Margenstern,1,11,1
+Roland Axelsson,1,35,1
+Anton Bj?rklund,1,1,1
+Rafal Somla,1,35,1
+Jarmo M?kel?,1,1,1
+Kai Puolam?ki,1,1,1
+Andre Nies,1,109,1
+J. R. B. Cockett,1,183,1
+Stephen Lack,1,183,1
+Alejandro Pe?a,1,3,1
+Aythami Morales,1,3,1
+Julian Fierrez,1,3,1
+Javier Ortega-Garcia,1,3,1
+James Laird,1,8,2
+Marcos Grande,1,3,1
+Joerg Hoffmann,1,19,1
+Carla Gomes,1,19,1
+Bart Selman,1,19,1
+Pascal Tesson,1,46,1
+Denis Therien,1,46,1
+Corina S. Pasareanu,1,24,1
+Radek Pelanek,1,24,1
+Willem Visser,1,24,1
+R. Schott,1,1,1
+Jean Gallier,1,1,1
+Thomas Ball,1,46,1
+Byron Cook,1,46,1
+Yoram Hirshfeld,1,43,1
+Parosh Abdulla,1,34,1
+Pritha Mahata,1,34,1
+I?igo Puente,1,3,1
+Keijo Heljanko,1,254,1
+Tommi Junttila,1,254,1
+Timo Latvala,1,254,1
+Viktor Schuppan,1,254,1
+Rasmus E. M?gelberg,1,14,1
+Rasmus Lerchedahl Petersen,1,14,1
+Viv Kendon,1,17,1
+Olivier Maloyer,1,17,1
+Grzegorz Rozenberg,1,20,1
+Tamara Babaian,1,4,1
+Noah Torp-Smith,1,76,1
+Erich Graedel,1,31,1
+Aram W. Harrow,1,36,1
+Pawel Wocjan,1,36,1
+Le-Chi Tuan,1,4,1
+Chitta Baral,1,4,1
+Tran Cao Son,1,4,1
+Rifat Ara Shams,1,3,1
+Solomon Feferman,1,13,1
+Pascal Pons,1,60,1
+Matthieu Latapy,1,60,1
+Kohei Suenaga,1,66,1
+Lucian Wischik,1,66,1
+Ph. Feinsilver,1,1,1
+Amr Sabry,1,43,1
+Daniele Gorla,1,27,1
+Gonzalo Cordova,1,3,1
+Frank Neven,1,96,1
+Arnaud Carayol,1,21,2
+Francois Lamarche,1,44,1
+Jonas Bayer,1,4,2
+Binh-Minh Bui-Xuan,1,7,1
+Michel Habib,1,7,1
+Simone Severini,1,13,1
+Kristian Stoevring,1,34,1
+Aleksey Gonus,1,1,1
+Valentin Goranko,1,97,1
+Dimiter Vakarelov,1,97,1
+Jeremy Avigad,1,17,1
+Harvey Friedman,1,17,1
+Riccardo Pucella,1,17,1
+Joerg Flum,1,25,1
+James G. Schmolze,1,4,1
+Christoph Benzm¨¹ller,1,1,1
+Dana S. Scott,1,1,1
+Doug Goldson,1,19,1
+Marek Perkowski,1,49,1
+Christopher Hardin,1,5,1
+Alp Atici,1,4,1
+Rocco A. Servedio,1,4,1
+Malgorzata Biernacka,1,93,1
+Arya Mazumdar,1,24,1
+Randal E. Bryant,1,55,1
+N. V. Antonov,1,21,1
+Antonin Kucera,1,182,1
+Juliana K. Vizzotto,1,43,1
+Justin Tonkinson,1,9,1
+N. M. Gulitskiy,1,21,1
+Herv¨¦ Daud¨¦,1,25,1
+Marc Mezard,1,25,1
+Thierry Mora,1,25,1
+Riccardo Zecchina,1,25,1
+Erik Palmgren,1,24,2
+Vineet Gupta,1,29,1
+Philippe Preux,1,54,1
+Venanzio Capretta,1,154,1
+Phuong Nguyen,1,25,1
+Stephen Cook,1,25,1
+A. Broadbent,1,39,1
+A. A. Methot,1,39,1
+Marcus Pivato,1,13,1
+Joseph Y. Halpern,1,17,1
+Gennadiy Averyanov,1,1,1
+Kit Mills Bransby,1,3,1
+Dave Bacon,1,78,1
+Giovanni Luca Ciampaglia,1,5,1
+J. Vond?ejc,1,23,1
+David Soloveichik,1,27,1
+J. Zeman,1,23,1
+Michael Huth,1,15,1
+Luca Dall'Asta,1,123,1
+Ignacio Alvarez-Hamelin,1,123,1
+Alain Barrat,1,123,1
+Alexei Vazquez,1,123,1
+Alessandro Vespignani,1,123,1
+A. O. Stauffer,1,6,1
+I. Marek,1,23,1
+William Marfo,1,9,1
+Vincent Moreau,1,4,1
+Alexander Gutfraind,1,1,1
+Jesse Alama,1,10,1
+Bolanle Hafiz Matti,1,9,1
+Smarajit Das,1,1,1
+Ismail. B. Mustapha,1,1,1
+Shafaatunnur Hasan,1,1,1
+Hatem S Y Nabbus,1,1,1
+Mohamed Mostafa Ali Montaser,1,1,1
+Sunday Olusanya Olatunji,1,1,1
+Siti Maryam Shamsuddin,1,1,1
+Marc Hermes,1,6,1
+Naresh Sharma,1,1,1
+Anton Kolonin,1,1,1
+Andrey Kurpatov,1,1,1
+Artem Molchanov,1,1,1
+Sebastian Skritek,1,4,1
+Christian Schmidt,1,1,2
+Heinrich Martin Overhoff,1,1,2
+M. Sauerhoff,1,58,1
+D. Sieling,1,58,1
+Eli Biham,1,95,1
+Siddharth Muthukrishnan,1,1,1
+Dan Kenigsberg,1,95,1
+Tal Mor,1,95,1
+Cosma Rohilla Shalizi,1,52,1
+Sam van Gool,1,4,2
+Elisa Tonello,1,2,1
+Georgi Jordanov,1,23,1
+Nina Dobrinkova,1,23,1
+Gordon Plotkin,1,8,2
+Bed?ich Soused¨ªk,1,23,1
+Mart¨ªn H?tzel Escard¨®,1,8,2
+Daniel Gon?alves,1,1,1
+Pascal Ochem,1,3,2
+Arshiya Khan,1,2,1
+Chase Cotton,1,2,1
+Jorge Cordova,1,3,1
+Arnaud de Mesmay,1,4,1
+M. J. Arno,1,10,1
+Md. Ahsan Habib,1,4,1
+M. A. H. Akhand,1,4,1
+Nihil Shah,1,2,1
+Nigel Rees,1,2,1
+Kelly Holding,1,2,1
+Mark Sujan,1,2,1
+Timo Camillo Merkl,1,4,1
+Reinhard Pichler,1,4,1
+G. C¨¢mara-Ch¨¢vez,1,28,1
+William R. Schwartz,1,28,1
+D. Menotti,1,28,1
+Md. Abdus Samad Kamal,1,4,1
+Thomas Powell,1,3,2
+Fran?ois Pitois,1,4,2
+Elena Di Lavore,1,5,1
+Wenjie Fang,1,5,2
+Robert Baumgartner,1,5,1
+Nicolas Munnich,1,2,1
+Dmitry Gavinsky,1,16,1
+J. Maurice Rojas,1,53,1
+Martin Roetteler,1,16,1
+Anantha Padmanabha,1,4,1
+Ming Lam Leung,1,12,1
+Ayberk Tosun,1,1,1
+Ahmad Idrissi-Yaghir,1,6,1
+Henning Sch?fer,1,6,1
+Nadja Bauer,1,6,1
+Christoph M. Friedrich,1,6,1
+Shengyu Zhang,1,12,1
+Dominique Duval,1,21,1
+Jean-Claude Reynaud,1,21,1
+Martin Korp,1,22,1
+Yichen Huang,1,152,1
+Zeph Landau,1,152,1
+Ankit Mundra,1,4,1
+Geetanjali Rathee,1,4,1
+Meenu Chawla,1,4,1
+Nitin Rakesh,1,4,1
+Ashsutosh Soni,1,4,1
+R. F. Prates,1,28,1
+K. Okumura,1,1,1
+M. Shiino,1,1,1
+Guillaume Geoffroy,1,2,1
+R¨¦mi Morvan,1,2,1
+Guojun Wu,1,3,1
+Luoshan Xu,1,3,1
+Daniel Hausmann,1,1,1
+Vasileios Zografos,1,7,1
+Bernard Buxton,1,7,1
+Shuai Jiang,1,6,1
+Hugo Paquet,1,1,1
+Takahiro Sanada,1,2,1
+Csilla Bujt¨¢s,1,5,1
+Pakanun Dokyeesun,1,5,1
+Barbara Petit,1,26,1
+Henry DeYoung,1,3,1
+Oleg Chertov,1,7,1
+Dan Tavrov,1,7,1
+Chong Shen,1,4,2
+Pavel A. Pevzner,1,1,1
+Dongsheng Zhao,1,4,5
+Amrita Suresh,1,10,2
+Tobias Runge,1,1,1
+Tabea Bordis,1,1,1
+Alex Potanin,1,1,1
+Thomas Th¨¹m,1,1,1
+Ina Schaefer,1,1,1
+Ekaterina Shemyakova,1,6,1
+Shoji Yuen,1,2,1
+Bart Bogaerts,1,1,1
+Maxime Jakubowski,1,1,1
+Jan Van den Bussche,1,1,1
+Maicon A. Sartin,1,1,1
+Alexandre C. R. da Silva,1,1,1
+Senosy Arrish,1,24,1
+Fadhil Noer Afif,1,24,1
+Ahmadu Maidorawa,1,24,1
+Naomie Salim,1,24,1
+W. B. Langdon,1,10,1
+Ioan O. Hupca,1,18,1
+Ozan Kahramanogullari,1,8,1
+Joel Falcou,1,18,1
+Laura Grigori,1,18,1
+Hamdi Yalin Yalic,1,1,1
+Rocco De Nicola,1,37,1
+Andrea Jim¨¦nez,1,14,1
+Radek Stompor,1,18,1
+Amor Lazzez,1,47,1
+Piotr Krasnowski,1,2,1
+Jerome Lebrun,1,2,1
+Bruno Martin,1,2,1
+Ruben Ascoli,1,2,1
+Livia Betti,1,2,1
+Jacob Lehmann Duke,1,2,1
+Xuyan Liu,1,2,1
+Wyatt Milgrim,1,2,1
+Steven J. Miller,1,2,1
+Eyvindur A. Palsson,1,2,1
+B. V. Ashwinkumar,1,58,1
+Dmitry S. Ananichev,1,58,1
+Jason Z. S. Hu,1,3,1
+Brigitte Pientka,1,3,1
+Xiaoquan Xu,1,4,2
+Tomoya Yoshida,1,1,1
+Evgen Pavlov,1,10,1
+Yuri G. Gordienko,1,10,1
+Dmitry N. Kozlov,1,3,1
+Yiannis Giannakopoulos,1,11,1
+Slawomir Koziel,1,45,1
+Leifur Leifsson,1,45,1
+Ferhat Alkan,1,1,1
+T¨¹rker B?y?ko?lu,1,1,1
+Marc Demange,1,1,1
+Cesim Erten,1,1,1
+Vincent van Oostrom,1,4,1
+Vladimir V. Gusev,1,58,1
+Mikhail V. Volkov,1,58,1
+Pierre Chambart,1,10,1
+Harika Asili,1,10,1
+Omer Ozgur Tanriover,1,10,1
+Most. Fahmida Akter,1,16,1
+Fazly Rabbi,1,16,1
+Marzia Ahmed,1,16,1
+Mohammad Asaduzzaman,1,16,1
+Marek Gagolewski,1,16,1
+Francisco Romero Acosta,1,2,1
+Santiago Velazquez Iannuzzelli,1,2,1
+Karol Chlasta,1,52,2
+Corey J. Maley,1,2,1
+Thomas Bellitto,1,8,2
+Md. Mamunur Rashid,1,16,1
+Marek Czachor,1,25,1
+Rob C. Wagner,1,3,1
+Sabrina Afrin Simi,1,16,1
+Joyeta Saha,1,16,1
+Muhammad Golam Kibria,1,16,1
+Lev Bekenev,1,10,1
+Joseph Meleshko,1,2,1
+Mark S. Everitt,1,3,1
+Sonja Linghui Shan,1,2,2
+Shiguang Feng,1,15,2
+Yang Li,1,12,1
+Max Zeuner,1,4,1
+Xin Chen,1,3,1
+Alex Reibman,1,3,1
+Sanjay Arora,1,3,1
+Geoffrey Exoo,1,7,2
+Vitor Garcia dos Santos,1,6,1
+Ivandr¨¦ Paraboni,1,6,1
+Jasmin Blanchette,1,1,1
+Petar Vukmirovi?,1,20,2
+Mohammod Abul Kashem,1,16,1
+Barbara Hammer,1,17,1
+Michael Raskin,1,1,1
+Sachin Lakra,1,1,1
+T. V. Prasad,1,1,1
+G. Ramakrishna,1,1,1
+Klesti Hoxha,1,4,1
+Alda Kika,1,4,1
+Eriglen Gani,1,4,1
+Silvana Greca,1,4,1
+Vaibhav Jha,1,3,1
+Mohit Jha,1,3,1
+GK Sharma,1,3,1
+Hajime Ishihara,1,8,1
+Daniel Krenn,1,5,1
+Konrad Burnik,1,27,1
+Olexander Gatsenko,1,10,1
+M. V. Pomazanov,1,3,1
+Martin L. Jones,1,3,1
+Petr Jan?ar,1,2,1
+Elchanan Mossel,1,73,1
+S Akshay,1,4,1
+Omer Tamuz,1,74,2
+R Govind,1,4,1
+Francesco Guzzi,1,6,1
+George Kourousias,1,6,1
+Fulvio Bill¨¨,1,6,1
+Roberto Pugliese,1,6,1
+Alessandra Gianoncelli,1,6,1
+Sergio Carrato,1,6,1
+Alexandre Goy,1,1,1
+Ulrike Kuhl,1,17,1
+Andr¨¦ Artelt,1,17,1
+Mitre C. Dourado,1,5,1
+Marisa Gutierrez,1,5,1
+Christian Attiogbe,1,4,1
+Christoph Welzel-Mohr,1,1,1
+Giulio Chiribella,1,57,1
+Claudio A. Mezzina,1,3,1
+Antonio Casares,1,8,1
+Alaa Abi-Haidar,1,26,1
+Luis M. Rocha,1,26,1
+Daniele Dell'Erba,1,5,1
+Axel Kohnert,1,159,1
+Sylvain Perifel,1,1,1
+Stefan Zetzsche,1,2,1
+Matteo Sammartino,1,2,1
+Vera Koponen,1,5,1
+Felix Weitk?mper,1,5,1
+Tetsuya Takaishi,1,9,2
+Panos Giannopoulos,1,18,1
+Dolav Nitay,1,5,1
+Michal Ziv-Ukelson,1,5,1
+Sylwia Cichacz,1,5,3
+Karol Suchan,1,5,2
+Christian Knauer,1,18,1
+Christoph Wagner,1,2,1
+Benjamin Braun,1,3,1
+Kaitlin Bruegge,1,3,1
+Matthew Kahle,1,3,1
+Anna Schmitt,1,1,1
+Tatjana Zec,1,5,1
+Milana Grbi?,1,5,1
+Aleksandar Milosavljevic,1,3,1
+Peter Habermehl,1,32,2
+Gunter Rote,1,18,1
+Jan Martens,1,3,1
+Erik. P. de Vink,1,3,1
+Eric Munday,1,2,1
+Jos C. M. Baeten,1,3,1
+Cesare Carissimo,1,3,1
+John Sylvester,1,6,1
+Daniel Werner,1,18,1
+Margarita Veshchezerova,1,8,1
+Silvia Tondato,1,5,1
+Magnus Baunsgaard Kristensen,1,4,1
+Daniel Gratzer,1,4,1
+Gregory Gutin,1,4,1
+Md Moniruzzaman Emon,1,9,1
+Tareque Rahman Ornob,1,9,1
+Moqsadur Rahman,1,9,1
+Claude Quitt¨¦,1,5,1
+Julian Jakob,1,25,1
+Alexsandro Oliveira Alexandrino,1,5,1
+Andre Rodrigues Oliveira,1,5,1
+Ulisses Dias,1,5,1
+Zanoni Dias,1,5,1
+Dylan McDermott,1,3,1
+Alan Mycroft,1,3,1
+Bal¨¢zs Keszegh,1,1,1
+S. Bardelli,1,12,1
+Claudia Ferretti,1,12,1
+L¨¦onard Brice,1,15,1
+Vladimir V. Kornyak,1,5,1
+David Nowak,1,20,1
+Gustav Grabolle,1,1,1
+Raven Beutner,1,8,1
+Paige Randall North,1,9,2
+Viv M. Kendon,1,3,1
+Sonwabile Mafunda,1,2,1
+Sufiyan Mallu,1,2,1
+Jacopo Emmenegger,1,2,2
+Egbert Rijke,1,76,2
+Tim Kr?uter,1,2,1
+Adrian Rutle,1,2,1
+Harald K?nig,1,2,1
+Yngve Lamo,1,2,1
+Sinan Gultekin,1,1,1
+Achille Globo,1,1,1
+Andrea Zugarini,1,1,1
+Marco Ernandes,1,1,1
+Leonardo Rigutini,1,1,1
+Henri Lombardi,1,5,1
+Shivam Gupta,1,2,1
+Priyansh Agrawal,1,2,1
+Jyoti Meena,1,2,1
+Michel Parigot,1,26,1
+Bjarni V. Halld¨®rsson,1,3,1
+Rodrigo S. C. Leao,1,1,1
+Thibaut Balabonski,1,3,1
+Luca Andrea Ludovico,1,12,1
+Giorgio Presti,1,12,1
+Maurizio Rinaldi,1,12,1
+Valmir C. Barbosa,1,3,2
+Jens Christian Claussen,1,9,4
+Krzysztof Ziemia¨½ski,1,18,2
+Paul Wilson,1,7,1
+Dan Ghica,1,7,1
+Sascha Kurz,1,159,1
+Fran?ois Thir¨¦,1,9,1
+Tom de Jong,1,8,3
+Yacine Amara,1,4,1
+Abdenour Amamra,1,4,1
+Yasmine Daheur,1,4,1
+Lamia Saichi,1,4,1
+Akira Terui,1,21,2
+Tobias Kretz,1,22,1
+Zaid Amin,1,3,1
+Iztok Bani?,1,8,1
+Andrej Taranenko,1,8,1
+Maike Kaufman,1,22,1
+Deepak Kapur,1,5,1
+Tobias Winkler,1,7,1
+Christina Gehnen,1,7,1
+Virender Ranga,1,2,1
+Dirk Tolson III,1,4,1
+Dwight Anderson Williams II,1,4,1
+Nazlena Mohamad Ali,1,3,1
+Alan F. Smeaton,1,3,1
+Youyou Cong,1,3,1
+Chiaki Ishio,1,3,1
+Kaho Honda,1,3,1
+Kenichi Asai,1,3,1
+Andreas Triantafyllopoulos,1,9,1
+Uwe Reichel,1,9,1
+Shuo Liu,1,9,1
+Stephan Huber,1,9,1
+Antoine Lanco,1,3,1
+Guillaume Melquiond,1,3,1
+Emilie Grienenberger,1,9,1
+Gabriel Hondet,1,9,1
+Michael Schreckenberg,1,22,1
+Seulkee Baek,1,19,1
+Mario Carneiro,1,19,1
+Tom¨¢s Aguilar-Fraga,1,4,1
+Jennifer Elder,1,4,1
+Rebecca E. Garcia,1,4,1
+Kimberly P. Hadaway,1,4,1
+Pamela E. Harris,1,4,1
+Kimberly J. Harry,1,4,1
+Imhotep B. Hogan,1,4,1
+Jakeyl Johnson,1,4,1
+Jan Kretschmann,1,4,1
+Kobe Lawson-Chavanu,1,4,1
+J. Carlos Mart¨ªnez Mori,1,4,1
+Casandra D. Monroe,1,4,1
+Daniel Qui?onez,1,4,1
+Kristin E. Lauter,1,30,1
+Katherine E. Stange,1,30,1
+Dmitriy Zhuk,1,2,1
+Sulin Song,1,1,1
+Lan Lei,1,1,1
+Yehong Shao,1,1,1
+Florian Eyben,1,9,1
+Bj?rn W. Schuller,1,9,1
+Vikraman Choudhury,1,5,1
+Janice L. Coen,1,8,1
+Fabio Pasquali,1,2,2
+Fernando Lucatelli Nunes,1,15,1
+Craig C. Douglas,1,8,1
+Benjamin Bisping,1,8,1
+Steffen van Bakel,1,9,2
+Anthony Vodacek,1,8,1
+Lubo? Brim,1,2,1
+Samuel Pastva,1,2,1
+David ?afr¨¢nek,1,2,1
+Giuseppe Di Battista,1,3,1
+Fabrizio Frati,1,3,1
+Jaroslav Bend¨ªk,1,6,1
+Marijn J. H. Heule,1,19,1
+Saeed Shurrab,1,161,1
+Rehab Duwairi,1,161,1
+Zhen Wang,1,8,1
+Masahito Hayashi,1,154,1
+Ghulam Mujtaba,1,3,1
+Ahmad Fayyaz,1,3,1
+Mohammad Farhad Bulbul,1,3,1
+Fazal Wahab Karam,1,3,1
+Ali Zahir,1,3,1
+Michael D. Weiner,1,1,2
+Mostafa Gholami,1,10,1
+Yaser Rowshan,1,10,1
+Luca Ciccone,1,1,1
+R. Lambiotte,1,140,1
+Krasimir Yordzhev,1,4,3
+Yoshiharu Kohayakawa,1,2,1
+Hong-Jian Lai,1,1,1
+Benjamin B?hm,1,18,1
+M. Ausloos,1,140,1
+Jakub R¨®?ycki,1,2,1
+Troy Lee,1,18,1
+Runze Wang,1,5,1
+Spencer Woolfson,1,5,1
+Purandar Bhaduri,1,1,1
+Nikola Bene?,1,2,1
+M. Granitzer,1,1,1
+Jakob von Raumer,1,4,1
+Giuseppe Della Penna,1,1,1
+Dima Ruinskiy,1,23,1
+Niels L¨¹cking,1,3,1
+Matthias Naaf,1,3,1
+Bader Abu Radi,1,15,1
+Ahmet Sencan,1,6,1
+Ebru Aydin Gol,1,6,1
+Ivana ?ern¨¢,1,6,1
+Siham Yousfi,1,7,1
+Maryem Rhanoui,1,7,1
+Dalila Chiadmi,1,7,1
+Daniel Birmajer,1,1,1
+Juan B. Gil,1,1,2
+David S. Kenepp,1,1,1
+Mickael Montassier,1,6,1
+Adi Shamir,1,23,1
+Guram Bezhanishvili,1,1,1
+Jim de Groot,1,10,3
+Elvio G. Amparore,1,67,1
+Paolo Bajardi,1,67,1
+Dieter Spreen,1,1,1
+Boaz Tsaban,1,23,1
+E. Bartocci,1,12,1
+Walid Belkhir,1,13,1
+Fl¨¢vio Keidi Miyazawa,1,2,1
+Philippe Gambette,1,12,1
+¨¹mit I?lak,1,1,2
+St¨¦phane Vialette,1,12,1
+M. Ben Amor,1,1,1
+J. Stier,1,1,1
+Matteo Pradella,1,2,1
+Paul C. Bell,1,1,1
+Pavel Semukhin,1,1,1
+Marthe Bonamy,1,4,1
+Rastislav ?r¨¢mek,1,20,1
+Andrzej Grzesik,1,4,1
+Meike Hatzel,1,4,1
+Bro¨¾a Brejov¨¢,1,20,1
+Jana Novotn¨¢,1,4,1
+Karolina Okrasa,1,4,1
+Rongyu Cao,1,4,1
+Anastas Misev,1,2,1
+Everardo B¨¢rcenas,1,18,1
+Jes¨²s Lavalle,1,18,1
+Tom¨¢? Vina?,1,20,1
+Hoang La,1,6,1
+Masoud Ebrahimi,1,3,1
+Sam Lindley,1,10,1
+J. Garrett Morris,1,10,1
+Stefan Marksteiner,1,3,1
+Michela Quadrini,1,6,1
+Dejan Ni?kovi?,1,3,1
+Michal Koucky,1,2,1
+Vojt¨§ch R?dl,1,2,1
+Navid Talebanfard,1,2,1
+J¨¹rgen Carstensen,1,1,1
+David Gabelaia,1,11,1
+Marc Christophersen,1,1,1
+Bharat Adsul,1,2,1
+Saptarshi Sarkar,1,2,1
+Michele Chiari,1,2,1
+Dino Mandrioli,1,2,1
+Sergiu Langa,1,1,1
+Shibashis Guha,1,14,1
+Isma?l Jecker,1,14,1
+Helmut F?ll,1,1,1
+Heinz Georg Schuster,1,8,1
+Antonio Abu Nassar,1,3,1
+Shaull Almagor,1,3,1
+Prosenjit Bose,1,13,1
+Vida Dujmovi?,1,13,1
+Mehrnoosh Javarsineh,1,13,1
+David R. Wood,1,13,1
+Yixuan Cao,1,4,1
+Ganbin Zhou,1,4,1
+Ping Luo,1,4,1
+Simon Fowler,1,10,1
+Luca Sguanci,1,9,1
+Pietro Lio',1,9,1
+Aleksandra Urman,1,45,1
+Mykola Makhortykh,1,45,1
+Roberto Ulloa,1,45,1
+Dongyu Zhang,1,8,1
+Minghao Zhang,1,8,1
+Ciyuan Peng,1,8,1
+Jason J. Jung,1,8,1
+Feng Xia,1,8,1
+Emir Zunic,1,8,1
+Kemal Korjenic,1,8,1
+Gianluca Grilletti,1,11,1
+Franco Bagnoli,1,9,1
+Milovan Suvakov,1,12,1
+Bosiljka Tadic,1,12,1
+Jonas Costa Ferreira da Silva,1,9,1
+Wray Buntine,1,118,1
+Aleks Jakulin,1,118,1
+Sandra K?nig,1,3,1
+Robin E?mann,1,3,1
+Simon Robillard,1,3,1
+Ujkan Sulejmani,1,3,1
+St¨¦phane Demri,1,4,2
+Damien Busatto-Gaston,1,3,1
+Anna Passarelli,1,1,1
+Maria Silvia Pini,1,1,1
+Muzhaffar Hazman,1,2,1
+Susan McKeever,1,2,1
+Somnath Kundu,1,1,1
+Pawel Pralat,1,1,1
+Josephine Griffith,1,2,1
+Julie Parreaux,1,4,1
+Albert Cheung,1,7,1
+Kwok-Tung Lo,1,7,1
+Pierre Ohlmann,1,10,1
+Dan Plyukhin,1,1,1
+Gul Agha,1,1,1
+Vaibhav Bhat,1,4,1
+Anita Yadav,1,4,1
+Sonal Yadav,1,4,1
+Dhivya Chandrasekaran,1,4,1
+Vijay Mago,1,4,1
+Lorenzo Clemente,1,2,1
+Brendan Guilfoyle,1,5,1
+Rados?aw Pi¨®rkowski,1,2,1
+Sead Delalic,1,8,1
+Zlatko Subara,1,8,1
+Joseph W. N. Paulus,1,3,1
+Niels Gr¨¹ttemeier,1,4,2
+Christian Komusiewicz,1,4,2
+Frank Sommer,1,4,2
+Wilhelm Klingenberg,1,5,1
+A Vinay,1,2,1
+Aviral Joshi,1,2,1
+Hardik Mahipal Surana,1,2,1
+Harsh Garg,1,2,1
+K N BalasubramanyaMurthy,1,2,1
+S Natarajan,1,2,1
+Tahmid Hasan Pranto,1,98,1
+Abdulla All Noman,1,98,1
+Atik Mahmud,1,98,1
+R. S. C. Leao,1,2,1
+Andr¨¦ Schrottenloher,1,6,1
+Jan Dreier,1,2,1
+Ali Mansouri,1,9,1
+Mohamed Salim Bouhlel,1,9,1
+Bing Wang,1,1,1
+Yao-hua Meng,1,1,1
+Xiao-hong Yu,1,1,1
+Melissa Keranen,1,5,1
+Juho Lauri,1,5,1
+Chunlai Zhou,1,3,1
+Edsko DeVries,1,2,1
+Leszek Aleksander Kolodziejczyk,1,20,1
+Marie Kerjean,1,5,1
+Myrto Arapinis,1,6,1
+Steve Kremer,1,6,1
+Bojana Koteska,1,2,1
+Chengqing Li,1,19,1
+Nils Jakob Eckstein,1,1,1
+V¨¢clav Bla?ej,1,3,1
+AKM Bahalul Haque,1,98,1
+Ming Ng,1,4,1
+Steven Vickers,1,4,1
+Dan Zhang,1,19,1
+Jan Philipp W?chter,1,5,2
+Martin Zach,1,6,1
+Thomas Pock,1,6,1
+Erich Kobler,1,6,1
+Antonin Chambolle,1,6,1
+Franziskus Wiesnet,1,3,2
+Paolo Pellizzoni,1,3,1
+Andrea Pietracaprina,1,3,1
+Benno van den Berg,1,1,1
+Robert Passmann,1,1,1
+Samuel Olatunji,1,6,1
+Geppino Pucci,1,3,1
+Sulabh Katiyar,1,22,1
+Marthinus W. Theunissen,1,4,2
+James Hsin-yu Chiang,1,52,1
+Alberto Lluch-Lafuente,1,52,1
+Noa Markfeld,1,6,1
+Dana Gutman,1,6,1
+Shay Givati,1,6,1
+Vardit Sarne-Fleischmann,1,6,1
+Tal Oron-Gilad,1,6,1
+Yael Edan,1,6,1
+Marie Farrell,1,1,1
+James F. Power,1,1,1
+Lukas Tuggener,1,23,1
+J¨¹rgen Schmidhuber,1,23,1
+Thilo Stadelmann,1,23,1
+Vseslav Kasatskii,1,2,1
+David Sch?gler,1,3,1
+Stefan Dantchev,1,3,1
+Nicola Galesi,1,3,1
+Abdul Ghani,1,3,1
+Pavel Dvo?¨¢k,1,3,1
+Philipp Eisner,1,3,1
+Anja Petkovi? Komel,1,3,1
+Gregory Artus,1,9,1
+Siddarth Ganesh,1,4,1
+Ram Gurumoorthy,1,4,1
+Atif Ikram,1,2,1
+Masita Abdul Jalil,1,2,1
+Amir Bin Ngah,1,2,1
+Ahmad Salman Khan,1,2,1
+Tahir Iqbal,1,2,1
+Fran?ois-Marie Le R¨¦gent,1,35,1
+Zain Saleem,1,35,1
+Yuri Alexeev,1,35,1
+Martin Suchara,1,35,1
+Samuel Sprung,1,3,1
+Thomas Schober,1,3,1
+Mathias R. Pedersen,1,2,1
+Sebastian Chlup,1,3,1
+Manon Stipulanti,1,2,1
+Christoph Schmittner,1,3,1
+Timofey Bryksin,1,2,1
+Dun Ma,1,14,1
+Reed Oei,1,14,1
+Luke Schaeffer,1,14,1
+Christian Schulz,1,14,1
+Luca Reggio,1,12,1
+Willem Louw Fouch¨¦,1,9,1
+Safari Mukeru,1,9,1
+Kassandra Friebe,1,4,1
+Kristina Malinovska,1,4,1
+Julien Lange,1,1,1
+Sabina Samporova,1,4,1
+Rebecca Smith,1,1,2
+Jessica Striker,1,31,2
+Ali K. Caires-Santos,1,1,1
+¨¦douard Bonnet,1,38,1
+Matej Hoffmann,1,4,1
+Edith Heiter,1,3,1
+Sebastian Siebertz,1,38,1
+Sittipong Thamrongpairoj,1,2,1
+Bo Kang,1,3,1
+Thomas Ayral,1,35,1
+Peder Blomgren,1,12,1
+Luciano Floridi,1,12,1
+Marwane Ayaida,1,1,1
+Hichem Sedjelmaci,1,1,1
+Ruth Seurinck,1,3,1
+Mark Weyer,1,21,2
+Eric Allender,1,15,1
+Luke Friedman,1,15,1
+Bruno Loff,1,15,1
+Jakub Bul¨ªn,1,25,1
+Dejan Delic,1,25,1
+Marcel Jackson,1,25,1
+Todd Niven,1,25,1
+Jancar Petr,1,7,1
+Ming-Hsien Tsai,1,46,1
+Yih-Kuen Tsay,1,46,1
+Nathan Lhote,1,7,2
+Makai Mann,1,8,1
+Ahmed Irfan,1,8,1
+Oded Padon,1,8,1
+Jefrey Lijffijt,1,3,1
+Maribel Fern¨¢ndez,1,8,3
+Mayowa Akinwande,1,1,1
+Alexander Lopez,1,1,1
+Tobi Yusuf,1,1,1
+Austine Unuriode,1,1,1
+Babatunde Yusuf,1,1,1
+Toyyibat Yussuph,1,1,1
+Stanley Okoro,1,1,1
+Jakob M?kander,1,12,1
+Margi Sheth,1,12,1
+Mimmi Gersbro-Sundler,1,12,1
+Sourangshu Ghosh,1,1,1
+Eldar Sultanow,1,1,1
+Nevin Vunka Jungum,1,2,2
+Nawaz Mohamudally,1,2,2
+Nimal Nissanke,1,2,2
+Chaimaa Khalfi,1,1,1
+Kamilia Brahimi,1,1,1
+Bochra Khelil,1,1,1
+Sanaa Bouchama,1,1,1
+Panagiotis Kourtesis,1,70,1
+Danai Korre,1,70,1
+Simona Collina,1,70,1
+Leonidas A. A. Doumas,1,70,1
+Sarah E. MacPherson,1,70,1
+Pierre Mckenzie,1,5,1
+L¨¦o Exibard,1,20,2
+Firas Omar,1,4,1
+Mohammed Almousa,1,4,1
+Mohammad Rasmi Al-Mousa,1,11,1
+Sana Haimour,1,4,1
+Mohammad Rasmi AL-Mousa,1,4,1
+Rashiq R. Marie,1,4,1
+John Hawkins,1,1,1
+Mathieu Huot,1,15,1
+Kostia Chardonnet,1,2,1
+Tiantian Chen,1,7,1
+Bin Liu,1,7,1
+Wenjing Liu,1,7,1
+Qizhi Fang,1,7,1
+Jing Yuan,1,7,1
+Weili Wu,1,7,1
+Darrell Cox,1,1,1
+Ankush Das,1,11,1
+Khan Md. Hasib,1,93,1
+Md. Sadiq Iqbal,1,93,1
+Faisal Muhammad Shah,1,93,1
+Jubayer Al Mahmud,1,93,1
+Mahmudul Hasan Popel,1,93,1
+Md. Imran Hossain Showrov,1,93,1
+Alexis Saurin,1,2,2
+Marcin Przyby?ko,1,12,1
+Marcelo P. Fiore,1,11,1
+No¨¦ Cecillon,1,17,1
+Richard Dufour,1,17,1
+Georges Linares,1,17,1
+Katrin Casel,1,16,1
+Markus L. Schmid,1,16,1
+Ahmad Nabot,1,4,1
+Alexander Kozachinskiy,1,1,1
+Giorgio Audrito,1,5,1
+Beno?t Valiron,1,2,1
+Tim Seppelt,1,14,1
+Maximilian Kotowsky,1,1,1
+Sebastian Biewer,1,5,1
+Rayna Dimitrova,1,5,1
+Michael Fries,1,5,1
+Maciej Gazda,1,5,1
+Thomas Neele,1,4,1
+Mark Zhandry,1,5,1
+Gizem ?aylak,1,4,1
+Fredrik Ronquist,1,4,1
+Kalle Alaluusua,1,3,1
+Stefano Mariani,1,20,1
+Franco Zambonelli,1,20,1
+Achraf Ben Miled,1,2,1
+Fatemeh Davami,1,14,1
+Gamal Abd El-Nasser A. Said,1,83,1
+Abeer M. Mahmoud,1,83,1
+El-Sayed M. El-Horbaty,1,83,1
+Mahdie Haddadi,1,9,1
+Tahereh Jafarikhah,1,9,1
+Nazanin Tavana-Roshandel,1,8,1
+Gianluigi Bellin,1,17,1
+Sumit Nain,1,10,1
+Yoad Lustig,1,10,1
+Moshe Y Vardi,1,10,1
+Karol P?k,1,20,1
+Friedrich Neurauter,1,2,1
+Shakil Ahmed,1,93,1
+Obaidur Rahman,1,93,1
+Yufei Tao,1,7,1
+Thomas Heinze,1,5,1
+Mohammad Reza Mousavi,1,5,1
+Eric S. Pahl,1,2,1
+W. Nick Street,1,2,1
+Hans J. Johnson,1,2,1
+Alan I. Reed,1,2,1
+Shiyao Cui,1,8,1
+Bowen Yu,1,8,1
+Xin Cong,1,8,1
+Tingwen Liu,1,8,1
+Quangang Li,1,8,1
+Jinqiao Shi,1,8,1
+Matteo Acclavio,1,10,1
+Konstantin Avrachenkov,1,4,2
+B. R. Vinay Kumar,1,3,1
+Andrew W Swan,1,1,1
+Jonatas S. de Souza,1,6,1
+Taoufik Yeferny,1,2,1
+Amira ben Rabeh,1,2,1
+Eleni Bila,1,4,1
+John Derrick,1,4,1
+Simon Doherty,1,4,1
+Gerhard Schellhorn,1,4,1
+Heike Wehrheim,1,4,1
+Peter Lindner,1,17,1
+Igor Konnov,1,2,1
+Marijana Lazi?,1,2,1
+Ilina Stoilkovska,1,2,1
+Josef Widder,1,2,1
+Bas Ketsman,1,7,1
+Lasse Leskel?,1,3,1
+Vahan Mkrtchyan,1,6,1
+Nihad Karim Chowdhury,1,56,1
+Muhammad Ashad Kabir,1,56,1
+Md. Muhtadir Rahman,1,56,1
+Noortaz Rezoana,1,56,1
+Yo Mitani,1,1,1
+Stefano Lande,1,8,1
+Alex Alochukwu,1,7,1
+Ronald de Wolf,1,61,1
+Rick Erkens,1,2,1
+Clemens Dubslaff,1,3,1
+Agnia Sergeyuk,1,2,1
+Mario Alvarez-Picallo,1,7,1
+Anastasiia Serova,1,2,1
+Alexander Bentkamp,1,19,1
+Visa Nummelin,1,19,1
+Bassam Hammo,1,50,1
+Nadim Obeid,1,50,1
+Jabir Widian,1,50,1
+Sergey Titov,1,2,1
+Arti Pandey,1,2,1
+Jair M. Abe,1,6,1
+Luiz A. de Lima,1,6,1
+Nilson A. de Souza,1,6,1
+Karsten Wolf,1,47,1
+Harro Wimmel,1,47,1
+Amira. A. Elsonbaty,1,14,1
+Mahmoud Shams,1,14,1
+Md. Zahurul Haque,1,1,1
+Md. Rafiqul Isla,1,1,1
+J¨¦r¨¦my Dubut,1,1,1
+Hanna Furma¨½czyk,1,6,1
+Nico Van Cleemput,1,2,1
+Endre T¨®th,1,1,1
+Tam¨¢s Waldhauser,1,1,1
+Julien Baste,1,3,2
+Stefan Ehard,1,1,1
+Dieter Rautenbach,1,7,2
+Paul Wild,1,18,1
+Darij Grinberg,1,3,1
+Angsuman Das,1,2,1
+Hiranya Kishore Dey,1,2,1
+Kazuhisa Fujita,1,5,1
+Gilles Geeraerts,1,4,1
+Axel Haddad,1,4,1
+Engel Lefaucheux,1,4,1
+Doron Tiferet,1,2,1
+Mohammad Fasha,1,50,1
+Josef Rukavicka,1,1,1
+Tanmay Bhattacharya,1,72,1
+Niklas T?tsch,1,20,1
+Daniel Hoffmann,1,20,1
+A. Jurcut,1,94,1
+T. Niculcea,1,94,1
+P. Ranaweera,1,94,1
+A. LeKhac,1,94,1
+Nilanjan Dey,1,72,1
+Vikash Tripathi,1,2,1
+Daniel Carranza,1,1,1
+Jonathan Chang,1,1,1
+Ryan Sandford,1,1,1
+S. R. Bhadra Chaudhuri,1,72,1
+Gunnar Brinkmann,1,2,1
+Thomas Tucker,1,2,1
+Lo?c Dubois,1,4,1
+Simone Martini,1,60,1
+Guillem Perarnau,1,4,1
+Marcin Pilipczuk,1,4,2
+Jinghua Yu,1,4,1
+Feng Luo,1,4,1
+Carlos Camino,1,2,1
+Besik Dundua,1,2,1
+Mircea Marin,1,2,1
+Travis Dillon,1,2,1
+Attila Sali,1,2,1
+Cameron Calk,1,3,1
+Philippe Malbos,1,3,1
+Adam ¨® Conghaile,1,19,1
+Wonchan Lee,1,25,1
+Yungbum Jung,1,25,1
+Lucas N. Alegre,1,14,1
+Ana L. C. Bazzan,1,14,1
+Bruno C. da Silva,1,14,1
+Lan Chen,1,14,1
+Juntao Ye,1,14,1
+Xiaopeng Zhang,1,14,1
+Jan Kraj¨ª?ek,1,1,2
+Bow-yaw Wang,1,25,1
+Kwangkuen Yi,1,25,1
+¨¦tienne Lozes,1,3,1
+Alessio Mansutti,1,3,1
+Laura Bozzelli,1,14,1
+Alberto Molinari,1,14,1
+Thierry J¨¦ron,1,36,1
+Adriano Peron,1,14,1
+Am¨¦lie Stainer,1,36,1
+Moez Krichen,1,36,1
+Charles H. Bennett,1,4685,1
+Marc de Visme,1,2,1
+Firouz Abdullah Al-Wassai,1,15,1
+Dr. N. V. Kalyankar,1,15,1
+Yannick Forster,1,5,1
+Milad Taleby Ahvanooey,1,55,1
+Qianmu Li,1,55,1
+Mahdi Rabbani,1,55,1
+Ahmed Raza Rajput,1,55,1
+G¨¦raud S¨¦nizergues,1,2,1
+J?rg Brauer,1,22,1
+Olivier H. Roux,1,4,1
+Zixuan Hu,1,2,1
+Pengbo Bo,1,2,1
+Nikolai K?fer,1,3,1
+Zoltan Galaz,1,1,1
+Roy Overbeek,1,5,2
+Irawan Nurhas,1,4,1
+Bayu Rima Aditya,1,4,1
+Stefan Geisler,1,4,1
+Jan Pawlowski,1,4,1
+Nicholas Asher,1,9,1
+Soumya Paul,1,9,1
+Chris Russell,1,9,1
+Agnishom Chattopadhyay,1,15,1
+Jiri Mekyska,1,8,2
+Carlos Areces,1,2,1
+Raul Fervari,1,2,1
+Ahmed Maalel,1,5,1
+Henda Ben Gh¨¦zala,1,5,1
+Jan Mucha,1,1,1
+Marek Tesa?,1,16,1
+Mingzhong Cai,1,10,1
+Rodney G Downey,1,10,1
+Rachel Epstein,1,10,1
+Steffen Lempp,1,10,1
+Joseph Miller,1,10,1
+Alain Giorgetti,1,30,1
+Anil Nerode,1,26,1
+Olov Wilander,1,23,1
+¨¦ric Fleury,1,44,1
+Dennis Guck,1,36,1
+Hassan Hatefi,1,36,1
+Mark Timmer,1,36,1
+Reza Azad,1,14,1
+Yuan Li,1,55,2
+Vojtech Zvoncak,1,1,1
+Zdenek Smekal,1,1,1
+Marc Hellmuth,1,6,1
+Carsten R. Seemann,1,6,1
+Peter F. Stadler,1,6,1
+Lubos Brabenec,1,1,1
+Michael Joseph,1,9,1
+Tom Roby,1,9,1
+Hui Rao,1,3,1
+Lei Ren,1,3,1
+Saira Khan,1,12,1
+Safi Faizullah,1,12,1
+Muhammad Fahad,1,12,1
+Jawad Ali,1,12,1
+Waqas Ahmed,1,12,1
+Pim van 't Hof,1,16,1
+Dani?l Paulusma,1,16,1
+Blagoj Nenovski,1,2,1
+Igor Nedelkovski,1,2,1
+Mateus de Oliveira Oliveira,1,4,1
+Ivona Moravkova,1,1,1
+Carine Khalil,1,14,1
+Vincent Vajnovszki,1,14,1
+Frederik Meyer B?nneland,1,10,1
+Peter Gj?l Jensen,1,10,1
+Irena Rektorova,1,1,1
+Marco Mu?iz,1,10,1
+Artem Ryzhikov,1,12,1
+Maxim Borisyak,1,12,2
+Andrey Ustyuzhanin,1,12,2
+Denis Derkach,1,12,1
+N. Karjanto,1,4,1
+Michael Albert,1,7,4
+Louis Dublois,1,4,1
+Vangelis Th. Paschos,1,4,1
+V¨ªt Jel¨ªnek,1,2,2
+Henning Ulfarsson,1,3,2
+Martin E. Bidlingmaier,1,6,1
+Florian Faissole,1,6,1
+Raoul Heese,1,5,1
+Sascha M¨¹cke,1,5,1
+Matthias Jakobs,1,5,1
+Thomas Sibut-Pinote,1,6,1
+Chunyan Yan,1,19,1
+Zhicong Lin,1,19,1
+Thore Gerlach,1,5,1
+D¨¢vid K¨®sz¨®,1,9,1
+Nico Piatkowski,1,5,1
+Mariusz Grabowski,1,1,1
+John Stephen Cruz,1,83,1
+Mark Angelo Gomez,1,83,1
+Benjamin Jr. Molina,1,83,1
+Lyndon Tuala,1,83,1
+Elena Mart¨ªn-Gonz¨¢lez,1,7,1
+Ebraham Alskaf,1,7,1
+Roc¨¬o Cabrera Lozoya,1,45,1
+Arnaud Baumann,1,45,1
+Izabela Krejtz,1,52,1
+Fabrizio Borgia,1,35,1
+Claudia Bianchini,1,35,1
+Maria de Marsico,1,35,1
+Qi-xin Liu,1,4,1
+Ze-cheng Huang,1,4,1
+Chi Ho Yeung,1,4,1
+Amedeo Chiribiri,1,7,1
+Nilo Arago,1,13,1
+Ira C. Valenzuela,1,3,1
+Lean Karlo S. Tolentino,1,3,1
+Ronnie O. Serfa Juan,1,3,1
+Youling Yue,1,1,1
+Di Li,1,1,1
+Pablo Casaseca-de-la-Higuera,1,7,1
+Carlos Alberola-L¨®pez,1,7,1
+Sukhada Chokkadi,1,25,1
+Sannidhan M S,1,25,1
+Sudeepa K B,1,25,1
+Abhir Bhandary,1,25,1
+Rita G Nunes,1,7,1
+Cherry Pascion,1,83,1
+Jean Wilmar Alberio,1,83,1
+Jonathan Apuang,1,83,1
+Bin Wang,1,1,1
+Jun Shen,1,1,1
+Shutao Zhang,1,1,1
+Zhizheng Zhang,1,1,1
+Teresa M Correia,1,7,1
+Neil Thapen,1,10,1
+Johannes Doleschal,1,21,1
+Maria Nesterova,1,2,1
+Antonino Sabetta,1,45,1
+Michele Bezzi,1,45,1
+Bruno Bentzen,1,3,1
+Alfred Keanu Serut,1,12,1
+Rayn Louise Torrejos,1,12,1
+Keenan Dave Rivo,1,12,1
+Erwin John Domingo,1,13,1
+Ricca May Reyes,1,13,1
+Claudson F. Bornstein,1,6,1
+Martin Charles Golumbic,1,6,1
+Tanilson D. Santos,1,6,1
+Alexey Skrynnik,1,2,1
+Jayme L. Szwarcfiter,1,6,1
+Geoff Hamilton,1,2,1
+Bert Lindenhovius,1,10,1
+Vladimir Zamdzhiev,1,10,1
+Mikhail Raskin,1,18,1
+Raheel Anwar,1,2,1
+Muhammad Irfan Yousuf,1,2,1
+Muhammad Abid,1,2,1
+Cristian Ene,1,2,1
+Laurent Mounier,1,2,1
+Marie-Laure Potet,1,2,1
+Aleksandr Panov,1,2,1
+G¨¹lnaz Boruzanl? Ekinci,1,1,1
+John Baptist Gauci,1,1,1
+Sulaf Elshaar,1,5,1
+Samira Sadaoui,1,5,1
+V. Dave,1,6,1
+E. Filiot,1,6,1
+S. Krishna,1,6,1
+N. Lhote,1,6,1
+Liat Peterfreund,1,21,1
+Luca Calderoni,1,1,1
+Dario Maio,1,1,1
+Paolo Palmieri,1,1,1
+M. Alex O. Vasilescu,1,2,1
+Jonathan Klawitter,1,4,2
+Tom Shlomi,1,2,1
+M. Praveen,1,7,2
+Marcus Liwicki,1,6,1
+Debayan Chakraborty,1,27,1
+Markus A. Whiteland,1,4,1
+Jan Bydzovsky,1,10,1
+Anurag Singh,1,27,1
+Wenjie Hao,1,4,1
+Michael D. Barrus,1,4,2
+Wanthanee Rathasamuth,1,7,1
+Jan K?et¨ªnsky,1,21,1
+Tobias Meggendorfer,1,21,1
+Tian Wang,1,4,1
+Shiye Lei,1,4,1
+Youyou Jiang,1,4,1
+Choi Chang,1,4,1
+Hichem Snoussi,1,4,1
+Guangcun Shan,1,4,1
+Gabriel Le Bouder,1,3,1
+¨¦va Czabarka,1,13,1
+Trevor Olsen,1,13,1
+L¨¢szl¨® A. Sz¨¦kely,1,13,1
+Xin Yang,1,16,1
+Wenbo Hu,1,16,1
+Dawei Wang,1,16,1
+Lijing Zhao,1,16,1
+Baocai Yin,1,16,1
+Patryk Mikos,1,4,1
+Daniel J. Rosenkrantz,1,7,1
+Madhav V. Marathe,1,7,1
+S. S. Ravi,1,7,1
+Richard E. Stearns,1,7,1
+Eissa Alreshidi,1,90,1
+Tosin P. Adewumi,1,6,1
+Milad Aghajohari,1,16,1
+Guy Avni,1,16,1
+Luz Angela Aristizabal Q,1,347,1
+Nicol¨¢s Toro G,1,347,1
+Hongfei Xu,1,4,1
+Isabelle Marthot-Santaniello,1,6,1
+Aline Goeminne,1,27,1
+Martin Mayr,1,7,2
+Michele Contente,1,6,1
+Anguelos Nicolaou,1,7,2
+Laurent Thery,1,8,1
+Holger Thies,1,8,1
+Kitsuchart Pasupa,1,7,1
+Sissades Tongsima,1,7,1
+L¨¦lia Blin,1,3,1
+Laurent Feuilloley,1,3,1
+Steven Chaplick,1,16,1
+Ji?¨ª Fiala,1,16,1
+Mathias Seuret,1,7,2
+Mathias Ramparison,1,7,1
+Leopoldo Bertossi,1,59,1
+Moshe Sebag,1,59,1
+Julian Stier,1,24,1
+Gabriele Gianini,1,24,1
+Michael Granitzer,1,24,1
+Konstantin Ziegler,1,24,1
+Alessandro Poggiali,1,22,1
+Alessandro Berti,1,22,1
+Ilias Garnier,1,19,1
+Qiang Zhang,1,16,1
+Xiaopeng Wei,1,16,1
+Hongbo Fu,1,16,1
+Lars-Henrik Eriksson,1,27,1
+Ram¨±nas Forsberg Gutkovas,1,27,1
+Tjark Weber,1,27,1
+Anna Bernasconi,1,22,1
+Gianna M. Del Corso,1,22,1
+El Ahmadi Cheikh,1,47,1
+Ralph Ewerth,1,3,2
+Lingling Mu,1,4,1
+Frank De Boer,1,22,1
+Mahdi Jaghoori,1,22,1
+Cosimo Laneve,1,22,1
+Jakub Gajarsky,1,10,1
+Pattama Longani,1,347,1
+Keivan Borna,1,9,1
+Vahid Haji Hashemi,1,9,1
+Ingo Battenfeld,1,5,1
+Anna Lubiw,1,16,1
+Zuzana Mas¨¢rov¨¢,1,16,1
+Debajyoti Mondal,1,16,1
+Anurag Murty Naredla,1,16,1
+Murray Tannock,1,4,2
+J. Leroux,1,7,1
+Ph. Schnoebelen,1,7,1
+G. Sutre,1,7,1
+Sulaiman Khan,1,20,1
+Zahid Ullah,1,20,1
+Nasru Minallah,1,20,1
+Shahid Maqsood,1,20,1
+Abdul Hafeez,1,20,1
+Juan S. Auli,1,21,1
+Hongying Zan,1,4,1
+Enrica Duchi,1,6,1
+Tina Popp,1,24,1
+Henning Fernau,1,7,1
+Tanweer Alam,1,76,1
+Naiomi T. Cameron,1,9,1
+Maria Pittou,1,2,1
+George Rahonis,1,2,1
+Aleksejs Naumovs,1,1,1
+Maksims Dimitrijevs,1,1,1
+Abuzer Yakary?lmaz,1,2,4
+Samuel Braunfeld,1,16,1
+Tim Smith,1,1,1
+Robert Furber,1,11,1
+Kevin Mann,1,7,1
+Utkarsh Padariya,1,7,1
+Ahmad Biniaz,1,16,1
+Kshitij Jain,1,16,1
+Jules Chouquet,1,6,1
+Lionel Vaux Auclair,1,6,1
+Rajath Rao K. N,1,7,1
+Tesshu Hanaka,1,6,1
+Josef Tkadlec,1,16,1
+Alexi Turcotte,1,16,1
+Gr¨¦goire Sutre,1,70,1
+Pierre-Malo Denielou,1,137,1
+Roberto Carrasco,1,11,1
+Raimundo Vega,1,11,1
+Crist¨®bal A. Navarro,1,11,1
+Andi Bejleri,1,137,1
+Miikka Vilander,1,5,1
+Ali Abdullah Alkhaldi,1,7,1
+Raymond Hu,1,137,1
+Simon Kramer,1,6,1
+A. Laura Voinea,1,1,1
+Simon J. Gay,1,23,2
+Michael D. Ekstrand,1,4,1
+Joseph A. Konstan,1,4,1
+Kendra Killpatrick,1,9,1
+Mauricio Ayala-Rinc¨®n,1,6,1
+Michael Adam Lones,1,67,1
+Eric Duch¨ºne,1,2,1
+Pawel Parys,1,9,1
+Jacob Thamsborg,1,7,1
+Simon Huber,1,8,1
+Kristian St?vring,1,158,1
+Andreas Krebs,1,9,1
+Kamal Lodaya,1,9,1
+Paritosh K. Pandya,1,9,1
+Atish Das Sarma,1,149,1
+Doost Ali Mojdeh,1,3,1
+Anisur Rahaman Molla,1,149,1
+Babak Samadi,1,3,1
+Gopal Pandurangan,1,149,1
+Jannik Schestag,1,3,1
+Florent Delgrange,1,11,1
+Alexi Block Gorman,1,8,1
+Elliot Kaplan,1,8,1
+Ruoyu Meng,1,8,1
+Ioannis Katsikarelis,1,6,1
+Sa¨²l A. Blanco,1,5,1
+Charles Buehrle,1,5,1
+Akshay Patidar,1,5,1
+Tomasz Brengos,1,19,2
+Eli Upfal,1,149,1
+Ramunas Forsberg Gutkovas,1,1,1
+Tianlong Ma,1,2,1
+Lubomira Balkova,1,8,1
+Xizhong Zheng,1,6,1
+Christopher Melekian,1,2,1
+Linas Vepstas,1,2,1
+Batya Kenig,1,16,1
+Houda Kriouile,1,2,1
+Bouchra El Asri,1,2,1
+Nelly Elsayed,1,66,1
+Anthony S. Maida,1,66,1
+Magdy Bayoumi,1,66,1
+Arturo Carpi,1,2,1
+Andr¨¢s Kov¨¢cs,1,17,1
+Mirai Ikebuchi,1,3,1
+Keisuke Nakano,1,3,1
+L¨º Th¨¤nh D?ng Nguy¨ºn,1,4,1
+Erik Slivken,1,6,2
+Steve DiPaola,1,34,1
+Graeme McCaig,1,34,1
+Winfried Hochst?ttler,1,3,2
+Felix Schr?der,1,3,1
+Raphael Steiner,1,3,1
+Liehuang Zhu,1,23,1
+Baokun Zheng,1,23,1
+Meng Shen,1,23,1
+Shui Yu,1,23,1
+Feng Gao,1,23,1
+Erik Walsberg,1,8,1
+Zihe Wang,1,8,1
+Ziqin Xiong,1,8,1
+Hongru Yang,1,8,1
+Flavio D'Alessandro,1,2,1
+Christopher A. Trotter,1,1,1
+Audace A. V. Dossou-Olory,1,4,1
+Grover Walters,1,4,1
+Ariel Noyman,1,42,1
+Tobias Holtz,1,42,1
+Johannes Kroger,1,42,1
+Jorg Rainer Noennig,1,42,1
+Kent Larson,1,42,1
+Cornelius Steinbrink,1,1,1
+Arjen A. van der Meer,1,1,1
+Milos Cvetkovic,1,1,1
+Davood Babazadeh,1,1,1
+Sebastian Rohjans,1,1,1
+Suguman Bansal,1,15,1
+Swarat Chaudhuri,1,15,1
+Pasquale De Rosa,1,3,1
+Peter Palensky,1,1,1
+Sebastian Lehnhoff,1,1,1
+Tom van Bussel,1,2,1
+Matias David Lee,1,2,1
+Prashanth Gurunath Shivakumar,1,23,1
+Panayiotis Georgiou,1,23,1
+Rainer Niedermayr,1,5,1
+Tobias R?hm,1,5,1
+Vsevolod Rakita,1,5,1
+Guilherme de C. M. Gomes,1,21,1
+Carlos V. G. C. Lima,1,21,1
+Vin¨ªcius F. dos Santos,1,21,1
+M¨¦lodie Lapointe,1,2,1
+Hongyu Li,1,23,1
+Kexin Shi,1,23,1
+Keke Gai,1,23,1
+Traian Florin Serbanuta,1,60,1
+Dun Qiu,1,7,2
+Wim Vanroose,1,1,1
+Stefan Schulze Frielinghaus,1,1,1
+Michael Petter,1,1,1
+Helmut Seidl,1,1,1
+Kahina Meslem,1,7,1
+Simon Schmidt,1,7,1
+Souad Slimani,1,7,1
+Bishoy Moussa,1,2,1
+Mahmoud Mostafa,1,2,1
+Mahmoud El-Khouly,1,2,1
+Lawrence Nehemiah,1,10,1
+Quentin Menet,1,49,1
+Marcus Groesser,1,49,1
+Clemens Ley,1,9,1
+Fer-Jan de Vries,1,32,2
+Sayed Chhattan Shah,1,3,1
+Alexandre Talon,1,10,1
+Dominique Andres,1,8,1
+Edwin Lock,1,8,1
+Jesse Beisegel,1,12,1
+Carolin Denkert,1,12,1
+Ekkehard K?hler,1,12,1
+Matja? Krnc,1,12,1
+Nevena Piva?,1,12,1
+Robert Scheffler,1,12,1
+Martin Strehler,1,12,1
+Andrei Stefanescu,1,60,1
+Stefan Ciobaca,1,60,1
+Radu Mereuta,1,60,1
+Brandon Moore,1,60,1
+Florian Rupp,1,2,1
+?ukasz Merta,1,1,1
+Jeffrey Remmel,1,1,2
+Narda Cordero-Michel,1,5,1
+Benjamin Schnabel,1,2,1
+Youshan Zhang,1,11,1
+Liangdong Guo,1,11,1
+Qi Li,1,11,1
+Junhui Li,1,11,1
+Rafael Araujo,1,6,1
+Eurinardo Costa,1,6,1
+Kai Eckert,1,2,1
+Rudini Sampaio,1,6,1
+Ueverton S. Souza,1,6,1
+Matthew Coudron,1,7,1
+Amin Shiraz Gilani,1,7,1
+Aleksander Vesel,1,13,1
+Luc Boasson,1,6,1
+Adrita Barua,1,9,1
+Cara Widmer,1,9,1
+Martin Bullinger,1,12,1
+M. E. Messinger,1,10,2
+Marija Prokopijevi?,1,1,1
+Aleksandar Stan?i?,1,1,1
+Jelena Vasiljevi?,1,1,2
+?eljko Stojkovi?,1,1,1
+Goran Dimi?,1,1,1
+Jelena Sopta,1,1,1
+Dalibor Risti?,1,1,1
+Dhinaharan Nagamalai,1,1,2
+Alejandro Contreras-Balbuena,1,10,1
+Ilan A. Goldfeder,1,10,1
+Ynte Vanderhoydonc,1,1,1
+Owen Lynch,1,1,1
+Kris Brown,1,1,1
+James Fairbanks,1,1,1
+Evan Patterson,1,1,1
+M. Soheil Shamaee,1,2,1
+S. Fathi Hafshejani,1,2,1
+Z. Saeidian,1,2,1
+Gustavo Bartz Guedes,1,1,1
+Quentin Delfosse,1,18,1
+Arnaud P¨ºcher,1,8,1
+Antoine S¨¦dillot,1,8,1
+Octavio A. Agust¨ªn-Aquino,1,1,1
+Guerino Mazzola,1,1,1
+Erwin Engeler,1,2,1
+Danilo Korze,1,13,1
+David Gil,1,1,1
+David P. Woodruff,1,1175,1
+Thomas Martin Gawlitza,1,16,1
+Laurence Tratt,1,7,1
+Christian Haack,1,52,1
+Marieke Huisman,1,52,1
+Cl¨¦ment Hurlin,1,52,1
+Afshin Amighi,1,52,1
+Alexander Heussner,1,70,1
+Chris Thachuk,1,18,1
+Simo Alami C.,1,1,1
+Paul Kim Long V. Nguyen,1,5,1
+Jason Rute,1,5,1
+Andrea Turrini,1,6,1
+Ines Marusic,1,8,1
+Ulrich Sch?pp,1,13,1
+J¨¦r¨¦mie Decock,1,1,1
+Robin Cockett,1,12,1
+Ana Estela Antunes da Silva,1,1,1
+Matteo Capucci,1,2,1
+Bruno Gavranovi?,1,2,1
+Abdullah Malik,1,2,1
+Francisco Rios,1,2,1
+Jonathan Weinberger,1,3,2
+Celina Kacperski,1,6,1
+Tobias Vogel,1,6,1
+Florian Kutzner,1,6,1
+Antonio Ferr¨¢ndez,1,1,1
+Roc¨ªo Lavigne-Cerv¨¢n,1,1,1
+Jes¨²s Peral,1,1,1
+Ignasi Navarro-Soria,1,1,1
+¨¢ngel Lloret,1,1,1
+Michael Wooldridge,1,15,1
+Giacomo Kahn,1,12,1
+Matthieu Rosenfeld,1,12,1
+Ville Junnila,1,5,2
+Carmen Rocamora,1,1,1
+Diane Castonguay,1,2,1
+Erika M. M. Coelho,1,2,1
+Hebert Coelho,1,2,1
+Julliano R. Nascimento,1,2,1
+Salih Durhan,1,2,2
+Guido Sciavicco,1,6,3
+Dimitris Mostrous,1,23,1
+Wolfgang Stammer,1,18,1
+Emma Kerinec,1,23,1
+Thomas Rothenbacher,1,18,1
+Dwarak Vittal,1,18,1
+Jinn-Shyong Yang,1,35,1
+?ukasz Czajka,1,9,2
+Marisa Gaetz,1,6,1
+Valeria Vignudelli,1,9,1
+Hongliang Lu,1,3,2
+Qinglin Yu,1,1,1
+Neslihan Suzen,1,75,1
+Alexander Gorban,1,75,1
+Jeremy Levesley,1,75,1
+Evgeny Mirkes,1,75,1
+Cole Comfort,1,12,1
+Priyaa Srinivasan,1,12,1
+Inanc Seylan,1,25,1
+Julian Gutierrez,1,15,1
+Paul Harrenstein,1,15,1
+Kristian Kersting,1,18,1
+Huazhong L¨¹,1,9,1
+Tingzeng Wu,1,9,1
+Dejan Lavbi?,1,9,1
+Iztok Lajovic,1,9,1
+Marjan Krisper,1,9,1
+Tobias Kapp¨¦,1,2,1
+Mikel K. Ngueajio,1,33,1
+Pablo Ca?ones,1,2,1
+Boris K?pf,1,2,1
+Miheer Dewaskar,1,21,1
+Tero Laihonen,1,5,2
+Tuomo Lehtil?,1,4,1
+Gloria Washington,1,33,1
+Jou-Ming Chang,1,35,1
+Kung-Jui Pai,1,35,1
+Ro-Yu Wu,1,35,1
+Adrien Durier,1,10,1
+Kengo Enami,1,5,1
+Gal Vardi,1,2,1
+Ulrich Dorsch,1,18,1
+Margaret Archibald,1,1,1
+Aubrey Blecher,1,1,1
+Charlotte Brennan,1,1,1
+Arnold Knopfmacher,1,1,1
+Mark Ward,1,1,1
+Peter Braun,1,14,1
+Reece Nicholls,1,2,1
+Laure Daviaud,1,2,1
+Bruno Guillon,1,2,1
+Vincent Penelle,1,2,1
+A. V. Sreejith,1,2,1
+Andrey V. Savchenko,1,73,1
+Jianliang Wu,1,3,1
+Thanaa S. Alnusairi,1,12,1
+Ryan Fellows,1,2,1
+Yassine Daadaa,1,12,1
+Cl¨¦ment Aubert,1,11,1
+Marc Bagnol,1,11,2
+Miklos Santha,1,14,1
+Jamie Sikora,1,14,1
+Aarthi Sundaram,1,14,1
+Steve Battle,1,2,1
+Blaise Genest,1,21,1
+Adwait Amit Godbole,1,21,1
+Pascal Caron,1,8,1
+Edwin Hamel-De le court,1,8,1
+Jean-Gabriel Luque,1,8,1
+Bruno Patrou,1,8,1
+Irina Gribanova,1,16,1
+Oleg Zaikin,1,16,1
+Stepan Kochemazov,1,16,1
+Miklos Bona,1,15,2
+Michael Cory,1,15,1
+Danny Nguyen,1,7,1
+Igor Pak,1,7,1
+Martin Mu?oz,1,21,1
+C. J. Casselgren,1,8,1
+Petros A. Petrosyan,1,8,1
+Chuanan Wei,1,1,2
+Jan Philipps,1,14,1
+Bernhard Sch?tz,1,14,1
+Filippo Cavallari,1,1,1
+Hisham Ihshaish,1,2,1
+Aijun Dong,1,3,1
+Felix Klein,1,32,1
+J¨¢n Pich,1,27,1
+Nathalie Aubrun,1,30,1
+Sebasti¨¢n Barbieri,1,30,1
+Mathieu Sablik,1,30,1
+Martin Leucker,1,31,1
+Marcel Wild,1,37,1
+Kashif Mahmood,1,44,1
+Ameen Chilwan,1,44,1
+Olav N. ?sterb?,1,44,1
+Michael Jarschel,1,44,1
+Naoto Ohsaka,1,9,1
+Gianluca De Marco,1,26,1
+Dariusz R. Kowalski,1,26,1
+Alexander Semenov,1,16,1
+Ilya Otpuschennikov,1,16,1
+Elena Mohr,1,6,1
+Varun Ramanathan,1,4,1
+Guillermo Mart¨ªn-S¨¢nchez,1,3,1
+Sander Boht¨¦,1,3,1
+Xingshi He,1,62,1
+Mehmet Karamanoglu,1,62,1
+Yuxin Zhao,1,62,1
+Antonin Delpeuch,1,13,1
+Sebastian Otte,1,3,1
+Alex McDonough,1,1,1
+Enrique Miralles-Dolz,1,1,1
+Niels M. P. Neumann,1,7,1
+Xian Xu,1,8,1
+Ji?¨ª Adamek,1,1,1
+Bernard Lidicky,1,12,1
+Tom¨¢? Vysko?il,1,12,1
+Xinwei He,1,2,1
+A. J. Hildebrand,1,2,1
+Yuchen Li,1,2,1
+Yunyi Zhang,1,2,1
+Vasileios Mavroeidis,1,234,1
+Kamer Vishi,1,234,1
+Mateusz D. Zych,1,234,1
+Audun J?sang,1,234,1
+Robert S. Wezeman,1,7,1
+Sumiati,1,12,1
+Dongyang Kuang,1,4,2
+Wei Zhuang,1,9,1
+Guoliang Hao,1,9,1
+Matthias Weber,1,1,1
+Zongyan Huang,1,23,1
+Lawrence C. Paulson,1,23,1
+Micha?l Cadilhac,1,3,1
+Richard C. Brewster,1,8,1
+Sachin Kumar,1,34,1
+Sumita Mishra,1,34,1
+Pooja Khanna,1,34,1
+Pragya,1,34,1
+Azhari,1,6,1
+A. Musdholifah,1,6,1
+L. Arsyad,1,6,1
+Kassie Archer,1,2,1
+Craig Michoski,1,4,2
+¨¢gnes Szendrei,1,14,1
+Mateusz ?e?yk,1,5,1
+Christopher Spinrath,1,8,1
+Muhammad Kamal Hossen,1,1,1
+Sean Tull,1,23,1
+Dian Pratiwi,1,1,1
+Giuseppe Rosolini,1,2,1
+Wenting Li,1,1,1
+Md. Ali Faiad,1,1,1
+Md. Shahnur Azad Chowdhury,1,1,1
+Md. Sajjatul Islam,1,1,1
+Alperen Y. ?zdemir,1,1,1
+Michitaka Furuya,1,10,1
+Nika Salia,1,31,1
+Casey Tompkins,1,31,1
+Oscar Zamora,1,31,1
+Ibraheem Kasim Ibraheem,1,38,1
+Wameedh Riyadh Abdul-Adheem,1,38,1
+Hsi-Ming Ho,1,5,1
+Koko Muroya,1,11,1
+Dan R. Ghica,1,11,1
+Giovanni Sambin,1,2,1
+Rui Guo,1,1,1
+Fabio Gadducci,1,9,1
+Benedikt Pago,1,16,1
+Marco Simonetti,1,3,1
+Kevin Durant,1,7,1
+Khadijeh Keshvardoost,1,1,1
+Joanna Ochremiak,1,1,1
+Szymon Toru¨½czyk,1,1,1
+Nao Hirokawa,1,4,1
+Damiano Perri,1,3,1
+Christian Sternagel,1,4,1
+Sarah Winkler,1,4,1
+Marcel Ern¨¦,1,3,1
+Osvaldo Gervasi,1,3,1
+Putri Kurniasih,1,1,1
+Nicolas Amat,1,6,1
+Thomas Hujsa,1,6,1
+Thomas Kahl,1,4,1
+Dirk Vandermeulen,1,5,1
+Merlin Carl,1,1,1
+Benjamin Rin,1,1,1
+Philipp Schlicht,1,1,1
+Ian Orton,1,87,2
+Dorota Osula,1,4,1
+Frederik Maes,1,5,1
+Pierre Vial,1,13,1
+Paolo Pistone,1,2,1
+James P. Bagrow,1,6,1
+Mohamed Taoufiq Damir,1,5,1
+Timos Antonopoulos,1,3,1
+Wojtek Kazana,1,31,1
+Ga?lle Fontaine,1,14,1
+Jean N¨¦raud,1,5,1
+Carla Selmi,1,5,1
+Lorenzo Bettini,1,23,1
+Rim Kaddah,1,1,1
+Jesse Read,1,1,1
+Maciej Bendkowski,1,1,1
+Pierre Lescanne,1,1,1
+Max S. New,1,14,1
+Daniel R. Licata,1,14,1
+Gyula Y. Katona,1,7,1
+Kitti Varga,1,7,1
+Eric Angel,1,13,1
+Evripidis Bampis,1,13,1
+Bruno Escoffier,1,13,1
+Andr¨¦ Guerino Castoldi,1,2,1
+Youssef Arbach,1,27,1
+David S. Karcher,1,27,1
+Giovanni de Felice,1,13,1
+Amar Hadzihasanovic,1,13,1
+Kang Feng Ng,1,13,1
+Linda Spaninks,1,4,1
+Syed Ali Asif,1,9,1
+Zarif Masud,1,9,1
+Rubaida Easmin,1,9,1
+Alim Ul Gias,1,9,1
+Emmanuel Hainry,1,4,1
+Romain P¨¦choux,1,4,1
+Diogo Po?as,1,1,1
+Jeffery Zucker,1,1,1
+Ragnar Groot Koerkamp,1,3,1
+Marieke van der Wegen,1,3,1
+Maciej Pir¨®g,1,3,1
+Vera Sacrist¨¢n,1,12,1
+Emerson Luiz do Monte Carmelo,1,2,1
+Daniel Panario,1,2,1
+Daniela Petri?an,1,21,1
+Jan Bessai,1,14,1
+Tzu-Chun Chen,1,14,1
+Brett Stevens,1,2,1
+Boris D¨¹dder,1,14,1
+Thierry Denoeux,1,10,1
+Carlisle Adams,1,4,1
+Paola Giannini,1,23,1
+Betti Venneri,1,23,1
+Benjamin Doerr,1,61,1
+Kazuyuki Asada,1,7,1
+Ryoma Sin'ya,1,7,1
+Hans van Ditmarsch,1,15,1
+Tim French,1,15,1
+Roman Vaculin,1,6,1
+Anastasia Moskvina,1,2,1
+Arnaud Mary,1,22,1
+Joshua Blinkhorn,1,39,1
+Luke Hinde,1,39,1
+Manas Ranjan Patra,1,7,1
+Fulvio Gesmundo,1,3,2
+Alexander Pilz,1,19,1
+Purnata Ghosal,1,2,1
+Marco Aldi,1,8,1
+Christian Ikenmeyer,1,3,2
+Seyran Saeedi,1,8,1
+Vladimir Lysikov,1,3,2
+Simon Fernandez,1,3,1
+Brendan Fong,1,7,1
+Robert Gl¨¹ck,1,31,1
+Wiktor B. Daszczuk,1,2,1
+Hadrian Andradi,1,8,1
+Ander Gray,1,1,1
+Edoardo Patelli,1,1,1
+Scott Ferson,1,1,1
+Marco Jacopo Ferrarotti,1,3,1
+Sergio Decherchi,1,3,1
+Walter Rocchia,1,3,1
+Jianfeng Huang,1,1,1
+Marco Forti,1,1,1
+Y. Kohayakawa,1,2,1
+F. K. Miyazawa,1,2,1
+Y. Wakabayashi,1,2,1
+Daniel de Carvalho,1,8,1
+Martin Gairing,1,12,1
+Matthias Mnich,1,12,1
+Chenyang Li,1,1,1
+Miriam Backens,1,18,1
+Quanlong Wang,1,18,1
+Matthew de Brecht,1,19,1
+Ma?l Mont¨¦vil,1,5,1
+Ciprian-Octavian Truic?,1,17,1
+J¨¦r?me Darmont,1,17,1
+Saed Khawaldeh,1,4,1
+Tajwar Abrar Aleef,1,4,1
+Yimin Lin,1,1,1
+Anna Philippou,1,12,1
+Maher Alharby,1,399,1
+Aad van Moorsel,1,399,1
+Tiziana Cimoli,1,9,1
+Margarita Korovina,1,6,1
+Shiguo Lian,1,1,1
+Felipe S. Abrah?o,1,21,1
+Sofie Tilborghs,1,5,1
+Jeroen Bertels,1,5,1
+Sang Won Bae,1,24,1
+Jean-Francois Baffier,1,24,1
+Jinhee Chun,1,24,1
+Peter Eades,1,24,1
+Luca Grilli,1,24,1
+Seok-Hee Hong,1,24,1
+Matias Korman,1,24,1
+Fabrizio Montecchiani,1,24,1
+Gabrielle Paris,1,1,1
+Abdellah Idrissi,1,12,1
+Faouzia Zegrari,1,12,1
+Grace Misereh,1,3,1
+Yuri Nikolayevsky,1,3,1
+Yuxi Fu,1,5,1
+Bettina Speckmann,1,5,1
+Kevin Verbeek,1,5,1
+Nick Benton,1,15,1
+Vivek Nigam,1,15,1
+David Robben,1,5,1
+Floortje Scheepers,1,6,1
+Marco Spruit,1,6,1
+Mahdi H. Miraz,1,31,1
+Suhail A. Molvi,1,31,1
+Muzafar A. Ganie,1,31,1
+Usama Pervaiz,1,4,1
+Vu Hoang Minh,1,4,1
+Yeman Brhane Hagos,1,4,1
+Evgeny Nikulchev,1,8,1
+Alex Gavryushkin,1,14,1
+Mikhail Kokho,1,14,1
+Thosten Altenkirch,1,149,1
+Guillaume Noyel,1,5,2
+Masaki Nakanishi,1,1,1
+Aida Gainutdinova,1,1,1
+Emile Barbier--Renard,1,1,1
+Lucas Le?o,1,3,1
+David Bianchini,1,3,1
+Omar Branquinho,1,3,1
+S V Kasmir Raja,1,3,1
+V Rajitha,1,3,1
+Lakshmanan Meenakshi,1,3,1
+Ignaz Rutter,1,24,1
+Michel Jourlin,1,1,1
+Anis Rojbi,1,8,1
+Maaruf Ali,1,31,1
+AbdelRahman H. Hussein,1,31,1
+Nathanael L. Ackerman,1,22,2
+Vaclav Skala,1,57,1
+John Power,1,7,1
+Thierry Fournel,1,1,1
+Ehud Aharoni,1,6,1
+Moran Baruch,1,6,1
+Pradip Bose,1,6,1
+Alper Buyuktosunoglu,1,6,1
+Ivona Tautkute,1,7,1
+Aleksandra Mo?ejko,1,7,1
+Wojciech Stokowiec,1,7,1
+Evgeniy Pluzhnik,1,8,1
+Simon Payain,1,8,1
+Damien Drix,1,109,1
+Tomasz Trzci¨½ski,1,7,1
+?ukasz Brocki,1,7,1
+Nir Drucker,1,6,1
+Bernardo M. ¨¢brego,1,3,1
+Silvia Fern¨¢ndez-Merchant,1,3,1
+Mikio Kano,1,3,1
+David Orden,1,3,1
+Pablo P¨¦rez-Lantero,1,3,1
+Javier Tejel,1,3,1
+Ruben Becker,1,13,1
+Vincenzo Bonifaci,1,13,1
+Pavel Kolev,1,13,1
+Kurt Mehlhorn,1,13,1
+Muhammad Atif Sarwar,1,18,1
+Serhii Hamotskyi,1,8,1
+Kyle E Niemeyer,1,56,1
+Doug Reitz,1,1,1
+Estela Blaisten-Barojas,1,1,1
+Nicolas P. Rougier,1,109,1
+Konrad Hinsen,1,109,1
+Fr¨¦d¨¦ric Alexandre,1,109,1
+Thomas Arildsen,1,109,1
+Lorena Barba,1,109,1
+Fabien C. Y. Benureau,1,109,1
+C. Titus Brown,1,109,1
+Pierre de Buyl,1,109,1
+Ozan Caglayan,1,109,1
+Andrew P. Davison,1,109,1
+Marc Andr¨¦ Delsuc,1,109,1
+Georgios Detorakis,1,109,1
+Alexandra K. Diem,1,109,1
+Subhankar Pal,1,6,1
+Pierre Enel,1,109,1
+Beno?t Girard,1,109,1
+Olivia Guest,1,109,1
+Matt G. Hall,1,109,1
+Rafael Neto Henriques,1,109,1
+Xavier Hinaut,1,109,1
+Kamil S Jaron,1,109,1
+Mehdi Khamassi,1,109,1
+Almar Klein,1,109,1
+Tiina Manninen,1,109,1
+Pietro Marchesi,1,109,1
+Ruggero Lanotte,1,6,1
+Tomer Pelleg,1,6,1
+Kanthi Sarpatwar,1,6,1
+Arfon M Smith,1,56,1
+Aswin Karthik Ramachandran Venkatapathy,1,19,1
+Daniel Friesel,1,19,1
+Daniel S Katz,1,56,1
+Lorena A Barba,1,56,1
+George Githinji,1,56,1
+Melissa Gymrek,1,56,1
+Kathryn D Huff,1,56,1
+Christopher R Madan,1,56,1
+Abigail Cabunoc Mayes,1,56,1
+Kevin M Moerman,1,56,1
+Pjotr Prins,1,56,1
+Karthik Ram,1,56,1
+Ariel Rokem,1,56,1
+Tracy K Teal,1,56,1
+Roman Valls Guimera,1,56,1
+Jacob T Vanderplas,1,56,1
+Laura Schn¨¹riger,1,13,1
+Jan Pachl,1,3,1
+Pedro S¨¢nchez Terraf,1,3,1
+Michael Wallner,1,25,1
+Hayim Shaul,1,6,1
+Fr¨¦d¨¦ric Servais,1,19,1
+Omri Soceanu,1,6,1
+Fredrik Lindsten,1,1,1
+Daniel Jarne Ornia,1,1,1
+Zbigniew Lonc,1,4,1
+Pawe? Naroski,1,4,1
+V. Ciancia,1,45,1
+M. Massink,1,45,1
+Robert Falkenberg,1,19,1
+Mojtaba Masoudinejad,1,19,1
+Markus Buschhoff,1,19,1
+Abdulhakeem Mohammed,1,8,1
+Markus Bl?ser,1,5,1
+Horatiu Cirstea,1,3,1
+Serguei Lenglet,1,3,1
+Pierre-Etienne Moreau,1,3,1
+Murdoch J. Gabbay,1,2,1
+Michael ten Hompel,1,19,1
+Olaf Spinczyk,1,19,1
+Christian Wietfeld,1,19,1
+Manuel Mazo Jr,1,1,1
+Tony Tan,1,1,1
+Karim Nour,1,3,4
+Sam Sanders,1,1,1
+Manuel L¨®pez-Ib¨¢?ez,1,3,1
+Francisco Chicano,1,3,1
+Denisa Diaconescu,1,13,1
+Jintong Song,1,14,1
+Qishuo Cheng,1,14,1
+Alexander V. Gheorghiu,1,1,1
+David J. Pym,1,1,1
+Santiago Valbuena Rubio,1,3,1
+Mar¨ªa Teresa Garc¨ªa-Ord¨¢s,1,3,1
+Oscar Garc¨ªa-Olalla Olivera,1,3,1
+F¨¦lix Baschenis,1,9,1
+Rodrigo Gil-Merino,1,3,1
+J¨¢nos Balogh,1,3,1
+Cosmin Bonchi?,1,3,1
+Diana Dini?,1,3,1
+Gabriel Istrate,1,3,1
+Ioan Todinca,1,3,1
+Anna Esposito,1,7,1
+Feodor F. Dragan,1,8,1
+H¨¦ctor Alaiz-Moret¨®n,1,3,1
+Maria-Inmaculada Gonz¨¢lez-Alonso,1,3,1
+Jos¨¦ Alberto Ben¨ªtez-Andrades,1,3,1
+Kirolos Attallah,1,2,1
+Girgis Zaky,1,2,1
+Nourhan Abdelrhim,1,2,1
+Kyrillos Botros,1,2,1
+Amjad Dife,1,2,1
+Nermin Negied,1,2,1
+Dario Della Monica,1,5,1
+Vincenzo Capuano,1,7,1
+David de Frutos Escrig,1,11,1
+Miguel Palomino,1,11,1
+Zhenglin Li,1,14,1
+Haibei Zhu,1,14,1
+Houze Liu,1,14,1
+Jos¨¦ L. Balc¨¢zar,1,1,1
+Marie Ely Piceno,1,1,1
+Robert Kenny,1,6,1
+Zuzana Hanikov¨¢,1,4,1
+Petr Savicky,1,4,1
+Ghada F. Elkabbany,1,347,1
+Heba K. Aslan,1,347,1
+Mohamed N. Rasslan,1,347,1
+Silas Santiago Lopes Pereira,1,7,1
+Jos¨¦ Everardo Bessa Maia,1,7,1
+Jorge Luiz de Castro e Silva,1,7,1
+Ashraf Odeh,1,22,1
+Aymen Abu-Errub,1,22,1
+Qusai Shambour,1,22,1
+Nidal Turab,1,22,1
+Oleg Lukyanchikov,1,8,1
+Yonah Biers-Ariel,1,4,1
+Anant Godbole,1,4,2
+Elizabeth Kelley,1,4,1
+Mathieu Anel,1,1,1
+Tereso del R¨ªo,1,1,1
+Luisa Herrmann,1,5,1
+Samuel Miner,1,6,1
+Douglas Rizzolo,1,6,1
+Johan Arcile,1,2,1
+Vladimir Voevodsky,1,16,1
+Pierre-Louis Curien,1,14,1
+Danil Annenkov,1,55,1
+Lucas Colucci,1,1,1
+P¨¦ter L. Erd?s,1,1,1
+Tam¨¢s R¨®bert Mezei,1,1,1
+Pierre Bourhis,1,7,1
+Manda Riehl,1,7,3
+Mieczys?aw A. K?opotek,1,10,1
+Zhiqian Zhang,1,75,1
+Michael Vanden Boom,1,7,1
+Gilles Barthe,1,6,1
+Thomas Espitau,1,6,1
+Justin Hsu,1,6,1
+Pierre-Yves Strub,1,6,1
+Nicholas R Beaton,1,3,1
+Andrew R Conway,1,3,1
+Anthony J Guttmann,1,3,1
+Muhammad Usman,1,246,1
+Irfan Ahmed,1,246,1
+M. Imran Aslam,1,246,1
+Shujaat Khan,1,246,1
+Usman Ali Shah,1,246,1
+Oleg Verbitsky,1,9,1
+Maksim Zhukovskii,1,9,1
+Maciej Korczy¨½ski,1,3,1
+Monica Anderson,1,3,1
+Marika Diepenbroek,1,3,1
+Andrzej Duda,1,3,1
+Alex Stoll,1,3,1
+Sebastian Enqvist,1,4,1
+Fatemeh Seifan,1,4,1
+Berenger Bramas,1,35,1
+Pablo Mosteiro,1,6,1
+Lucca Hirschi,1,9,1
+Samir Datta,1,18,1
+Anish Mukherjee,1,18,1
+Nils Vortmeier,1,18,1
+Megan A. Martinez,1,68,2
+Jonito Aerts Arguelles,1,31,1
+Isaac Distrito,1,31,1
+P¨¦ter Batty¨¢nyi,1,1,1
+Chenliang Li,1,75,1
+Zhiyong Wu,1,75,1
+Aixin Sun,1,75,1
+Dengpan Ye,1,75,1
+Xiangyang Luo,1,75,1
+Selim Bahad?r,1,3,1
+Lingjuan Shi,1,13,1
+Heping Zhang,1,13,1
+Maria Jo?o Gouveia,1,5,1
+Helmut Prodinger,1,4,2
+Jakub Sliacan,1,18,1
+Walter Stromquist,1,18,1
+Marco Budinich,1,5,1
+Michael Kinyon,1,8,1
+Janusz Konieczny,1,8,1
+Ant¨®nio Malheiro,1,8,1
+Tin Lok Wong,1,8,1
+Sooraj Bhat,1,46,1
+Andrew D. Gordon,1,46,1
+Claudio Russo,1,46,1
+Lisa Hofer,1,22,1
+Emil Rijcken,1,6,1
+Kalliopi Zervanou,1,6,1
+Domenico Ruoppolo,1,11,1
+Sergey Slavnov,1,12,1
+Dominique Devriese,1,29,1
+Marco Patrignani,1,29,1
+Uzay Kaymak,1,6,1
+Steven Keuchel,1,29,1
+Benjamin Kiesl,1,5,1
+Martina Seidl,1,5,1
+Hans Tompits,1,5,1
+Guillermo Iglesias,1,54,1
+Katarzyna Rybarczyk,1,1,1
+Mikkel Hansen,1,10,1
+Mathias Ruggaard Pedersen,1,10,1
+Hans de Nivelle,1,2,1
+Yijia Chen,1,2,1
+Michael Elberfeld,1,2,1
+Moritz M¨¹ller,1,2,1
+Zhao Wang,1,14,1
+Revantha Ramanayake,1,10,1
+Edgar Talavera,1,54,1
+Tom¨¢? Toufar,1,34,1
+Jo?o Ara¨²jo,1,8,1
+Panos Rondogiannis,1,3,1
+Ioanna Symeonidou,1,3,1
+David Cachera,1,6,1
+Alberto D¨ªaz-¨¢lvarez,1,54,1
+Marino Gran,1,8,1
+Olivier Bournez,1,22,1
+Amaury Pouly,1,22,1
+Manuel Costanzo,1,13,1
+Dominique Perrin,1,1,1
+Jean-¨¦ric Pin,1,1,1
+Luigi Liquori,1,11,1
+Petar Maksimovic,1,11,1
+Ivan Scagnetto,1,11,1
+Kshitij Bansal,1,8,1
+Andrew Reynolds,1,8,1
+Cesare Tinelli,1,8,1
+R. D. Lins,1,14,1
+Lorenzo Malatesta,1,4,1
+Justyna Szpond,1,8,1
+Manfred Schmidt-Schau?,1,16,1
+Elena Machkasova,1,16,1
+Andrew Lawrence,1,25,1
+Monika Seisenberger,1,25,1
+Luca Bortolussi,1,17,1
+Guido Sanguinetti,1,17,1
+Jurek Czyzowicz,1,41,1
+Lata Narayanan,1,41,1
+Jarda Opatrny,1,41,1
+Birgit Vogtenhuber,1,41,1
+Albert Atserias,1,1,1
+William Zeng,1,15,1
+Tuan Phong Ngo,1,22,1
+Idriss Tchoffo Nguefeu,1,8,1
+Sherry H. F. Yan,1,1,1
+Robin D. P. Zhou,1,1,1
+Enzo Rucci,1,13,1
+Carlos Garcia Sanchez,1,13,1
+Marcelo Naiouf,1,13,1
+Maria Manuel Clementino,1,3,1
+Ignacio Lopez Franco,1,3,1
+Ki Yung Ahn,1,11,1
+Agathe Herrou,1,3,1
+Manuel Prieto-Matias,1,13,1
+Sander Uijlen,1,85,1
+A. K¨¹ndgen,1,3,1
+T. Talbot,1,3,1
+Pei Xu,1,76,1
+A. R. Gomes e Silva,1,14,1
+Lurdes Sousa,1,7,1
+Pascal Halffmann,1,6,1
+Stefan Ruzika,1,6,1
+Clemens Thielen,1,6,1
+David Willems,1,6,1
+Miguel A. Ferrer-Ballester,1,4,1
+Carlos M. Travieso-Gonz¨¢lez,1,4,1
+Matthew Frank,1,2,1
+Daniela Genova,1,13,1
+Nata?a Jonoska,1,13,1
+Milcho Prisagjanec,1,1,1
+Pece Mitrevski,1,1,1
+Kasper Szabo Lyngsie,1,5,1
+Carsten R?snick-Neugebauer,1,3,1
+Virginia Espinosa-Duro,1,4,1
+Diana Rodelo,1,8,1
+Hongliang Lai,1,8,1
+Walter Tholen,1,8,1
+Arpitha P. Bharathi,1,3,1
+Minati De,1,3,1
+Abhiruk Lahiri,1,3,1
+Mohamad Ziadeh,1,2,1
+Mojtaba Komeili,1,10,1
+Amanda Olmin,1,1,1
+Marriam Nazir,1,15,1
+Salman Afsar Awan,1,15,1
+Muhammad Azeem,1,11,1
+Mohammad Shafiq,1,11,1
+M. Rajaati,1,9,1
+M. R. Hooshmandasl,1,9,1
+M. J. Dinneen,1,9,1
+Dirk Hofmann,1,7,1
+Andr¨¦s Aristiz¨¢bal,1,13,1
+A. Shakiba,1,9,1
+Davide Rinaldi,1,14,1
+Daniel Wessel,1,14,1
+Jakob Lindqvist,1,1,1
+Julian Nagele,1,4,1
+Bertram Felgenhauer,1,4,1
+Lennart Svensson,1,1,1
+Zijun Wu,1,1,1
+Rolf Moehring,1,1,1
+Jianhui Lai,1,1,1
+¨¢tila A. Jones,1,2,1
+Renata R. Del-Vecchio,1,2,1
+Rocco de Nicola,1,7,1
+Hern¨¢n Melgratti,1,7,1
+A Rodriguez,1,11,1
+Emilio Mu?oz-Velasco,1,4,1
+R Granger,1,11,1
+Krzysztof Bar,1,63,1
+Ioannis Karamouzas,1,76,1
+Robin Hirsch,1,9,1
+Brett McLean,1,9,1
+Christoforos Galazis,1,8,1
+George Karakostas,1,22,1
+Huiyi Wu,1,8,1
+Isolde Adler,1,11,2
+Ngoc Khang Le,1,10,1
+Haiko M¨¹ller,1,10,1
+Marko Radovanovi?,1,10,1
+Zhuoyu Li,1,8,1
+Kristina Vu?kovi?,1,10,1
+Dmitriy Traytel,1,4,1
+Corbin Groothuis,1,15,1
+Cyrus Hettle,1,15,1
+Hao Lin,1,1,1
+Xiumei Wang,1,1,1
+Pavel P. Kizin,1,1,1
+Nelson Martins-Ferreira,1,1,1
+Andrea Montoli,1,1,1
+Manuela Sobral,1,1,1
+Mila Dalla Preda,1,55,1
+Maurizio Gabbrielli,1,55,1
+Saverio Giallorenzo,1,55,1
+Jacopo Mauro,1,55,1
+P¨¦ter Burcsi,1,17,1
+Frank Ruskey,1,17,1
+Joe Sawada,1,17,1
+Davide Bresolin,1,4,1
+William DeMeo,1,1,1
+Leroy Chew,1,40,1
+Meena Mahajan,1,40,1
+Anil Shukla,1,40,1
+I Made Agus Dwi Suarjaya,1,3,1
+Yoshiya Kasahara,1,3,1
+Yoshitaka Goto,1,3,1
+David De Frutos Escrig,1,18,1
+Jeroen J. A. Keiren,1,18,1
+Georgios Kourtis,1,1,1
+Fabio Mogavero,1,45,1
+Frederik Harwath,1,2,1
+Giulio Guerrieri,1,23,1
+Luca Paolini,1,23,1
+Moritz Martens,1,5,1
+Bennet Goeckner,1,15,1
+Stephane Devismes,1,19,1
+Chiara Bodei,1,22,1
+Camille Petri,1,8,1
+Anil A. Bharath,1,8,1
+Christiane Frougny,1,7,1
+Marta Pavelka,1,7,1
+Marta Varela,1,8,1
+Milena Svobodova,1,7,1
+Michael Lieberman,1,5,1
+Brian Kell,1,15,1
+Pamela Kirkpatrick,1,15,1
+Rachel Kirsch,1,15,1
+Ryan Solava,1,15,1
+Rolf Hennicker,1,8,1
+Michel Bidoit,1,8,1
+Clifford Bergman,1,1,1
+Edwin Brady,1,9,1
+Luke Whitbread,1,3,1
+Thomas Genet,1,15,1
+Yann Salmon,1,15,1
+Issa Atoum,1,14,1
+Ahmed Otoom,1,14,1
+Narayanan Kulathuramaiyer,1,14,1
+Mart¨ªn Escard¨®,1,44,1
+Aleksy Schubert,1,15,1
+Pawe? Urzyczyn,1,15,1
+Martin Pape,1,2,1
+Mark Jenkinson,1,3,1
+Ludovic Henrio,1,8,1
+Justine Rochas,1,8,1
+Karine Altisen,1,19,1
+Pierre Corbineau,1,19,1
+Thomas Vidick,1,46,1
+John Watrous,1,46,1
+Adam Chehouri,1,54,1
+Rafic Younes,1,54,1
+Jean Perron,1,54,1
+Adrian Ilinca,1,54,1
+Jasmin Christian Blanchette,1,69,1
+Sascha B?hme,1,69,1
+Andrei Popescu,1,69,1
+Nicholas Smallbone,1,69,1
+Leslie Ann Goldberg,1,4,1
+Ece Isik-Polat,1,3,1
+Nicola Botta,1,9,1
+Ziyuan Zhao,1,41,1
+Cezar Ionescu,1,9,1
+David R. Christiansen,1,9,1
+Kaixin Xu,1,41,1
+Shumeng Li,1,41,1
+Zeng Zeng,1,41,1
+C. Duffy,1,10,1
+T. F. Lidbetter,1,10,1
+R. J. Nowakowski,1,10,1
+Jos¨¦ C¨¢ceres,1,9,1
+Carmen Hernando,1,9,1
+Merc¨¨ Mora,1,9,1
+Ignacio M. Pelayo,1,9,1
+Stefan Borgwardt,1,7,1
+Cuntai Guan,1,41,1
+David Wehlau,1,5,1
+Konrad Zdanowski,1,15,1
+Alberto Lluch Lafuente,1,32,2
+Hanne Riis Nielson,1,4,2
+Florian Sikora,1,7,1
+Christian Matt,1,5,1
+Ueli Maurer,1,5,1
+Christopher Portmann,1,5,1
+Renato Renner,1,5,1
+Bj?rn Tackmann,1,5,1
+Silvia Businger,1,7,1
+Shivani Goel,1,9,1
+Ravi Kiran,1,9,1
+Manohar N,1,30,1
+H K Chethan,1,30,1
+N Vinay Kumar,1,11,1
+D S Guru,1,11,1
+Mark Jerrum,1,4,1
+David Richerby,1,4,1
+Stanislav ?ivny,1,4,1
+Josef Berger,1,2,1
+Deepak Garg,1,9,1
+N. S. Santos-Magalhaes,1,32,1
+Muhanad Hayder Mohammed,1,3,1
+Alessandro Facchini,1,3,1
+Yoichi Hirai,1,3,1
+Maarten Marx,1,3,1
+Evgeny Sherkhonov,1,3,1
+Salem Alkhalaf,1,1,1
+Jan Leike,1,75,1
+Matthias Heizmann,1,75,1
+Ali Sezgin,1,73,1
+Viktor Vafeiadis,1,73,1
+Christopher T. Chubb,1,23,1
+Steven T. Flammia,1,23,1
+Cristina Bazgan,1,7,1
+Davide Basile,1,42,1
+N. Vinay Kumar,1,21,1
+Pratheek,1,21,1
+V. Vijaya Kantha,1,21,1
+K. N. Govindaraju,1,21,1
+D. S. Guru,1,21,1
+Nuno Fachada,1,2,1
+Vitor V. Lopes,1,2,1
+Rui C. Martins,1,2,1
+Agostinho C. Rosa,1,2,1
+Claude Sureson,1,2,1
+Leszek Ko?odziejczyk,1,13,1
+Sewon Park,1,4,1
+Franz Brau?e,1,4,1
+Pieter Collins,1,4,1
+Ricardo Honorato-Zimmer,1,16,1
+Marcin Krzywkowski,1,7,1
+SunYoung Kim,1,4,1
+Michal Kone?ny,1,4,1
+Norbert M¨¹ller,1,4,1
+Norbert Preining,1,4,1
+Sung-Shik T. Q. Jongmans,1,1,1
+Farhad Arbab,1,1,1
+Miika Hannula,1,10,1
+Ayad Ghany Ismaeel,1,6,1
+Dina Yousif Mikhail,1,6,1
+Pierre McKenzie,1,23,1
+Ryan Alweiss,1,4,1
+Maciej Wielgosz,1,6,1
+Marcin Pietro¨½,1,6,1
+Jeff Egger,1,7,1
+Lo?ck Magnin,1,8,1
+M. Aubakirov,1,11,1
+Roberto Vigo,1,4,1
+John Longley,1,6,1
+Mathys Rennela,1,4,1
+Brian Cloteaux,1,2,1
+Achim Jung,1,26,1
+Leticia D¨¢vila-Nicanor,1,2,1
+Ryan McCleeary,1,3,1
+Sandipta kumar Sahu,1,42,1
+Sanjay Kumar Samantra,1,42,1
+S. Akshay,1,18,1
+Shankara Narayanan Krishna,1,18,1
+¨¢. Garc¨ªa-P¨¦rez,1,9,1
+P. Nogueira,1,9,1
+Felix Herter,1,10,1
+Christoph Brause,1,7,1
+Maarten McKubre-Jordens,1,1,1
+Joonbum Lee,1,10,1
+Witold Charatonik,1,18,1
+Piotr Witkowski,1,18,1
+Silvain Rideau,1,48,1
+W?odzimierz Moczurad,1,4,1
+Stanislav P. Polyakov,1,3,1
+Andrey P. Demichev,1,3,1
+Alexander P. Kryukov,1,3,1
+Zongwen Bai,1,14,1
+Jianhua Tu,1,14,1
+Yongtang Shi,1,14,1
+John Case,1,25,2
+Pedro Mej¨ªa-Alvarez,1,2,1
+V¨¢clav Koubek,1,14,1
+Diana Fischer,1,6,1
+Jean-Philippe Bernardy,1,18,1
+Guillaume Cano,1,19,1
+Michael Holtmann,1,59,1
+L. Demidova,1,49,1
+Yu. Sokolova,1,49,1
+Zhiguang Zhao,1,26,1
+Yasuhiko Minamide,1,4,1
+Thomas Watson,1,12,1
+Yasir Ali,1,1,1
+Asma Javaid,1,1,1
+Majid Khonji,1,21,1
+Areg Karapetyan,1,21,1
+Sid Chi-Kin Chau,1,21,1
+S. A. Grillo,1,8,1
+Douglas Bridges,1,1,1
+James Dent,1,1,1
+Shmuel Zaks,1,3,2
+Jean-Paul Doignon,1,1,1
+Mauricio Mu?oz,1,10,1
+Lex Fridman,1,10,1
+Trent Victor,1,10,1
+Bryan Reimer,1,10,1
+Bruce Mehler,1,10,1
+Mirjana Mikala?ki,1,9,1
+Milo? Stojakovi?,1,9,1
+Yury Kartynnik,1,7,1
+Andrew Ryzhikov,1,7,1
+Stefan Felsner,1,3,1
+Daniel Heldt,1,3,1
+Slawomir Lasota,1,12,1
+Patrick Totzke,1,12,1
+Andrzej Pelc,1,6,1
+Hamid Kameli,1,1,1
+Steffen Wendzel,1,4,1
+Carolin Palmer,1,4,1
+Marius Dumitran,1,16,1
+Radu Grigore,1,21,1
+Maxime D¨¦n¨¨s,1,19,1
+Anders M?rtberg,1,19,1
+Vincent Siles,1,19,1
+Herman Z. Q. Chen,1,15,1
+Jean-Bernard Hayet,1,76,1
+Lawrence Dunn,1,12,1
+Antoine Mottet,1,31,1
+Matthieu Josuat-Verg¨¨s,1,3,1
+Harald Richter,1,5,1
+Arman Boyac?,1,3,2
+Mordechai Shalom,1,3,2
+Gorkem Polat,1,3,1
+Nadime Francis,1,19,1
+Robert Brignall,1,6,1
+Jonathan Bloom,1,9,1
+Keno Merckx,1,1,1
+Valentin Blot,1,3,1
+Luerbio Faria,1,7,1
+Altan Kocyigit,1,3,1
+Rubens Sucupira,1,7,1
+Michael S. Payne,1,8,1
+Noam Solomon,1,8,1
+C¨¦line Moreira Dos Santos,1,8,1
+Andrew Knyazev,1,4,1
+Alexander Malyshev,1,4,1
+Wei Wang,1,2,1
+Juan Yan,1,2,1
+Ran Pan,1,1,1
+Alptekin Temizel,1,3,1
+Derek Levin,1,6,1
+Peter Nugent,1,6,1
+Florin Manea,1,16,1
+Julian Hohm,1,11,1
+S. R. Kodituwakku,1,6,1
+Erik P De Vink,1,13,1
+Alice L. L. Gao,1,10,1
+Emily X. L. Gao,1,10,1
+Patxi Laborde-Zubieta,1,10,1
+Philippe Moser,1,12,1
+Hugo Nobrega,1,15,1
+Michael A. Idowu,1,3,1
+Sohini Roychowdhury,1,20,1
+Michelle Emmons,1,20,1
+Quang T. Bach,1,2,1
+S?ren Debois,1,7,1
+Thomas Hildebrandt,1,7,1
+Tijs Slaats,1,7,1
+Robin Houston,1,9,1
+Michael H. Albert,1,20,1
+Marie-Louise Lackner,1,20,1
+Martin Lackner,1,20,1
+Dmitry Chistikov,1,18,1
+Dan Saracino,1,9,1
+Michael W. Schroeder,1,1,1
+Janusz Brzozowski,1,12,1
+Sylvie Davies,1,12,1
+Bo Yang Victor Liu,1,12,1
+Andreas Heinemann,1,11,1
+Mahsa Shirmohammadi,1,12,1
+Sylvie Corteel,1,67,1
+Carla D. Savage,1,67,1
+Michael Weselcouch,1,67,1
+Joshua Cooper,1,5,1
+Chen Chen,1,17,1
+Limin Jia,1,17,1
+Hao Xu,1,17,1
+Cheng Luo,1,17,1
+Wenchao Zhou,1,17,1
+Jay Pantone,1,6,1
+ML Tlachac,1,6,1
+Shunqi Wu,1,23,1
+Mingyun Li,1,23,1
+Josefran de Oliveira Bastos,1,2,1
+Leonardo Nagami Coregliano,1,2,1
+Thomas Sternagel,1,9,1
+Jeremy Kepner,1,61,1
+David Bader,1,61,1
+Ayd?n Buluc,1,61,1
+John Gilbert,1,61,1
+Timothy Mattson,1,61,1
+Henning Meyerhenke,1,61,1
+Kitty Meeks,1,3,1
+Dominik K. Vu,1,3,1
+Sadegh Esmaeil Zadeh Soudjani,1,22,1
+Alexander Wiesmaier,1,11,1
+Romain Brenguier,1,56,1
+Andrew M Marshall,1,2,1
+Catherine Meadows,1,2,1
+Alexandre Cl¨¦ment,1,9,2
+Russell Harmer,1,16,1
+Michael Wehar,1,18,1
+Ram¨±nas Gutkovas,1,13,1
+Bj?rn Victor,1,13,1
+Christopher Coscia,1,1,1
+Jonathan DeWitt,1,1,1
+Fan Yang,1,1,1
+Yiguang Zhang,1,1,1
+Harry Crane,1,10,1
+Stephen DeSalvo,1,10,1
+Pascal Potvin,1,5,1
+Mario Bonja,1,5,1
+Gordon Bailey,1,5,1
+Pierre Busnel,1,5,1
+Fathiyeh Faghih,1,4,1
+Sebastien Tixeuil,1,4,1
+Sandeep Kulkarni,1,4,1
+Mike M¨¹ller,1,2,1
+Jie Xu,1,20,1
+Danny Ho,1,20,1
+Marcin Lewicki,1,1,1
+Jes¨²s Dom¨ªnguez,1,1,1
+Daniel M. Roy,1,22,1
+Atul Laxman Katole,1,24,1
+Krishna Prasad Yellapragada,1,24,1
+Amish Kumar Bedi,1,24,1
+Sehaj Singh Kalra,1,24,1
+Mynepalli Siva Chaitanya,1,24,1
+Tomasz Kajdanowicz,1,19,2
+Leonardo Cabrer,1,4,1
+Tadeja Kraner ?umenjak,1,4,1
+Aleksandra Tepeh,1,4,1
+Dierk Schleicher,1,41,1
+Boon Thau Loo,1,17,1
+Arnaud Lefebvre,1,2,1
+Elise Prieur-Gaston,1,2,1
+Ruixia Wang,1,12,1
+C¨¦cilia Lancien,1,25,1
+Robin Stoll,1,41,1
+Tue Herlau,1,2,1
+Morten M?rup,1,2,1
+Mikkel N. Schmidt,1,2,1
+Jessica Enright,1,2,1
+Lorna Stewart,1,2,1
+George B. Mertzios,1,46,1
+Reza Naserasr,1,46,1
+Petru Valicov,1,46,1
+Gaelle Fontaine,1,18,1
+Anthony Widjaja Lin,1,18,1
+Fr¨¦d¨¦ric Vogels,1,29,1
+Souha Ben Rayana,1,11,1
+Saddek Bensalem,1,11,1
+Piotr Br¨®dka,1,1,1
+Jacques Combaz,1,11,1
+Marco Bozzano,1,22,1
+M. Boreale,1,24,1
+Francesca Pampaloni,1,24,1
+Muasaad Alrasheedi,1,12,1
+Arif Raza,1,12,1
+Petr Kolman,1,20,1
+Hans Raj Tiwary,1,20,1
+Bedon Nicolas,1,3,1
+Silvio Capobianco,1,6,1
+Siamak Taati,1,6,1
+Tomasz Kociumaka,1,2,1
+Thierry Lecroq,1,2,1
+J. C. Costa,1,4,1
+M. Zeitoun,1,4,1
+Irini-Eleftheria Mens,1,25,1
+Oded Maler,1,25,1
+Mikl¨®s B¨®na,1,4,1
+C. T. Chong,1,1,1
+Gordon Hoi,1,1,1
+Daniel Turetsky,1,1,1
+Elie M. Adam,1,9,1
+Munther A. Dahleh,1,9,1
+Asuman Ozdaglar,1,9,1
+George Chatzieleftheriou,1,39,1
+Panagiotis Katsaros,1,39,1
+Scott A. Smolka,1,39,1
+Zeyao Yang,1,193,1
+Lacramioara Astefanoaei,1,11,1
+Vladimir Filipovic,1,9,1
+Vijaykumar S.,1,21,1
+Saravanakumar S. G.,1,21,1
+M. Balamurugan,1,21,1
+Willem Fouch¨¦,1,10,1
+Janusz Sobecki,1,1,1
+Laurent Bienvenu,1,7,1
+Damien Desfontaines,1,7,1
+Alexander Shen,1,7,1
+Hyewon Seo,1,1,1
+Marco Gario,1,22,1
+Stefano Tonetta,1,22,1
+Jean-Pierre Jouannaud,1,26,1
+Albert Rubio,1,26,1
+Dorota Kuziak,1,7,1
+J. Almeida,1,4,1
+Jose Luiz Fiadeiro,1,11,1
+Klaus Drager,1,52,1
+Vojtech Forejt,1,52,1
+David Parker,1,52,1
+Mateusz Ujma,1,52,1
+Peter Dybjer,1,13,1
+Francesco Ranzato,1,4,1
+Kira Adaricheva,1,24,1
+J. B. Nation,1,24,1
+Daniel Graziotin,1,54,1
+Xiaofeng Wang,1,54,1
+Ryuta Arisaka,1,34,1
+Artur Czumaj,1,10,1
+Peter Davies,1,10,1
+Dragan Matic,1,9,1
+Jozef Kratica,1,9,1
+Marco Rondina,1,1,2
+Gunnar Wilken,1,4,1
+Andreas Weiermann,1,4,1
+Matthias Baaz,1,7,1
+Agata Ciabattoni,1,7,1
+Christian G Ferm¨¹ller,1,7,1
+Zi-Ke Zhang,1,151,1
+Tao Zhou,1,151,1
+Claudio Sacerdoti Coen,1,48,1
+Enrico Tassi,1,48,1
+Adolfo Neto,1,3,1
+Celso A. A. Kaestner,1,3,1
+Paul Potgieter,1,7,1
+Relinde Jurrius,1,4,1
+Gavin Lowe,1,1,1
+Soubhik Chakraborty,1,4,1
+Ionut Tutu,1,11,1
+Feng Qi,1,25,1
+Martin Huschenbett,1,8,1
+Freek Wiedijk,1,33,1
+Fotini Markopoulou,1,13,1
+Mohammad A. Al-Khedher,1,11,1
+K. Munivara Prasad,1,9,1
+A. Rama Mohan Reddy,1,9,1
+M. Ganesh Karthik,1,9,1
+Tomasz Mazur,1,1,1
+Rasmus Ibsen-Jensen,1,12,1
+Jan Otop,1,12,1
+Sven Linker,1,28,1
+Martin Hilscher,1,28,1
+Piotr Pokora,1,1,1
+Markus Kr?tzsch,1,35,1
+Faouzi Hakimi,0,0,2
+Arthur Cartel Foahom Gouabou,0,0,2
+Kenza Amzil,0,0,2
+Youngju Joung,0,0,1
+Khaldoun Al Agha,0,0,1
+Nour El Madhoun,0,0,1
+Tristan Bilot,0,0,1
+Tudor Dan Mihoc,0,0,1
+Manuela Petrescu,0,0,1
+Juan C. Alfaro,0,0,1
+Jos¨¦ M. Puerta,0,0,3
+Jos¨¦ A. G¨¢mez,0,0,3
+Pablo Torrijos,0,0,3
+Fabiana Vinci,0,0,1
+Albert Helberg,0,0,1
+Simbarashe Aldrin Ngorima,0,0,1
+Estelle Pawlowski-Cherrier,0,0,1
+Fabrice Jeanne,0,0,1
+Anil Kumar Sao,0,0,1
+Chirag Kamal Ahuja,0,0,1
+Ximeng Li,0,0,1
+Shyam Narayanan,0,0,1
+Evan Chen,0,0,1
+Alban Ponse,0,0,1
+Jan A. Bergstra,0,0,1
+Michael Ralston,0,0,1
+Alberto Marcone,0,0,1
+Giovanna D'Agostino,0,0,1
+Leroux J¨¦r?me,0,0,1
+Drewes Frank,0,0,1
+Jarred Wieser,0,0,1
+Lucy Pepin,0,0,1
+Mitchell Paukner,0,0,1
+Victor Larsen,0,0,1
+Sogol Jahanbekam,0,0,1
+Axel Brandt,0,0,1
+Haibin Wu,0,0,1
+Yuqun Chen,0,0,1
+Ruggero Pagnan,0,0,1
+Lareab Chaudhary,0,0,1
+Zoltan Esik,0,0,1
+Sai-nan Zheng,0,0,1
+Dipak Ghosh,0,0,1
+Anirban Bhaduri,0,0,1
+Susmita Bhaduri,0,0,1
+Yunyun Zhu,0,0,1
+Alberto Ros,0,0,1
+Carl Leonardsson,0,0,1
+Stefanos Kaxiras,0,0,1
+Hans-E. Porst,0,0,1
+Timothy Highley,0,0,1
+Xi Wu,0,0,1
+Daqing Yang,0,0,1
+Marcin Wolter,0,0,1
+Marcin Kucharczyk,0,0,1
+Milosz Zdybal,0,0,1
+Jan Jurka,0,0,1
+Marino Miculan,0,0,1
+Davide Castelnovo,0,0,1
+Ivan Georgiev,0,0,1
+Yasuyuki Tsukamoto,0,0,1
+Werner Kuich,0,0,1
+Daniel Quernheim,0,0,1
+Andreas Maletti,0,0,1
+Thomas Hanneforth,0,0,1
+Matthias Werner,0,0,1
+Peter Steinbach,0,0,1
+Honglian Xie,0,0,1
+Naoki Hayashi,0,0,1
+Jakub Przyby?o,0,0,1
+Alex Kruckman,0,0,1
+Siddharth Bhaskar,0,0,1
+Robert S. Lubarsky,0,0,1
+Ryu Hasegawa,0,0,1
+David J. Reutter,0,0,1
+Peter Battyanyi,0,0,1
+Jacques Sakarovitch,0,0,1
+Shigeki Akiyama,0,0,1
+Oothan Nweit,0,0,1
+Cyril Nicaud,0,0,1
+Florent Koechlin,0,0,1
+Philippe Duchon,0,0,1
+Brendan D. McKay,0,0,1
+Heidi Van den Camp,0,0,1
+Lily Li Liu,0,0,1
+M. N. Nazarov,0,0,1
+Andrew Swan,0,0,1
+Christina Savvidou,0,0,1
+Ioannis Michos,0,0,1
+Andrzej Ruci¨½ski,0,0,1
+Andrzej Dudek,0,0,1
+Matthew Hendtlass,0,0,1
+Hannes Diener,0,0,1
+Marko Malikovi?,0,0,1
+Filip Mari?,0,0,1
+Predrag Jani?i?,0,0,1
+Carolyn L. Talcott,0,0,1
+Ian A. Mason,0,0,1
+Dominique Lecomte,0,0,1
+Sumio Watanabe,0,0,1
+Harrison Grodin,0,0,1
+C. B. Aberl¨¦,0,0,1
+Mehmet Fatih Amasyali,0,0,1
+Gulsum Yigit,0,0,1
+Ian Price,0,0,1
+Yue Niu,0,0,1
+Abolfazl Poureidi,0,0,1
+Mohsen Alambardar Meybodi,0,0,1
+Michael K. Patterson,0,0,1
+Ramkumar Nagappan,0,0,1
+Thomas Ilsche,0,0,1
+Robert Sch?ne,0,0,1
+Daniel Hackenberg,0,0,1
+Joseph Schuchart,0,0,1
+Moses Ganardi,0,0,1
+Dianxuan Gong,0,0,1
+Samuel Regan,0,0,1
+Kurt-Ulrich Witt,0,0,1
+Ulrich Gille?en,0,0,1
+Alexander B¨¹chel,0,0,1
+Christoph Spandl,0,0,1
+Peter Hertling,0,0,1
+Lazar Berbakov,0,0,1
+Nata?a Zivi?,0,0,1
+Vladimir Krsti?,0,0,1
+Ivica Milosavljevi?,0,0,1
+A. Porter,0,0,1
+Milutin Cerovi?,0,0,1
+Luka Lopu?ina,0,0,1
+Emanuel Kieronski,0,0,1
+Oskar Fiuk,0,0,1
+Robert Harper,0,0,2
+Jaap van Oosten,0,0,1
+Ond?ej Kl¨ªma,0,0,1
+Jorge Almeida,0,0,1
+Shou-Jun Xu,0,0,1
+Xiao-Lu Gao,0,0,1
+Ludwig Staiger,0,0,1
+Yuguo He,0,0,1
+Jinge Li,0,0,1
+M. Silimbani,0,0,1
+N. Castronuovo,0,0,1
+F. Bonetti,0,0,1
+M. Barnabei,0,0,1
+Pavel S. Ruzankin,0,0,1
+Mat¨§j Dost¨¢l,0,0,1
+Marta B¨ªlkov¨¢,0,0,1
+Henk P. Barendregt,0,0,1
+Huaming Zhang,0,0,1
+Frank Ingram,0,0,1
+Sheng Chen,0,0,1
+Xiao Zhao,0,0,1
+¨¦mile Nadeau,0,0,1
+Christian Bean,0,0,1
+Yongwu Rong,0,0,1
+Pavel Avdeyev,0,0,1
+Sergey Aganezov,0,0,1
+Chris Blondia,0,0,1
+Jeremy Van den Eynde,0,0,1
+Tatiana Gaintseva,0,0,1
+Jean A. Guillaume,0,0,1
+Jos¨¦ A. Vallejo,0,0,1
+Setsuo Takato,0,0,1
+Alexey O. Zakharov,0,0,1
+Fatemeh Ghassemi,0,0,1
+Mahsa Zarneshan,0,0,1
+Klaus Reinhardt,0,0,1
+Mika Hirvensalo,0,0,1
+G?kalp Demirci,0,0,1
+G. Michele Pinna,0,0,1
+Philippe Queinnec,0,0,1
+Aur¨¦lie Hurault,0,0,1
+Adam Shimi,0,0,1
+Mohamed El Merouani,0,0,1
+Fatima Zahra Yamani,0,0,1
+Zdenek Sawa,0,0,1
+Petr Osicka,0,0,1
+Samuel Balco,0,0,1
+Kenjiro Takazawa,0,0,1
+Jean-Marie Madiot,0,0,1
+Asma Guedidi,0,0,1
+Judit Nagy-Gy?rgy,0,0,1
+B¨¦la Csaba,0,0,1
+Mohamed Abdel Hameed El-Hawy,0,0,1
+Koushik Sai Veerella,0,0,1
+Harish Neelam,0,0,1
+Saurabh Kulkarni,0,0,1
+Ajay Kulkarni,0,0,1
+Maciej Zyrek,0,0,1
+Andr¨¦s Viso,0,0,1
+Eduardo Bonelli,0,0,1
+M¨¢t¨¦ Vizer,0,0,1
+D¨¢niel Gerbner,0,0,1
+John Hatcliff,0,0,1
+Marjan Sirjani,0,0,1
+Ehsan Khamespanah,0,0,1
+M. Clarence Protin,0,0,1
+Hadi Alizadeh,0,0,1
+Ulrike Brandt,0,0,1
+Hermann K. -G. Walter,0,0,1
+Nils K?pp,0,0,1
+Humberto J. Longo,0,0,1
+Les R. Foulds,0,0,1
+Erika Coelho,0,0,1
+M¨¢rcia R. Cappelle,0,0,1
+Giovanni Rosso,0,0,1
+Jesse Racicot,0,0,1
+Benjamin R. Jones,0,0,1
+Avgerinos Delkos,0,0,1
+Viacheslav Vyshegorodtsev,0,0,1
+Dmitrii Galimzianov,0,0,1
+Widad Laala,0,0,1
+Luc Devroye,0,0,1
+Anna M. Brandenberger,0,0,1
+Alessandro Aldini,0,0,1
+Andrea Esposito,0,0,1
+Christopher Jefferson,0,0,1
+?zg¨¹r Akg¨¹n,0,0,1
+Ruth Hoffmann,0,0,1
+Oscar A. Lopez,0,0,1
+Erik Lentz,0,0,1
+Iliana Alvarez,0,0,1
+Cameron Mackenzie,0,0,1
+Emily Ellwein,0,0,1
+Thad Boydston,0,0,1
+Audun Myers,0,0,1
+Bill Kay,0,0,1
+Sarah Winter,0,0,1
+Maruf Ahmed Mridul,0,0,1
+Sadique Ahmmod Rifat,0,0,1
+Tirtha Roy,0,0,1
+Arnab Sen Sharma,0,0,1
+Wendy Myrvold,0,0,1
+Aaron Slobodin,0,0,1
+Sabina Rossi,0,0,1
+Mika?l Ates,0,0,1
+Maryline Laurent,0,0,1
+Paul Marillonnet,0,0,1
+Christian Anti?,0,0,1
+Juris Smotrovs,0,0,1
+Yunus Emre Demirci,0,0,1
+Altar ?i?eksiz,0,0,1
+Rosie Y. Zhao,0,0,1
+Marcel K. Goh,0,0,1
+Tilak Agerwala,0,0,1
+Manoj Muniswamaiah,0,0,1
+P. Sala,0,0,1
+A. Peron,0,0,1
+A. Montanari,0,0,1
+L. Bozzelli,0,0,1
+Luc Pellissier,0,0,1
+Aurore Alcolei,0,0,1
+Hannah Swickheimer,0,0,1
+Tian Han,0,0,1
+Matthias Beck,0,0,1
+Alex Rice,0,0,1
+Sampada Kolhatkar,0,0,1
+Mahdi Modhaffar,0,0,1
+Lucas Pastor,0,0,1
+Caroline Brosse,0,0,1
+Davide Trotta,0,0,1
+Daniel Ventura,0,0,1
+Lo?c Peyrot,0,0,1
+Xishun Zhao,0,0,1
+Kexu Wang,0,0,1
+Douglas Suth Bridges,0,0,1
+Bineet Ghosh,0,0,1
+T. K. Samanta,0,0,1
+Prasenjit Ghosh,0,0,1
+Eduardo Adam Navas-L¨®pez,0,0,1
+Mark Daniel Ward,0,0,1
+Werner Schachinger,0,0,1
+Guy Louchard,0,0,1
+Arnott Kidner,0,0,1
+Richard C Brewster,0,0,1
+Charles C. Tappert,0,0,1
+Xiangnan Zhou,0,0,1
+Liping Zhang,0,0,1
+Mengjie Jin,0,0,1
+Hualin Miao,0,0,1
+Gary MacGillivray,0,0,3
+Christopher Duffy,0,0,2
+Agata Jastrz?bowska,0,0,1
+Izabela Grabowska,0,0,1
+Pawe? Sochaczewski,0,0,1
+Luciano Margara,0,0,1
+Tim Gerrits,0,0,1
+Torsten Wolfgang Kuhlen,0,0,1
+Joachim Protze,0,0,1
+Dirk Norbert Helmrich,0,0,1
+Ali Can Demiralp,0,0,1
+Manlio Valenti,0,0,1
+Zhaorong He,0,0,1
+Huarong Zhang,0,0,1
+John Frith,0,0,1
+Anneliese Schauerte,0,0,1
+Xiangping Chu,0,0,1
+Qingguo Li,0,0,5
+Huijun Hou,0,0,1
+Yulin Li,0,0,1
+Min Liu,0,0,1
+Xiaojun Ruan,0,0,1
+Xiaodong Jia,0,0,1
+H. Kou,0,0,1
+X. Xie,0,0,1
+Z. Lyu,0,0,1
+Jinbo Yang,0,0,1
+Yinglong Song,0,0,1
+Mohammed Haddad,0,0,1
+Sebastian Czerwi¨½ski,0,0,1
+K. K. Nisha,0,0,1
+N. S. Narayanaswamy,0,0,1
+S. M. Dhannya,0,0,1
+Wai Lam Fong,0,0,1
+Stephan Dominique Andres,0,0,2
+Blai Bonet,0,0,1
+Nerio Borges,0,0,1
+Mateusz Pyzik,0,0,1
+Tobias Hofmann,0,0,1
+Frank G?ring,0,0,1
+¨¢lvaro Garc¨ªa-P¨¦rez,0,0,1
+Pablo Nogueira,0,0,1
+Christoph Wernhard,0,0,1
+Zhongqiang Yang,0,0,1
+Eduard Huntingford,0,0,1
+Luis Barguno,0,0,1
+Julie McLeod,0,0,1
+Kim Jungwon,0,0,1
+Steve Cayzer,0,0,1
+Peter Bentley,0,0,1
+Roland Gl¨¹ck,0,0,1
+Rik Sengupta,0,0,1
+Jonathan Lenchner,0,0,1
+Phokion Kolaitis,0,0,1
+Ronald Fagin,0,0,1
+Marco Carmosino,0,0,1
+Simon Santschi,0,0,1
+Adrien Guatto,0,0,1
+Olivier Togni,0,0,1
+Hamida Seba,0,0,1
+Vincent Rahli,0,0,1
+?imon Schierreich,0,0,1
+Michal Dvo?¨¢k,0,0,1
+Aliaa A. A. Youssif,0,0,1
+Ashraf M. Mohy Eldin,0,0,1
+Vladimir Anashin,0,0,1
+Elli Anastasiadi,0,0,1
+Antonis Achilleos,0,0,1
+Claude Kirchner,0,0,1
+Mahdi Ali-Akbari,0,0,1
+Massoud Pourmahdian,0,0,1
+Gus Gutoski,0,0,1
+Hari Cohly,0,0,1
+Raphael Isokpehi,0,0,1
+Nataliya Kostyuk,0,0,1
+Ashish Tiwari,0,0,1
+Adil Hussain,0,0,1
+Sajjad Saleem,0,0,1
+Chintamani Bagwe,0,0,1
+Daniel Luckhardt,0,0,1
+Jui-Hsuan Wu,0,0,1
+Elies Harington,0,0,1
+Tomohiro Koana,0,0,1
+Leon Kellerhals,0,0,1
+Lito Goldmann,0,0,1
+Mitsumasa Ikeda,0,0,1
+Amit Kulkarni,0,0,1
+Justin Jose,0,0,1
+Prasad Samudrala,0,0,1
+Alex Dixon,0,0,1
+Manoj Changat,0,0,1
+Arun Anil,0,0,1
+Noriaki Hashimoto,0,0,1
+Joshua Butke,0,0,1
+Yamini Muralitharan,0,0,1
+Kausal Malladi,0,0,1
+Srivatsan Sridharan,0,0,1
+Jun Sakuma,0,0,1
+Koichi Ohshima,0,0,1
+Hiroaki Miyoshi,0,0,1
+Zhentao Li,0,0,1
+Nicolas Delfosse,0,0,1
+Paula Santos,0,0,1
+Christy Bobby Thomas,0,0,1
+Kiranmayee Janardhan,0,0,1
+Kamran Siddique,0,0,1
+Zahid Akhtar,0,0,1
+Nabila Majeed,0,0,1
+Fanny Pascual,0,0,1
+Jan Frans Willem Slaets,0,0,1
+Lirio Onofre Baptista de Almeida,0,0,1
+Rafael Tuma Guariento,0,0,1
+Paulo Matias,0,0,1
+Ren¨¦ David,0,0,1
+Anil Nelakanti,0,0,1
+Anil Kumar Singh,0,0,1
+C Ravindranath Chowdary,0,0,1
+Kai Yang,0,0,1
+Bangqi Zheng,0,0,1
+Zhixiang Huang,0,0,1
+DongDong Wang,0,0,1
+Xiangyu Zheng,0,0,1
+Junjie Gao,0,0,1
+Ichiro Takeuchi,0,0,1
+Liang Li,0,0,2
+Yulei Zhang,0,0,1
+Jiahui Wu,0,0,1
+Xiang Chen,0,0,1
+Zejia Lu,0,0,1
+Laure Soulier,0,0,1
+Benjamin Piwowarski,0,0,1
+Basile Van Cooten,0,0,1
+Yuxuan Zong,0,0,1
+Mathias Vast,0,0,1
+Theodora Varvarigou,0,0,1
+Andreas Menychtas,0,0,1
+Fotis Aisopos,0,0,1
+Alexandros Psychas,0,0,1
+Angelos Valsamis,0,0,1
+Krzysztof Rzadca,0,0,1
+Francesco Dibitonto,0,0,1
+Jiawei Wang,0,0,1
+L. K. Taylor,0,0,1
+A. Ghasemi,0,0,1
+Lianming Zhang,0,0,1
+Xiaoxun Zhong,0,0,1
+Ting Peng,0,0,1
+Yiheng Su,0,0,1
+Yassine Hamoudi,0,0,1
+Jakob Rath,0,0,1
+Michael Rawson,0,0,1
+Robin Coutelier,0,0,1
+Petr Kuznetsov,0,0,1
+Guillermo Toyos-Marfurt,0,0,1
+Fuyudi Zhang,0,0,1
+Cen Mo,0,0,1
+Mohammad Al Johmani,0,0,1
+Celine Thermann,0,0,1
+David Gajser,0,0,1
+Jo?o T. Vieira,0,0,1
+Jo?o P. Montrezol,0,0,1
+Pedro C. Vieira,0,0,1
+Marcin Luckner,0,0,1
+Maciej Grzenda,0,0,1
+Przemys?aw Wrona,0,0,1
+Cl¨¢udia Soares,0,0,1
+Pedro ¨¢kos Costa,0,0,1
+Stevo Rackovi?,0,0,1
+Frederico Metelo,0,0,1
+Lia Morra,0,0,1
+Andr¨¦ Panisson,0,0,1
+Fabio Garcea,0,0,1
+Anouar Nechi,0,0,1
+Wadid Foudhaili,0,0,1
+Dmytro Fishman,0,0,1
+Joonas Ariva,0,0,1
+Dmytro Shvetsov,0,0,1
+Maddegedara Lalith,0,0,1
+Muneo Hori,0,0,1
+Kohei Fujita,0,0,1
+Andrea Omicini,0,0,1
+Alessandro Ricci,0,0,1
+Giovanni Ciatto,0,0,1
+Samuele Burattini,0,0,1
+Martina Baiardi,0,0,1
+Saleh Mulhem,0,0,1
+Mladen Berekovic,0,0,1
+Rainer Buchty,0,0,1
+Zinovy Diskin,0,0,1
+Jessica Rivera-Villicana,0,0,1
+Nic Velissaris,0,0,1
+Subhashis Banerjee,0,0,1
+Subodh Sharma,0,0,1
+Mahabir Prasad Jhanwar,0,0,1
+Abhinav Nakarmi,0,0,1
+Kabir Tomer,0,0,1
+Prashant Agrawal,0,0,1
+Vasudha Bhatnagar,0,0,1
+Swagata Duari,0,0,1
+Masafumi Hagiwara,0,0,1
+Vincent Gripon,0,0,1
+Quentin Jodelet,0,0,1
+Rafik Hadfi,0,0,1
+Tsuyoshi Ichimura,0,0,1
+Carlos Uribe,0,0,1
+Fran?ois B¨¦nard,0,0,1
+Claire Tomlin,0,0,1
+Sara Pohland,0,0,1
+Stefan Schubert,0,0,1
+Tony Lindgren,0,0,1
+Christian Wallraven,0,0,1
+J?rn-Philipp Lies,0,0,1
+Bj?rn Browatzki,0,0,1
+Martino Alessandrini,0,0,1
+Luigi Di Stefano,0,0,1
+Marco Boschi,0,0,1
+Nieves Montes,0,0,1
+Randi Karlsen,0,0,1
+Jo Inge Arnes,0,0,1
+Ilkka T?rm?,0,0,1
+Michal Kawulok,0,0,2
+Patryk Kuban,0,0,1
+Anna S. Bosman,0,0,1
+Johannes J. Pienaar,0,0,1
+Aron Henriksson,0,0,1
+John Pavlopoulos,0,0,1
+Korbinian Randl,0,0,1
+Daniel Tihelka,0,0,1
+Jind?ich Matou?ek,0,0,1
+Zden¨§k Hanzl¨ª?ek,0,0,1
+Jan Lehe?ka,0,0,1
+Veronika Cheplygina,0,0,1
+Josien P. W. Pluim,0,0,1
+Gerard Schouten,0,0,1
+Ralf Raumanns,0,0,1
+Arman Rahmim,0,0,1
+David ¨¢lvarez-Mart¨ªnez,0,0,1
+Daniel Giraldo-Herrera,0,0,1
+Luca Bonaventura,0,0,1
+Tommaso Benacchio,0,0,1
+Giuseppe Orlando,0,0,1
+Jiutian Zhang,0,0,1
+Mingyang Chen,0,0,1
+Yongbing Huang,0,0,1
+Zehan Cui,0,0,1
+Yuan Ruan,0,0,1
+Mingyu Chen,0,0,1
+Yanan Wang,0,0,1
+Tianyue Lu,0,0,1
+Licheng Chen,0,0,1
+Sara Harsini,0,0,1
+Amirhosein Toosi,0,0,1
+Rebecca Adam,0,0,1
+Jichen Guo,0,0,1
+Octavio Arriaga,0,0,1
+Yungang Bao,0,0,1
+Muhammad Rajabinasab,0,0,1
+Sagnik Sen,0,0,1
+PD Pavan,0,0,1
+Clara Marcille,0,0,1
+Tapas Das,0,0,1
+Jan M. Baetens,0,0,1
+Odemir M. Bruno,0,0,1
+Aisling J. Daly,0,0,1
+Michiel Rollier,0,0,1
+Arthur Zimek,0,0,1
+Tobias Hyrup,0,0,1
+Anton D. Lautrup,0,0,1
+Dietlind Z¨¹hlke,0,0,1
+Matthias Gro?,0,0,1
+Mohamed Farag,0,0,1
+Marcin Maleszka,0,0,1
+Pedro Pessoa,0,0,1
+Luis Vel¨¢zquez,0,0,1
+Roberto Becerra-Garc¨ªa,0,0,1
+Fernando Rojas-Ruiz,0,0,1
+Rodolfo Garc¨ªa-Berm¨²dez,0,0,1
+Camilo Vel¨¢zquez-Rodr¨ªguez,0,0,1
+Pierre Baudot,0,0,1
+M. Emre ?ahin,0,0,1
+Thomas Warford,0,0,1
+Anton Lebedev,0,0,1
+Frank Kirchner,0,0,1
+Sebastian Houben,0,0,1
+Davide Rattacaso,0,0,1
+Yulia Kovalenko,0,0,1
+Alexander Kononov,0,0,1
+Medina Taylor,0,0,1
+Nathaniel Lundquist,0,0,1
+Jacob Gleason,0,0,1
+Zexin Ma,0,0,1
+Douglas Zytko,0,0,1
+Hisashi Kashima,0,0,1
+Koji Maruhashi,0,0,1
+Tomoyoshi Takebayashi,0,0,1
+Arseny Tolmachev,0,0,1
+Seiji Okajima,0,0,1
+Koh Takeuchi,0,0,1
+Luu Huu Phuc,0,0,1
+Boris Naujoks,0,0,1
+Agrim Dewan,0,0,1
+Poojith U Rao,0,0,1
+Ritu Kapur,0,0,1
+Iurii S. Nagornov,0,0,1
+Dorian Rudolph,0,0,1
+Martin P. Seybold,0,0,1
+Milutin Brankovic,0,0,1
+Mor Harchol-Balter,0,0,1
+Sean Zhang,0,0,1
+Naveen Pai,0,0,1
+Christopher W. Cleghorn,0,0,1
+Katherine M. Malan,0,0,2
+Florian Holzinger,0,0,2
+Lukas Kammerer,0,0,1
+Alioscia Hamma,0,0,1
+Patrizia Vitale,0,0,1
+Sanjeev Saxena,0,0,1
+Waseem Akram,0,0,1
+Stefano Markidis,0,0,1
+Albin Fredriksson,0,0,1
+M?ns I. Andersson,0,0,1
+Felix Liu,0,0,1
+Nils Wisiol,0,0,1
+Sebastian Neef,0,0,1
+Nikhil R. Pal,0,0,1
+Suchismita Das,0,0,1
+Iosif Meyerov,0,0,1
+Anton Gorshkov,0,0,1
+Valentin Volokitin,0,0,1
+Elena Panova,0,0,1
+Gabriel Turinici,0,0,2
+Balwinder Sodhi,0,0,1
+Ni Wang,0,0,1
+Abdoulaye Banir¨¦ Diallo,0,0,1
+Golrokh Vitae,0,0,1
+Amine M. Remita,0,0,1
+Nadia Balucani,0,0,2
+Marco Trinari,0,0,1
+Fernando Pirani,0,0,2
+Daniela Ascenzi,0,0,1
+Marzio Rosi,0,0,3
+Noelia Faginas-Lago,0,0,2
+Xiao He,0,0,1
+Luca Mancini,0,0,3
+Em¨ªlia Valen?a Ferreira de Arag?o,0,0,3
+Anett Hoppe,0,0,1
+Markos Stamatakis,0,0,1
+Christian Otto,0,0,1
+Charlotte Vermeylen,0,0,1
+Ying Zhao,0,0,1
+Marc Van Barel,0,0,1
+Seiya Imoto,0,0,1
+Aapo Hyvarinen,0,0,1
+Takashi Washio,0,0,1
+Shohei Shimizu,0,0,1
+Fabien Molle,0,0,1
+A. H. L. Porto,0,0,2
+Oscar Eriksson,0,0,1
+Jan Kudlicka,0,0,1
+Lars Hummelgren,0,0,1
+Juan Pablo Vigneaux,0,0,1
+Stephanie Chen,0,0,1
+Alan G. Millard,0,0,1
+Gautham P. Das,0,0,1
+Carlos Cotta,0,0,1
+Feijoo Colomine Dur¨¢n,0,0,1
+Milind Tambe,0,0,1
+Katar¨ªna T¨®thov¨¢,0,0,1
+Alessandro Perelli,0,0,1
+Marc Pollefeys,0,0,1
+Daniel Thul,0,0,1
+?ubor Ladicky,0,0,1
+Jonah Pears,0,0,1
+Peng Liu,0,0,1
+Peng Wang,0,0,1
+Dongcheng Li,0,0,1
+Chuanjian Yao,0,0,1
+Xiaoyun Gan,0,0,1
+Youquan Xian,0,0,1
+Guillaume Olikier,0,0,1
+Shubha Brata Nath,0,0,1
+Sanjay Chouhan,0,0,1
+Douglas S Bridges,0,0,1
+Fatemah Aladwani,0,0,1
+Haiqing Zhang,0,0,1
+Miao Yu,0,0,1
+Yuchao Zheng,0,0,1
+Lan Jiang,0,0,1
+Ruth Urner,0,0,1
+Alireza Torabian,0,0,1
+Dong-Hyun Kim,0,0,1
+Minyoung Jung,0,0,1
+Mohammed A. Al-masni,0,0,1
+Yoonseok Choi,0,0,1
+Sunyoung Jung,0,0,1
+Antonio J. Fern¨¢ndez-Leiva,0,0,1
+Atul Singh Minhas,0,0,1
+Prabhjot Kaur,0,0,1
+F. Jafari,0,0,1
+V. Sisik,0,0,1
+Z. Cernekova,0,0,1
+Hermanus L. Potgieter,0,0,1
+Prashant Doshi,0,0,1
+Aparna Taneja,0,0,1
+Haifeng Xu,0,0,1
+Pradeep Varakantham,0,0,1
+Gauri Jain,0,0,1
+Suzan Awinat,0,0,1
+Antonio Fernandez,0,0,1
+Ching Yee Suen,0,0,1
+Zahra Ebrahimi Vargoorani,0,0,1
+Aparajita Dutta,0,0,1
+Sehyun Lee,0,0,1
+Tarek Khaled,0,0,2
+Baptiste Hemery,0,0,1
+Maxence Morin,0,0,1
+Amira Mahmoud Abdalla,0,0,1
+Shakir Hussain,0,0,1
+Imran Mirza,0,0,1
+Naveed Syed,0,0,1
+Shahrukh K. Hashmi,0,0,1
+Muhammad Ridzuan,0,0,1
+Mohamed Saeed,0,0,1
+Ahmed Sharshar,0,0,1
+Hosam El-Gendy,0,0,1
+David H?stbacka,0,0,1
+Diyaz Yakubov,0,0,1
+Anis Zouaoui,0,0,1
+Zhanar Berikkyzy,0,0,1
+Jonathan Bowen,0,0,1
+Peter Breuer,0,0,1
+Kailee Rubin,0,0,1
+Eric S. Egge,0,0,1
+A. C. Cem Say,0,0,2
+U?ur K¨¹?¨¹k,0,0,1
+Mayer Goldberg,0,0,1
+Gwen Spencer,0,0,1
+R¨¦mi Watrigant,0,0,1
+Rodolphe Giroudeau,0,0,1
+Guillerme Duvilli¨¦,0,0,1
+Marin Bougeret,0,0,1
+Bojan Ba?i?,0,0,1
+Mohammed Al-Kharaz,0,0,2
+Jaesik Choi,0,0,1
