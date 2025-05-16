@@ -5,7 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ article.title }}</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/detail.css') }}">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
     <style>
+        .tooltip {
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 8px;
+            border-radius: 4px;
+            pointer-events: none;
+            font-size: 12px;
+            display: none; /* 默认隐藏 */
+            max-width: 300px; /* 可调整为适合的宽度 */
+            white-space: nowrap;
+            word-wrap: break-word;
+        }
+
+        /* 引用网络图样式 */
+        svg#graph {
+            width: 100%;
+            height: 600px;
+            border: 1px solid #ccc;
+            margin-top: 20px;
+        }
+        .node-text {
+            font-size: 12px;
+            fill: black;
+            text-anchor: middle;
+            pointer-events: none;
+        }
+
         /* Styles for the collapsible reference section */
         .reference-container {
             position: relative;
@@ -60,6 +89,7 @@
     </style>
 </head>
 <body>
+    <div id="tooltip" class="tooltip" style="display: none;"></div>
     <div class="container">
         <a href="/" class="back-button">← Back to homepage</a>
         <a href="javascript:history.back()" class="history-back-button">← Back</a>
@@ -75,6 +105,11 @@
         <div class="content-section">
             <h2>Abstract</h2>
             <p class="abstract">{{ article.abstract }}</p>
+        </div>
+
+        <div class="content-section">
+            <h2>Citation Network</h2>
+            <svg id="graph"></svg>
         </div>
 
         <div class="content-section">
@@ -124,7 +159,176 @@
     </div>
 
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
+        // 准备数据：从 Flask 模板变量获取 nodes 和 edges
+        const nodes = {{ nodes | tojson | safe }};
+        const edges = {{ edges | tojson | safe }};
+
+        const svg = d3.select("#graph");
+        const width = +svg.style("width").replace("px", "") || 800;
+        const height = +svg.style("height").replace("px", "") || 600;
+
+        // 箭头定义
+        svg.append("defs").append("marker")
+            .attr("id", "arrow")
+            .attr("viewBox", "0 -5 10 10")
+            .attr("refX", 75)
+            .attr("refY", 0)
+            .attr("markerWidth", 6)
+            .attr("markerHeight", 6)
+            .attr("orient", "auto")
+            .append("path")
+            .attr("d", "M0,-5L10,0L0,5")
+            .attr("fill", "#999");
+
+        // 引用次数统计
+        const citationCounts = {};
+        edges.forEach(edge => {
+            citationCounts[edge.target] = (citationCounts[edge.target] || 0) + 1;
+        });
+
+        const colorScale = d3.scaleLinear()
+            .domain(d3.extent(nodes, d => d.year))
+            .range(["lightblue", "darkblue"]);
+
+        const sizeScale = d3.scaleLinear()
+            .domain([0, d3.max(nodes, d => citationCounts[d.key] || 0)])
+            .range([6, 30]);
+
+        const simulation = d3.forceSimulation(nodes)
+            .force("link", d3.forceLink(edges).id(d => d.key).distance(150))
+            .force("charge", d3.forceManyBody().strength(-300))
+            .force("center", d3.forceCenter(width / 2, height / 2));
+
+        const link = svg.append("g")
+            .attr("stroke", "#999")
+            .attr("stroke-opacity", 0.6)
+            .selectAll("line")
+            .data(edges)
+            .join("line")
+            .attr("stroke-width", 1.5)
+            .attr("marker-end", "url(#arrow)");
+
+        const tooltip = d3.select("#tooltip");
+
+        const node = svg.append("g")
+            .attr("stroke", "#fff")
+            .attr("stroke-width", 1.5)
+            .selectAll("circle")
+            .data(nodes, d => d.key)
+            .join(
+                enter => enter.append("circle")
+                    .attr("cx", d => {
+                        if (!d.x) d.x = Math.random() * width;
+                        return d.x;
+                    })
+                    .attr("cy", d => {
+                        if (!d.y) d.y = Math.random() * height;
+                        return d.y;
+                    })
+                    .attr("r", d => sizeScale(citationCounts[d.key] || 0))
+                    .attr("fill", d => colorScale(d.year))
+                    .call(drag(simulation))
+                    .on("mouseover", function (event, d) {
+                        d3.select(this)
+                            .attr("stroke", "pink")
+                            .attr("stroke-width", 3);
+
+                        const authors = d.author || [];
+                        let authorText = authors[0] || "Unknown";
+                        if (authors.length > 1) {
+                            authorText += " et al.";
+                        }
+
+                        tooltip
+                            .style("display", "block")
+                            .html(`<strong>${authorText}</strong><br>Year: ${d.year}`);
+                    })
+                    .on("mousemove", function (event) {
+                        tooltip
+                            .style("left", (event.pageX + 10) + "px")
+                            .style("top", (event.pageY + 10) + "px");
+                    })
+                    .on("mouseout", function () {
+                        d3.select(this)
+                            .attr("stroke", null)
+                            .attr("stroke-width", 0);
+                        tooltip.style("display", "none");
+                    }),
+                update => update,
+                exit => exit.remove()
+            );
+
+
+        const labels = svg.append("g")
+            .selectAll("text")
+            .data(nodes)
+            .join("text")
+            .attr("class", "node-text")
+            .text(d => d.title.replace(/[{}]/g, ""))// 控制文字长度
+            .attr("dx", 12)
+            .attr("dy", 4)
+            .style("font-size", "10px")
+            .style("pointer-events", "none");  // 避免阻挡鼠标
+
+        simulation.on("tick", () => {
+            link
+                .attr("x1", d => d.source.x)
+                .attr("y1", d => d.source.y)
+                .attr("x2", d => d.target.x)
+                .attr("y2", d => d.target.y);
+            node
+                .attr("cx", d => d.x)
+                .attr("cy", d => d.y);
+            labels
+                .attr("x", d => d.x)
+                .attr("y", d => d.y - (sizeScale(citationCounts[d.key] || 0) + 5));
+        });
+
+        function drag(simulation) {
+            return d3.drag()
+                .on("start", event => {
+                    if (!event.active) simulation.alphaTarget(0.3).restart();
+                    event.subject.fx = event.subject.x;
+                    event.subject.fy = event.subject.y;
+                })
+                .on("drag", event => {
+                    event.subject.fx = event.x;
+                    event.subject.fy = event.y;
+                })
+                .on("end", event => {
+                    if (!event.active) simulation.alphaTarget(0);
+                    event.subject.fx = null;
+                    event.subject.fy = null;
+                });
+        function dragStart(event, d) {
+            if (!event.active) simulation.alphaTarget(0.3).restart();
+            d.fx = d.x;
+            d.fy = d.y;
+        }
+        function dragged(event, d) {
+            d.fx = event.x;
+            d.fy = event.y;
+        }
+        function dragEnd(event, d) {
+            if (!event.active) simulation.alphaTarget(0);
+            d.fx = null;
+            d.fy = null;
+        }
+
+        function formatCitation(authors, year) {
+            // 去掉作者中的 "-" 标记
+            authors = authors.filter(author => author !== "-");
+
+            let authorText = authors[0];
+            if (authors.length > 1) {
+                authorText += " et al."; // 如果有多个作者，添加 "et al."
+            }
+
+            return `${authorText}, ${year}`;
+        }
+
+
+            document.addEventListener('DOMContentLoaded', function() {
             const referenceContent = document.getElementById('referenceContent');
             const toggleButton = document.getElementById('toggleReference');
             
@@ -161,7 +365,7 @@
                     }
                 });
             }
-        });
+        });}
     </script>
 </body>
 </html>
